@@ -7,5 +7,6 @@ import { render } from '@testing-library/svelte';
 
 test('Welcome', () => {
   const { getByText } = render(index);
+
   expect(getByText('Welcome to SvelteKit')).toBeInTheDocument();
 });
