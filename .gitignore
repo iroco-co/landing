@@ -1,0 +1,8 @@
+node_modules
+.idea
+dist
+test/unit/coverage/lcov-report/
+coverage/
+build/
+.svelte-kit
+/package
