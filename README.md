@@ -1,5 +1,11 @@
 # Iroco landing
 
+Sveltekit Iroco landing page.
+
+It needs node 14.15, and 16 for running playwright end-to-end tests.
+
+see [this url](https://github.com/nodesource/distributions/blob/master/README.md) for installing node versions.
+
 ## Developing
 
 You can install dependencies with `npm install` (or `pnpm install` or `yarn`). Then run the unitests with
