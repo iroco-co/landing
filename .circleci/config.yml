@@ -39,8 +39,4 @@ jobs:
           name: install playwright
           command: npx playwright install
 
-      - run:
-          name: end to end tests
-          command: npm run eetest
-
 
