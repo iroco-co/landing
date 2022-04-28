@@ -6,7 +6,7 @@
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
-    "prepare": "svelte-kit sync",
+    "prepare": "svelte-kit sync && husky install",
     "eetest": "playwright test",
     "test": "jest",
     "test:watch": "npm test -- --watch",
@@ -30,7 +30,9 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
+    "husky": "^7.0.0",
     "jest": "^27.5.1",
+    "lint-staged": "^12.4.1",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.0",
     "svelte": "^3.44.0",
@@ -42,7 +44,9 @@
     "typescript": "~4.6.2"
   },
   "jest": {
-    "testMatch": ["**/tests/unit/*.{js,ts}"],
+    "testMatch": [
+      "**/tests/unit/*.{js,ts}"
+    ],
     "transform": {
       "^.+\\.svelte$": [
         "svelte-jester",
@@ -57,6 +61,11 @@
       "js",
       "ts",
       "svelte"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,ts,svelte}": [
+      "eslint"
     ]
   },
   "type": "module"
