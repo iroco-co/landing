@@ -1,0 +1,41 @@
+@use "node_modules/@iroco/ui/lib/colors";
+@use "node_modules/@iroco/ui/lib/fonts";
+@use "node_modules/@iroco/ui/lib/style";
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:active,
+button {
+  outline: none;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a {
+  color: colors.$green;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+
+  > body {
+    @include fonts.Arial(14px, colors.$beige);
+    line-height: 1.7em;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: normal;
+    background: colors.$darkBlue;
+  }
+}

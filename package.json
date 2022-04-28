@@ -36,6 +36,7 @@
     "lint-staged": "^12.4.1",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.0",
+    "sass": "^1.51.0",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.6",
     "svelte-jester": "^2.3.2",
@@ -69,5 +70,8 @@
       "eslint"
     ]
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@iroco/ui": "^0.9.3"
+  }
 }
