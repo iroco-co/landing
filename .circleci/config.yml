@@ -1,0 +1,46 @@
+version: 2.0
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:16
+
+    steps:
+      - checkout
+      - run:
+          name: Update NPM
+          command: "sudo npm install -g npm@8"
+
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+
+      - run:
+          name: install dependencies
+          command: npm install --force
+
+      - save_cache:
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - ./node_modules
+
+      - run:
+          name: eslint
+          command: npm run lint
+
+      - run:
+          name: build
+          command: npm run build
+
+      - run:
+          name: jest tests
+          command: npm run test
+
+      - run:
+          name: install playwright
+          command: npx playwright install
+
+      - run:
+          name: end to end tests
+          command: npm run eetest
+
+
