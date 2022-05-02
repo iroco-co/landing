@@ -1,5 +1,9 @@
 <script>
-  import '../app.scss';
+	import '../app.scss';
+	import '../i18n';
+	import { isLoading } from 'svelte-i18n';
 </script>
 
-<slot />
+{#if !$isLoading}
+	<slot />
+{/if}

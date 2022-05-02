@@ -18,6 +18,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",
     "@playwright/test": "^1.21.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/adapter-static": "^1.0.0-next.29",
     "@sveltejs/kit": "next",
@@ -72,6 +73,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@iroco/ui": "^0.9.3"
+    "@iroco/ui": "^0.9.3",
+    "svelte-i18n": "^3.4.0"
   }
 }
