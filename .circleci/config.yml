@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Update NPM
-          command: "sudo npm install -g npm@8"
+          command: 'sudo npm install -g npm@8'
 
       - restore_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
@@ -44,4 +44,3 @@ jobs:
       - run:
           name: end to end tests
           command: npm run eetest
-

@@ -7,4 +7,3 @@
 </svelte:head>
 
 <h1>{$_('home.title')}</h1>
-
