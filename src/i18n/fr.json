@@ -4,5 +4,12 @@
   },
   "home": {
     "title": "Bienvenu à Iroco !"
+  },
+  "header": {
+    "about": "A propos",
+    "blog": "Blog",
+    "contact": "Contact",
+    "signup": "Inscription",
+    "signin": "Se connecter"
   }
 }

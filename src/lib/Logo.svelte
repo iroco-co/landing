@@ -1,6 +1,6 @@
 <script lang="ts">
   export let size = 48;
-  export let margin = 2;
+  export let margin = 0;
 </script>
 
 <div class="logo">
@@ -18,6 +18,7 @@
     display: flex;
     &__title {
       margin-left: 1em;
+      font-size: 2rem;
     }
   }
 </style>
