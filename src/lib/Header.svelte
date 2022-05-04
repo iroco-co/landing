@@ -1,7 +1,7 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import Logo from '../lib/Logo.svelte';
-  import { Button } from '../../node_modules/@iroco/ui';
+  import Logo from './Logo.svelte';
+  import { Button } from '@iroco/ui';
 </script>
 
 <header class="header">
@@ -32,31 +32,25 @@
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
-  :global(a) {
-    color: colors.$beige;
-    font-size: 1em;
-    font-weight: 700;
-  }
-  :global(a:hover) {
-    color: colors.$green;
-  }
   :global(.iroco-ui-button) {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-weight: 700;
     font-size: 1em;
+    color: colors.$nightBlue;
   }
   :global(.iroco-ui-button:hover) {
     color: colors.$beige;
   }
-
   .header {
+    background: colors.$darkBlue;
     height: 200px;
     width: 100%;
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
     &__container {
       height: 100%;
       display: flex;
@@ -69,11 +63,6 @@
         width: 25%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-      }
-      &__menu-left {
-        width: 25%;
-        display: flex;
         justify-content: space-between;
       }
     }

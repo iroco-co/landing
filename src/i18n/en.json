@@ -9,7 +9,29 @@
     "about": "About",
     "blog": "Blog",
     "contact": "Contact",
-    "signup": "Sign up",
-    "signin": "Sign in"
+    "signup": "Subscription",
+    "signin": "> Sign in"
+  },
+  "footer": {
+    "subscribe": "> Sign up",
+    "mailto": "Want to get in touch ?",
+    "socialmedia": "Social Media",
+    "newsletter": "Newsletter",
+    "email": "Your Email Address",
+    "menu": {
+      "title": "Menu",
+      "philosophy": "Philosophy",
+      "planet": "Planet",
+      "human": "Human",
+      "app": "Application",
+      "commitment": "Commitment"
+    },
+    "other": {
+      "title": "And also",
+      "blog": "Blog & News",
+      "job": "Job opportunities",
+      "marketing": "General Terms of Sale",
+      "legal": "Legal Notices"
+    }
   }
 }

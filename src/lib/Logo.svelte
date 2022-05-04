@@ -17,7 +17,13 @@
 </div>
 
 <style lang="scss">
+  @use 'node_modules/@iroco/ui/lib/colors';
+
   .logo {
     display: flex;
+    justify-content: center;
+    h2 {
+      color: colors.$beige;
+    }
   }
 </style>

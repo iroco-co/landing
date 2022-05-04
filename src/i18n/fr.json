@@ -10,6 +10,28 @@
     "blog": "Blog",
     "contact": "Contact",
     "signup": "Inscription",
-    "signin": "Se connecter"
+    "signin": "> Se connecter"
+  },
+  "footer": {
+    "subscribe": "> S'inscrire",
+    "mailto": "Envie de nous contacter ?",
+    "socialmedia": "Réseaux sociaux",
+    "newsletter": "Newsletter",
+    "email": "Votre Adresse mail",
+    "menu": {
+      "title": "Menu",
+      "philosophy": "La Philosophie",
+      "planet": "La Planète",
+      "human": "L'Humain",
+      "app": "L'Application",
+      "commitment": "L'Engagement"
+    },
+    "other": {
+      "title": "Et aussi",
+      "blog": "Blog & Actualités",
+      "job": "Postuler",
+      "marketing": "Conditions Générales de Vente",
+      "legal": "Mentions Légales"
+    }
   }
 }
