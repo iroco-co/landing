@@ -18,7 +18,7 @@
         title="Iroco mainpage"
         aria-description="Link to Iroco homepage"
       >
-        <Logo />
+        <Logo size={48} margin={0} fontsize={2} titlemargin={1} flexdirection={'initial'} />
       </a>
     </div>
     <nav class="header__container__menu-right">
