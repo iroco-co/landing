@@ -100,23 +100,19 @@
       <ul>
         <li><a href="https://blog.iroco.co/">{$_('footer.other.blog')}</a></li>
         <li><a href="/">{$_('footer.other.job')}</a></li>
-        <li><a href="/">{$_('footer.other.marketing')}</a></li>
+        <li><a href="/terms">{$_('footer.other.terms')}</a></li>
         <li><a href="/">{$_('footer.other.legal')}</a></li>
       </ul>
     </div>
   </div>
-  <p class="copyrights">© 2021 Iroco. {$_('footer.other.copyrights')}</p>
+  <p style="color: colors.$darkGrey; text-align: center; font-size: small; margin: 2em;">
+    © 2021 Iroco. {$_('footer.other.copyrights')}
+  </p>
 </footer>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
   @use 'node_modules/@iroco/ui/lib/fonts';
-
-  :global(p) {
-    text-align: center;
-    @include fonts.Arial(1.2em, colors.$darkGrey);
-    margin: 2em auto;
-  }
 
   :global(.iroco-ui-input) {
     border: 2px solid colors.$darkGrey;
