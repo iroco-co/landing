@@ -18,6 +18,7 @@
     "socialmedia": "Réseaux sociaux",
     "newsletter": "Newsletter",
     "email": "Votre Adresse mail",
+    "invalid_email": "Adresse mail invalide",
     "menu": {
       "title": "Menu",
       "philosophy": "La Philosophie",
@@ -31,7 +32,8 @@
       "blog": "Blog & Actualités",
       "job": "Postuler",
       "marketing": "Conditions Générales de Vente",
-      "legal": "Mentions Légales"
+      "legal": "Mentions Légales",
+      "copyrights": "Tous droits réservés."
     }
   }
 }

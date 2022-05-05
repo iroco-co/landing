@@ -1,7 +1,7 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
   import Logo from '../lib/Logo.svelte';
-  import { Button } from '../../node_modules/@iroco/ui';
+  import { Button, TextInput } from '../../node_modules/@iroco/ui';
 </script>
 
 <footer>
@@ -80,12 +80,14 @@
       </div>
       <div class="footer__footer__socialnews__newsletter">
         <h3>{$_('footer.newsletter')}</h3>
-        <input type="text" placeholder={$_('footer.email')} />
+        <form class="footer__footer__socialnews__newsletter__form">
+          <TextInput placeholder={$_('footer.email')} />
+        </form>
       </div>
     </div>
     <div class="footer__footer__menu">
       <h3>{$_('footer.menu.title')}</h3>
-      <ul class="list">
+      <ul>
         <li><a href="/">{$_('footer.menu.philosophy')}</a></li>
         <li><a href="/">{$_('footer.menu.planet')}</a></li>
         <li><a href="/">{$_('footer.menu.human')}</a></li>
@@ -93,9 +95,9 @@
         <li><a href="/">{$_('footer.menu.commitment')}</a></li>
       </ul>
     </div>
-    <div class="footer__footer__menu">
+    <div class="footer__footer__other">
       <h3>{$_('footer.other.title')}</h3>
-      <ul class="list">
+      <ul>
         <li><a href="https://blog.iroco.co/">{$_('footer.other.blog')}</a></li>
         <li><a href="/">{$_('footer.other.job')}</a></li>
         <li><a href="/">{$_('footer.other.marketing')}</a></li>
@@ -103,24 +105,43 @@
       </ul>
     </div>
   </div>
+  <p class="copyrights">© 2021 Iroco. {$_('footer.other.copyrights')}</p>
 </footer>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
+  @use 'node_modules/@iroco/ui/lib/fonts';
+
+  :global(p) {
+    text-align: center;
+    @include fonts.Arial(1.2em, colors.$darkGrey);
+    margin: 2em auto;
+  }
+
+  :global(.iroco-ui-input) {
+    border: 2px solid colors.$darkGrey;
+  }
+
   .footer {
     width: 95vw;
-    &__subscribe {
+    letter-spacing: 0.1em;
+    &__subscribe,
+    &__contact,
+    &__footer {
       display: flex;
+    }
+
+    &__subscribe {
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
+
     &__contact {
       margin: 5em auto 3em;
       background: colors.$nightBlue;
       height: 10vh;
       width: 90vw;
-      display: flex;
       align-items: center;
       justify-content: center;
       &__mailto {
@@ -130,9 +151,9 @@
         color: colors.$beige;
       }
     }
+
     &__footer {
       color: colors.$mediumGrey;
-      display: flex;
       justify-content: space-around;
       h3 {
         color: colors.$darkBeige;
@@ -146,12 +167,15 @@
         &__socialmedia {
           &__icons {
             display: flex;
-            justify-content: space-evenly;
-            border-left: 1px solid colors.$darkBeige;
-            border-right: 1px solid colors.$darkBeige;
+            justify-content: space-around;
+            border-left: 1.5px solid colors.$mediumGrey;
+            border-right: 1.5px solid colors.$mediumGrey;
             a {
+              border-left: 1.5px solid colors.$mediumGrey;
+              border-right: 1.5px solid colors.$mediumGrey;
+              padding: 0.7em 2em;
               svg {
-                fill: colors.$mediumGrey;
+                fill: colors.$beige;
               }
             }
             a:hover {
