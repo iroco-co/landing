@@ -101,7 +101,7 @@
         <li><a href="https://blog.iroco.co/">{$_('footer.other.blog')}</a></li>
         <li><a href="/">{$_('footer.other.job')}</a></li>
         <li><a href="/terms">{$_('footer.other.terms')}</a></li>
-        <li><a href="/">{$_('footer.other.legal')}</a></li>
+        <li><a href="/legal">{$_('footer.other.legal')}</a></li>
       </ul>
     </div>
   </div>

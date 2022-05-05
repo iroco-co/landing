@@ -6,7 +6,7 @@
 <Header />
 
 <main class="terms">
-  <h1>Conditions Générales de vente en vigueur et politique de gestion des donnees personnelles</h1>
+  <h1>Conditions Générales de Vente en vigueur et politique de gestion des données personnelles</h1>
 
   <h2 class="article">Article 1 - Contenu et champ d&apos;application</h2>
   <p>
