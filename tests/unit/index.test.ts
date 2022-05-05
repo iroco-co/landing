@@ -13,5 +13,5 @@ init({ fallbackLocale: 'fr', initialLocale: 'fr' });
 test('Welcome', () => {
   const { getByText } = render(index);
 
-  expect(getByText('Bienvenu à Iroco !')).toBeInTheDocument();
+  expect(getByText("Iroco, c'est quoi ?")).toBeInTheDocument();
 });

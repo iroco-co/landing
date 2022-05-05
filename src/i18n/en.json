@@ -2,9 +2,6 @@
   "page": {
     "title": "Iroco"
   },
-  "home": {
-    "title": "Welcome to Iroco!"
-  },
   "header": {
     "about": "About",
     "blog": "Blog",
@@ -34,6 +31,30 @@
       "terms": "General Terms of Sale",
       "legal": "Legal Notices",
       "copyrights": "All Rights Reserved."
+    }
+  },
+  "homepage": {
+    "iroco": {
+      "title": "Iroco, what is it?",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      "btn": "> About"
+    },
+    "respect": {
+      "title": "Respecting you and the planet",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      "btn": "> Our Commitments"
+    },
+    "innovation": {
+      "title": "Innovation and openness",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      "btn": "> Blog",
+      "github": "> Github"
+    },
+    "inclusive": {
+      "title": "A project including you",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      "btn": "> FAQ",
+      "contact": "> Contact"
     }
   }
 }
