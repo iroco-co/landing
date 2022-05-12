@@ -10,10 +10,10 @@
     "blog": "Blog",
     "contact": "Contact",
     "signup": "Inscription",
-    "signin": "> Se connecter"
+    "signin": "Se connecter"
   },
   "footer": {
-    "subscribe": "> S'inscrire",
+    "subscribe": "S'inscrire",
     "mailto": "Envie de nous contacter ?",
     "socialmedia": "Réseaux sociaux",
     "newsletter": "Newsletter",
@@ -40,24 +40,24 @@
     "iroco": {
       "title": "Iroco, c'est quoi ?",
       "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
-      "btn": "> A propos"
+      "btn": "A propos"
     },
     "respect": {
       "title": "Respect de vous et de la planète",
       "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
-      "btn": "> Nos engagements"
+      "btn": "Nos engagements"
     },
     "innovation": {
       "title": "Innovation et ouverture",
       "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
-      "btn": "> Blog",
-      "github": "> Github"
+      "btn": "Blog",
+      "github": "Github"
     },
     "inclusive": {
       "title": "Un projet avec vous",
       "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
-      "btn": "> FAQ",
-      "contact": "> Contact"
+      "btn": "FAQ",
+      "contact": "Contact"
     }
   }
 }

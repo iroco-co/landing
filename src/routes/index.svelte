@@ -18,7 +18,7 @@
       <h1>{$_('homepage.iroco.title')}</h1>
       <p>{$_('homepage.iroco.p')}</p>
       <a class="homepage__iroco__btn" href="/about">
-        <Button kind="basic">{$_('homepage.iroco.btn')}</Button>
+        <Button size="small" kind="dark">{$_('homepage.iroco.btn')}</Button>
       </a>
     </article>
   </section>
@@ -30,7 +30,7 @@
       <h1>{$_('homepage.respect.title')}</h1>
       <p>{$_('homepage.respect.p')}</p>
       <a class="homepage__respect__btn" href="/">
-        <Button kind="basic">{$_('homepage.respect.btn')}</Button>
+        <Button size="small" kind="dark">{$_('homepage.respect.btn')}</Button>
       </a>
     </article>
   </section>
@@ -45,10 +45,10 @@
       <h1>{$_('homepage.innovation.title')}</h1>
       <p>{$_('homepage.innovation.p')}</p>
       <a class="homepage__innovation__btn" href="/">
-        <Button kind="basic">{$_('homepage.innovation.btn')}</Button>
+        <Button size="small" kind="dark">{$_('homepage.innovation.btn')}</Button>
       </a>
       <a class="homepage__innovation__btn" href="https://github.com/iroco-co">
-        <Button kind="basic">{$_('homepage.innovation.github')}</Button>
+        <Button size="small" kind="dark">{$_('homepage.innovation.github')}</Button>
       </a>
     </article>
   </section>
@@ -63,10 +63,10 @@
       <h1>{$_('homepage.inclusive.title')}</h1>
       <p>{$_('homepage.inclusive.p')}</p>
       <a class="homepage__inclusive__btn" href="/">
-        <Button kind="basic">{$_('homepage.inclusive.btn')}</Button>
+        <Button size="small" kind="dark">{$_('homepage.inclusive.btn')}</Button>
       </a>
       <a class="homepage__inclusive__btn" href="mailto:hello@iroco.fr">
-        <Button kind="basic">{$_('homepage.inclusive.contact')}</Button>
+        <Button size="small" kind="dark">{$_('homepage.inclusive.contact')}</Button>
       </a>
     </article>
   </section>

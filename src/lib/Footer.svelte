@@ -8,7 +8,7 @@
   <div class="footer__subscribe">
     <Logo size={52} margin={0} fontsize={2} titlemargin={1} flexdirection={'initial'} />
     <a class="footer__subscribe__btn" href="https://app.iroco.co/signup/">
-      <Button type="submit" kind="success">{$_('footer.subscribe')}</Button>
+      <Button size="small" kind="success">{$_('footer.subscribe')}</Button>
     </a>
   </div>
   <div class="footer__contact">

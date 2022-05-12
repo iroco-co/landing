@@ -24,7 +24,7 @@
     <nav class="header__container__menu-right">
       <a href="/">{$_('header.signup')}</a>
       <a href="https://app.iroco.co/">
-        <Button type="submit" kind="success">{$_('header.signin')}</Button>
+        <Button size="small" kind="success">{$_('header.signin')}</Button>
       </a>
     </nav>
   </div>
@@ -37,7 +37,6 @@
     letter-spacing: 0.2em;
     font-weight: 700;
     font-size: 1em;
-    color: colors.$nightBlue;
   }
   :global(.iroco-ui-button:hover) {
     color: colors.$beige;
