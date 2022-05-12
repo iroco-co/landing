@@ -80,9 +80,17 @@
       </div>
       <div class="footer__footer__socialnews__newsletter">
         <h3>{$_('footer.newsletter')}</h3>
-        <form class="footer__footer__socialnews__newsletter__form">
-          <TextInput placeholder={$_('footer.email')} />
-        </form>
+        <div class="footer__footer__socialnews__newsletter__subscribe">
+          <iframe
+            title="mailjet"
+            class="mj-w-res-iframe"
+            frameBorder="0"
+            marginHeight={0}
+            marginWidth={0}
+            src="https://app.mailjet.com/widget/iframe/6a9K/GFo"
+            width="100%"
+          />
+        </div>
       </div>
     </div>
     <div class="footer__footer__menu">
