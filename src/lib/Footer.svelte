@@ -1,33 +1,39 @@
 <script lang="ts">
-  import {_} from 'svelte-i18n';
+  import { _ } from 'svelte-i18n';
   import Logo from '../lib/Logo.svelte';
-  import {Icon, IconMastodon} from '@iroco/ui';
+  import { Icon, IconMastodon } from '@iroco/ui';
 </script>
 
 <footer>
   <div class="footer">
     <div class="footer__logo">
-      <Logo size={130} margin={0} fontsize={2.5} titlemargin={0.2} flexdirection={'column'}/>
+      <Logo size={130} margin={0} fontsize={2.5} titlemargin={0.2} flexdirection={'column'} />
     </div>
     <div class="footer__contact">
       <div class="footer__contact__socialmedia">
         <h3>{$_('footer.socialmedia')}</h3>
         <div class="footer__contact__socialmedia__icons">
-          <span class="footer__contact__socialmedia__icons__icon"><Icon name="linkedin" width="2em" height="2em" class="foo"/></span>
-          <span class="footer__contact__socialmedia__icons__icon"><Icon name="twitter" width="2em" height="2em" class="foo"/></span>
-          <span class="footer__contact__socialmedia__icons__icon"><IconMastodon width="2em" height="2em" class="foo"/></span>
+          <span class="footer__contact__socialmedia__icons__icon"
+            ><Icon name="linkedin" width="2em" height="2em" /></span
+          >
+          <span class="footer__contact__socialmedia__icons__icon"
+            ><Icon name="twitter" width="2em" height="2em" /></span
+          >
+          <span class="footer__contact__socialmedia__icons__icon"
+            ><IconMastodon width="2em" height="2em" /></span
+          >
         </div>
       </div>
       <div class="footer__contact__socialmedia__newsletter">
         <h3>{$_('footer.newsletter')}</h3>
         <iframe
-                title="mailjet"
-                class="mj-w-res-iframe"
-                frameBorder="0"
-                marginHeight={0}
-                marginWidth={0}
-                src="https://app.mailjet.com/widget/iframe/6a9K/GFo"
-                width="100%"
+          title="mailjet"
+          class="mj-w-res-iframe"
+          frameBorder="0"
+          marginHeight={0}
+          marginWidth={0}
+          src="https://app.mailjet.com/widget/iframe/6a9K/GFo"
+          width="100%"
         />
       </div>
     </div>
