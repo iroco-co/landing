@@ -30,4 +30,12 @@
 </header>
 
 <style lang="scss">
+  @use 'node_modules/@iroco/ui/lib/colors';
+
+  :global(.navigation) {
+    position: fixed;
+    background-color: colors.$darkBlue;
+    top: 0;
+    right: 0;
+  }
 </style>
