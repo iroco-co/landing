@@ -12,7 +12,7 @@
   "footer": {
     "subscribe": "Sign up",
     "mailto": "Want to get in touch ?",
-    "socialmedia": "Social Media",
+    "socialmedia": "Contact",
     "newsletter": "Newsletter",
     "email": "Your Email Address",
     "invalid_email": "Invalid email",
@@ -30,7 +30,8 @@
       "job": "Job opportunities",
       "terms": "General Terms of Sale",
       "legal": "Legal Notices",
-      "copyrights": "All Rights Reserved."
+      "faq": "Frequently Asked Questions",
+      "copyrights": "2021 Iroco. All Rights Reserved."
     }
   },
   "homepage": {

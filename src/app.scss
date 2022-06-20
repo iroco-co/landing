@@ -19,22 +19,9 @@ button {
   color: colors.$beige;
 }
 
-a:hover {
-  color: colors.$green;
-}
-
 ul {
   margin: 0;
   padding: 0;
-}
-
-input {
-  background: colors.$darkBlue;
-  color: colors.$beige;
-  padding: 0.7em;
-  border: 1px solid colors.$mediumGrey;
-  text-transform: uppercase;
-  text-align: center;
 }
 
 html {

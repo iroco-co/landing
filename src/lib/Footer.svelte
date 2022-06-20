@@ -1,40 +1,42 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import Logo from '../lib/Logo.svelte';
   import { Icon, IconMastodon } from '@iroco/ui';
 </script>
 
 <footer>
   <div class="footer">
-    <div class="footer__logo">
-      <Logo size={130} margin={0} fontsize={2.5} titlemargin={0.2} flexdirection={'column'} />
+    <div class="footer__newsletter">
+      <h3>{$_('footer.newsletter')}</h3>
+      <iframe
+        title="mailjet"
+        class="mj-w-res-iframe"
+        frameBorder="0"
+        marginHeight={0}
+        marginWidth={0}
+        src="https://app.mailjet.com/widget/iframe/6a9K/GFo"
+        width="100%"
+      />
     </div>
     <div class="footer__contact">
       <div class="footer__contact__socialmedia">
         <h3>{$_('footer.socialmedia')}</h3>
-        <div class="footer__contact__socialmedia__icons">
-          <span class="footer__contact__socialmedia__icons__icon"
-            ><Icon name="linkedin" width="2em" height="2em" /></span
-          >
-          <span class="footer__contact__socialmedia__icons__icon"
-            ><Icon name="twitter" width="2em" height="2em" /></span
-          >
-          <span class="footer__contact__socialmedia__icons__icon"
-            ><IconMastodon width="2em" height="2em" /></span
-          >
+        <div class="footer__contact__icons">
+          <span class="footer__contact__icons__icon">
+            <a href="https://www.linkedin.com/company/irocodigital/">
+              <Icon name="linkedin" width="1.5em" height="1.5em" />
+            </a>
+          </span>
+          <span class="footer__contact__icons__icon">
+            <a href="https://twitter.com/IrocoDigital">
+              <Icon name="twitter" width="1.5em" height="1.5em" />
+            </a>
+          </span>
+          <span class="footer__contact__icons__icon">
+            <a href="https://mastodon.social/@iroco">
+              <IconMastodon width="1.5em" height="1.5em" />
+            </a>
+          </span>
         </div>
-      </div>
-      <div class="footer__contact__socialmedia__newsletter">
-        <h3>{$_('footer.newsletter')}</h3>
-        <iframe
-          title="mailjet"
-          class="mj-w-res-iframe"
-          frameBorder="0"
-          marginHeight={0}
-          marginWidth={0}
-          src="https://app.mailjet.com/widget/iframe/6a9K/GFo"
-          width="100%"
-        />
       </div>
     </div>
     <div class="footer__menu">
@@ -54,17 +56,18 @@
         <li><a href="/">{$_('footer.other.job')}</a></li>
         <li><a href="/terms">{$_('footer.other.terms')}</a></li>
         <li><a href="/legal">{$_('footer.other.legal')}</a></li>
+        <li><a href="/">{$_('footer.other.faq')}</a></li>
       </ul>
     </div>
   </div>
   <p class="copyright">
-    © 2021 Iroco. {$_('footer.other.copyrights')}
+    © {$_('footer.other.copyrights')}
   </p>
 </footer>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
-  @use 'node_modules/@iroco/ui/lib/fonts';
+  @import 'node_modules/@iroco/ui/scss/containers';
 
   .footer {
     display: flex;
@@ -74,22 +77,14 @@
     h3 {
       color: colors.$darkBeige;
     }
-
     &__contact {
-      &__socialmedia {
-        &__icons {
-          display: flex;
-          &__icon {
-            flex-grow: 1;
-            text-align: center;
-            border-left: 1.5px solid colors.$mediumGrey;
-            border-right: 1.5px solid colors.$mediumGrey;
-          }
-          a:hover {
-            svg {
-              fill: colors.$green;
-            }
-          }
+      &__icons {
+        display: flex;
+        &__icon {
+          padding: 15px;
+          text-align: center;
+          border-left: 1.5px solid colors.$mediumGrey;
+          border-right: 1.5px solid colors.$mediumGrey;
         }
       }
     }
@@ -98,5 +93,12 @@
     color: colors.$lightGrey;
     text-align: center;
     font-size: small;
+  }
+
+  @include screen-tablet {
+    .footer {
+      display: block;
+      padding: 0 2em;
+    }
   }
 </style>

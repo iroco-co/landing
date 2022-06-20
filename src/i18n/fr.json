@@ -15,7 +15,7 @@
   "footer": {
     "subscribe": "S'inscrire",
     "mailto": "Envie de nous contacter ?",
-    "socialmedia": "Réseaux sociaux",
+    "socialmedia": "Contact",
     "newsletter": "Newsletter",
     "email": "Votre Adresse mail",
     "invalid_email": "Adresse mail invalide",
@@ -33,7 +33,8 @@
       "job": "Postuler",
       "terms": "Conditions Générales de Vente",
       "legal": "Mentions Légales",
-      "copyrights": "Tous droits réservés."
+      "faq": "Foire Aux Questions",
+      "copyrights": "2021 Iroco. Tous droits réservés."
     }
   },
   "homepage": {
