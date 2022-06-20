@@ -15,7 +15,7 @@ a:active,
 button {
   outline: none;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 16px;
   color: colors.$beige;
 }
 
@@ -29,7 +29,7 @@ html {
   padding: 0;
 
   > body {
-    @include fonts.Arial(14px, colors.$beige);
+    @include fonts.Arial(16px, colors.$beige);
     line-height: 1.7em;
     margin: 0;
     padding: 0;

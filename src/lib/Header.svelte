@@ -37,5 +37,9 @@
     background-color: colors.$darkBlue;
     top: 0;
     right: 0;
+    z-index: 1;
+  }
+  :global(.navigation--mobile) {
+    background-color: colors.$darkBlue;
   }
 </style>
