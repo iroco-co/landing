@@ -35,7 +35,7 @@
     btnContent={$_('homepage.innovation.btn')}
   >
     <a href="/about">
-      <Button kind="dark">
+      <Button kind="dark" size="small">
         <Icon name="chevron-right" />
         {$_('homepage.innovation.github')}
       </Button>
@@ -50,7 +50,7 @@
     reversed
   >
     <a href="/about">
-      <Button kind="dark">
+      <Button kind="dark" size="small">
         <Icon name="chevron-right" />
         {$_('homepage.inclusive.contact')}
       </Button>

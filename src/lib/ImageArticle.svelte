@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
   import { Button } from '@iroco/ui';
   import { Icon } from '@iroco/ui';
 
@@ -17,7 +16,7 @@
     <h1>{articleTitle}</h1>
     <p>{articleContent}</p>
     <a class="imagearticle__article__btn" href="/about">
-      <Button kind="dark">
+      <Button kind="dark" size="small">
         <Icon name="chevron-right" />
         {btnContent}
       </Button>
