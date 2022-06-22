@@ -61,6 +61,9 @@
       width: 100%;
       text-align: center;
 
+      &__image {
+        width: 100%;
+      }
       &__article {
         width: 100%;
       }

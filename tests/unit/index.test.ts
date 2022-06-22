@@ -10,8 +10,9 @@ import fr from '../../src/i18n/fr.json';
 addMessages('fr', fr);
 init({ fallbackLocale: 'fr', initialLocale: 'fr' });
 
-test('Welcome', () => {
-  const { getByText } = render(index);
-
-  expect(getByText("Iroco, c'est quoi ?")).toBeInTheDocument();
+describe('Testing HomePage', () => {
+  test('the page is correctly rendered', () => {
+    const { getByText } = render(index);
+    expect(getByText(`Iroco, c'est quoi ?`)).toBeInTheDocument();
+  });
 });

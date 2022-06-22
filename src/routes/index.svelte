@@ -3,7 +3,9 @@
   import Header from '../lib/Header.svelte';
   import Footer from '../lib/Footer.svelte';
   import ArticleImage from '../lib/ImageArticle.svelte';
-  import { Button, Icon } from '@iroco/ui';
+  import Contact from '../lib/Contact.svelte';
+  import { Button, Icon } from '@iroco/ui/';
+  import IconIrocoLogo from '@iroco/ui/src/IconIrocoLogo.svelte';
 </script>
 
 <svelte:head>
@@ -56,15 +58,44 @@
       </Button>
     </a>
   </ArticleImage>
+
+  <div class="subFooter">
+    <div class="subFooter__logo">
+      <IconIrocoLogo width="3em" height="3em" />
+      <h1>Iroco</h1>
+    </div>
+    <div class="subFooter__btn">
+      <a href="/about">
+        <Button kind="success">
+          <Icon name="chevron-right" />
+          {$_('footer.subscribe')}
+        </Button>
+      </a>
+    </div>
+  </div>
+  <Contact />
 </main>
 <Footer />
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
-  @import 'node_modules/@iroco/ui/scss/containers';
-
   main {
-    margin-top: 8em;
-    margin-bottom: 4em;
+    margin-top: 8.5em;
+    margin-bottom: 2em;
+
+    .subFooter {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2em 4em;
+      &__logo {
+        display: flex;
+        align-items: center;
+        h1 {
+          padding-left: 0.8em;
+        }
+      }
+    }
   }
 </style>
