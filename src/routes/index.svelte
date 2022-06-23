@@ -4,8 +4,7 @@
   import Footer from '../lib/Footer.svelte';
   import ArticleImage from '../lib/ImageArticle.svelte';
   import Contact from '../lib/Contact.svelte';
-  import { Button, Icon } from '@iroco/ui/';
-  import IconIrocoLogo from '@iroco/ui/src/IconIrocoLogo.svelte';
+  import { Button, Icon, IconIrocoLogo } from '@iroco/ui/';
 </script>
 
 <svelte:head>
