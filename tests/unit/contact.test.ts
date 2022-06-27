@@ -4,15 +4,15 @@
 import '@testing-library/jest-dom/extend-expect';
 import { render } from '@testing-library/svelte';
 import Contact from '../../src/lib/Contact.svelte';
-import fr from '../../src/i18n/fr.json';
+import en from '../../src/i18n/en.json';
 import { addMessages, init } from 'svelte-i18n';
 
-addMessages('fr', fr);
-init({ fallbackLocale: 'fr', initialLocale: 'fr' });
+addMessages('en', en);
+init({ fallbackLocale: 'en', initialLocale: 'en' });
 
 describe('Testing Contact Component', () => {
   test('its content is correctly rendered', () => {
     const { getByText } = render(Contact);
-    expect(getByText('Envie de nous contacter ?')).toBeInTheDocument();
+    expect(getByText('Want to get in touch?')).toBeInTheDocument();
   });
 });

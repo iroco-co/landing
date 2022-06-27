@@ -4,11 +4,11 @@
 import '@testing-library/jest-dom/extend-expect';
 import { render } from '@testing-library/svelte';
 import Footer from '../../src/lib/Footer.svelte';
-import fr from '../../src/i18n/fr.json';
+import en from '../../src/i18n/en.json';
 import { addMessages, init } from 'svelte-i18n';
 
-addMessages('fr', fr);
-init({ fallbackLocale: 'fr', initialLocale: 'fr' });
+addMessages('en', en);
+init({ fallbackLocale: 'en', initialLocale: 'en' });
 
 describe('Testing Footer Component', () => {
   test('any title is visible', () => {
