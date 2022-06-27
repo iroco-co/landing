@@ -11,30 +11,48 @@
   <title>{$_('page.title')}</title>
 </svelte:head>
 <Header />
-<main class="main">
+<main class="page-content">
   <ArticleImage
     imgSrc="/images/irocoTeamSpirit.png"
     alt="Iroco Team hiking in the mountains"
     articleTitle={$_('homepage.iroco.title')}
     articleContent={$_('homepage.iroco.p')}
-    btnContent={$_('homepage.iroco.btn')}
-  />
+  >
+    <a href="/about">
+      <Button kind="dark" size="small">
+        <Icon name="chevron-right" />
+          {$_('homepage.iroco.btn')}
+        </Button>
+    </a>
+  </ArticleImage>
+
   <ArticleImage
     imgSrc="/images/pairprogramming.png"
     alt="A man and a woman pair programming"
     articleTitle={$_('homepage.respect.title')}
     articleContent={$_('homepage.respect.p')}
-    btnContent={$_('homepage.respect.btn')}
     reversed
-  />
+  >
+    <a href="/about">
+      <Button kind="dark" size="small">
+        <Icon name="chevron-right" />
+          {$_('homepage.respect.btn')}
+        </Button>
+    </a>
+  </ArticleImage>
 
   <ArticleImage
     imgSrc="/images/irocoTeamSpirit.png"
     alt="Iroco Team hiking in the mountains"
     articleTitle={$_('homepage.innovation.title')}
     articleContent={$_('homepage.innovation.p')}
-    btnContent={$_('homepage.innovation.btn')}
   >
+    <a href="/about">
+      <Button kind="dark" size="small">
+        <Icon name="chevron-right" />
+          {$_('homepage.innovation.btn')}
+        </Button>
+    </a>
     <a href="/about">
       <Button kind="dark" size="small">
         <Icon name="chevron-right" />
@@ -42,14 +60,20 @@
       </Button>
     </a>
   </ArticleImage>
+
   <ArticleImage
     imgSrc="/images/pairprogramming.png"
     alt="A man and a woman pair programming"
     articleTitle={$_('homepage.inclusive.title')}
     articleContent={$_('homepage.inclusive.p')}
-    btnContent={$_('homepage.inclusive.btn')}
     reversed
   >
+    <a href="/about">
+      <Button kind="dark" size="small">
+        <Icon name="chevron-right" />
+         {$_('homepage.inclusive.btn')}
+        </Button>
+    </a>
     <a href="/about">
       <Button kind="dark" size="small">
         <Icon name="chevron-right" />
@@ -58,12 +82,12 @@
     </a>
   </ArticleImage>
 
-  <div class="subFooter">
-    <div class="subFooter__logo">
+  <div class="page-content__subscribe">
+    <div class="page-content__subscribe__logo">
       <IconIrocoLogo width="3em" height="3em" />
       <h1>Iroco</h1>
     </div>
-    <div class="subFooter__btn">
+    <div class="page-content__subscribe__btn">
       <a href="/about">
         <Button kind="success">
           <Icon name="chevron-right" />
@@ -78,11 +102,8 @@
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
-  main {
-    margin-top: 8.5em;
-    margin-bottom: 2em;
-
-    .subFooter {
+  .page-content {
+    &__subscribe{
       display: flex;
       flex-direction: column;
       justify-content: center;
