@@ -1,6 +1,7 @@
 @use 'node_modules/@iroco/ui/lib/colors';
 @use 'node_modules/@iroco/ui/lib/fonts';
 @use 'node_modules/@iroco/ui/lib/style';
+@use 'node_modules/@iroco/ui/lib/constants';
 
 *,
 *::before,
@@ -17,6 +18,35 @@ button {
   text-decoration: none;
   font-size: 16px;
   color: colors.$beige;
+}
+
+.button {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  border: 1px solid colors.$nightBlue;
+  border-radius: constants.$border-radius;
+  background: colors.$nightBlue;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  &:hover {
+    box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.2);
+    border: none;
+  }
+}
+
+.success {
+  padding: 1em 2em;
+  background: colors.$green;
+  border: none;
+  &:hover {
+    box-shadow: inset 0 0 0 10em rgba(0, 0, 0, 0.2);
+  }
 }
 
 ul {
