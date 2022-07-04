@@ -3,23 +3,23 @@
   import { Navigation } from '@iroco/ui';
   const navigationItems = [
     {
-      destination: '/about',
+      hrefOrCallback: '/about',
       name: $_('header.about')
     },
     {
-      destination: 'https://blog.iroco.co',
+      hrefOrCallback: 'https://blog.iroco.co',
       name: $_('header.blog')
     },
     {
-      destination: 'mailto: hello@iroco.fr',
+      hrefOrCallback: 'mailto:hello@iroco.fr',
       name: $_('header.contact')
     },
     {
-      destination: '/signup',
+      hrefOrCallback: '/signup',
       name: $_('header.signup')
     },
     {
-      destination: 'https://app.iroco.co',
+      hrefOrCallback: 'https://app.iroco.co',
       name: $_('header.signin')
     }
   ];
