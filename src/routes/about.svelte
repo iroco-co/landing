@@ -27,8 +27,8 @@
   />
 </main>
 <Footer />
+>>>>>>> feat: add correct props to each ImageArticle
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
 </style>
->>>>>>> feat: add correct props to each ImageArticle
