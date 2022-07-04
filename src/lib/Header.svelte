@@ -3,7 +3,7 @@
   import { Navigation } from '@iroco/ui';
   const navigationItems = [
     {
-      hrefOrCallback: '/',
+      hrefOrCallback: '/about',
       name: $_('header.about')
     },
     {

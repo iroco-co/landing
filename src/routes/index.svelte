@@ -17,7 +17,7 @@
     alt="Iroco Team hiking in the mountains"
     articleTitle={$_('homepage.iroco.title')}
     articleContent={$_('homepage.iroco.p')}
-    buttonList={[{ href: '/', label: $_('homepage.iroco.btn') }]}
+    buttonList={[{ href: '/about', label: $_('homepage.iroco.btn') }]}
   />
 
   <ArticleImage
@@ -25,7 +25,7 @@
     alt="A man and a woman pair programming"
     articleTitle={$_('homepage.respect.title')}
     articleContent={$_('homepage.respect.p')}
-    buttonList={[{ href: '/', label: $_('homepage.respect.btn') }]}
+    buttonList={[{ href: '/about#commitments', label: $_('homepage.respect.btn') }]}
     reversed
   />
 
@@ -35,8 +35,8 @@
     articleTitle={$_('homepage.innovation.title')}
     articleContent={$_('homepage.innovation.p')}
     buttonList={[
-      { href: '/', label: $_('homepage.innovation.btn') },
-      { href: '/', label: $_('homepage.innovation.github') }
+      { href: 'https://blog.iroco.co', label: $_('homepage.innovation.btn') },
+      { href: 'https://github.com/iroco-co', label: $_('homepage.innovation.github') }
     ]}
   />
 
@@ -46,8 +46,8 @@
     articleTitle={$_('homepage.inclusive.title')}
     articleContent={$_('homepage.inclusive.p')}
     buttonList={[
-      { href: '/', label: $_('homepage.inclusive.btn') },
-      { href: '/', label: $_('homepage.inclusive.contact') }
+      { href: '/signup#faq', label: $_('homepage.inclusive.btn') },
+      { href: 'mailto:hello@iroco.fr', label: $_('homepage.inclusive.contact') }
     ]}
     reversed
   />
