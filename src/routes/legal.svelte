@@ -7,7 +7,7 @@
 
 <main class="legal">
   <h1>Mentions légales</h1>
-  <div class="legal-iroco">
+  <div class="legal__iroco">
     <h2>&Eacute;diteur</h2>
     <h3>Raison sociale</h3>
     <p>IROCO SAS</p>
@@ -23,7 +23,7 @@
     <h3>Nom du directeur et/ou co-directeur</h3>
     <p>Adeline AGUT, Bruno THOMAS</p>
   </div>
-  <div class="legal-hosting">
+  <div class="legal__hosting">
     <h2>Hébergeur</h2>
     <h3>Raison Sociale</h3>
     <p>
@@ -46,31 +46,18 @@
   @use 'node_modules/@iroco/ui/lib/colors';
   @use 'node_modules/@iroco/ui/lib/containers';
   @use 'node_modules/@iroco/ui/lib/fonts';
-
   .legal {
-    margin-top: 50px;
-    padding-bottom: 20px;
-
-    @include fonts.Arial(medium, colors.$beige);
-
-    > .legal-iroco {
-      margin-bottom: 50px;
-    }
-
-    > .legal-iroco,
-    .legal-hosting {
-      margin-left: 30%;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5em;
 
     h1 {
       font-size: 3em;
-      line-height: 4em;
       text-align: center;
-      margin: 0 auto;
     }
 
     h2 {
-      line-height: 1.5em;
       color: colors.$green;
     }
 
@@ -82,8 +69,9 @@
       color: colors.$darkGrey;
     }
 
-    address {
-      line-height: 1.5em;
+    &__iroco,
+    &__hosting {
+      justify-self: space-between;
     }
   }
 </style>

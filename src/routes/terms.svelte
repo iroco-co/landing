@@ -438,13 +438,9 @@
 
   .terms {
     width: 60vw;
-    @include fonts.Arial(medium, colors.$beige);
-    font-weight: 400;
-    margin: 0 auto 2.5em;
+    margin: 8em auto 2.5em;
     padding: 0 20px;
-    h1 {
-      line-height: 1.3em;
-    }
+
     p {
       padding: 8px 0;
     }
