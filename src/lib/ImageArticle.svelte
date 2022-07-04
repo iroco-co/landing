@@ -6,7 +6,7 @@
   export let articleTitle: string;
   export let articleContent: string;
   export let buttonList: ButtonModel[] = [];
-  export let reversed: boolean;
+  export let reversed = false;
 </script>
 
 <div class="imagearticle" class:reversed>
