@@ -13,9 +13,22 @@
     src="/images/irocoTeamSpirit.png"
     alt="Iroco Team Building"
   />
+  <ArticleImage
+    title={$_('about.mail.title')}
+    content={$_('about.mail.p')}
+    src="/images/screenshotDataviz.png"
+    alt="Map explaining our data consumption from start to end"
+  />
+  <ArticleImage
+    title={$_('about.app.title')}
+    content={$_('about.app.p')}
+    src="/images/screenshotApp.png"
+    alt="Our app from mobile to laptop"
+  />
 </main>
 <Footer />
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
 </style>
+>>>>>>> feat: add correct props to each ImageArticle
