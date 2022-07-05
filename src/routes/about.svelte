@@ -4,6 +4,8 @@
   import Footer from '../lib/Footer.svelte';
   import Article from '../lib/Article.svelte';
   import Host from '../lib/Host.svelte';
+  import { Icon } from '@iroco/ui/';
+  import IrocoLogo from '../lib/IrocoLogo.svelte';
 </script>
 
 <Header />
@@ -40,6 +42,47 @@
       </span>
     </div>
   </Article>
+  <div class="about__commitments">
+    <h1>{$_('commitments.title')}</h1>
+    <p>{$_('commitments.p')}</p>
+    <div class="about__commitments__sections">
+      <article class="about__commitments__sections__cooperation">
+        <h3>{$_('commitments.sections.cooperation.title')}</h3>
+        <p>{$_('commitments.sections.cooperation.p')}</p>
+      </article>
+      <article class="about__commitments__sections__energy">
+        <h3>{$_('commitments.sections.energy.title')}</h3>
+        <p>{$_('commitments.sections.energy.p')}</p>
+      </article>
+      <article class="about__commitments__sections__data">
+        <h3>{$_('commitments.sections.data.title')}</h3>
+        <p>{$_('commitments.sections.data.p')}</p>
+      </article>
+      <article class="about__commitments__sections__cooperation">
+        <h3>{$_('commitments.sections.cooperation.title')}</h3>
+        <p>{$_('commitments.sections.cooperation.p')}</p>
+      </article>
+      <article class="about__commitments__sections__energy">
+        <h3>{$_('commitments.sections.energy.title')}</h3>
+        <p>{$_('commitments.sections.energy.p')}</p>
+      </article>
+      <article class="about__commitments__sections__data">
+        <h3>{$_('commitments.sections.data.title')}</h3>
+        <p>{$_('commitments.sections.data.p')}</p>
+      </article>
+    </div>
+  </div>
+  <div class="about__subscribe">
+    <div class="about__subscribe__logo">
+      <IrocoLogo width="10em" height="10em" />
+    </div>
+    <div class="about__subscribe__btn">
+      <a class="button success" href="/about">
+        <Icon name="chevron-right" />
+        {$_('footer.subscribe')}
+      </a>
+    </div>
+  </div>
 </main>
 <Footer />
 
@@ -49,7 +92,13 @@
   .about {
     &__images,
     &__images__left,
-    &__images__right {
+    &__images__right,
+    &__commitments,
+    &__commitments__sections,
+    &__commitments__sections__cooperation,
+    &__commitments__sections__energy,
+    &__commitments__sections__data,
+    &__subscribe {
       display: flex;
       align-items: center;
     }
@@ -89,6 +138,41 @@
           transform: translate(-6em, 5.5em);
         }
       }
+    }
+
+    &__commitments,
+    &__commitments__sections,
+    &__commitments__sections__cooperation,
+    &__commitments__sections__energy,
+    &__commitments__sections__data {
+      justify-content: center;
+      text-align: center;
+    }
+    &__commitments {
+      flex-direction: column;
+      text-align: center;
+      p {
+        width: 60%;
+      }
+      &__sections {
+        flex-wrap: wrap;
+        &__cooperation,
+        &__energy,
+        &__data {
+          flex-direction: column;
+          height: 300px;
+          flex: 1;
+          flex-basis: 300px;
+
+          p {
+            font-size: small;
+          }
+        }
+      }
+    }
+    &__subscribe {
+      flex-direction: column;
+      justify-content: center;
     }
   }
 </style>

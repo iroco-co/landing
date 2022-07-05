@@ -4,7 +4,8 @@
   import Footer from '../lib/Footer.svelte';
   import ArticleImage from '../lib/ImageArticle.svelte';
   import Contact from '../lib/Contact.svelte';
-  import { Icon, IconIrocoLogo } from '@iroco/ui/';
+  import { Icon } from '@iroco/ui/';
+  import IrocoLogo from '../lib/IrocoLogo.svelte';
 </script>
 
 <svelte:head>
@@ -54,8 +55,7 @@
 
   <div class="page-content__subscribe">
     <div class="page-content__subscribe__logo">
-      <IconIrocoLogo width="3em" height="3em" />
-      <h1>Iroco</h1>
+      <IrocoLogo width="10em" height="10em" />
     </div>
     <div class="page-content__subscribe__btn">
       <a class="button success" href="/about">

@@ -75,5 +75,23 @@
         "right": "Practical and respectful"
       }
     }
+  },
+  "commitments": {
+    "title": "Commitments",
+    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "sections": {
+      "cooperation": {
+        "title": "Transparent and Cooperative Company",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
+      },
+      "energy": {
+        "title": "Green Energy Supplier",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
+      },
+      "data": {
+        "title": "Green Data Center",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
+      }
+    }
   }
 }
