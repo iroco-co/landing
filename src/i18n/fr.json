@@ -67,12 +67,16 @@
       "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
     },
     "mail": {
-      "title": "La découverte des impacts multiples du numérique et pourquoi le choix d'aller vers le mail ?",
+      "title": "La découverte des impacts multiples du numérique </br> et pourquoi le choix d'aller vers le mail ?",
       "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
     },
     "app": {
       "title": "L'envie d'une application responsable et éthique",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
+      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      "box": {
+        "left": "Serveur éthique et green",
+        "right": "Pratique et respectueux"
+      }
     }
   }
 }

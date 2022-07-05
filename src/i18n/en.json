@@ -64,12 +64,16 @@
       "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
     },
     "mail": {
-      "title": "The discovery of the multiple impacts of digital technology and why the choice to go to email?",
+      "title": "The discovery of the multiple impacts of digital technology </br> and why the choice to go to email?",
       "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
     },
     "app": {
       "title": "The desire for a responsible and ethical application",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
+      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      "box": {
+        "left": "Ethical and green server",
+        "right": "Practical and respectful"
+      }
     }
   }
 }

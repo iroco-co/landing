@@ -1,30 +1,36 @@
 <script lang="ts">
   export let title: string;
   export let content: string;
-  export let src: string;
-  export let alt: string;
 </script>
 
-<div class="articleimage">
-  <article class="articleimage__article">
-    <h1>{title}</h1>
+<div class="article">
+  <article class="article__top">
+    <h1>{@html title}</h1>
     <p>{content}</p>
   </article>
-  <img class="articleimage__image" {src} {alt} />
+  <slot />
 </div>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
-  .articleimage {
+
+  .article,
+  .article__top {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    &__article {
-      text-align: center;
+  }
+  .article {
+    text-align: center;
+    margin-bottom: 3em;
+    &__top {
       padding: 2em;
       h1 {
         margin-bottom: 2em;
+      }
+      p {
+        width: 50%;
       }
     }
   }
