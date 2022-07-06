@@ -13,8 +13,8 @@
         frameBorder="0"
         marginHeight={0}
         marginWidth={0}
-        src="https://app.mailjet.com/widget/iframe/6a9K/GFo"
-        width="100%"
+        src="https://app.mailjet.com/widget/iframe/6a9K/NvZ"
+        height="200px"
       />
     </div>
     <div class="footer__contact">
