@@ -74,7 +74,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@iroco/ui": "^0.15.3",
+    "@iroco/ui": "^0.17.1",
     "svelte-i18n": "^3.4.0"
   }
 }

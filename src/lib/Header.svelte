@@ -1,49 +1,34 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import { Navigation } from '@iroco/ui';
+  import { Navigation, NavigationItem } from '@iroco/ui';
+  import { browser } from '$app/env';
+
   const navigationItems = [
-    {
-      hrefOrCallback: '/about',
-      name: $_('header.about')
-    },
-    {
-      hrefOrCallback: 'https://blog.iroco.co',
-      name: $_('header.blog')
-    },
-    {
-      hrefOrCallback: 'mailto:hello@iroco.fr',
-      name: $_('header.contact')
-    },
-    {
-      hrefOrCallback: '/signup',
-      name: $_('header.signup')
-    },
-    {
-      hrefOrCallback: 'https://app.iroco.co',
-      name: $_('header.signin')
-    }
+    new NavigationItem($_('header.about'), '/about'),
+    new NavigationItem($_('header.blog'), 'https://blog.iroco.co'),
+    new NavigationItem($_('header.contact'), 'mailto:hello@iroco.fr'),
+    new NavigationItem($_('header.signup'), '/signup'),
+    new NavigationItem($_('header.signin'), () => {
+      if (browser) {
+        location.assign('https://app.iroco.co');
+      }
+    })
   ];
 </script>
 
 <header class="header">
-  <Navigation title="Iroco" {navigationItems} type="topbar" />
+  <Navigation {navigationItems} type="topbar" />
 </header>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
   @use 'node_modules/@iroco/ui/lib/constants';
+
   :global(.nav__topbar__item-container) {
     align-items: center;
+    //text-transform: uppercase;
   }
-  :global(.nav__topbar__item:last-child) {
-    padding: 1em 2em;
-    background: colors.$green;
-    border: none;
-    border-radius: constants.$border-radius;
-    &:hover {
-      box-shadow: inset 0 0 0 10em rgba(0, 0, 0, 0.2);
-    }
-  }
+
   :global(.navigation) {
     position: fixed;
     background-color: colors.$darkBlue;
