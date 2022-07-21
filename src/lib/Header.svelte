@@ -8,7 +8,7 @@
     new NavigationItem($_('header.contact'), 'mailto:hello@iroco.fr'),
     new NavigationItem($_('header.signup'), '/signup'),
     new NavigationItem($_('header.signin'), () => {
-        window.location.assign('https://app.iroco.co');
+      window.location.assign('https://app.iroco.co');
     })
   ];
 </script>
