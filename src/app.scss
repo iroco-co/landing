@@ -16,7 +16,6 @@ a:active,
 button {
   outline: none;
   text-decoration: none;
-  font-size: 16px;
   color: colors.$beige;
 }
 
@@ -54,12 +53,18 @@ ul {
   padding: 0;
 }
 
+p {
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+
 h1 {
+  font-size: 2em;
   line-height: 1.3em;
 }
 
 main {
-  margin: 8em auto 4em;
+  margin: 11em auto 4em;
   width: 80%;
 }
 
@@ -68,7 +73,7 @@ html {
   padding: 0;
 
   > body {
-    @include fonts.Arial(16px, colors.$beige);
+    @include fonts.Arial(14px, colors.$beige);
     line-height: 1.7em;
     margin: 0;
     padding: 0;

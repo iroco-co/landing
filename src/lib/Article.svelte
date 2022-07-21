@@ -13,6 +13,7 @@
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
+  @import 'node_modules/@iroco/ui/scss/containers';
 
   .article,
   .article__top {
@@ -32,6 +33,12 @@
       p {
         width: 50%;
       }
+    }
+  }
+
+  @include screen-tablet {
+    .article p {
+      width: 85%;
     }
   }
 </style>

@@ -10,12 +10,13 @@
 <Header />
 <main class="about">
   <Article title={$_('about.beginning.title')} content={$_('about.beginning.p')}>
-    <img src="/images/screenshotIrocoTeamBuilding.png" alt="Iroco Team Building" />
+    <img src="/images/screenshotIrocoTeamBuilding.png" alt="Iroco Team Building" width="600px" />
   </Article>
   <Article title={$_('about.mail.title')} content={$_('about.mail.p')}>
     <img
       src="/images/screenshotDataviz.png"
       alt="Map explaining our data consumption from start to end"
+      width="600px"
     />
   </Article>
   <Article title={$_('about.app.title')} content={$_('about.app.p')}>
@@ -29,7 +30,7 @@
           class="about__images__right__screen"
           src="/images/screen.png"
           alt="Iroco webmail on mobile"
-          width="125x"
+          width="125px"
         />
         <img
           class="about__images__right__laptop"
@@ -87,7 +88,7 @@
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
-
+  @import 'node_modules/@iroco/ui/scss/containers';
   .about {
     &__images,
     &__images__left,
@@ -112,11 +113,9 @@
       white-space: nowrap;
     }
     &__images {
-      width: 90%;
       justify-content: space-between;
       text-align: center;
       &__left {
-        width: 30%;
         flex-direction: column-reverse;
         justify-content: center;
         margin-left: 6em;
@@ -126,7 +125,6 @@
         }
       }
       &__right {
-        width: 70%;
         flex-direction: row;
         justify-content: center;
         &__screen {
@@ -172,6 +170,37 @@
     &__subscribe {
       flex-direction: column;
       justify-content: center;
+    }
+  }
+
+  @include screen-tablet {
+    .about {
+      &__images {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__right__laptop {
+          width: 335px;
+        }
+      }
+
+      &__commitments {
+        p {
+          width: 85%;
+          margin-bottom: 4em;
+        }
+        &__sections {
+          &__cooperation,
+          &__energy,
+          &__data {
+            flex-direction: column;
+            height: 150px;
+            flex: 1;
+            flex-basis: 260px;
+            margin-bottom: 4em;
+          }
+        }
+      }
     }
   }
 </style>
