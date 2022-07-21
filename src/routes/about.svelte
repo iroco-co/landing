@@ -4,8 +4,7 @@
   import Footer from '../lib/Footer.svelte';
   import Article from '../lib/Article.svelte';
   import Host from '../lib/Host.svelte';
-  import { Icon } from '@iroco/ui/';
-  import IrocoLogo from '../lib/IrocoLogo.svelte';
+  import { Icon, IrocoLogo } from '@iroco/ui/';
 </script>
 
 <Header />
