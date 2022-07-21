@@ -1,7 +1,6 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
   import { Navigation, NavigationItem } from '@iroco/ui';
-  import { browser } from '$app/env';
 
   const navigationItems = [
     new NavigationItem($_('header.about'), '/about'),
@@ -9,9 +8,7 @@
     new NavigationItem($_('header.contact'), 'mailto:hello@iroco.fr'),
     new NavigationItem($_('header.signup'), '/signup'),
     new NavigationItem($_('header.signin'), () => {
-      if (browser) {
-        location.assign('https://app.iroco.co');
-      }
+        window.location.assign('https://app.iroco.co');
     })
   ];
 </script>

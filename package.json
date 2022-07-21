@@ -8,7 +8,7 @@
     "preview": "svelte-kit preview",
     "prepare": "svelte-kit sync && husky install",
     "eetest": "playwright test",
-    "test": "jest",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --config jest.config.json",
     "test:watch": "npm test -- --watch",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
@@ -29,6 +29,7 @@
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "babel-jest": "^27.5.1",
+    "babel-plugin-transform-vite-meta-env": "^1.0.3",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^26.1.5",
@@ -46,26 +47,6 @@
     "ts-jest": "^27.1.4",
     "tslib": "^2.3.1",
     "typescript": "~4.6.2"
-  },
-  "jest": {
-    "testMatch": [
-      "**/tests/unit/*.{js,ts}"
-    ],
-    "transform": {
-      "^.+\\.svelte$": [
-        "svelte-jester",
-        {
-          "preprocess": true
-        }
-      ],
-      "^.+\\.ts$": "ts-jest",
-      "^.+\\.js$": "babel-jest"
-    },
-    "moduleFileExtensions": [
-      "js",
-      "ts",
-      "svelte"
-    ]
   },
   "lint-staged": {
     "*.{js,ts,svelte}": [

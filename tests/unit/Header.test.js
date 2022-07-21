@@ -10,8 +10,10 @@ import { addMessages, init } from 'svelte-i18n';
 addMessages('en', en);
 init({ fallbackLocale: 'en', initialLocale: 'en' });
 
+
 describe('Testing Header Component', () => {
   test('correctly render the header', () => {
+
     const { getByText } = render(Header);
     expect(getByText('About')).toBeInTheDocument();
     expect(getByText('Blog')).toBeInTheDocument();
