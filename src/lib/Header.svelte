@@ -23,17 +23,18 @@
 
   :global(.nav__topbar__item-container) {
     align-items: center;
-    //text-transform: uppercase;
   }
 
-  :global(.navigation) {
+  .header > :global(.navigation) {
+    border-bottom: none;
     position: fixed;
     background-color: colors.$darkBlue;
     top: 0;
     right: 0;
     z-index: 1;
   }
-  :global(.navigation--mobile) {
+  .header > :global(.navigation--mobile) {
+    border-bottom: none;
     background-color: colors.$darkBlue;
   }
 </style>
