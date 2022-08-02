@@ -1,21 +1,14 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
   import { Icon, IconMastodon } from '@iroco/ui';
+  import Contact from '../lib/Contact.svelte';
 </script>
 
 <footer>
   <div class="footer">
     <div class="footer__newsletter">
       <h3>{$_('footer.newsletter')}</h3>
-      <iframe
-        title="mailjet"
-        class="mj-w-res-iframe"
-        frameBorder="0"
-        marginHeight={0}
-        marginWidth={0}
-        src="https://app.mailjet.com/widget/iframe/6a9K/NvZ"
-        height="200px"
-      />
+      <Contact />
     </div>
     <div class="footer__contact">
       <div class="footer__contact__socialmedia">

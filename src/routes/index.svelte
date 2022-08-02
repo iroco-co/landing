@@ -2,8 +2,8 @@
   import { _ } from 'svelte-i18n';
   import Header from '../lib/Header.svelte';
   import Footer from '../lib/Footer.svelte';
-  import ArticleImage from '../lib/ImageArticle.svelte';
-  import Contact from '../lib/Contact.svelte';
+  import ImageArticle from '../lib/ImageArticle.svelte';
+  
   import { Icon, IrocoLogo } from '@iroco/ui/';
 </script>
 
@@ -12,7 +12,7 @@
 </svelte:head>
 <Header />
 <main class="page-content">
-  <ArticleImage
+  <ImageArticle
     imgSrc="/images/irocoTeamSpirit.png"
     alt="Iroco Team hiking in the mountains"
     articleTitle={$_('homepage.iroco.title')}
@@ -20,7 +20,7 @@
     buttonList={[{ href: '/about', label: $_('homepage.iroco.btn') }]}
   />
 
-  <ArticleImage
+  <ImageArticle
     imgSrc="/images/pairprogramming.png"
     alt="A man and a woman pair programming"
     articleTitle={$_('homepage.respect.title')}
@@ -29,7 +29,7 @@
     reversed
   />
 
-  <ArticleImage
+  <ImageArticle
     imgSrc="/images/irocoTeamSpirit.png"
     alt="Iroco Team hiking in the mountains"
     articleTitle={$_('homepage.innovation.title')}
@@ -40,7 +40,7 @@
     ]}
   />
 
-  <ArticleImage
+  <ImageArticle
     imgSrc="/images/pairprogramming.png"
     alt="A man and a woman pair programming"
     articleTitle={$_('homepage.inclusive.title')}
@@ -57,18 +57,18 @@
       <IrocoLogo width="10em" height="10em" />
     </div>
     <div class="page-content__subscribe__btn">
-      <a class="button success" href="/about">
-        <Icon name="chevron-right" />
+      <a class={`iroco-ui-button iroco-ui-button--regular iroco-ui-button--success`} href="https://app.iroco.co/signup/">
+        <Icon name="chevron-right" color="colors.$nightBlue" />
         {$_('footer.subscribe')}
       </a>
     </div>
   </div>
-  <Contact />
 </main>
 <Footer />
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
+  @import 'node_modules/@iroco/ui/lib/button';
   .page-content {
     &__subscribe {
       display: flex;
@@ -77,7 +77,11 @@
       align-items: center;
       padding: 2em 4em;
       &__btn {
-        margin: 2em 0;
+        > a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
       }
       &__logo {
         display: flex;

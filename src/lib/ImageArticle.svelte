@@ -51,6 +51,11 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        > a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
       }
     }
     &.reversed {
