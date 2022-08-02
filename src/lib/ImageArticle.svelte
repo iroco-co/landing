@@ -16,7 +16,11 @@
     <p>{articleContent}</p>
     <div class="imagearticle__article__buttonGroup">
       {#each buttonList as buttonModel}
-        <a class="button" href={buttonModel.href} role="button">
+        <a
+          class={`iroco-ui-button iroco-ui-button--small iroco-ui-button--dark`}
+          href={buttonModel.href}
+          role="button"
+        >
           <Icon name="chevron-right" />
           {buttonModel.label}
         </a>
@@ -28,6 +32,7 @@
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
   @import 'node_modules/@iroco/ui/scss/containers';
+  @import 'node_modules/@iroco/ui/lib/button';
   .imagearticle {
     display: flex;
     justify-content: space-around;
