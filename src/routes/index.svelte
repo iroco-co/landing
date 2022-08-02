@@ -3,7 +3,7 @@
   import Header from '../lib/Header.svelte';
   import Footer from '../lib/Footer.svelte';
   import ImageArticle from '../lib/ImageArticle.svelte';
-  
+
   import { Icon, IrocoLogo } from '@iroco/ui/';
 </script>
 
@@ -57,7 +57,10 @@
       <IrocoLogo width="10em" height="10em" />
     </div>
     <div class="page-content__subscribe__btn">
-      <a class={`iroco-ui-button iroco-ui-button--regular iroco-ui-button--success`} href="https://app.iroco.co/signup/">
+      <a
+        class={`iroco-ui-button iroco-ui-button--regular iroco-ui-button--success`}
+        href="https://app.iroco.co/signup/"
+      >
         <Icon name="chevron-right" color="colors.$nightBlue" />
         {$_('footer.subscribe')}
       </a>

@@ -18,7 +18,7 @@
     font-weight: bold;
     padding: 2em 4em;
     margin: 1.5em auto 0;
-    text-transform:initial;
+    text-transform: initial;
     border-radius: constants.$border-radius;
     a {
       color: colors.$green;
