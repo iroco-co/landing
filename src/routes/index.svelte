@@ -3,7 +3,7 @@
   import Header from '../lib/Header.svelte';
   import Footer from '../lib/Footer.svelte';
   import ImageArticle from '../lib/ImageArticle.svelte';
-
+  import Newsletter from '../lib/Newsletter.svelte';
   import { Icon, IrocoLogo } from '@iroco/ui/';
 </script>
 
@@ -66,6 +66,8 @@
       </a>
     </div>
   </div>
+
+  <Newsletter />
 </main>
 <Footer />
 

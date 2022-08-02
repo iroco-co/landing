@@ -93,5 +93,9 @@
         "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
       }
     }
+  },
+  "newsletter": {
+    "title": "Sign up here\nto become a soft user",
+    "disclaimer": "Your email address will only be used to send you occasional information about our projects. No spam, no unwanted circulation of your data either."
   }
 }
