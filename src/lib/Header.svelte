@@ -27,7 +27,6 @@
 
   :global(.nav__topbar__item-container) {
     align-items: center;
-    transform: translateY(0.18em);
   }
 
   .header > :global(.navigation) {
