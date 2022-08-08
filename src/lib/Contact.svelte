@@ -1,11 +1,19 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
+
+  export let hrefMailto = false;
 </script>
 
 <div class="contact">
-  <a href="mailto:hello@iroco.fr">
-    {$_('footer.mailto')}
-  </a>
+  {#if hrefMailto === true}
+    <a href="mailto:hello@iroco.fr">
+      {$_('footer.mailto')}
+    </a>
+  {:else}
+    <a href="/contact">
+      {$_('footer.mailto')}
+    </a>
+  {/if}
 </div>
 
 <style lang="scss">
