@@ -20,8 +20,12 @@
     margin: 1.5em auto 0;
     text-transform: initial;
     border-radius: constants.$border-radius;
+    width: fit-content;
     a {
       color: colors.$green;
     }
+  }
+  .contact:hover {
+    box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.2);
   }
 </style>
