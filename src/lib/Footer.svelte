@@ -6,25 +6,22 @@
 
 <footer>
   <div class="footer">
-    <div class="footer__newsletter">
-      <h3>{$_('footer.newsletter')}</h3>
-      <Contact />
-    </div>
     <div class="footer__contact">
-      <div class="footer__contact__socialmedia">
+      <div class="footer__contact__container">
         <h3>{$_('footer.socialmedia')}</h3>
-        <div class="footer__contact__icons">
-          <span class="footer__contact__icons__icon">
+        <Contact />
+        <div class="footer__contact__container__icons">
+          <span class="footer__contact__container__icons__icon">
             <a href="https://www.linkedin.com/company/irocodigital/">
               <Icon name="linkedin" width="1.5em" height="1.5em" />
             </a>
           </span>
-          <span class="footer__contact__icons__icon">
+          <span class="footer__contact__container__icons__icon">
             <a href="https://twitter.com/IrocoDigital">
               <Icon name="twitter" width="1.5em" height="1.5em" />
             </a>
           </span>
-          <span class="footer__contact__icons__icon">
+          <span class="footer__contact__container__icons__icon">
             <a href="https://mastodon.social/@iroco">
               <IconMastodon width="1.5em" height="1.5em" />
             </a>
@@ -71,17 +68,24 @@
       color: colors.$darkBeige;
     }
     &__contact {
-      &__icons {
-        display: flex;
-        &__icon {
-          padding: 15px;
-          text-align: center;
-          border-left: 1.5px solid colors.$mediumGrey;
-          border-right: 1.5px solid colors.$mediumGrey;
+      &__container {
+        &__icons {
+          display: flex;
+          justify-content: center;
+          margin-top: 1em;
+          &:last-child {
+            border-right: 1.5px solid colors.$mediumGrey;
+          }
+          &__icon {
+            padding: 15px 35.5px;
+            text-align: center;
+            border-left: 1.5px solid colors.$mediumGrey;
+          }
         }
       }
     }
   }
+
   .copyright {
     color: colors.$lightGrey;
     text-align: center;
