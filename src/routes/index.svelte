@@ -5,7 +5,6 @@
   import ImageArticle from '../lib/ImageArticle.svelte';
   import Newsletter from '../lib/Newsletter.svelte';
   import IrocologoSignupbutton from '../lib/IrocologoSignupbutton.svelte';
-  import { Icon, IrocoLogo } from '@iroco/ui/';
 </script>
 
 <svelte:head>
