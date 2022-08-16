@@ -21,7 +21,7 @@ describe('Testing Contact Component', () => {
   });
 
   test('prop hrefMail added leads to ', () => {
-    const { getByText } = render(Contact, { hrefMailto: true });
+    const { getByText } = render(Contact, { href: 'mailto:hello@iroco.fr' });
     expect(screen.getByText('Want to get in touch?').closest('a')).toHaveAttribute(
       'href',
       'mailto:hello@iroco.fr'
