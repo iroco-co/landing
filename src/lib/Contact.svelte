@@ -5,7 +5,7 @@
 </script>
 
 <div class="contact">
-  <a href={href}>
+  <a {href}>
     {$_('footer.mailto')}
   </a>
 </div>
