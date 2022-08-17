@@ -1,7 +1,7 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
 
-  export let href: 'mailto:hello@iroco.fr' | '/contact' = '/contact';
+  export let href: string;
 </script>
 
 <div class="contact">
