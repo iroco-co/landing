@@ -7,6 +7,7 @@
   import Energy from '../lib/Energy.svelte';
   import GreenHost from '../lib/GreenHost.svelte';
   import Plant from '../lib/Plant.svelte';
+  import Privacy from "../lib/Privacy.svelte";
 </script>
 
 <Header />
@@ -88,6 +89,24 @@
       <div class="signup__green__bullets__gesture">
         <Plant size="220" />
         <h4>{$_('signup.green.bullets.gesture')}</h4>
+      </div>
+    </div>
+  </div>
+  <div class="signup__privacy">
+    <h2>{$_('signup.privacy.title')}</h2>
+    <h2>{$_('signup.privacy.caption')}</h2>
+    <div class="signup__privacy__bullets">
+      <div class="signup__privacy__bullets__green">
+        <Privacy size="220" />
+        <h4>{$_('signup.privacy.bullets.privacy')}</h4>
+      </div>
+      <div class="signup__privacy__bullets__host">
+        <GreenHost size="220" />
+        <h4>{$_('signup.privacy.bullets.security')}</h4>
+      </div>
+      <div class="signup__privacy__bullets__gesture">
+        <Plant size="220" />
+        <h4>{$_('signup.privacy.bullets.server')}</h4>
       </div>
     </div>
   </div>
