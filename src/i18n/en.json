@@ -146,8 +146,8 @@
       "caption": "so we help you",
       "bullets": {
         "subscription": "Subscribing",
-        "client": "Configuring your email client",
-        "account": "Managing your account"
+        "client": "Configuring\nyour email client",
+        "account": "Managing\nyour account"
       }
     },
     "roadmap": {

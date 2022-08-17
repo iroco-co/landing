@@ -117,12 +117,8 @@
     </div>
   </div>
   <div class="signup__mail">
-    <h2>
-      {$_('signup.mail.title')}
-      <span>
-        {$_('signup.mail.caption')}
-      </span>
-    </h2>
+    <h2>{$_('signup.mail.title')}</h2>
+    <h2>{$_('signup.mail.caption')}</h2>
     <div class="signup__mail__bullets">
       <div class="signup__mail__bullets__subscription">
         <Mail />
@@ -352,6 +348,55 @@
 
         &__disconnect h4 {
           transform: translateY(0.5em);
+          @include screen-laptop {
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+    &__mail {
+      margin: 6em auto;
+      padding-top: 4em;
+      padding-bottom: 3em;
+      text-align: center;
+      background: colors.$nightBlue;
+
+      > h2:nth-child(2) {
+        color: colors.$green;
+      }
+
+      &__bullets {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        padding: 2em;
+        text-transform: uppercase;
+        white-space: pre-wrap;
+        @include screen-laptop {
+          flex-direction: column;
+        }
+
+        &__subscription,
+        &__client,
+        &__account {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-content: center;
+          @include screen-laptop {
+            margin-bottom: 2em;
+          }
+        }
+
+        &__subscription h4 {
+          transform: translateY(2em);
+          @include screen-laptop {
+            transform: translateY(0);
+          }
+        }
+
+        &__client h4 {
+          transform: translateY(2.9em);
           @include screen-laptop {
             transform: translateY(0);
           }

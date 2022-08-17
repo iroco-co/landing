@@ -149,8 +149,8 @@
       "caption": "alors on vous accompagne",
       "bullets": {
         "subscription": "Souscription",
-        "client": "Configuration de votre client mail",
-        "account": "Gestion de votre compte"
+        "client": "Configuration de\nvotre client mail",
+        "account": "Gestion de\nvotre compte"
       }
     },
     "roadmap": {
