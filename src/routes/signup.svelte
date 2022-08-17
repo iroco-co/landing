@@ -13,6 +13,7 @@
   import Ux from '../lib/Ux.svelte';
   import Zen from '../lib/Zen.svelte';
   import Disconnect from '../lib/Disconnect.svelte';
+  import Mail from '../lib/Mail.svelte';
 </script>
 
 <Header />
@@ -21,31 +22,9 @@
     <h2>{$_('signup.offer.title')}</h2>
     <div class="signup__offer__card">
       <div class="signup__offer__card__svglistgroup">
-        <svg class="signup__offer__card__svglistgroup__icon" viewBox="0 0 58.96 85.92" height="165">
-          <title>Mail</title>
-          <rect
-            x="1.95"
-            y="28.91"
-            width="55.06"
-            height="55.06"
-            fill="none"
-            stroke="#00d692"
-            stroke-linejoin="bevel"
-            stroke-width={1}
-          />
-          <rect
-            x="10.01"
-            y="9.44"
-            width="38.94"
-            height="38.94"
-            transform="translate(-11.81 29.31) rotate(-45)"
-            fill="none"
-            stroke="#fff"
-            stroke-linejoin="bevel"
-            stroke-width={1}
-          />
-        </svg>
-
+        <div class="signup__offer__card__svglistgroup__icon">
+          <Mail />
+        </div>
         <div class="signup__offer__card__svglistgroup__list">
           <div class="signup__offer__card__svglistgroup__list__header">
             <p>
@@ -137,6 +116,29 @@
       </div>
     </div>
   </div>
+  <div class="signup__mail">
+    <h2>
+      {$_('signup.mail.title')}
+      <span>
+        {$_('signup.mail.caption')}
+      </span>
+    </h2>
+    <div class="signup__mail__bullets">
+      <div class="signup__mail__bullets__subscription">
+        <Mail />
+        <h4>{$_('signup.mail.bullets.subscription')}</h4>
+      </div>
+      <div class="signup__mail__bullets__client">
+        <img src="/images/laptop.png" alt="Iroco webmail on laptop" width="250" />
+        <h4>{$_('signup.mail.bullets.client')}</h4>
+      </div>
+      <div class="signup__mail__bullets__account">
+        <Plant size="220" />
+        <h4>{$_('signup.mail.bullets.account')}</h4>
+      </div>
+    </div>
+  </div>
+
   <Contact />
 </main>
 <Footer />
@@ -169,11 +171,6 @@
           }
           &__icon {
             transform: translate(-10em, 0.8em);
-
-            @include screen-laptop-L {
-              max-width: 80%;
-              transform: translate(-5em, 0.8em);
-            }
 
             @include screen-laptop {
               transform: translate(-5em, 0.8em);
