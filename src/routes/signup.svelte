@@ -7,7 +7,9 @@
   import Energy from '../lib/Energy.svelte';
   import GreenHost from '../lib/GreenHost.svelte';
   import Plant from '../lib/Plant.svelte';
-  import Privacy from "../lib/Privacy.svelte";
+  import Privacy from '../lib/Privacy.svelte';
+  import Server from '../lib/Server.svelte';
+  import Security from '../lib/Security.svelte';
 </script>
 
 <Header />
@@ -96,16 +98,16 @@
     <h2>{$_('signup.privacy.title')}</h2>
     <h2>{$_('signup.privacy.caption')}</h2>
     <div class="signup__privacy__bullets">
-      <div class="signup__privacy__bullets__green">
+      <div class="signup__privacy__bullets__privacy">
         <Privacy size="220" />
         <h4>{$_('signup.privacy.bullets.privacy')}</h4>
       </div>
-      <div class="signup__privacy__bullets__host">
-        <GreenHost size="220" />
+      <div class="signup__privacy__bullets__security">
+        <Security size="151" />
         <h4>{$_('signup.privacy.bullets.security')}</h4>
       </div>
-      <div class="signup__privacy__bullets__gesture">
-        <Plant size="220" />
+      <div class="signup__privacy__bullets__server">
+        <Server size="150" />
         <h4>{$_('signup.privacy.bullets.server')}</h4>
       </div>
     </div>
@@ -218,6 +220,8 @@
         justify-content: space-around;
         align-content: center;
         padding: 2em;
+        text-transform: uppercase;
+        white-space: pre-wrap;
         @include screen-laptop {
           flex-direction: column;
         }
@@ -228,13 +232,43 @@
             margin-bottom: 2em;
           }
         }
+      }
+    }
+    &__privacy {
+      margin: 0 auto;
+      padding: 6em;
+      text-align: center;
+      background: colors.$nightBlue;
 
-        &__host {
-          white-space: pre-wrap;
+      @include screen-laptop {
+        padding: 3em;
+      }
+      > h2:nth-child(2) {
+        color: colors.$red;
+
+        @include screen-laptop {
+          line-height: 1.6em;
+        }
+      }
+
+      &__bullets {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        padding: 6em 0 2em;
+        text-transform: uppercase;
+        white-space: pre-wrap;
+
+        @include screen-laptop {
+          flex-direction: column;
+          padding: 4em 0 1em;
         }
 
-        h4 {
-          text-transform: uppercase;
+        &__privacy,
+        &__security {
+          @include screen-laptop {
+            padding-bottom: 2em;
+          }
         }
       }
     }
