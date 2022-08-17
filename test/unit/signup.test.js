@@ -11,8 +11,9 @@ addMessages('en', en);
 init({ fallbackLocale: 'en', initialLocale: 'en' });
 
 describe('Testing Signup Page', () => {
-  test('its titles are correctly rendered', () => {
+  test('headers are correctly rendered', () => {
     const { getByText } = render(signup);
     expect(getByText('Our offer')).toBeInTheDocument();
+    expect(getByText("If it's free, it's the planet the product")).toBeInTheDocument();
   });
 });

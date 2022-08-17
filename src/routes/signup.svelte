@@ -4,6 +4,9 @@
   import Footer from '../lib/Footer.svelte';
   import Contact from '../lib/Contact.svelte';
   import { Icon } from '@iroco/ui/';
+  import Energy from '../lib/Energy.svelte';
+  import GreenHost from '../lib/GreenHost.svelte';
+  import Plant from '../lib/Plant.svelte';
 </script>
 
 <Header />
@@ -67,6 +70,24 @@
           <Icon name="chevron-right" color="colors.$beige" />
           {$_('signup.offer.buttons.details')}
         </a>
+      </div>
+    </div>
+  </div>
+  <div class="signup__green">
+    <h2>{$_('signup.green.title')}</h2>
+    <p>{$_('signup.green.p')}</p>
+    <div class="signup__green__bullets">
+      <div class="signup__green__bullets__green">
+        <Energy size="220" />
+        <h4>{$_('signup.green.bullets.energy')}</h4>
+      </div>
+      <div class="signup__green__bullets__host">
+        <GreenHost size="220" />
+        <h4>{$_('signup.green.bullets.host')}</h4>
+      </div>
+      <div class="signup__green__bullets__gesture">
+        <Plant size="220" />
+        <h4>{$_('signup.green.bullets.gesture')}</h4>
       </div>
     </div>
   </div>
@@ -154,6 +175,43 @@
             justify-content: center;
             align-items: center;
           }
+        }
+      }
+    }
+    &__green {
+      margin: 6em auto;
+      text-align: center;
+      & > h2 {
+        @include screen-laptop {
+          line-height: 1.6em;
+        }
+      }
+      & > p {
+        margin: 3em auto;
+        width: 70%;
+
+        @include screen-laptop {
+          width: 90%;
+        }
+      }
+      &__bullets {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        padding: 3em;
+        @include screen-laptop {
+          flex-direction: column;
+        }
+
+        &__green,
+        &__host {
+          @include screen-laptop {
+            margin-bottom: 2em;
+          }
+        }
+
+        &__host {
+          white-space: pre-wrap;
         }
       }
     }
