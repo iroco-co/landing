@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let size: number;
+  export let size: number | string;
 </script>
 
 <span class="navigation-landing-assets-server small">
