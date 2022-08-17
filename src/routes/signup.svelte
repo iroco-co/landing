@@ -198,7 +198,7 @@
         display: flex;
         justify-content: space-around;
         align-content: center;
-        padding: 3em;
+        padding: 2em;
         @include screen-laptop {
           flex-direction: column;
         }
@@ -212,6 +212,10 @@
 
         &__host {
           white-space: pre-wrap;
+        }
+
+        h4 {
+          text-transform: uppercase;
         }
       }
     }
