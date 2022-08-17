@@ -135,10 +135,11 @@
         "server": "Serveurs en France\nSouveraineté numérique"
       },
       "respect": {
-        "title": "et qui vous respecte",
+        "title": "et qui ",
+        "yellow": "vous respecte",
         "bullets": {
-          "ux": "UX ergonomique et épurée",
-          "mentalload": "Diminution de la charge mentale",
+          "ux": "UX ergonomique\net épurée",
+          "mental-load": "Diminution de\nla charge mentale",
           "disconnect": "Déconnexion facilitée\nPas d'addiction"
         }
       }

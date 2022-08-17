@@ -132,10 +132,11 @@
         "server": "Servers in France\nDigital sovereignty"
       },
       "respect": {
-        "title": "and that respects you",
+        "title": "and that ",
+        "yellow": "respects you",
         "bullets": {
-          "ux": "Ergonomic and clean UX",
-          "mentalload": "Reduction of mental load",
+          "ux": "Ergonomic\nand clean UX",
+          "mental-load": "Reduction of\nmental load",
           "disconnect": "Easier to disconnect\nNo addiction"
         }
       }

@@ -10,6 +10,9 @@
   import Privacy from '../lib/Privacy.svelte';
   import Server from '../lib/Server.svelte';
   import Security from '../lib/Security.svelte';
+  import Ux from '../lib/Ux.svelte';
+  import Zen from '../lib/Zen.svelte';
+  import Disconnect from '../lib/Disconnect.svelte';
 </script>
 
 <Header />
@@ -109,6 +112,28 @@
       <div class="signup__privacy__bullets__server">
         <Server size="150" />
         <h4>{$_('signup.privacy.bullets.server')}</h4>
+      </div>
+    </div>
+  </div>
+  <div class="signup__respect">
+    <h2>
+      {$_('signup.privacy.respect.title')}
+      <span>
+        {$_('signup.privacy.respect.yellow')}
+      </span>
+    </h2>
+    <div class="signup__respect__bullets">
+      <div class="signup__respect__bullets__ux">
+        <Ux />
+        <h4>{$_('signup.privacy.respect.bullets.ux')}</h4>
+      </div>
+      <div class="signup__respect__bullets__mental-load">
+        <Zen />
+        <h4>{$_('signup.privacy.respect.bullets.mental-load')}</h4>
+      </div>
+      <div class="signup__respect__bullets__disconnect">
+        <Disconnect />
+        <h4>{$_('signup.privacy.respect.bullets.disconnect')}</h4>
       </div>
     </div>
   </div>
@@ -235,8 +260,8 @@
       }
     }
     &__privacy {
-      margin: 0 auto;
-      padding: 6em;
+      margin: 2em auto;
+      padding-top: 4em;
       text-align: center;
       background: colors.$nightBlue;
 
@@ -265,9 +290,73 @@
         }
 
         &__privacy,
-        &__security {
+        &__security,
+        &__server {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-content: center;
           @include screen-laptop {
-            padding-bottom: 2em;
+            margin-bottom: 2em;
+          }
+        }
+
+        &__security h4 {
+          transform: translateY(2.5em);
+          @include screen-laptop {
+            transform: translateY(0);
+          }
+        }
+
+        &__server h4 {
+          transform: translateY(3.5em);
+          @include screen-laptop {
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+    &__respect {
+      margin: 6em auto;
+      text-align: center;
+      span {
+        color: colors.$yellow;
+      }
+
+      &__bullets {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        padding: 2em;
+        text-transform: uppercase;
+        white-space: pre-wrap;
+        @include screen-laptop {
+          flex-direction: column;
+        }
+
+        &__mental-load,
+        &__ux,
+        &__disconnect {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-content: center;
+          @include screen-laptop {
+            margin-bottom: 2em;
+          }
+        }
+
+        &__mental-load h4 {
+          transform: translateY(3.5em);
+          @include screen-laptop {
+            transform: translateY(0);
+          }
+        }
+
+        &__disconnect h4 {
+          transform: translateY(0.5em);
+          @include screen-laptop {
+            transform: translateY(0);
           }
         }
       }
