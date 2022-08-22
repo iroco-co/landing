@@ -134,7 +134,37 @@
       </div>
     </div>
   </div>
-
+  <div class="signup__roadmap">
+    <h2>{$_('signup.roadmap.title')}</h2>
+    <p class="signup__roadmap__paragraph">{$_('signup.roadmap.p')}</p>
+    <div class="signup__roadmap__dates">
+      <div class="signup__roadmap__dates__date">
+        <h4>{$_('signup.roadmap.ul.servers.title')}</h4>
+        <h4>{$_('signup.roadmap.ul.servers.date')}</h4>
+        <p>{$_('signup.roadmap.ul.servers.details')}</p>
+      </div>
+      <div class="signup__roadmap__dates__date">
+        <h4>{$_('signup.roadmap.ul.client.title')}</h4>
+        <h4>{$_('signup.roadmap.ul.client.date')}</h4>
+        <p>{$_('signup.roadmap.ul.client.details')}</p>
+      </div>
+      <div class="signup__roadmap__dates__date">
+        <h4>{$_('signup.roadmap.ul.company.title')}</h4>
+        <h4>{$_('signup.roadmap.ul.company.date')}</h4>
+        <p>{$_('signup.roadmap.ul.company.details')}</p>
+      </div>
+      <div class="signup__roadmap__dates__date">
+        <h4>{$_('signup.roadmap.ul.webmail.title')}</h4>
+        <h4>{$_('signup.roadmap.ul.webmail.date')}</h4>
+        <p>{$_('signup.roadmap.ul.webmail.details')}</p>
+      </div>
+      <div class="signup__roadmap__dates__date">
+        <h4>{$_('signup.roadmap.ul.file.title')}</h4>
+        <h4>{$_('signup.roadmap.ul.file.date')}</h4>
+        <p>{$_('signup.roadmap.ul.file.details')}</p>
+      </div>
+    </div>
+  </div>
   <Contact />
 </main>
 <Footer />
@@ -399,6 +429,25 @@
           transform: translateY(2.9em);
           @include screen-laptop {
             transform: translateY(0);
+          }
+        }
+      }
+    }
+    &__roadmap {
+      &__paragraph {
+        margin: 3em auto;
+        width: 80%;
+      }
+      &__dates {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-bottom: 3em;
+
+        &__date {
+          > p {
+            font-size: small;
+            width: 80%;
           }
         }
       }
