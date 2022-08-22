@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let size: number | string;
+  export let size: number;
 </script>
 
 <span class="energy">
