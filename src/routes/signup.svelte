@@ -14,6 +14,7 @@
   import Zen from '../lib/Zen.svelte';
   import Disconnect from '../lib/Disconnect.svelte';
   import Mail from '../lib/Mail.svelte';
+  import EventList from '../lib/EventList.svelte';
 </script>
 
 <Header />
@@ -137,33 +138,35 @@
   <div class="signup__roadmap">
     <h2>{$_('signup.roadmap.title')}</h2>
     <p class="signup__roadmap__paragraph">{$_('signup.roadmap.p')}</p>
-    <div class="signup__roadmap__dates">
-      <div class="signup__roadmap__dates__date">
-        <h4>{$_('signup.roadmap.ul.servers.title')}</h4>
-        <h4>{$_('signup.roadmap.ul.servers.date')}</h4>
-        <p>{$_('signup.roadmap.ul.servers.details')}</p>
-      </div>
-      <div class="signup__roadmap__dates__date">
-        <h4>{$_('signup.roadmap.ul.client.title')}</h4>
-        <h4>{$_('signup.roadmap.ul.client.date')}</h4>
-        <p>{$_('signup.roadmap.ul.client.details')}</p>
-      </div>
-      <div class="signup__roadmap__dates__date">
-        <h4>{$_('signup.roadmap.ul.company.title')}</h4>
-        <h4>{$_('signup.roadmap.ul.company.date')}</h4>
-        <p>{$_('signup.roadmap.ul.company.details')}</p>
-      </div>
-      <div class="signup__roadmap__dates__date">
-        <h4>{$_('signup.roadmap.ul.webmail.title')}</h4>
-        <h4>{$_('signup.roadmap.ul.webmail.date')}</h4>
-        <p>{$_('signup.roadmap.ul.webmail.details')}</p>
-      </div>
-      <div class="signup__roadmap__dates__date">
-        <h4>{$_('signup.roadmap.ul.file.title')}</h4>
-        <h4>{$_('signup.roadmap.ul.file.date')}</h4>
-        <p>{$_('signup.roadmap.ul.file.details')}</p>
-      </div>
-    </div>
+    <EventList
+      eventList={[
+        {
+          title: $_('signup.roadmap.ul.servers.title'),
+          year: $_('signup.roadmap.ul.servers.date'),
+          details: $_('signup.roadmap.ul.servers.details')
+        },
+        {
+          title: $_('signup.roadmap.ul.client.title'),
+          year: $_('signup.roadmap.ul.client.date'),
+          details: $_('signup.roadmap.ul.client.details')
+        },
+        {
+          title: $_('signup.roadmap.ul.company.title'),
+          year: $_('signup.roadmap.ul.company.date'),
+          details: $_('signup.roadmap.ul.company.details')
+        },
+        {
+          title: $_('signup.roadmap.ul.webmail.title'),
+          year: $_('signup.roadmap.ul.webmail.date'),
+          details: $_('signup.roadmap.ul.webmail.details')
+        },
+        {
+          title: $_('signup.roadmap.ul.file.title'),
+          year: $_('signup.roadmap.ul.file.date'),
+          details: $_('signup.roadmap.ul.file.details')
+        }
+      ]}
+    />
   </div>
   <Contact />
 </main>
@@ -437,19 +440,6 @@
       &__paragraph {
         margin: 3em auto;
         width: 80%;
-      }
-      &__dates {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
-        margin-bottom: 3em;
-
-        &__date {
-          > p {
-            font-size: small;
-            width: 80%;
-          }
-        }
       }
     }
   }
