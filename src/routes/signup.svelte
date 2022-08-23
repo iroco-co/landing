@@ -168,6 +168,249 @@
       ]}
     />
   </div>
+  <div class="signup__faq">
+    <h2>{$_('signup.faq.title')}</h2>
+    <p class="signup__faq__paragraph">{$_('signup.faq.p')}</p>
+    <div class="signup__faq__q-a">
+      <div id="offercontent" class="signup__faq__q-a__offercontent">
+        <h4>{$_('signup.faq.questions.offercontent.title')}</h4>
+        <p>{$_('signup.faq.questions.offercontent.p')}</p>
+        <ul>
+          <li>{$_('signup.faq.questions.offercontent.list.address')}</li>
+          <li>{$_('signup.faq.questions.offercontent.list.mailbox')}</li>
+          <li>{$_('signup.faq.questions.offercontent.list.aliases')}</li>
+          <li>{$_('signup.faq.questions.offercontent.list.contact-calendar')}</li>
+        </ul>
+        <p>
+          {$_('signup.faq.questions.offercontent.nowebmail')}
+          <a href="#configuration">
+            {$_('signup.faq.questions.offercontent.configurationquestion')}
+          </a>
+          {$_('signup.faq.questions.offercontent.nowebmailtofollow')}
+        </p>
+        <p>{$_('signup.faq.questions.offercontent.soon')}</p>
+      </div>
+
+      <div id="ecofriendlyservice" class="signup__faq__q-a__ecofriendlyservice">
+        <h4>{$_('signup.faq.questions.ecofriendlyservice.title')}</h4>
+        <p>{$_('signup.faq.questions.ecofriendlyservice.behind')}</p>
+        <p>{$_('signup.faq.questions.ecofriendlyservice.detail')}</p>
+        <ul>
+          <li>{$_('signup.faq.questions.ecofriendlyservice.list.ecoresponsibility')}</li>
+          <li>
+            {$_('signup.faq.questions.ecofriendlyservice.list.ecoconception.frugalapps')}
+            <a href="https://blog.iroco.co/">
+              {$_('signup.faq.questions.ecofriendlyservice.list.ecoconception.blog')}
+            </a>
+            {$_('signup.faq.questions.ecofriendlyservice.list.ecoconception.overview')}
+          </li>
+          <li>{$_('signup.faq.questions.ecofriendlyservice.list.ecodesign')}</li>
+        </ul>
+        <p>
+          {$_('signup.faq.questions.ecofriendlyservice.impact.numeric')}
+          <a href="https://fresquedunumerique.org/">
+            {$_('signup.faq.questions.ecofriendlyservice.impact.fresque')}
+          </a>
+          {$_('signup.faq.questions.ecofriendlyservice.impact.preferences')}
+          <a href="https://blog.iroco.co/publications-reference-numerique-responsable/">
+            {$_('signup.faq.questions.ecofriendlyservice.impact.publications')}
+          </a>
+          {$_('signup.faq.questions.ecofriendlyservice.impact.question')}
+        </p>
+        <p>{$_('signup.faq.questions.ecofriendlyservice.print')}</p>
+      </div>
+      <div id="data" class="signup__faq__q-a__data">
+        <h4>{$_('signup.faq.questions.data.title')}</h4>
+        <p>{$_('signup.faq.questions.data.p')}</p>
+        <p>{$_('signup.faq.questions.data.personal')}</p>
+        <p>{$_('signup.faq.questions.data.access')}</p>
+        <p>{$_('signup.faq.questions.data.detail')}</p>
+        <ul>
+          <li>
+            {$_('signup.faq.questions.data.list.provider.collect')}
+            <strong>{$_('signup.faq.questions.data.list.provider.lastname')}</strong>,
+            <strong>{$_('signup.faq.questions.data.list.provider.firstname')}</strong>
+            {$_('signup.faq.questions.data.list.provider.and')}
+            <strong>{$_('signup.faq.questions.data.list.provider.invoice')}</strong> .
+          </li>
+          <li>
+            {$_('signup.faq.questions.data.list.also.collect')}
+            <strong>{$_('signup.faq.questions.data.list.also.bank')}</strong>
+            {$_('signup.faq.questions.data.list.also.noaccess')}
+          </li>
+          <li>
+            {$_('signup.faq.questions.data.list.last.store')}
+            <strong>{$_('signup.faq.questions.data.list.last.mail')}</strong>,
+            {$_('signup.faq.questions.data.list.last.iroco')}
+            <strong>{$_('signup.faq.questions.data.list.last.alias')}</strong>
+            {$_('signup.faq.questions.data.list.last.pass')}
+            <strong>{$_('signup.faq.questions.data.list.last.encrypted')}</strong>
+            {$_('signup.faq.questions.data.list.last.noaccess')}
+          </li>
+        </ul>
+      </div>
+      <div id="costprice" class="signup__faq__q-a__paidservice">
+        <h4>{$_('signup.faq.questions.paidservice.title')}</h4>
+        <p>{$_('signup.faq.questions.paidservice.others')}</p>
+        <p>{$_('signup.faq.questions.paidservice.iroco')}</p>
+      </div>
+
+      <div id="subscription" class="signup__faq__q-a__subscription">
+        <h4>{$_('signup.faq.questions.subscription.title')}</h4>
+        <p>{$_('signup.faq.questions.subscription.emailservice')}</p>
+        <p>{$_('signup.faq.questions.subscription.detail')}</p>
+        <ul>
+          <li>{$_('signup.faq.questions.subscription.list.taxes')}</li>
+          <li>{$_('signup.faq.questions.subscription.list.fee')}</li>
+          <li>{$_('signup.faq.questions.subscription.list.deployment')}</li>
+          <li>{$_('signup.faq.questions.subscription.list.rest')}</li>
+        </ul>
+        <span class="signup__faq__q-a__subscription__chart">
+          <title>Subscription Chart</title>
+          <svg
+            preserveAspectRatio="xMaxYMin meet"
+            viewBox="0 0 950 400"
+            height="400"
+            width={(5 * 400) / 3}
+          >
+            <g data-z-index="3">
+              <g data-z-index=".1" stroke-linejoin="round">
+                <path fill="#FFE032" d="M324.977 82.2a114.8 114.8 0 0 1 109.174 79.233L325 197z" />
+                <path fill="#ff504d" d="M434.187 161.542a114.8 114.8 0 0 1 4.219 53.294L325 197z" />
+                <path fill="#00B9FF" d="M438.388 214.95A114.8 114.8 0 0 1 210.2 197.068L325 197z" />
+                <path fill="#00d692" d="M203.2 189.953A114.8 114.8 0 0 1 317.84 75.2L318 190z" />
+              </g>
+            </g>
+            <g data-z-index="6">
+              <path
+                fill="none"
+                stroke="#ffe032"
+                d="M415.111 79.854c-5 0-15.58 14.563-19.107 19.417l-3.526 4.854"
+              />
+              <path
+                fill="none"
+                stroke="#ff504d"
+                d="M474.354 185.64c-5 0-22.945 1.411-28.926 1.882l-5.982.47"
+              />
+              <path
+                fill="none"
+                stroke="#00b9ff"
+                d="M308.64 341.354c5 0 6.411-17.945 6.882-23.926l.47-5.982"
+              />
+              <path
+                fill="none"
+                stroke="#00d692"
+                d="M217.61 94.61c5 0 17.729 12.729 21.972 16.972l4.242 4.242"
+              />
+              <g>
+                <text x="5" data-z-index="1" y="16" transform="translate(420 70)" fill="#f2ebe3">
+                  <tspan>{$_('signup.faq.questions.subscription.chart.tax.title')}</tspan>
+                  &nbsp;{$_('signup.faq.questions.subscription.chart.tax.percentage')}
+                </text>
+              </g>
+              <g>
+                <text
+                  x="5"
+                  data-z-index="1"
+                  y="16"
+                  transform="translate(479 176)"
+                  fill="#f2ebe3"
+                  font-fontSize="1em"
+                >
+                  <tspan>{$_('signup.faq.questions.subscription.chart.payment.title')}</tspan>
+                  &nbsp;{$_('signup.faq.questions.subscription.chart.payment.percentage')}
+                </text>
+              </g>
+              <g>
+                <text
+                  x="5"
+                  data-z-index="1"
+                  y="16"
+                  transform="translate(182 347)"
+                  fill="#f2ebe3"
+                  font-fontSize="1rem"
+                >
+                  <tspan>{$_('signup.faq.questions.subscription.chart.hosting.title')}</tspan>
+                  &nbsp;{$_('signup.faq.questions.subscription.chart.hosting.percentage')}
+                </text>
+              </g>
+              <g>
+                <text
+                  x="5"
+                  data-z-index="1"
+                  y="16"
+                  transform="translate(90 85)"
+                  fill="#f2ebe3"
+                  font-fontSize="1rem"
+                >
+                  <tspan>{$_('signup.faq.questions.subscription.chart.iroco.title')}</tspan>
+                  &nbsp;{$_('signup.faq.questions.subscription.chart.iroco.percentage')}
+                </text>
+              </g>
+            </g>
+          </svg>
+        </span>
+      </div>
+
+      <div id="nonbindingoffer" class="signup__faq__q-a__offer">
+        <h4>{$_('signup.faq.questions.offer.title')}</h4>
+        <p>{$_('signup.faq.questions.offer.p')}</p>
+      </div>
+
+      <div id="withdrawal" class="signup__faq__q-a__withdrawal">
+        <h4>{$_('signup.faq.questions.withdrawal.title')}</h4>
+        <p>{$_('signup.faq.questions.withdrawal.p')}</p>
+      </div>
+
+      <div id="configuration" class="signup__faq__q-a__configuration">
+        <h4>{$_('signup.faq.questions.configuration.title')}</h4>
+        <p>{$_('signup.faq.questions.configuration.introduction')}</p>
+        <ul>
+          <li>{$_('signup.faq.questions.configuration.imap')}</li>
+          <li>{$_('signup.faq.questions.configuration.smtp')}</li>
+        </ul>
+        <p>{$_('signup.faq.questions.configuration.user')}</p>
+        <p>
+          {$_('signup.faq.questions.configuration.imap-example')}
+          <img alt="imap configuration example" src="/images/imap.png" width="95%" />
+        </p>
+        <p>
+          {$_('signup.faq.questions.configuration.smtp-example')}
+          <img alt="smtp configuration example" src="/images/smtp.png" width="95%" />
+        </p>
+      </div>
+
+      <div id="emailsyntax" class="signup__faq__q-a__emailsyntax">
+        <h4>{$_('signup.faq.questions.emailsyntax.title')}</h4>
+        <p>{$_('signup.faq.questions.emailsyntax.introduction')}</p>
+        <p>{$_('signup.faq.questions.emailsyntax.local-part')}</p>
+        <p>{$_('signup.faq.questions.emailsyntax.local-part-exclude')}</p>
+        <p>
+          {$_('signup.faq.questions.emailsyntax.local-part-spec')}
+          <a href="https://datatracker.ietf.org/doc/html/rfc5322">RFC 5322</a>.
+        </p>
+      </div>
+
+      <div id="cookies" class="signup__faq__q-a__cookies">
+        <h4>{$_('signup.faq.questions.cookies.title')}</h4>
+        <p>
+          {$_('signup.faq.questions.cookies.weuse')}
+          <a href="https://fr.matomo.org/matomo-on-premise/">Matomo</a>
+          {$_('signup.faq.questions.cookies.selfhosted')}
+          <a
+            href="https://www.cnil.fr/sites/default/files/atoms/files/matomo_analytics_-_exemption_-_guide_de_configuration.pdf"
+          >
+            {$_('signup.faq.questions.cookies.recommendations')}
+          </a>
+          {$_('signup.faq.questions.cookies.cnil')}
+        </p>
+        <iframe
+          title="matomo"
+          src="https://matomo.iroco.co/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=211d28&fontColor=f2ebe3&fontSize=&fontFamily=Arial"
+        />
+      </div>
+    </div>
+  </div>
   <Contact />
 </main>
 <Footer />
@@ -440,6 +683,53 @@
       &__paragraph {
         margin: 3em auto;
         width: 80%;
+      }
+    }
+    &__faq {
+      background: colors.$nightBlue;
+      padding: 4em;
+
+      h2 {
+        margin-bottom: 2em;
+      }
+      &__paragraph {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto 3em;
+      }
+      &__q-a {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        > div {
+          margin: 0.5em 2em;
+        }
+        h4 {
+          color: colors.$darkBeige;
+        }
+        p {
+          font-size: 14px;
+          white-space: pre-wrap;
+        }
+        ul {
+          padding-left: 2em;
+        }
+        a {
+          font-weight: bold;
+          color: colors.$green;
+        }
+      }
+      .center {
+        display: block;
+        margin: auto;
+      }
+
+      &__subscription {
+        &__chart {
+          width: 100%;
+          display: block;
+          margin: auto;
+        }
       }
     }
   }

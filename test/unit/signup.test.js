@@ -18,5 +18,6 @@ describe('Testing Signup Page', () => {
     expect(getByText('Ethics and confidentiality')).toBeInTheDocument();
     expect(getByText("We don't change email every year")).toBeInTheDocument();
     expect(getByText('Roadmap')).toBeInTheDocument();
+    expect(getByText('FAQ')).toBeInTheDocument();
   });
 });
