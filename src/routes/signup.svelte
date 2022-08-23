@@ -636,10 +636,6 @@
           color: colors.$green;
         }
       }
-      .center {
-        display: block;
-        margin: auto;
-      }
     }
   }
 </style>
