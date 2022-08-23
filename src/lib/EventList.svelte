@@ -14,10 +14,17 @@
 </div>
 
 <style lang="scss">
+  @import 'node_modules/@iroco/ui/lib/containers';
   .eventList {
     display: flex;
     margin-bottom: 6em;
+    @include screen-laptop {
+      flex-wrap: wrap;
+    }
     &__event {
+      @include screen-laptop {
+        flex: 1 1 200px;
+      }
       p {
         width: 80%;
         font-size: small;

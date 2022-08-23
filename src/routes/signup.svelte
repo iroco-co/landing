@@ -554,6 +554,12 @@
       text-align: center;
       background: colors.$nightBlue;
 
+      > h2 {
+        @include screen-laptop {
+          line-height: 1.5;
+        }
+      }
+
       > h2:nth-child(2) {
         color: colors.$green;
       }
@@ -593,6 +599,10 @@
           @include screen-laptop {
             transform: translateY(0);
           }
+        }
+        &__client img {
+          display: block;
+          margin: 0 auto;
         }
       }
     }
