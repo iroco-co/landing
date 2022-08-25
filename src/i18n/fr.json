@@ -320,7 +320,8 @@
           "local-part-spec": "Pour ceux qui veulent approfondir, voici la spécification"
         }
       },
-      "button": "Read more"
+      "button": "Lire la suite",
+      "close": "Réduire"
     }
   },
   "contact": {

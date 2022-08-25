@@ -3,7 +3,7 @@
   import Header from '../lib/Header.svelte';
   import Footer from '../lib/Footer.svelte';
   import Contact from '../lib/Contact.svelte';
-  import { Icon } from '@iroco/ui/';
+  import { Icon, Button } from '@iroco/ui/';
   import Energy from '../lib/Energy.svelte';
   import GreenHost from '../lib/GreenHost.svelte';
   import Plant from '../lib/Plant.svelte';
@@ -16,6 +16,8 @@
   import Mail from '../lib/Mail.svelte';
   import EventList from '../lib/EventList.svelte';
   import Chart from '../lib/Chart.svelte';
+
+  export let readMore: boolean;
 </script>
 
 <Header />
@@ -172,159 +174,167 @@
   <div class="signup__faq">
     <h2>{$_('signup.faq.title')}</h2>
     <p class="signup__faq__paragraph">{$_('signup.faq.p')}</p>
-    <div class="signup__faq__q-a">
-      <div id="offercontent" class="signup__faq__q-a__offercontent">
-        <h4>{$_('signup.faq.questions.offercontent.title')}</h4>
-        <p>{$_('signup.faq.questions.offercontent.p')}</p>
-        <ul>
-          <li>{$_('signup.faq.questions.offercontent.list.address')}</li>
-          <li>{$_('signup.faq.questions.offercontent.list.mailbox')}</li>
-          <li>{$_('signup.faq.questions.offercontent.list.aliases')}</li>
-          <li>{$_('signup.faq.questions.offercontent.list.contact-calendar')}</li>
-        </ul>
-        <p>
-          {$_('signup.faq.questions.offercontent.nowebmail')}
-          <a href="#configuration">
-            {$_('signup.faq.questions.offercontent.configurationquestion')}
-          </a>
-          {$_('signup.faq.questions.offercontent.nowebmailtofollow')}
-        </p>
-        <p>{$_('signup.faq.questions.offercontent.soon')}</p>
-      </div>
-
-      <div id="ecofriendlyservice" class="signup__faq__q-a__ecofriendlyservice">
-        <h4>{$_('signup.faq.questions.ecofriendlyservice.title')}</h4>
-        <p>{$_('signup.faq.questions.ecofriendlyservice.behind')}</p>
-        <p>{$_('signup.faq.questions.ecofriendlyservice.detail')}</p>
-        <ul>
-          <li>{$_('signup.faq.questions.ecofriendlyservice.list.ecoresponsibility')}</li>
-          <li>
-            {$_('signup.faq.questions.ecofriendlyservice.list.ecoconception.frugalapps')}
-            <a href="https://blog.iroco.co/">
-              {$_('signup.faq.questions.ecofriendlyservice.list.ecoconception.blog')}
+    <div class="signup__faq__container">
+      <div class="signup__faq__container__q-a" class:opened={readMore ? 'opened' : ''}>
+        <div id="offercontent" class="signup__faq__q-a__offercontent">
+          <h4>{$_('signup.faq.questions.offercontent.title')}</h4>
+          <p>{$_('signup.faq.questions.offercontent.p')}</p>
+          <ul>
+            <li>{$_('signup.faq.questions.offercontent.list.address')}</li>
+            <li>{$_('signup.faq.questions.offercontent.list.mailbox')}</li>
+            <li>{$_('signup.faq.questions.offercontent.list.aliases')}</li>
+            <li>{$_('signup.faq.questions.offercontent.list.contact-calendar')}</li>
+          </ul>
+          <p>
+            {$_('signup.faq.questions.offercontent.nowebmail')}
+            <a href="#configuration">
+              {$_('signup.faq.questions.offercontent.configurationquestion')}
             </a>
-            {$_('signup.faq.questions.ecofriendlyservice.list.ecoconception.overview')}
-          </li>
-          <li>{$_('signup.faq.questions.ecofriendlyservice.list.ecodesign')}</li>
-        </ul>
-        <p>
-          {$_('signup.faq.questions.ecofriendlyservice.impact.numeric')}
-          <a href="https://fresquedunumerique.org/">
-            {$_('signup.faq.questions.ecofriendlyservice.impact.fresque')}
-          </a>
-          {$_('signup.faq.questions.ecofriendlyservice.impact.preferences')}
-          <a href="https://blog.iroco.co/publications-reference-numerique-responsable/">
-            {$_('signup.faq.questions.ecofriendlyservice.impact.publications')}
-          </a>
-          {$_('signup.faq.questions.ecofriendlyservice.impact.question')}
-        </p>
-        <p>{$_('signup.faq.questions.ecofriendlyservice.print')}</p>
+            {$_('signup.faq.questions.offercontent.nowebmailtofollow')}
+          </p>
+          <p>{$_('signup.faq.questions.offercontent.soon')}</p>
+        </div>
+        <div id="ecofriendlyservice" class="signup__faq__q-a__ecofriendlyservice">
+          <h4>{$_('signup.faq.questions.ecofriendlyservice.title')}</h4>
+          <p>{$_('signup.faq.questions.ecofriendlyservice.behind')}</p>
+          <p>{$_('signup.faq.questions.ecofriendlyservice.detail')}</p>
+          <ul>
+            <li>{$_('signup.faq.questions.ecofriendlyservice.list.ecoresponsibility')}</li>
+            <li>
+              {$_('signup.faq.questions.ecofriendlyservice.list.ecoconception.frugalapps')}
+              <a href="https://blog.iroco.co/">
+                {$_('signup.faq.questions.ecofriendlyservice.list.ecoconception.blog')}
+              </a>
+              {$_('signup.faq.questions.ecofriendlyservice.list.ecoconception.overview')}
+            </li>
+            <li>{$_('signup.faq.questions.ecofriendlyservice.list.ecodesign')}</li>
+          </ul>
+          <p>
+            {$_('signup.faq.questions.ecofriendlyservice.impact.numeric')}
+            <a href="https://fresquedunumerique.org/">
+              {$_('signup.faq.questions.ecofriendlyservice.impact.fresque')}
+            </a>
+            {$_('signup.faq.questions.ecofriendlyservice.impact.preferences')}
+            <a href="https://blog.iroco.co/publications-reference-numerique-responsable/">
+              {$_('signup.faq.questions.ecofriendlyservice.impact.publications')}
+            </a>
+            {$_('signup.faq.questions.ecofriendlyservice.impact.question')}
+          </p>
+          <p>{$_('signup.faq.questions.ecofriendlyservice.print')}</p>
+        </div>
+        <div id="data" class="signup__faq__q-a__data">
+          <h4>{$_('signup.faq.questions.data.title')}</h4>
+          <p>{$_('signup.faq.questions.data.p')}</p>
+          <p>{$_('signup.faq.questions.data.personal')}</p>
+          <p>{$_('signup.faq.questions.data.access')}</p>
+          <p>{$_('signup.faq.questions.data.detail')}</p>
+          <ul>
+            <li>
+              {$_('signup.faq.questions.data.list.provider.collect')}
+              <strong>{$_('signup.faq.questions.data.list.provider.lastname')}</strong>,
+              <strong>{$_('signup.faq.questions.data.list.provider.firstname')}</strong>
+              {$_('signup.faq.questions.data.list.provider.and')}
+              <strong>{$_('signup.faq.questions.data.list.provider.invoice')}</strong> .
+            </li>
+            <li>
+              {$_('signup.faq.questions.data.list.also.collect')}
+              <strong>{$_('signup.faq.questions.data.list.also.bank')}</strong>
+              {$_('signup.faq.questions.data.list.also.noaccess')}
+            </li>
+            <li>
+              {$_('signup.faq.questions.data.list.last.store')}
+              <strong>{$_('signup.faq.questions.data.list.last.mail')}</strong>,
+              {$_('signup.faq.questions.data.list.last.iroco')}
+              <strong>{$_('signup.faq.questions.data.list.last.alias')}</strong>
+              {$_('signup.faq.questions.data.list.last.pass')}
+              <strong>{$_('signup.faq.questions.data.list.last.encrypted')}</strong>
+              {$_('signup.faq.questions.data.list.last.noaccess')}
+            </li>
+          </ul>
+        </div>
+        <div id="costprice" class="signup__faq__q-a__paidservice">
+          <h4>{$_('signup.faq.questions.paidservice.title')}</h4>
+          <p>{$_('signup.faq.questions.paidservice.others')}</p>
+          <p>{$_('signup.faq.questions.paidservice.iroco')}</p>
+        </div>
+        <div id="subscription" class="signup__faq__q-a__subscription">
+          <h4>{$_('signup.faq.questions.subscription.title')}</h4>
+          <p>{$_('signup.faq.questions.subscription.emailservice')}</p>
+          <p>{$_('signup.faq.questions.subscription.detail')}</p>
+          <ul>
+            <li>{$_('signup.faq.questions.subscription.list.taxes')}</li>
+            <li>{$_('signup.faq.questions.subscription.list.fee')}</li>
+            <li>{$_('signup.faq.questions.subscription.list.deployment')}</li>
+            <li>{$_('signup.faq.questions.subscription.list.rest')}</li>
+          </ul>
+          <Chart size={400} />
+        </div>
+        <div id="nonbindingoffer" class="signup__faq__q-a__offer">
+          <h4>{$_('signup.faq.questions.offer.title')}</h4>
+          <p>{$_('signup.faq.questions.offer.p')}</p>
+        </div>
+        <div id="withdrawal" class="signup__faq__q-a__withdrawal">
+          <h4>{$_('signup.faq.questions.withdrawal.title')}</h4>
+          <p>{$_('signup.faq.questions.withdrawal.p')}</p>
+        </div>
+        <div id="configuration" class="signup__faq__q-a__configuration">
+          <h4>{$_('signup.faq.questions.configuration.title')}</h4>
+          <p>{$_('signup.faq.questions.configuration.introduction')}</p>
+          <ul>
+            <li>{$_('signup.faq.questions.configuration.imap')}</li>
+            <li>{$_('signup.faq.questions.configuration.smtp')}</li>
+          </ul>
+          <p>{$_('signup.faq.questions.configuration.user')}</p>
+          <p>
+            {$_('signup.faq.questions.configuration.imap-example')}
+            <img alt="imap configuration example" src="/images/imap.png" width="95%" />
+          </p>
+          <p>
+            {$_('signup.faq.questions.configuration.smtp-example')}
+            <img alt="smtp configuration example" src="/images/smtp.png" width="95%" />
+          </p>
+        </div>
+        <div id="emailsyntax" class="signup__faq__q-a__emailsyntax">
+          <h4>{$_('signup.faq.questions.emailsyntax.title')}</h4>
+          <p>{$_('signup.faq.questions.emailsyntax.introduction')}</p>
+          <p>{$_('signup.faq.questions.emailsyntax.local-part')}</p>
+          <p>{$_('signup.faq.questions.emailsyntax.local-part-exclude')}</p>
+          <p>
+            {$_('signup.faq.questions.emailsyntax.local-part-spec')}
+            <a href="https://datatracker.ietf.org/doc/html/rfc5322">RFC 5322</a>.
+          </p>
+        </div>
+        <div id="cookies" class="signup__faq__q-a__cookies">
+          <h4>{$_('signup.faq.questions.cookies.title')}</h4>
+          <p>
+            {$_('signup.faq.questions.cookies.weuse')}
+            <a href="https://fr.matomo.org/matomo-on-premise/">Matomo</a>
+            {$_('signup.faq.questions.cookies.selfhosted')}
+            <a
+              href="https://www.cnil.fr/sites/default/files/atoms/files/matomo_analytics_-_exemption_-_guide_de_configuration.pdf"
+            >
+              {$_('signup.faq.questions.cookies.recommendations')}
+            </a>
+            {$_('signup.faq.questions.cookies.cnil')}
+          </p>
+          <iframe
+            title="matomo"
+            src="https://matomo.iroco.co/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=211d28&fontColor=f2ebe3&fontSize=&fontFamily=Arial"
+          />
+        </div>
       </div>
-      <div id="data" class="signup__faq__q-a__data">
-        <h4>{$_('signup.faq.questions.data.title')}</h4>
-        <p>{$_('signup.faq.questions.data.p')}</p>
-        <p>{$_('signup.faq.questions.data.personal')}</p>
-        <p>{$_('signup.faq.questions.data.access')}</p>
-        <p>{$_('signup.faq.questions.data.detail')}</p>
-        <ul>
-          <li>
-            {$_('signup.faq.questions.data.list.provider.collect')}
-            <strong>{$_('signup.faq.questions.data.list.provider.lastname')}</strong>,
-            <strong>{$_('signup.faq.questions.data.list.provider.firstname')}</strong>
-            {$_('signup.faq.questions.data.list.provider.and')}
-            <strong>{$_('signup.faq.questions.data.list.provider.invoice')}</strong> .
-          </li>
-          <li>
-            {$_('signup.faq.questions.data.list.also.collect')}
-            <strong>{$_('signup.faq.questions.data.list.also.bank')}</strong>
-            {$_('signup.faq.questions.data.list.also.noaccess')}
-          </li>
-          <li>
-            {$_('signup.faq.questions.data.list.last.store')}
-            <strong>{$_('signup.faq.questions.data.list.last.mail')}</strong>,
-            {$_('signup.faq.questions.data.list.last.iroco')}
-            <strong>{$_('signup.faq.questions.data.list.last.alias')}</strong>
-            {$_('signup.faq.questions.data.list.last.pass')}
-            <strong>{$_('signup.faq.questions.data.list.last.encrypted')}</strong>
-            {$_('signup.faq.questions.data.list.last.noaccess')}
-          </li>
-        </ul>
-      </div>
-      <div id="costprice" class="signup__faq__q-a__paidservice">
-        <h4>{$_('signup.faq.questions.paidservice.title')}</h4>
-        <p>{$_('signup.faq.questions.paidservice.others')}</p>
-        <p>{$_('signup.faq.questions.paidservice.iroco')}</p>
-      </div>
-
-      <div id="subscription" class="signup__faq__q-a__subscription">
-        <h4>{$_('signup.faq.questions.subscription.title')}</h4>
-        <p>{$_('signup.faq.questions.subscription.emailservice')}</p>
-        <p>{$_('signup.faq.questions.subscription.detail')}</p>
-        <ul>
-          <li>{$_('signup.faq.questions.subscription.list.taxes')}</li>
-          <li>{$_('signup.faq.questions.subscription.list.fee')}</li>
-          <li>{$_('signup.faq.questions.subscription.list.deployment')}</li>
-          <li>{$_('signup.faq.questions.subscription.list.rest')}</li>
-        </ul>
-        <Chart size={400} />
-      </div>
-
-      <div id="nonbindingoffer" class="signup__faq__q-a__offer">
-        <h4>{$_('signup.faq.questions.offer.title')}</h4>
-        <p>{$_('signup.faq.questions.offer.p')}</p>
-      </div>
-
-      <div id="withdrawal" class="signup__faq__q-a__withdrawal">
-        <h4>{$_('signup.faq.questions.withdrawal.title')}</h4>
-        <p>{$_('signup.faq.questions.withdrawal.p')}</p>
-      </div>
-
-      <div id="configuration" class="signup__faq__q-a__configuration">
-        <h4>{$_('signup.faq.questions.configuration.title')}</h4>
-        <p>{$_('signup.faq.questions.configuration.introduction')}</p>
-        <ul>
-          <li>{$_('signup.faq.questions.configuration.imap')}</li>
-          <li>{$_('signup.faq.questions.configuration.smtp')}</li>
-        </ul>
-        <p>{$_('signup.faq.questions.configuration.user')}</p>
-        <p>
-          {$_('signup.faq.questions.configuration.imap-example')}
-          <img alt="imap configuration example" src="/images/imap.png" width="95%" />
-        </p>
-        <p>
-          {$_('signup.faq.questions.configuration.smtp-example')}
-          <img alt="smtp configuration example" src="/images/smtp.png" width="95%" />
-        </p>
-      </div>
-
-      <div id="emailsyntax" class="signup__faq__q-a__emailsyntax">
-        <h4>{$_('signup.faq.questions.emailsyntax.title')}</h4>
-        <p>{$_('signup.faq.questions.emailsyntax.introduction')}</p>
-        <p>{$_('signup.faq.questions.emailsyntax.local-part')}</p>
-        <p>{$_('signup.faq.questions.emailsyntax.local-part-exclude')}</p>
-        <p>
-          {$_('signup.faq.questions.emailsyntax.local-part-spec')}
-          <a href="https://datatracker.ietf.org/doc/html/rfc5322">RFC 5322</a>.
-        </p>
-      </div>
-
-      <div id="cookies" class="signup__faq__q-a__cookies">
-        <h4>{$_('signup.faq.questions.cookies.title')}</h4>
-        <p>
-          {$_('signup.faq.questions.cookies.weuse')}
-          <a href="https://fr.matomo.org/matomo-on-premise/">Matomo</a>
-          {$_('signup.faq.questions.cookies.selfhosted')}
-          <a
-            href="https://www.cnil.fr/sites/default/files/atoms/files/matomo_analytics_-_exemption_-_guide_de_configuration.pdf"
-          >
-            {$_('signup.faq.questions.cookies.recommendations')}
-          </a>
-          {$_('signup.faq.questions.cookies.cnil')}
-        </p>
-        <iframe
-          title="matomo"
-          src="https://matomo.iroco.co/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=211d28&fontColor=f2ebe3&fontSize=&fontFamily=Arial"
-        />
+      <div class="signup__faq__container__btn">
+        {#if readMore == true}
+          <Button kind="dark" on:click={() => (readMore = !readMore)}>
+            <Icon name="chevron-right" />
+            {$_('signup.faq.close')}
+          </Button>
+        {:else}
+          <Button kind="dark" on:click={() => (readMore = !readMore)}>
+            <Icon name="chevron-right" />
+            {$_('signup.faq.button')}
+          </Button>
+        {/if}
       </div>
     </div>
   </div>
@@ -615,7 +625,6 @@
     &__faq {
       background: colors.$nightBlue;
       padding: 4em;
-
       h2 {
         margin-bottom: 2em;
       }
@@ -624,28 +633,52 @@
         text-align: center;
         margin: 0 auto 3em;
       }
-      &__q-a {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-        > div {
-          margin: 0.5em 2em;
+      &__container {
+        &__q-a {
+          position: relative;
+          width: 100%;
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+          max-height: 200px;
+          transition: max-height 1s;
+          overflow: hidden;
+          > div {
+            margin: 0.5em 2em;
+          }
+          p {
+            font-size: 14px;
+            white-space: pre-wrap;
+            color: colors.$darkBeige;
+          }
+          ul {
+            padding-left: 2em;
+            color: colors.$darkBeige;
+          }
+          a {
+            font-weight: bold;
+            color: colors.$green;
+          }
         }
-        h4 {
-          color: colors.$darkBeige;
+        &__q-a::after {
+          content: '';
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          height: 100%;
+          background: linear-gradient(to top, rgba(24, 21, 30, 1) 5%, rgba(24, 21, 30, 0) 80%);
         }
-        p {
-          font-size: 14px;
-          white-space: pre-wrap;
-        }
-        ul {
-          padding-left: 2em;
-        }
-        a {
-          font-weight: bold;
-          color: colors.$green;
+        &__btn {
+          text-align: center;
         }
       }
+    }
+  }
+
+  .opened {
+    max-height: fit-content;
+    padding-bottom: 4em;
+    &::after {
+      display: none;
     }
   }
 </style>

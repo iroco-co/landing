@@ -317,7 +317,8 @@
           "local-part-exclude": "We have excluded the '+' symbol, reserved for your mail aliases."
         }
       },
-      "button": "Read more"
+      "button": "Read more",
+      "close": "Read less"
     }
   },
   "contact": {
