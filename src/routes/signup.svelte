@@ -67,15 +67,15 @@
     <p>{$_('signup.green.p')}</p>
     <div class="signup__green__bullets">
       <div class="signup__green__bullets__green">
-        <Energy size="220" />
+        <Energy size={220} />
         <h4>{$_('signup.green.bullets.energy')}</h4>
       </div>
       <div class="signup__green__bullets__host">
-        <GreenHost size="220" />
+        <GreenHost size={220} />
         <h4>{$_('signup.green.bullets.host')}</h4>
       </div>
       <div class="signup__green__bullets__gesture">
-        <Plant size="220" />
+        <Plant size={220} />
         <h4>{$_('signup.green.bullets.gesture')}</h4>
       </div>
     </div>
@@ -85,15 +85,15 @@
     <h2>{$_('signup.privacy.caption')}</h2>
     <div class="signup__privacy__bullets">
       <div class="signup__privacy__bullets__privacy">
-        <Privacy size="220" />
+        <Privacy size={220} />
         <h4>{$_('signup.privacy.bullets.privacy')}</h4>
       </div>
       <div class="signup__privacy__bullets__security">
-        <Security size="151" />
+        <Security size={220} />
         <h4>{$_('signup.privacy.bullets.security')}</h4>
       </div>
       <div class="signup__privacy__bullets__server">
-        <Server size="150" />
+        <Server size={220} />
         <h4>{$_('signup.privacy.bullets.server')}</h4>
       </div>
     </div>
@@ -133,7 +133,7 @@
         <h4>{$_('signup.mail.bullets.client')}</h4>
       </div>
       <div class="signup__mail__bullets__account">
-        <Plant size="220" />
+        <Plant size={220} />
         <h4>{$_('signup.mail.bullets.account')}</h4>
       </div>
     </div>
