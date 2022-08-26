@@ -469,7 +469,7 @@
         display: flex;
         justify-content: space-around;
         align-content: center;
-        padding: 6em 0 2em;
+        padding: 2em 0 6em;
         text-transform: uppercase;
         white-space: pre-wrap;
 
@@ -483,24 +483,10 @@
         &__server {
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: space-between;
           align-content: center;
           @include screen-laptop {
             margin-bottom: 2em;
-          }
-        }
-
-        &__security h4 {
-          transform: translateY(2.5em);
-          @include screen-laptop {
-            transform: translateY(0);
-          }
-        }
-
-        &__server h4 {
-          transform: translateY(3.5em);
-          @include screen-laptop {
-            transform: translateY(0);
           }
         }
       }
@@ -528,24 +514,10 @@
         &__disconnect {
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: space-between;
           align-content: center;
           @include screen-laptop {
             margin-bottom: 2em;
-          }
-        }
-
-        &__mental-load h4 {
-          transform: translateY(3.5em);
-          @include screen-laptop {
-            transform: translateY(0);
-          }
-        }
-
-        &__disconnect h4 {
-          transform: translateY(0.5em);
-          @include screen-laptop {
-            transform: translateY(0);
           }
         }
       }
@@ -583,29 +555,11 @@
         &__account {
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: space-between;
           align-content: center;
           @include screen-laptop {
             margin-bottom: 2em;
           }
-        }
-
-        &__subscription h4 {
-          transform: translateY(2em);
-          @include screen-laptop {
-            transform: translateY(0);
-          }
-        }
-
-        &__client h4 {
-          transform: translateY(2.9em);
-          @include screen-laptop {
-            transform: translateY(0);
-          }
-        }
-        &__client img {
-          display: block;
-          margin: 0 auto;
         }
       }
     }
