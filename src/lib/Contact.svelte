@@ -1,9 +1,11 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
+
+  export let href: string;
 </script>
 
 <div class="contact">
-  <a href="mailto:hello@iroco.fr">
+  <a {href}>
     {$_('footer.mailto')}
   </a>
 </div>
@@ -20,8 +22,12 @@
     margin: 1.5em auto 0;
     text-transform: initial;
     border-radius: constants.$border-radius;
+    width: fit-content;
     a {
       color: colors.$green;
     }
+  }
+  .contact:hover {
+    box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.2);
   }
 </style>
