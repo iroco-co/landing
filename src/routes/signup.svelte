@@ -171,7 +171,7 @@
       ]}
     />
   </div>
-  <div class="signup__faq">
+  <div class="signup__faq" id="faq">
     <h2>{$_('signup.faq.title')}</h2>
     <p class="signup__faq__paragraph">{$_('signup.faq.p')}</p>
     <div class="signup__faq__container">
