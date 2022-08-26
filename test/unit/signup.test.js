@@ -22,8 +22,8 @@ describe('Testing Signup Page', () => {
     expect(getByText('FAQ')).toBeInTheDocument();
   });
 
-  test('when readmore equals to false, readmore button is displayed without class "opened"', () => {
-    const { container } = render(signup, { readMore: false });
+  test('when opened equals to false, readmore button is displayed without class "opened"', () => {
+    const { container } = render(signup, { opened: false });
     const button = screen.getByText('Read more');
     const faqcontainer = container.querySelector('.signup__faq__container__q-a');
 
@@ -31,8 +31,8 @@ describe('Testing Signup Page', () => {
     expect(faqcontainer).not.toHaveClass('opened');
   });
 
-  test('when readmore equals to true, the class "opened" is applied and the content of the readbutton changes', () => {
-    const { container } = render(signup, { readMore: true });
+  test('when opened equals to true, the class "opened" is applied and the content of the readbutton changes', () => {
+    const { container } = render(signup, { opened: true });
     const button = screen.getByText('Read less');
     const faqcontainer = container.querySelector('.signup__faq__container__q-a');
 

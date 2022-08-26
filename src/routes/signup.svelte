@@ -17,7 +17,7 @@
   import EventList from '../lib/EventList.svelte';
   import Chart from '../lib/Chart.svelte';
 
-  export let readMore: boolean;
+  export let opened: boolean;
 </script>
 
 <Header />
@@ -175,7 +175,7 @@
     <h2>{$_('signup.faq.title')}</h2>
     <p class="signup__faq__paragraph">{$_('signup.faq.p')}</p>
     <div class="signup__faq__container">
-      <div class="signup__faq__container__q-a" class:opened={readMore ? 'opened' : ''}>
+      <div class="signup__faq__container__q-a" class:opened={opened ? 'opened' : ''}>
         <div id="offercontent" class="signup__faq__q-a__offercontent">
           <h4>{$_('signup.faq.questions.offercontent.title')}</h4>
           <p>{$_('signup.faq.questions.offercontent.p')}</p>
@@ -324,17 +324,10 @@
         </div>
       </div>
       <div class="signup__faq__container__btn">
-        {#if readMore == true}
-          <Button kind="dark" on:click={() => (readMore = !readMore)}>
-            <Icon name="chevron-right" />
-            {$_('signup.faq.close')}
-          </Button>
-        {:else}
-          <Button kind="dark" on:click={() => (readMore = !readMore)}>
-            <Icon name="chevron-right" />
-            {$_('signup.faq.button')}
-          </Button>
-        {/if}
+        <Button kind="dark" on:click={() => (opened = !opened)}>
+          <Icon name="chevron-right" />
+          {opened ? $_('signup.faq.close') : $_('signup.faq.button')}
+        </Button>
       </div>
     </div>
   </div>
