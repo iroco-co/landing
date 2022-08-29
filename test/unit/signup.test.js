@@ -12,7 +12,7 @@ init({ fallbackLocale: 'en', initialLocale: 'en' });
 
 describe('Testing Signup Page', () => {
   test('headers are correctly rendered', () => {
-    const { getByText } = render(signup, { readMore: false });
+    const { getByText } = render(signup, { opened: false });
 
     expect(getByText('Our offer')).toBeInTheDocument();
     expect(getByText("If it's free, it's the planet the product")).toBeInTheDocument();
