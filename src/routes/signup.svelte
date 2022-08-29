@@ -331,7 +331,7 @@
       </div>
     </div>
   </div>
-  <Contact />
+  <Contact href="/contact" />
 </main>
 <Footer />
 
