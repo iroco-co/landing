@@ -1,5 +1,10 @@
+<script lang="ts">
+  export let size: number;
+  export let strokeWidth: number;
+</script>
+
 <span>
-  <svg class="signup__offer__card__svglistgroup__icon" viewBox="0 0 58.96 85.92" height="165">
+  <svg class="mail" viewBox="0 0 58.96 85.92" height={size}>
     <title>Mail</title>
     <rect
       x="1.95"
@@ -9,7 +14,7 @@
       fill="none"
       stroke="#00d692"
       stroke-linejoin="bevel"
-      stroke-width="1"
+      stroke-width={strokeWidth}
     />
     <rect
       x="10.01"
@@ -20,7 +25,7 @@
       fill="none"
       stroke="#fff"
       stroke-linejoin="bevel"
-      stroke-width="1"
+      stroke-width={strokeWidth}
     />
   </svg>
 </span>

@@ -27,7 +27,7 @@
     <div class="signup__offer__card">
       <div class="signup__offer__card__svglistgroup">
         <div class="signup__offer__card__svglistgroup__icon">
-          <Mail />
+          <Mail size="165" strokeWidth="1" />
         </div>
         <div class="signup__offer__card__svglistgroup__list">
           <div class="signup__offer__card__svglistgroup__list__header">
@@ -125,7 +125,7 @@
     <h2>{$_('signup.mail.caption')}</h2>
     <div class="signup__mail__bullets">
       <div class="signup__mail__bullets__subscription">
-        <Mail />
+        <Mail size="165" strokeWidth="1" />
         <h4>{$_('signup.mail.bullets.subscription')}</h4>
       </div>
       <div class="signup__mail__bullets__client">
