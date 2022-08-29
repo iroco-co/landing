@@ -49,13 +49,13 @@
 
       <div class="signup__offer__card__buttons">
         <a
-          class={`iroco-ui-button iroco-ui-button--regular iroco-ui-button--success`}
+          class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"
           href="https://app.iroco.co/signup/"
         >
           <Icon name="chevron-right" color="colors.$nightBlue" />
           {$_('signup.offer.buttons.subscribe')}
         </a>
-        <a class={`iroco-ui-button iroco-ui-button--regular iroco-ui-button--dark`} href="#faq">
+        <a class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--dark" href="#faq">
           <Icon name="chevron-right" color="colors.$beige" />
           {$_('signup.offer.buttons.details')}
         </a>
@@ -67,15 +67,15 @@
     <p>{$_('signup.green.p')}</p>
     <div class="signup__green__bullets">
       <div class="signup__green__bullets__green">
-        <Energy size={220} />
+        <Energy size="220" />
         <h4>{$_('signup.green.bullets.energy')}</h4>
       </div>
       <div class="signup__green__bullets__host">
-        <GreenHost size={220} />
+        <GreenHost size="220" />
         <h4>{$_('signup.green.bullets.host')}</h4>
       </div>
       <div class="signup__green__bullets__gesture">
-        <Plant size={220} />
+        <Plant size="220" />
         <h4>{$_('signup.green.bullets.gesture')}</h4>
       </div>
     </div>
@@ -85,15 +85,15 @@
     <h2>{$_('signup.privacy.caption')}</h2>
     <div class="signup__privacy__bullets">
       <div class="signup__privacy__bullets__privacy">
-        <Privacy size={220} />
+        <Privacy size="220" />
         <h4>{$_('signup.privacy.bullets.privacy')}</h4>
       </div>
       <div class="signup__privacy__bullets__security">
-        <Security size={220} />
+        <Security size="220" />
         <h4>{$_('signup.privacy.bullets.security')}</h4>
       </div>
       <div class="signup__privacy__bullets__server">
-        <Server size={220} />
+        <Server size="220" />
         <h4>{$_('signup.privacy.bullets.server')}</h4>
       </div>
     </div>
@@ -133,7 +133,7 @@
         <h4>{$_('signup.mail.bullets.client')}</h4>
       </div>
       <div class="signup__mail__bullets__account">
-        <Plant size={220} />
+        <Plant size="220" />
         <h4>{$_('signup.mail.bullets.account')}</h4>
       </div>
     </div>
@@ -267,7 +267,7 @@
             <li>{$_('signup.faq.questions.subscription.list.deployment')}</li>
             <li>{$_('signup.faq.questions.subscription.list.rest')}</li>
           </ul>
-          <Chart size={400} />
+          <Chart size="400" />
         </div>
         <div id="nonbindingoffer" class="signup__faq__q-a__offer">
           <h4>{$_('signup.faq.questions.offer.title')}</h4>

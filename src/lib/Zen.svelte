@@ -1,5 +1,4 @@
 <span class="zen">
-  <title>Zen</title>
   <svg
     width="211"
     height="106"
@@ -7,6 +6,7 @@
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
+    <title>Zen</title>
     <g clip-path="url(#clip0_4021_44969)">
       <path
         d="M140.41 0C149.719 0 158.647 3.69799 165.229 10.2805C171.812 16.863 175.51 25.7908 175.51 35.0999H140.41V0Z"

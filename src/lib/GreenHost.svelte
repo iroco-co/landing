@@ -4,9 +4,9 @@
 
 <span class="green-host">
   <svg viewBox="0 0 146.13 229.94" height={size}>
-    <title>host</title>
+    <title>Green Host</title>
     <rect
-      stroke-miterlimit={10}
+      stroke-miterlimit="10"
       stroke="#00d692"
       fill="#211d28"
       x="22.9"
@@ -16,7 +16,7 @@
       transform="translate(-90.53 98.03) rotate(-45)"
     />
     <rect
-      stroke-miterlimit={10}
+      stroke-miterlimit="10"
       stroke="#00d692"
       fill="#211d28"
       x="22.9"
@@ -27,9 +27,9 @@
     />
     <rect
       stroke="#00b9ff"
-      stroke-width={3}
+      stroke-width="3"
       fill="#211d28"
-      stroke-miterlimit={10}
+      stroke-miterlimit="10"
       x="22.9"
       y="22.9"
       width="100.33"
@@ -39,7 +39,7 @@
     <line
       stroke="#00d692"
       fill="#211d28"
-      stroke-miterlimit={10}
+      stroke-miterlimit="10"
       x1="2.12"
       y1="73.07"
       x2="2.12"
@@ -48,7 +48,7 @@
     <line
       fill="#211d28"
       stroke="#00d692"
-      stroke-miterlimit={10}
+      stroke-miterlimit="10"
       x1="144.01"
       y1="73.07"
       x2="144.01"
@@ -57,7 +57,7 @@
     <line
       fill="#211d28"
       stroke="#00d692"
-      stroke-miterlimit={10}
+      stroke-miterlimit="10"
       x1="73.07"
       y1="144.01"
       x2="73.07"

@@ -7,7 +7,7 @@
     <title>Energy</title>
     <rect
       fill="#00d692"
-      stroke-miterlimit={10}
+      stroke-miterlimit="10"
       stroke="#211d28"
       stroke-width="0.67px"
       x="39.85"
@@ -18,7 +18,7 @@
     <rect
       fill="#211d28"
       stroke="#00d692"
-      stroke-miterlimit={10}
+      stroke-miterlimit="10"
       x="126.57"
       y="6.17"
       width="7.81"
@@ -27,14 +27,14 @@
     <path
       fill="transparent"
       stroke="#00d692"
-      stroke-miterlimit={10}
+      stroke-miterlimit="10"
       d="M39.86,88.78h0A39.36,39.36,0,0,1,.5,49.42h0A39.35,39.35,0,0,1,39.85,10.07h0"
     />
     <rect
       fill="#211d28"
       stroke="#ffe032"
-      stroke-width={3}
-      stroke-miterlimit={10}
+      stroke-width="3"
+      stroke-miterlimit="10"
       x="39.85"
       y="58.03"
       width="86.71"

@@ -9,7 +9,7 @@
       fill="none"
       stroke="#00d692"
       stroke-linejoin="bevel"
-      stroke-width={1}
+      stroke-width="1"
     />
     <rect
       x="10.01"
@@ -20,7 +20,7 @@
       fill="none"
       stroke="#fff"
       stroke-linejoin="bevel"
-      stroke-width={1}
+      stroke-width="1"
     />
   </svg>
 </span>

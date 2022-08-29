@@ -10,13 +10,13 @@
         points="122.91 137.19 144.01 158.29 73.07 229.23 2.12 158.29 23.43 136.98"
         fill="none"
         stroke="#00d692"
-        stroke-miterlimit={10}
+        stroke-miterlimit="10"
       />
       <polyline
         points="122.7 94.37 144.01 115.68 73.07 186.62 2.12 115.68 23.43 94.37"
         fill="none"
         stroke="#00d692"
-        stroke-miterlimit={10}
+        stroke-miterlimit="10"
       />
       <rect
         x="22.9"
@@ -26,8 +26,8 @@
         transform="translate(-30.26 73.07) rotate(-45)"
         fill="none"
         stroke="#00b9ff"
-        stroke-miterlimit={10}
-        stroke-width={3}
+        stroke-miterlimit="10"
+        stroke-width="3"
       />
       <line
         x1="2.12"
@@ -36,7 +36,7 @@
         y2="158.29"
         fill="none"
         stroke="#00d692"
-        stroke-miterlimit={10}
+        stroke-miterlimit="10"
       />
       <line
         x1="144.01"
@@ -45,7 +45,7 @@
         y2="158.29"
         fill="none"
         stroke="#00d692"
-        stroke-miterlimit={10}
+        stroke-miterlimit="10"
       />
       <line
         x1="73.07"
@@ -54,7 +54,7 @@
         y2="229.23"
         fill="none"
         stroke="#00d692"
-        stroke-miterlimit={10}
+        stroke-miterlimit="10"
       />
     </g>
     <g>
