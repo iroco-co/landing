@@ -24,9 +24,6 @@ describe('Testing RoadmapEvents Component', () => {
   });
   test('render the content of the Component with two events', () => {
     const { getByText } = render(EventList, {
-      title: 'EventName',
-      year: '2021',
-      details: 'A detailed description of this event...',
       eventList: [
         { title: 'EventName', year: '2021', details: 'A detailed description of this event...' },
         { title: 'SecondEvent', year: '2030', details: 'More details on the upcoming second event' }
