@@ -26,3 +26,10 @@
   </svg>
   <h4>{title}</h4>
 </span>
+
+<style lang="scss">
+  .plant {
+    text-transform: uppercase;
+    white-space: pre-wrap;
+  }
+</style>

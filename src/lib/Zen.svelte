@@ -71,6 +71,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
+    text-transform: uppercase;
+    white-space: pre-wrap;
     svg {
       transform: translateY(50%);
     }

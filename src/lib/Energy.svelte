@@ -55,3 +55,10 @@
   </svg>
   <h4>{title}</h4>
 </span>
+
+<style lang="scss">
+  .energy {
+    text-transform: uppercase;
+    white-space: pre-wrap;
+  }
+</style>

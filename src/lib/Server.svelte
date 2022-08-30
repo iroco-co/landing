@@ -3,7 +3,7 @@
   export let title: string;
 </script>
 
-<span class="navigation-landing-assets-server small">
+<span class="server">
   <svg viewBox="0 0 145.25 167.72" height={size}>
     <title>Server</title>
     <line
@@ -46,3 +46,10 @@
   </svg>
   <h4>{title}</h4>
 </span>
+
+<style lang="scss">
+  .server {
+    text-transform: uppercase;
+    white-space: pre-wrap;
+  }
+</style>

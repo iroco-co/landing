@@ -71,3 +71,10 @@
   </svg>
   <h4>{title}</h4>
 </span>
+
+<style lang="scss">
+  .green-host {
+    text-transform: uppercase;
+    white-space: pre-wrap;
+  }
+</style>

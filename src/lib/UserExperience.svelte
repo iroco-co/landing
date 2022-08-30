@@ -2,7 +2,7 @@
   export let title: string;
 </script>
 
-<span class="ux">
+<span class="user-experience">
   <svg
     width="103"
     height="202"
@@ -28,3 +28,10 @@
   </svg>
   <h4>{title}</h4>
 </span>
+
+<style lang="scss">
+  .user-experience {
+    text-transform: uppercase;
+    white-space: pre-wrap;
+  }
+</style>

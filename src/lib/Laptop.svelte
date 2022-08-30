@@ -13,6 +13,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
+    text-transform: uppercase;
+    white-space: pre-wrap;
     img {
       width: 250px;
       transform: translateY(13%);
