@@ -3,7 +3,6 @@
 </script>
 
 <span class="disconnect">
-  <title>Disconnect Button</title>
   <svg
     width="189"
     height="189"
@@ -11,6 +10,7 @@
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
+    <title>Disconnect</title>
     <g clip-path="url(#clip0_4021_44986)">
       <path
         d="M94.19 186.88C145.381 186.88 186.88 145.381 186.88 94.19C186.88 42.9987 145.381 1.5 94.19 1.5C42.9987 1.5 1.5 42.9987 1.5 94.19C1.5 145.381 42.9987 186.88 94.19 186.88Z"
@@ -36,3 +36,12 @@
   </svg>
   <h4>{title}</h4>
 </span>
+
+<style lang="scss">
+  .disconnect {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+  }
+</style>
