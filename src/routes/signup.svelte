@@ -16,6 +16,7 @@
   import Mail from '../lib/Mail.svelte';
   import EventList from '../lib/EventList.svelte';
   import Chart from '../lib/Chart.svelte';
+  import Laptop from '../lib/Laptop.svelte';
 
   export let opened: boolean;
 </script>
@@ -98,10 +99,7 @@
     <h2>{$_('signup.mail.caption')}</h2>
     <div class="signup__mail__bullets">
       <Mail size="165" strokeWidth="1" title={$_('signup.mail.bullets.subscription')} />
-      <div class="signup__mail__bullets__client">
-        <img src="/images/laptop.png" alt="Iroco webmail on laptop" width="250" />
-        <h4>{$_('signup.mail.bullets.client')}</h4>
-      </div>
+      <Laptop title={$_('signup.mail.bullets.client')} />
       <Plant size="220" title={$_('signup.mail.bullets.account')} />
     </div>
   </div>
