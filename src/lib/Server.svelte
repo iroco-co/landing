@@ -1,5 +1,6 @@
 <script lang="ts">
   export let size: number;
+  export let title: string;
 </script>
 
 <span class="navigation-landing-assets-server small">
@@ -43,4 +44,5 @@
       stroke-width="3"
     />
   </svg>
+  <h4>{title}</h4>
 </span>

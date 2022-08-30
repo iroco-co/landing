@@ -1,5 +1,6 @@
 <script lang="ts">
   export let size: number;
+  export let title: string;
 </script>
 
 <span class="green-host">
@@ -68,4 +69,5 @@
       <path fill="#00d692" d="M73.07,42.93H103.2V12.79A30.13,30.13,0,0,0,73.07,42.93Z" />
     </g>
   </svg>
+  <h4>{title}</h4>
 </span>

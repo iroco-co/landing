@@ -1,5 +1,6 @@
 <script lang="ts">
   export let size: number;
+  export let title: string;
 </script>
 
 <span class="plant">
@@ -23,4 +24,5 @@
     />
     <circle cx="32.36" cy="33.86" r="32.36" fill="#fff" />
   </svg>
+  <h4>{title}</h4>
 </span>

@@ -1,5 +1,6 @@
 <script lang="ts">
   export let size: number;
+  export let title: string;
 </script>
 
 <span class="energy">
@@ -52,4 +53,5 @@
       />
     </g>
   </svg>
+  <h4>{title}</h4>
 </span>

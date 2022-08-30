@@ -1,3 +1,7 @@
+<script lang="ts">
+  export let title: string;
+</script>
+
 <span class="disconnect">
   <title>Disconnect Button</title>
   <svg
@@ -30,4 +34,5 @@
       </clipPath>
     </defs>
   </svg>
+  <h4>{title}</h4>
 </span>

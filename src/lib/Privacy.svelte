@@ -1,5 +1,6 @@
 <script lang="ts">
   export let size: number;
+  export let title: string;
 </script>
 
 <span class="privacy">
@@ -62,4 +63,5 @@
       <polygon points="66.16 92 50.21 76.05 72.65 69.56 66.16 92" fill="#ff504d" />
     </g>
   </svg>
+  <h4>{title}</h4>
 </span>

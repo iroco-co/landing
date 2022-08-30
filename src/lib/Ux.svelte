@@ -1,3 +1,7 @@
+<script lang="ts">
+  export let title: string;
+</script>
+
 <span class="ux">
   <svg
     width="103"
@@ -22,4 +26,5 @@
       </clipPath>
     </defs>
   </svg>
+  <h4>{title}</h4>
 </span>

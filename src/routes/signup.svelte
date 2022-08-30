@@ -66,36 +66,18 @@
     <h2>{$_('signup.green.title')}</h2>
     <p>{$_('signup.green.p')}</p>
     <div class="signup__green__bullets">
-      <div class="signup__green__bullets__green">
-        <Energy size="220" />
-        <h4>{$_('signup.green.bullets.energy')}</h4>
-      </div>
-      <div class="signup__green__bullets__host">
-        <GreenHost size="220" />
-        <h4>{$_('signup.green.bullets.host')}</h4>
-      </div>
-      <div class="signup__green__bullets__gesture">
-        <Plant size="220" />
-        <h4>{$_('signup.green.bullets.gesture')}</h4>
-      </div>
+      <Energy size="220" title={$_('signup.green.bullets.energy')} />
+      <GreenHost size="220" title={$_('signup.green.bullets.host')} />
+      <Plant size="220" title={$_('signup.green.bullets.gesture')} />
     </div>
   </div>
   <div class="signup__privacy">
     <h2>{$_('signup.privacy.title')}</h2>
     <h2>{$_('signup.privacy.caption')}</h2>
     <div class="signup__privacy__bullets">
-      <div class="signup__privacy__bullets__privacy">
-        <Privacy size="220" />
-        <h4>{$_('signup.privacy.bullets.privacy')}</h4>
-      </div>
-      <div class="signup__privacy__bullets__security">
-        <Security size="220" />
-        <h4>{$_('signup.privacy.bullets.security')}</h4>
-      </div>
-      <div class="signup__privacy__bullets__server">
-        <Server size="220" />
-        <h4>{$_('signup.privacy.bullets.server')}</h4>
-      </div>
+      <Privacy size="220" title={$_('signup.privacy.bullets.privacy')} />
+      <Security size="220" title={$_('signup.privacy.bullets.security')} />
+      <Server size="220" title={$_('signup.privacy.bullets.server')} />
     </div>
   </div>
   <div class="signup__respect">
@@ -106,36 +88,21 @@
       </span>
     </h2>
     <div class="signup__respect__bullets">
-      <div class="signup__respect__bullets__ux">
-        <Ux />
-        <h4>{$_('signup.privacy.respect.bullets.ux')}</h4>
-      </div>
-      <div class="signup__respect__bullets__mental-load">
-        <Zen />
-        <h4>{$_('signup.privacy.respect.bullets.mental-load')}</h4>
-      </div>
-      <div class="signup__respect__bullets__disconnect">
-        <Disconnect />
-        <h4>{$_('signup.privacy.respect.bullets.disconnect')}</h4>
-      </div>
+      <Ux title={$_('signup.privacy.respect.bullets.ux')} />
+      <Zen title={$_('signup.privacy.respect.bullets.mental-load')} />
+      <Disconnect title={$_('signup.privacy.respect.bullets.disconnect')} />
     </div>
   </div>
   <div class="signup__mail">
     <h2>{$_('signup.mail.title')}</h2>
     <h2>{$_('signup.mail.caption')}</h2>
     <div class="signup__mail__bullets">
-      <div class="signup__mail__bullets__subscription">
-        <Mail size="165" strokeWidth="1" />
-        <h4>{$_('signup.mail.bullets.subscription')}</h4>
-      </div>
+      <Mail size="165" strokeWidth="1" title={$_('signup.mail.bullets.subscription')} />
       <div class="signup__mail__bullets__client">
         <img src="/images/laptop.png" alt="Iroco webmail on laptop" width="250" />
         <h4>{$_('signup.mail.bullets.client')}</h4>
       </div>
-      <div class="signup__mail__bullets__account">
-        <Plant size="220" />
-        <h4>{$_('signup.mail.bullets.account')}</h4>
-      </div>
+      <Plant size="220" title={$_('signup.mail.bullets.account')} />
     </div>
   </div>
   <div class="signup__roadmap">
@@ -439,13 +406,6 @@
         @include screen-laptop {
           flex-direction: column;
         }
-
-        &__green,
-        &__host {
-          @include screen-laptop {
-            margin-bottom: 2em;
-          }
-        }
       }
     }
     &__privacy {
@@ -477,18 +437,6 @@
           flex-direction: column;
           padding: 4em 0 1em;
         }
-
-        &__privacy,
-        &__security,
-        &__server {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-content: center;
-          @include screen-laptop {
-            margin-bottom: 2em;
-          }
-        }
       }
     }
     &__respect {
@@ -507,18 +455,6 @@
         white-space: pre-wrap;
         @include screen-laptop {
           flex-direction: column;
-        }
-
-        &__mental-load,
-        &__ux,
-        &__disconnect {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-content: center;
-          @include screen-laptop {
-            margin-bottom: 2em;
-          }
         }
       }
     }
@@ -548,18 +484,6 @@
         white-space: pre-wrap;
         @include screen-laptop {
           flex-direction: column;
-        }
-
-        &__subscription,
-        &__client,
-        &__account {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-content: center;
-          @include screen-laptop {
-            margin-bottom: 2em;
-          }
         }
       }
     }
