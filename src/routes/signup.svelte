@@ -17,6 +17,7 @@
   import EventList from '../lib/EventList.svelte';
   import Chart from '../lib/Chart.svelte';
   import Laptop from '../lib/Laptop.svelte';
+  import HorizontalOrVerticalDisplayedContent from '../lib/HorizontalOrVerticalDisplayedContent.svelte';
 
   export let opened: boolean;
 </script>
@@ -66,20 +67,20 @@
   <div class="signup__green">
     <h2>{$_('signup.green.title')}</h2>
     <p>{$_('signup.green.p')}</p>
-    <div class="signup__green__bullets">
+    <HorizontalOrVerticalDisplayedContent>
       <Energy size="220" title={$_('signup.green.bullets.energy')} />
       <GreenHost size="220" title={$_('signup.green.bullets.host')} />
       <Plant size="220" title={$_('signup.green.bullets.gesture')} />
-    </div>
+    </HorizontalOrVerticalDisplayedContent>
   </div>
   <div class="signup__privacy">
     <h2>{$_('signup.privacy.title')}</h2>
     <h2>{$_('signup.privacy.caption')}</h2>
-    <div class="signup__privacy__bullets">
+    <HorizontalOrVerticalDisplayedContent>
       <Privacy size="220" title={$_('signup.privacy.bullets.privacy')} />
       <Security size="220" title={$_('signup.privacy.bullets.security')} />
       <Server size="220" title={$_('signup.privacy.bullets.server')} />
-    </div>
+    </HorizontalOrVerticalDisplayedContent>
   </div>
   <div class="signup__respect">
     <h2>
@@ -88,20 +89,20 @@
         {$_('signup.privacy.respect.yellow')}
       </span>
     </h2>
-    <div class="signup__respect__bullets">
+    <HorizontalOrVerticalDisplayedContent>
       <Ux title={$_('signup.privacy.respect.bullets.ux')} />
       <Zen title={$_('signup.privacy.respect.bullets.mental-load')} />
       <Disconnect title={$_('signup.privacy.respect.bullets.disconnect')} />
-    </div>
+    </HorizontalOrVerticalDisplayedContent>
   </div>
   <div class="signup__mail">
     <h2>{$_('signup.mail.title')}</h2>
     <h2>{$_('signup.mail.caption')}</h2>
-    <div class="signup__mail__bullets">
+    <HorizontalOrVerticalDisplayedContent>
       <Mail size="165" strokeWidth="1" title={$_('signup.mail.bullets.subscription')} />
       <Laptop title={$_('signup.mail.bullets.client')} />
       <Plant size="220" title={$_('signup.mail.bullets.account')} />
-    </div>
+    </HorizontalOrVerticalDisplayedContent>
   </div>
   <div class="signup__roadmap">
     <h2>{$_('signup.roadmap.title')}</h2>
@@ -395,15 +396,9 @@
         }
       }
       &__bullets {
-        display: flex;
-        justify-content: space-around;
-        align-content: center;
         padding: 2em;
         text-transform: uppercase;
         white-space: pre-wrap;
-        @include screen-laptop {
-          flex-direction: column;
-        }
       }
     }
     &__privacy {
@@ -424,15 +419,11 @@
       }
 
       &__bullets {
-        display: flex;
-        justify-content: space-around;
-        align-content: center;
         padding: 2em 0 6em;
         text-transform: uppercase;
         white-space: pre-wrap;
 
         @include screen-laptop {
-          flex-direction: column;
           padding: 4em 0 1em;
         }
       }
@@ -445,15 +436,9 @@
       }
 
       &__bullets {
-        display: flex;
-        justify-content: space-around;
-        align-content: center;
         padding: 2em;
         text-transform: uppercase;
         white-space: pre-wrap;
-        @include screen-laptop {
-          flex-direction: column;
-        }
       }
     }
     &__mail {
@@ -474,15 +459,9 @@
       }
 
       &__bullets {
-        display: flex;
-        justify-content: space-around;
-        align-content: center;
         padding: 2em;
         text-transform: uppercase;
         white-space: pre-wrap;
-        @include screen-laptop {
-          flex-direction: column;
-        }
       }
     }
     &__roadmap {
