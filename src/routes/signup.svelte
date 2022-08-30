@@ -395,36 +395,18 @@
           width: 90%;
         }
       }
-      &__bullets {
-        padding: 2em;
-        text-transform: uppercase;
-        white-space: pre-wrap;
-      }
     }
     &__privacy {
-      margin: 2em auto;
-      padding-top: 4em;
+      margin: 6em auto;
+      padding: 4em 0 3em;
       text-align: center;
       background: colors.$nightBlue;
 
-      @include screen-laptop {
-        padding: 3em;
-      }
       > h2:nth-child(2) {
         color: colors.$red;
 
         @include screen-laptop {
           line-height: 1.6em;
-        }
-      }
-
-      &__bullets {
-        padding: 2em 0 6em;
-        text-transform: uppercase;
-        white-space: pre-wrap;
-
-        @include screen-laptop {
-          padding: 4em 0 1em;
         }
       }
     }
@@ -434,17 +416,10 @@
       span {
         color: colors.$yellow;
       }
-
-      &__bullets {
-        padding: 2em;
-        text-transform: uppercase;
-        white-space: pre-wrap;
-      }
     }
     &__mail {
       margin: 6em auto;
-      padding-top: 4em;
-      padding-bottom: 3em;
+      padding: 4em 0 3em;
       text-align: center;
       background: colors.$nightBlue;
 
@@ -456,12 +431,6 @@
 
       > h2:nth-child(2) {
         color: colors.$green;
-      }
-
-      &__bullets {
-        padding: 2em;
-        text-transform: uppercase;
-        white-space: pre-wrap;
       }
     }
     &__roadmap {
