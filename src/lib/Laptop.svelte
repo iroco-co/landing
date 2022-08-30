@@ -15,6 +15,7 @@
     align-content: center;
     img {
       width: 250px;
+      transform: translateY(13%);
     }
   }
 </style>
