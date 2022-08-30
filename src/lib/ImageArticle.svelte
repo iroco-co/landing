@@ -17,7 +17,7 @@
     <div class="imagearticle__article__buttonGroup">
       {#each buttonList as buttonModel}
         <a
-          class={`iroco-ui-button iroco-ui-button--small iroco-ui-button--dark`}
+          class="iroco-ui-button iroco-ui-button--small iroco-ui-button--dark"
           href={buttonModel.href}
           role="button"
         >

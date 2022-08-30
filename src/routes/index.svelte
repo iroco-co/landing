@@ -58,7 +58,7 @@
     </div>
     <div class="page-content__subscribe__btn">
       <a
-        class={`iroco-ui-button iroco-ui-button--regular iroco-ui-button--success`}
+        class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"
         href="https://app.iroco.co/signup/"
       >
         <Icon name="chevron-right" color="colors.$nightBlue" />
