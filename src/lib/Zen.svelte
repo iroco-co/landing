@@ -64,3 +64,15 @@
   </svg>
   <h4>{title}</h4>
 </span>
+
+<style lang="scss">
+  .zen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    svg {
+      transform: translateY(50%);
+    }
+  }
+</style>
