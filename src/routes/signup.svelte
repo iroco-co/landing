@@ -10,7 +10,7 @@
   import Privacy from '../lib/Privacy.svelte';
   import Server from '../lib/Server.svelte';
   import Security from '../lib/Security.svelte';
-  import Ux from '../lib/Ux.svelte';
+  import Ux from '../lib/UserExperience.svelte';
   import Zen from '../lib/Zen.svelte';
   import Disconnect from '../lib/Disconnect.svelte';
   import Mail from '../lib/Mail.svelte';
