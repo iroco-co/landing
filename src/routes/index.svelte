@@ -4,7 +4,7 @@
   import Footer from '../lib/Footer.svelte';
   import ImageArticle from '../lib/ImageArticle.svelte';
   import Newsletter from '../lib/Newsletter.svelte';
-  import { Icon, IrocoLogo } from '@iroco/ui/';
+  import IrocologoSignupbutton from '../lib/IrocologoSignupbutton.svelte';
 </script>
 
 <svelte:head>
@@ -52,20 +52,7 @@
     reversed
   />
 
-  <div class="page-content__subscribe">
-    <div class="page-content__subscribe__logo">
-      <IrocoLogo width="10em" height="10em" />
-    </div>
-    <div class="page-content__subscribe__btn">
-      <a
-        class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"
-        href="https://app.iroco.co/signup/"
-      >
-        <Icon name="chevron-right" color="colors.$nightBlue" />
-        {$_('footer.subscribe')}
-      </a>
-    </div>
-  </div>
+  <IrocologoSignupbutton />
 
   <Newsletter />
 </main>

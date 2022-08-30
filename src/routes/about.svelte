@@ -4,7 +4,7 @@
   import Footer from '../lib/Footer.svelte';
   import Article from '../lib/Article.svelte';
   import Host from '../lib/Host.svelte';
-  import { Icon, IrocoLogo } from '@iroco/ui/';
+  import IrocologoSignupbutton from '../lib/IrocologoSignupbutton.svelte';
 </script>
 
 <Header />
@@ -72,17 +72,7 @@
       </article>
     </div>
   </div>
-  <div class="about__subscribe">
-    <div class="about__subscribe__logo">
-      <IrocoLogo width="10em" height="10em" />
-    </div>
-    <div class="about__subscribe__btn">
-      <a class="button success" href="/about">
-        <Icon name="chevron-right" />
-        {$_('footer.subscribe')}
-      </a>
-    </div>
-  </div>
+  <IrocologoSignupbutton />
 </main>
 <Footer />
 
@@ -97,8 +87,7 @@
     &__commitments__sections,
     &__commitments__sections__cooperation,
     &__commitments__sections__energy,
-    &__commitments__sections__data,
-    &__subscribe {
+    &__commitments__sections__data {
       display: flex;
       align-items: center;
     }
@@ -166,10 +155,6 @@
           }
         }
       }
-    }
-    &__subscribe {
-      flex-direction: column;
-      justify-content: center;
     }
   }
 
