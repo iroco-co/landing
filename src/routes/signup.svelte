@@ -321,22 +321,16 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          gap: 6em;
           padding: 2em;
 
           @include screen-tablet {
             display: block;
             text-align: center;
           }
+
           &__icon {
-            transform: translate(-10em, 0.8em);
-
-            @include screen-laptop {
-              transform: translate(-5em, 0.8em);
-            }
-
-            @include screen-tablet {
-              transform: translate(0);
-            }
+            padding: 2em;
           }
           &__list {
             text-align: left;
@@ -402,6 +396,16 @@
       text-align: center;
       background: colors.$nightBlue;
 
+      @include screen-tablet {
+        margin: 6em 2em;
+      }
+
+      > h2 {
+        @include screen-laptop {
+          line-height: 1.6em;
+        }
+      }
+
       > h2:nth-child(2) {
         color: colors.$red;
 
@@ -423,9 +427,13 @@
       text-align: center;
       background: colors.$nightBlue;
 
+      @include screen-tablet {
+        margin: 6em 2em;
+      }
+
       > h2 {
         @include screen-laptop {
-          line-height: 1.5;
+          line-height: 1.8em;
         }
       }
 
@@ -436,7 +444,12 @@
     &__roadmap {
       &__paragraph {
         margin: 3em auto;
-        width: 80%;
+        width: 70%;
+        text-align: center;
+
+        @include screen-laptop {
+          width: 90%;
+        }
       }
     }
     &__faq {
@@ -446,9 +459,13 @@
         margin-bottom: 2em;
       }
       &__paragraph {
-        width: 80%;
+        margin: 3em auto;
+        width: 70%;
         text-align: center;
-        margin: 0 auto 3em;
+
+        @include screen-laptop {
+          width: 90%;
+        }
       }
       &__container {
         &__q-a {
