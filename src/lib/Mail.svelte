@@ -33,16 +33,35 @@
 </span>
 
 <style lang="scss">
+  @import 'node_modules/@iroco/ui/lib/containers';
+
   .mail {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-content: center;
-    text-transform: uppercase;
-    white-space: pre-wrap;
+
+    @include screen-laptop() {
+      height: 100%;
+    }
 
     h4 {
-      transform: translateY(-1.6em);
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      margin-top: 50px;
+      text-align: center;
+      line-height: 2.2em;
+      white-space: pre-wrap;
+      transform: translateY(-2.2em);
+      margin-top: 6em;
+
+      @include screen-tablet-S() {
+        font-size: 0.9em;
+        margin-top: 5em;
+      }
+
+      @include screen-mobile-L() {
+        margin-top: 4em;
+      }
     }
   }
   .hidden {

@@ -17,6 +17,7 @@
   @import 'node_modules/@iroco/ui/lib/containers';
   .eventList {
     display: flex;
+    gap: 3em;
     margin-bottom: 6em;
     @include screen-laptop {
       flex-wrap: wrap;
@@ -26,7 +27,6 @@
         flex: 1 1 200px;
       }
       p {
-        width: 80%;
         font-size: small;
       }
     }
