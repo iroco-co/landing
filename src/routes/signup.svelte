@@ -2,7 +2,6 @@
   import { _ } from 'svelte-i18n';
   import Header from '../lib/Header.svelte';
   import Footer from '../lib/Footer.svelte';
-  import Contact from '../lib/Contact.svelte';
   import { Icon, Button } from '@iroco/ui/';
   import Energy from '../lib/Energy.svelte';
   import GreenHost from '../lib/GreenHost.svelte';
@@ -297,7 +296,6 @@
       </div>
     </div>
   </div>
-  <Contact href="/contact" />
 </main>
 <Footer />
 
