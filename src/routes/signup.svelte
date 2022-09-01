@@ -396,6 +396,13 @@
       }
     }
     &__mail {
+      @include screen-tablet {
+        h2 {
+          width: 90%;
+          margin: auto; 
+        }
+      }
+
       > h2:nth-child(2) {
         color: colors.$green;
       }
