@@ -6,6 +6,7 @@
     new NavigationItem($_('header.about'), '/about'),
     new NavigationItem($_('header.blog'), 'https://blog.iroco.co'),
     new NavigationItem($_('header.contact'), '/contact'),
+    new NavigationItem($_('header.faq'), '/faq'),
     new NavigationItem($_('header.signup'), '/signup'),
     new NavigationItem(
       $_('header.signin'),
