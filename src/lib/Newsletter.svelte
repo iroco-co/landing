@@ -13,18 +13,12 @@
         <Mail size="90" strokeWidth="2" />
         <h3>{$_('newsletter.title')}</h3>
       </div>
-      <div class="newsletter__container__subscription__content">
-        <iframe
-          title="mailjet"
-          class="mj-w-res-iframe"
-          frameBorder="0"
-          marginHeight={0}
-          marginWidth={0}
-          src="https://app.mailjet.com/widget/iframe/6a9K/NvZ"
-          height="200px"
-          width="100%"
-        />
-      </div>
+      <iframe
+        title="mailjet"
+        class="mj-w-res-iframe"
+        src="https://app.mailjet.com/widget/iframe/6a9K/NvZ"
+        height="180px"
+        width="100%"></iframe>
       <p>{$_('newsletter.disclaimer')}</p>
     </div>
   </div>
@@ -66,12 +60,12 @@
             white-space: pre;
           }
         }
-        &__content {
-          margin-top: 40px;
+        iframe {
+          border: none;
         }
         > p {
-          @include fonts.Arial(1em, rgba(white, 0.3));
-          margin-top: 20px;
+          color: rgba(white, 0.3);
+          font-size: 1em;
         }
       }
     }
@@ -90,9 +84,6 @@
               margin-left: 20px;
               font-size: 1.7em;
             }
-          }
-          &__content {
-            margin-top: 30px;
           }
         }
       }
