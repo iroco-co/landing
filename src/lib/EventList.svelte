@@ -18,7 +18,7 @@
   .eventList {
     display: flex;
     gap: 3em;
-    margin-bottom: 6em;
+    text-align: left;
     @include screen-laptop {
       flex-wrap: wrap;
     }
