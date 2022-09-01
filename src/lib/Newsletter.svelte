@@ -18,7 +18,8 @@
         class="mj-w-res-iframe"
         src="https://app.mailjet.com/widget/iframe/6a9K/NvZ"
         height="180px"
-        width="100%"></iframe>
+        width="100%"
+      />
       <p>{$_('newsletter.disclaimer')}</p>
     </div>
   </div>
