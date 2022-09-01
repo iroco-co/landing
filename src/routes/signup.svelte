@@ -65,14 +65,14 @@
   </div>
   <div class="signup__green">
     <h2>{$_('signup.green.title')}</h2>
-    <p>{$_('signup.green.p')}</p>
+    <p class="paragraph-section">{$_('signup.green.p')}</p>
     <HorizontalOrVerticalDisplayedContent>
       <Energy size="220" title={$_('signup.green.bullets.energy')} />
       <GreenHost size="220" title={$_('signup.green.bullets.host')} />
       <Plant size="220" title={$_('signup.green.bullets.gesture')} />
     </HorizontalOrVerticalDisplayedContent>
   </div>
-  <div class="signup__privacy">
+  <div class="signup__privacy dark-section">
     <h2>{$_('signup.privacy.title')}</h2>
     <h2>{$_('signup.privacy.caption')}</h2>
     <HorizontalOrVerticalDisplayedContent>
@@ -94,7 +94,7 @@
       <Disconnect title={$_('signup.privacy.respect.bullets.disconnect')} />
     </HorizontalOrVerticalDisplayedContent>
   </div>
-  <div class="signup__mail">
+  <div class="signup__mail dark-section">
     <h2>{$_('signup.mail.title')}</h2>
     <h2>{$_('signup.mail.caption')}</h2>
     <HorizontalOrVerticalDisplayedContent>
@@ -105,7 +105,7 @@
   </div>
   <div class="signup__roadmap">
     <h2>{$_('signup.roadmap.title')}</h2>
-    <p class="signup__roadmap__paragraph">{$_('signup.roadmap.p')}</p>
+    <p class="paragraph-section">{$_('signup.roadmap.p')}</p>
     <EventList
       eventList={[
         {
@@ -138,7 +138,7 @@
   </div>
   <div class="signup__faq" id="faq">
     <h2>{$_('signup.faq.title')}</h2>
-    <p class="signup__faq__paragraph">{$_('signup.faq.p')}</p>
+    <p class="paragraph-section">{$_('signup.faq.p')}</p>
     <div class="signup__faq__container">
       <div class="signup__faq__container__q-a" class:opened={opened ? 'opened' : ''}>
         <div id="offercontent" class="signup__faq__q-a__offercontent">
@@ -306,9 +306,22 @@
   @import 'node_modules/@iroco/ui/lib/button';
 
   .signup {
+    text-align: center;
+
     h2 {
-      text-align: center;
+      line-height: 1.6em;
     }
+
+    &__offer,
+    &__green,
+    &__privacy,
+    &__respect,
+    &__mail,
+    &__roadmap,
+    &__faq {
+      margin: 6em auto;
+    }
+
     &__offer {
       &__card {
         background: colors.$nightBlue;
@@ -324,7 +337,6 @@
 
           @include screen-tablet {
             display: block;
-            text-align: center;
           }
 
           &__icon {
@@ -371,67 +383,21 @@
         }
       }
     }
-    &__green {
-      margin: 6em auto;
-      text-align: center;
-      & > h2 {
-        @include screen-laptop {
-          line-height: 1.6em;
-        }
-      }
-      & > p {
-        margin: 3em auto;
-        width: 70%;
-
-        @include screen-laptop {
-          width: 90%;
-        }
-      }
-    }
     &__privacy {
-      margin: 6em auto;
-      padding: 4em 0 3em;
-      text-align: center;
-      background: colors.$nightBlue;
-
-      @include screen-tablet {
-        margin: 6em 2em;
-      }
-
-      > h2 {
-        @include screen-laptop {
-          line-height: 1.6em;
-        }
-      }
-
       > h2:nth-child(2) {
         color: colors.$red;
-
-        @include screen-laptop {
-          line-height: 1.6em;
-        }
       }
     }
     &__respect {
-      margin: 6em auto;
-      text-align: center;
       span {
         color: colors.$yellow;
       }
     }
     &__mail {
-      margin: 6em auto;
-      padding: 4em 0 3em;
-      text-align: center;
-      background: colors.$nightBlue;
-
       @include screen-tablet {
-        margin: 6em 2em;
-      }
-
-      > h2 {
-        @include screen-laptop {
-          line-height: 1.8em;
+        h2 {
+          width: 90%;
+          margin: auto;
         }
       }
 
@@ -439,44 +405,21 @@
         color: colors.$green;
       }
     }
-    &__roadmap {
-      &__paragraph {
-        margin: 3em auto;
-        width: 70%;
-        text-align: center;
-
-        @include screen-laptop {
-          width: 90%;
-        }
-      }
-    }
     &__faq {
       background: colors.$nightBlue;
       padding: 4em;
-      h2 {
-        margin-bottom: 2em;
-      }
-      &__paragraph {
-        margin: 3em auto;
-        width: 70%;
-        text-align: center;
 
-        @include screen-laptop {
-          width: 90%;
-        }
-      }
       &__container {
         &__q-a {
           position: relative;
           width: 100%;
           display: grid;
           grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+          grid-gap: 4em;
           max-height: 200px;
           transition: max-height 1s;
           overflow: hidden;
-          > div {
-            margin: 0.5em 2em;
-          }
+          text-align: left;
           p {
             font-size: 14px;
             white-space: pre-wrap;
@@ -499,9 +442,6 @@
           height: 100%;
           background: linear-gradient(to top, rgba(24, 21, 30, 1) 5%, rgba(24, 21, 30, 0) 80%);
         }
-        &__btn {
-          text-align: center;
-        }
       }
     }
   }
@@ -511,6 +451,23 @@
     padding-bottom: 4em;
     &::after {
       display: none;
+    }
+  }
+
+  .dark-section {
+    padding: 4em 0 3em;
+    background: colors.$nightBlue;
+
+    @include screen-tablet {
+      margin: 6em 2em;
+    }
+  }
+
+  .paragraph-section {
+    margin: 3em auto;
+    width: 70%;
+    @include screen-laptop {
+      width: 90%;
     }
   }
 </style>
