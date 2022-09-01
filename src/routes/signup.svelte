@@ -399,7 +399,7 @@
       @include screen-tablet {
         h2 {
           width: 90%;
-          margin: auto; 
+          margin: auto;
         }
       }
 
