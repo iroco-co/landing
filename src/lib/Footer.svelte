@@ -43,7 +43,9 @@
       <h3>{$_('footer.other.title')}</h3>
       <ul>
         <li><a href="https://blog.iroco.co/">{$_('footer.other.blog')}</a></li>
-        <li><a href="/">{$_('footer.other.job')}</a></li>
+        <li>
+          <a href="https://jobs.makesense.org/projects/iroco-364/">{$_('footer.other.job')}</a>
+        </li>
         <li><a href="/terms">{$_('footer.other.terms')}</a></li>
         <li><a href="/legal">{$_('footer.other.legal')}</a></li>
         <li><a href="/signup#faq">{$_('footer.other.faq')}</a></li>
