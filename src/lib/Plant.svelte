@@ -1,0 +1,65 @@
+<script lang="ts">
+  export let size: number;
+  export let title: string;
+</script>
+
+<span class="plant">
+  <svg viewBox="0 0 134.87 232.95" height={size}>
+    <title>Plant</title>
+    <path
+      d="M0,130.94H64.72a0,0,0,0,1,0,0v64.72a0,0,0,0,1,0,0h0A64.72,64.72,0,0,1,0,130.94v0A0,0,0,0,1,0,130.94Z"
+      fill="#00d692"
+    />
+    <path
+      d="M129.44,1.5A64.72,64.72,0,0,0,64.72,66.22h0v64.72h0a64.72,64.72,0,0,0,64.72-64.72h0Z"
+      fill="#211d28"
+      stroke="#00b9ff"
+      stroke-miterlimit="10"
+      stroke-width="3"
+    />
+    <path
+      d="M0,66.22H64.72a0,0,0,0,1,0,0v64.72a0,0,0,0,1,0,0h0A64.72,64.72,0,0,1,0,66.22v0A0,0,0,0,1,0,66.22Z"
+      transform="translate(64.72 197.16) rotate(180)"
+      fill="#00d692"
+    />
+    <circle cx="32.36" cy="33.86" r="32.36" fill="#fff" />
+  </svg>
+  <h4>{title}</h4>
+</span>
+
+<style lang="scss">
+  @import 'node_modules/@iroco/ui/lib/containers';
+
+  .plant {
+    @include screen-laptop() {
+      height: 100%;
+      margin-top: 4em;
+    }
+
+    @include screen-tablet() {
+      margin-top: 3em;
+    }
+
+    @include screen-tablet-S() {
+      margin-top: 2em;
+    }
+
+    > h4 {
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      margin-top: 50px;
+      text-align: center;
+      line-height: 2.2em;
+      white-space: pre-wrap;
+
+      @include screen-tablet-S() {
+        font-size: 0.9em;
+        margin-top: 40px;
+      }
+
+      @include screen-mobile-L() {
+        margin-top: 30px;
+      }
+    }
+  }
+</style>

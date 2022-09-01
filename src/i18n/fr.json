@@ -101,6 +101,229 @@
     "title": "Inscrivez-vous ici\npour devenir soft user",
     "disclaimer": "Votre adresse mail sera utilisée uniquement pour vous envoyer ponctuellement des informations sur nos projets. Pas de spam, pas de circulation non souhaitée de vos données non plus."
   },
+  "signup": {
+    "offer": {
+      "title": "Notre offre",
+      "list": {
+        "pricetaxincluded": "3,60 € par mois",
+        "priceprecisions": "(soit 3,00 € hors taxes + 0,60 € TVA à 20%)",
+        "email": "Une adresse mail",
+        "storage": "5 Gigaoctets de stockage",
+        "alias": "50 alias e-mail",
+        "contact-calendar": "Gestion des contacts et calendrier"
+      },
+      "buttons": {
+        "subscribe": "S'inscrire",
+        "details": "Voir détails"
+      }
+    },
+    "green": {
+      "title": "Si c'est gratuit, c'est la planète le produit",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "bullets": {
+        "energy": "Éco-conception",
+        "host": "Hébergement vert\nChaîne verte du numérique",
+        "gesture": "Gestes numériques écologiques"
+      }
+    },
+    "privacy": {
+      "title": "Éthique et confidentialité",
+      "caption": "Un mail qui respecte vos données",
+      "bullets": {
+        "privacy": "Pas d'exploitation des données",
+        "security": "Sécurité",
+        "server": "Serveurs en France\nSouveraineté numérique"
+      },
+      "respect": {
+        "title": "et qui ",
+        "yellow": "vous respecte",
+        "bullets": {
+          "ux": "UX ergonomique\net épurée",
+          "mental-load": "Diminution de\nla charge mentale",
+          "disconnect": "Déconnexion facilitée\nPas d'addiction"
+        }
+      }
+    },
+    "mail": {
+      "title": "On ne change pas de mail tous les jours",
+      "caption": "alors on vous accompagne",
+      "bullets": {
+        "subscription": "Souscription",
+        "client": "Configuration de\nvotre client mail",
+        "account": "Gestion de\nvotre compte"
+      }
+    },
+    "roadmap": {
+      "title": "Feuille de route",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "ul": {
+        "servers": {
+          "title": "Serveurs",
+          "date": "2021",
+          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        },
+        "client": {
+          "title": "Client Mail",
+          "date": "2021",
+          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        },
+        "company": {
+          "title": "Offre Entreprises",
+          "date": "2022",
+          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        },
+        "webmail": {
+          "title": "Webmail",
+          "date": "2022",
+          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        },
+        "file": {
+          "title": "Dossier",
+          "date": "2022",
+          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "questions": {
+        "offercontent": {
+          "title": "Que comprend exactement votre offre ?",
+          "p": "En souscrivant à l'offre ci-dessus, vous obtiendrez :",
+          "list": {
+            "address": "Une adresse mail de votre choix sur le nom de domaine iroco.co ou iroco.io ;",
+            "mailbox": "Une boîte mail associée à cette adresse disposant de 5Go d'espace de stockage (ce qui correspond, en ordre de grandeur, à 100 000 mails simples de 50Ko chacun ou à 5 000 mails avec une pièce jointe de 1Mo chacun) ;",
+            "aliases": "50 alias, c'est-à-dire des adresses mails secondaires composées sur la base de votre adresse principale. Les messages envoyés à ces alias arriveront dans votre boîte de réception principale. Vous pouvez utiliser des alias par exemple pour vous inscrire à un service sans révéler votre adresse principale, pour échanger avec une adresse différente pour chaque type d'interlocuteur (famille, relations professionnelles, amis...) ou pour tous les usages que vous souhaitez.",
+            "contact-calendar": "La possibilité de gérer vos contacts et calendrier."
+          },
+          "nowebmail": "Notre offre n'inclut pour le moment pas (encore) de webmail : vous devrez donc configurer un client de messagerie, c'est-à-dire un outil existant permettant de gérer vos mails (Thunderbird par exemple, mais il en existe beaucoup d'autres) pour recevoir vos mails. Si besoin, référez-vous à ",
+          "configurationquestion": "la question concernant la configuration de votre client mail,",
+          "nowebmailtofollow": "plus bas sur cette page.",
+          "soon": "Nous travaillons sur le développement de notre webmail éco-conçu et espérons pouvoir bientôt pouvoir le mettre entre vos mains !"
+        },
+        "ecofriendlyservice": {
+          "title": "Pourquoi affirmez-vous que votre service est écologique ?",
+          "behind": "Derrière le fonctionnement d'un service de mail, il y a plusieurs choses qu'on ne voit pas toujours : des lignes de code qui assurent l'acheminement des messages et la gestion de votre boîte mail, des serveurs physiques qui hébergent applications et données, l'ordinateur ou le smartphone que vous utilisez pour consulter votre messagerie et écrire vos mails... Nous tentons de travailler sur chacun de ces aspects pour vous proposer un service économe en ressources.",
+          "detail": "Dans le détail, voici ce que nous faisons :",
+          "list": {
+            "ecoresponsibility": "Nos serveurs sont hébergés chez un prestataire engagé dans une démarche d'éco-responsabilité.",
+            "ecoconception": {
+              "frugalapps": "Nous éco-concevons notre code afin de développer des applications frugales, capables de fonctionner sur des appareils disposant de ressources limitées. Si cela vous intéresse (et que vous êtes un peu geek), vous pouvez consulter ",
+              "blog": "notre blog",
+              "overview": " pour un aperçu de nos travaux."
+            },
+            "ecodesign": "Nous travaillons sur le design de nos interfaces pour vous proposer une expérience utilisateur agréable, accessible mais également économe en données et en ressources."
+          },
+          "impact": {
+            "numeric": "Si la question des impacts environnementaux du numérique vous intéresse, vous pouvez participer par exemple à une ",
+            "fresque": "Fresque du Numérique",
+            "preferences": " ou lire les ",
+            "publications": "publications de référence",
+            "question": " sur la question."
+          },
+          "print": "L’utilisation du mail reste par ailleurs une goutte d’eau dans l’océan de notre empreinte sur l’environnement... Alors n’hésitez pas à explorer les nombreuses autres manières d’améliorer cette empreinte !"
+        },
+        "data": {
+          "title": "Que deviennent nos données ?",
+          "p": "Rien.",
+          "personal": "Plus exactement, nous sommes obligés de collecter certaines données personnelles au moment de votre inscription mais nous nous engageons à ne pas transmettre ou vendre ces données à des tiers en dehors des circonstances strictement nécessaires au bon fonctionnement de notre service. Contrairement à d’autres fournisseurs de services numériques, notre modèle d’affaires ne repose pas sur la vente ou l’exploitation de vos données personnelles à des fins publicitaires : c’est d’ailleurs pour cela que notre service est payant.",
+          "access": "Bien évidemment, nous n’accédons pas non plus au contenu de vos mails : vous avez la certitude que vos données stockées sur nos serveurs resteront confidentielles.",
+          "detail": "Dans le détail, voici les données personnelles que nous collectons lors de votre inscription :",
+          "list": {
+            "provider": {
+              "collect": "Via notre prestataire de paiement (la société GoCardless), nous collectons vos ",
+              "lastname": "nom",
+              "firstname": "prénom",
+              "and": " et ",
+              "invoice": "adresse de facturation"
+            },
+            "also": {
+              "collect": "Notre prestataire de paiement collecte également vos ",
+              "bank": "coordonnées bancaires",
+              "noaccess": " (IBAN), mais nous n’y avons pas accès."
+            },
+            "last": {
+              "store": "Enfin, nous stockons bien entendu la ou les ",
+              "mail": "adresses mail",
+              "iroco": " que vous avez créées chez Iroco, ainsi que les ",
+              "alias": "alias",
+              "pass": " qui y sont associés. Nous stockons également votre mot de passe sous ",
+              "encrypted": "forme cryptée ",
+              "noaccess": ": nous n’y avons donc pas accès en clair."
+            }
+          }
+        },
+        "paidservice": {
+          "title": "Il y a plein de services qui proposent une boîte mail gratuitement, pourquoi votre service est-il payant ?",
+          "others": "Les services réellement gratuits sont très rares, et les boîtes mail ne font pas exception. Certains fournisseurs vous proposent effectivement une boîte mail apparemment gratuite… mais se rémunèrent en vendant ou en exploitant vos données personnelles, par exemple à des fins de ciblage publicitaire. D’autres fournisseurs adossent un service de mail à un autre service payant : c’est le cas des fournisseurs d’accès à Internet, qui proposent souvent des adresses mail incluses dans un abonnement payant à Internet.",
+          "iroco": "Chez Iroco, nous proposons un service transparent : le coût de votre abonnement sert à financer le fonctionnement de notre service de mail. Nous ne collectons que les données personnelles indispensables au fonctionnement de ce service et nous ne les exploitons pas à d’autres fins que ce fonctionnement."
+        },
+        "subscription": {
+          "title": "A quoi sert le montant de l’abonnement ?",
+          "emailservice": "Pour faire fonctionner un service de mail, il faut plusieurs choses : des serveurs pour héberger applications et données, des personnes pour développer et faire la maintenance des applications, quelques services tiers que nous avons choisi de confier à des prestataires...",
+          "detail": "Dans le détail, voici quelle est l’utilisation du montant de l’abonnement versé par nos utilisateurs :",
+          "list": {
+            "taxes": " Un peu moins de 16% (soit 20% du montant hors taxes) de ce montant va à l’administration fiscale sous forme de TVA : les services proposés par Iroco sont assujettis au taux normal de TVA de 20%, comme la plupart des biens et services.",
+            "fee": "Notre prestataire de paiement prélève une commission de 7% environ sur le montant de l’abonnement.",
+            "deployment": "Près de 48% de l'abonnement sert à couvrir nos coûts d'hébergement, c'est-à-dire les serveurs physiques sur lesquels sont stockés applications et données.",
+            "rest": "Le reste sert à payer nos autres frais et à rémunérer l'équipe d'Iroco."
+          },
+          "chart": {
+            "tax": {
+              "title": "TVA",
+              "percentage": ": 20% (soit 16% HT)"
+            },
+            "payment": {
+              "title": "Prestataire de paiement",
+              "percentage": ": 7%"
+            },
+            "hosting": {
+              "title": "Hébergement",
+              "percentage": ": 48%"
+            },
+            "iroco": {
+              "title": "Iroco",
+              "percentage": ": 25%"
+            }
+          }
+        },
+        "offer": {
+          "title": "Votre offre est-elle sans engagement ?",
+          "p": "Oui : vous pouvez résilier votre abonnement à tout moment. Il n'y a pas de période d'engagement minimale. En cas de résiliation, votre abonnement prendra fin au terme du mois en cours."
+        },
+        "withdrawal": {
+          "title": "Quand est prélevé le montant de mon abonnement ?",
+          "p": "Lorsque vous vous inscrivez, l'abonnement est prélevé le lendemain de votre inscription. Le montant de l'abonnement est ensuite prélevé tous les mois, le lendemain de la date anniversaire de votre inscription."
+        },
+        "cookies": {
+          "title": "Pourquoi ne me demandez-vous pas mes préférences en matière de cookies ?",
+          "weuse": "Nous utilisons",
+          "selfhosted": "pour mesurer notre audience en mode auto-hébergé (Matomo tourne sur nos serveurs). Nous avons suivi ",
+          "recommendations": "les recommandations",
+          "cnil": "de la CNIL afin de ne pas avoir à le faire. Vous pouvez voir et modifier votre statut ci-dessous en ce qui concerne nos mesures d'audience."
+        },
+        "configuration": {
+          "title": "Comment configurer mon client mail ?",
+          "introduction": "Il faut préciser les deux adresses du serveur d'envoi de mail (SMTP), de réception de mail (IMAP), l'utilisateur et le mot de passe. Les adresses des serveurs sont :",
+          "imap": "imap.iroco.io si votre mail est sur iroco.io, imap.iroco.co si votre mail est sur iroco.co. La sécurité de connexion est SSL/TLS",
+          "smtp": "smtp.iroco.io si votre mail est sur iroco.io, smtp.iroco.co si votre mail est sur iroco.co. La sécurité de connexion est SSL/TLS",
+          "user": "Votre nom d'utilisateur est votre email, votre mot de passe, celui que vous avez fourni lors de l'inscription.",
+          "imap-example": "Par exemple sur Thunderbird dans configuration > paramètres serveur :",
+          "smtp-example": "Toujours sur Thunderbird dans configuration > serveur sortant:"
+        },
+        "emailsyntax": {
+          "title": "Que puis-je choisir comme nom d'email ?",
+          "introduction": "L'email a deux parties : la partie locale (avant l'arobase) que vous pouvez choisir et le domaine qui est soit iroco.co, soit iroco.io.",
+          "local-part": "Pour la partie locale, c'est très ouvert (majuscules, minuscules, chiffres, caractères accentués, symboles). Il y a deux cas qui ne seront pas valides : un point comme dernier caractère, et deux points qui se suivent.",
+          "local-part-exclude": "Nous avons exclu le symbole '+' que nous réservons pour vos alias de mail.",
+          "local-part-spec": "Pour ceux qui veulent approfondir, voici la spécification"
+        }
+      },
+      "button": "Lire la suite",
+      "close": "Réduire"
+    }
+  },
   "contact": {
     "title": "Nous contacter :"
   }
