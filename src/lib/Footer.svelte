@@ -48,7 +48,7 @@
         </li>
         <li><a href="/terms">{$_('footer.other.terms')}</a></li>
         <li><a href="/legal">{$_('footer.other.legal')}</a></li>
-        <li><a href="/signup#faq">{$_('footer.other.faq')}</a></li>
+        <li><a href="/faq">{$_('footer.other.faq')}</a></li>
       </ul>
     </div>
   </div>
