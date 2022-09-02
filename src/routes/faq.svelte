@@ -8,7 +8,6 @@
 <Header />
 <main class="faq">
   <h1>{$_('signup.faq.title')}</h1>
-  <p class="faq__paragraph">{$_('signup.faq.p')}</p>
 
   <div class="faq__q-a">
     <div id="offercontent" class="faq__q-a__offercontent">
