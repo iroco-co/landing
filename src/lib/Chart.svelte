@@ -4,13 +4,13 @@
 </script>
 
 <span class="chart">
-  <title>Subscription Chart</title>
   <svg
     preserveAspectRatio="xMaxYMin meet"
-    viewBox="0 0 950 400"
+    viewBox="0 0 800 400"
     height={size}
     width={(5 * size) / 3}
   >
+    <title>Subscription Chart</title>
     <g data-z-index="3">
       <g data-z-index=".1" stroke-linejoin="round">
         <path fill="#FFE032" d="M324.977 82.2a114.8 114.8 0 0 1 109.174 79.233L325 197z" />
@@ -88,11 +88,3 @@
     </g>
   </svg>
 </span>
-
-<style>
-  .chart {
-    width: 100%;
-    display: block;
-    margin: auto;
-  }
-</style>
