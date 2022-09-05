@@ -37,7 +37,7 @@
 
   .mail {
     h4 {
-      transform: translateY(-2.1em);
+      transform: translateY(-2.2em);
       @include screen-tablet-S() {
         transform: translateY(0em);
       }
