@@ -28,17 +28,30 @@
     &__top {
       padding: 2em;
       h1 {
-        margin-bottom: 2em;
+        line-height: 1.6em;
+
+        @include screen-tablet {
+          font-size: 2.5em;
+        }
+        @include screen-tablet-S {
+          font-size: 2.3em;
+        }
       }
       p {
         width: 50%;
-      }
-    }
-  }
 
-  @include screen-tablet {
-    .article p {
-      width: 85%;
+        @include screen-laptop {
+          width: 70%;
+        }
+
+        @include screen-tablet {
+          width: 85%;
+        }
+
+        @include screen-tablet-S {
+          width: 100%;
+        }
+      }
     }
   }
 </style>
