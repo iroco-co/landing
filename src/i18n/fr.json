@@ -325,6 +325,7 @@
     }
   },
   "contact": {
-    "title": "Nous contacter :"
+    "title": "Nous contacter :",
+    "mail": "Envoyez-nous un mail !"
   }
 }

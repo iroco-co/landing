@@ -10,7 +10,7 @@
 <main class="contact">
   <div class="contact__container">
     <h2>{$_('contact.title')}</h2>
-    <Contact href="mailto:hello@iroco.fr" />
+    <Contact href="mailto:hello@iroco.fr" content={$_('contact.mail')} />
   </div>
   <div class="contact__newsletter">
     <Newsletter />

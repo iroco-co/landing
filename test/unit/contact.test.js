@@ -15,7 +15,7 @@ describe('Testing Contact Page', () => {
     const { getAllByText, getByText } = render(contact);
 
     expect(getByText('Contact us:')).toBeInTheDocument();
-    expect(getAllByText('Want to get in touch?')).toHaveLength(2);
+    expect(getAllByText('Send us an email!')).toHaveLength(1);
     expect(getByText('Sign up for our newsletter to become a soft user')).toBeInTheDocument();
   });
 });

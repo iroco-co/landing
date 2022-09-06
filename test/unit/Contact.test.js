@@ -12,12 +12,12 @@ init({ fallbackLocale: 'en', initialLocale: 'en' });
 
 describe('Testing Contact Component', () => {
   test('its content is correctly rendered', () => {
-    const { getByText } = render(Contact, { href: '/contact' });
+    const { getByText } = render(Contact, { href: '/contact', content: 'Want to get in touch?' });
     expect(screen.getByText('Want to get in touch?')).toBeInTheDocument();
   });
 
   test('redirection works with a relative URL for href', () => {
-    const { getByText } = render(Contact, { href: '/contact' });
+    const { getByText } = render(Contact, { href: '/contact', content: 'Want to get in touch?' });
     expect(screen.getByText('Want to get in touch?').closest('a')).toHaveAttribute(
       'href',
       '/contact'
@@ -25,8 +25,11 @@ describe('Testing Contact Component', () => {
   });
 
   test('redirection works with a mailto link for href', () => {
-    const { getByText } = render(Contact, { href: 'mailto:hello@iroco.fr' });
-    expect(screen.getByText('Want to get in touch?').closest('a')).toHaveAttribute(
+    const { getByText } = render(Contact, {
+      href: 'mailto:hello@iroco.fr',
+      content: 'Send us an email!'
+    });
+    expect(screen.getByText('Send us an email!').closest('a')).toHaveAttribute(
       'href',
       'mailto:hello@iroco.fr'
     );

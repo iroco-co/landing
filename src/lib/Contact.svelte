@@ -1,12 +1,11 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
-
   export let href: string;
+  export let content: string;
 </script>
 
 <div class="contact">
   <a {href}>
-    {$_('footer.mailto')}
+    {content}
   </a>
 </div>
 

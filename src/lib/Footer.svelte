@@ -9,7 +9,7 @@
     <div class="footer__contact">
       <div class="footer__contact__container">
         <h3>{$_('footer.socialmedia')}</h3>
-        <Contact href="/contact" />
+        <Contact href="/contact" content={$_('footer.mailto')} />
         <div class="footer__contact__container__icons">
           <span class="footer__contact__container__icons__icon">
             <a href="https://www.linkedin.com/company/irocodigital/">

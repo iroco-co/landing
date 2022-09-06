@@ -322,6 +322,7 @@
     }
   },
   "contact": {
-    "title": "Contact us:"
+    "title": "Contact us:",
+    "mail": "Send us an email!"
   }
 }
