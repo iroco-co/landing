@@ -16,6 +16,6 @@ describe('Testing Contact Page', () => {
 
     expect(getByText('Contact us:')).toBeInTheDocument();
     expect(getAllByText('Want to get in touch?')).toHaveLength(2);
-    expect(getByText('Sign up here to become a soft user')).toBeInTheDocument();
+    expect(getByText('Sign up for our newsletter to become a soft user')).toBeInTheDocument();
   });
 });

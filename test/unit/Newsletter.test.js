@@ -13,6 +13,6 @@ init({ fallbackLocale: 'en', initialLocale: 'en' });
 describe('Testing Newsletter Component', () => {
   test('its content is correctly rendered', () => {
     const { getByText } = render(Newsletter);
-    expect(getByText('Sign up here to become a soft user')).toBeInTheDocument();
+    expect(getByText('Sign up for our newsletter to become a soft user')).toBeInTheDocument();
   });
 });
