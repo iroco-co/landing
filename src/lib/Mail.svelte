@@ -4,7 +4,7 @@
   export let title: string | null = null;
 </script>
 
-<span class="mail illustration">
+<div class="mail illustration">
   <svg viewBox="0 0 58.96 85.92" height={size}>
     <title>Mail</title>
     <rect
@@ -29,21 +29,11 @@
       stroke-width={strokeWidth}
     />
   </svg>
-  <h4 class:hidden={title == null ? 'hidden' : ''}>{title}</h4>
-</span>
+  {#if title != null}
+    <h4>{title}</h4>
+  {/if}
+</div>
 
 <style lang="scss">
   @import 'node_modules/@iroco/ui/lib/containers';
-
-  .mail {
-    h4 {
-      transform: translateY(-2.2em);
-      @include screen-tablet-S() {
-        transform: translateY(0em);
-      }
-    }
-  }
-  .hidden {
-    display: none;
-  }
 </style>
