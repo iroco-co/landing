@@ -12,7 +12,7 @@
   },
   "footer": {
     "subscribe": "Sign up",
-    "mailto": "Want to get in touch?",
+    "mailto": "Send us a mail",
     "socialmedia": "Contact",
     "newsletter": "Newsletter",
     "email": "Your Email Address",
@@ -320,9 +320,5 @@
       "button": "Read more",
       "close": "Read less"
     }
-  },
-  "contact": {
-    "title": "Contact us:",
-    "mail": "Send us an email!"
   }
 }

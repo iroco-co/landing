@@ -1,7 +1,6 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
   import { Icon, IconMastodon } from '@iroco/ui';
-  import Contact from '../lib/Contact.svelte';
 </script>
 
 <footer>
@@ -9,7 +8,10 @@
     <div class="footer__contact">
       <div class="footer__contact__container">
         <h3>{$_('footer.socialmedia')}</h3>
-        <Contact href="/contact" content={$_('footer.mailto')} />
+        <a href="mailto:hello@iroco.fr">
+          <Icon name="mail" width="1.2em" height="1.2em" />
+          {$_('footer.mailto')}
+        </a>
         <div class="footer__contact__container__icons">
           <span class="footer__contact__container__icons__icon">
             <a href="https://www.linkedin.com/company/irocodigital/">
@@ -73,19 +75,23 @@
       &__container {
         &__icons {
           display: flex;
-          justify-content: center;
           margin-top: 1em;
-          &:last-child {
-            border-right: 1.5px solid colors.$mediumGrey;
-          }
           &__icon {
             padding: 15px 35.5px;
             text-align: center;
             border-left: 1.5px solid colors.$mediumGrey;
+            &:last-of-type {
+              border-right: 1.5px solid colors.$mediumGrey;
+            }
           }
         }
       }
     }
+  }
+
+  :global(.feather-mail) {
+    vertical-align: text-bottom;
+    margin-right: 5px;
   }
 
   .copyright {

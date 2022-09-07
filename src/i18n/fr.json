@@ -15,7 +15,7 @@
   },
   "footer": {
     "subscribe": "S'inscrire",
-    "mailto": "Envie de nous contacter ?",
+    "mailto": "Envoyez-nous un mail",
     "socialmedia": "Contact",
     "newsletter": "Newsletter",
     "email": "Votre Adresse mail",
@@ -323,9 +323,5 @@
       "button": "Lire la suite",
       "close": "Réduire"
     }
-  },
-  "contact": {
-    "title": "Nous contacter :",
-    "mail": "Envoyez-nous un mail !"
   }
 }
