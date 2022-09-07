@@ -62,26 +62,8 @@
   @use 'node_modules/@iroco/ui/lib/colors';
   @import 'node_modules/@iroco/ui/lib/button';
   .page-content {
-    &__subscribe {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 2em 4em;
-      &__btn {
-        > a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-      }
-      &__logo {
-        display: flex;
-        align-items: center;
-        h1 {
-          padding-left: 0.8em;
-        }
-      }
-    }
+    display: flex;
+    flex-direction: column;
+    align-content: center;
   }
 </style>

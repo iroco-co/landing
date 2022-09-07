@@ -36,4 +36,21 @@
 
 <style lang="scss">
   @import 'node_modules/@iroco/ui/lib/containers';
+  .mail {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    h4 {
+      text-align: left;
+    }
+  }
+  @include screen-tablet {
+    .mail {
+      flex-direction: column;
+      gap: 0;
+      h4 {
+        text-align: center;
+      }
+    }
+  }
 </style>
