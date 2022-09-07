@@ -71,7 +71,7 @@
   </div>
   <div class="signup__privacy dark-section">
     <h2>{$_('signup.privacy.title')}</h2>
-    <h2>{$_('signup.privacy.caption')}</h2>
+    <h2 class="font-color-red">{$_('signup.privacy.caption')}</h2>
     <HorizontalOrVerticalDisplayedContent>
       <Privacy size="220" title={$_('signup.privacy.bullets.privacy')} />
       <Security size="220" title={$_('signup.privacy.bullets.security')} />
@@ -81,9 +81,7 @@
   <div class="signup__respect">
     <h2>
       {$_('signup.privacy.respect.title')}
-      <span>
-        {$_('signup.privacy.respect.yellow')}
-      </span>
+      <span class="font-color-yellow">{$_('signup.privacy.respect.yellow')}</span>
     </h2>
     <HorizontalOrVerticalDisplayedContent>
       <Ux title={$_('signup.privacy.respect.bullets.ux')} />
@@ -93,9 +91,9 @@
   </div>
   <div class="signup__mail dark-section">
     <h2>{$_('signup.mail.title')}</h2>
-    <h2>{$_('signup.mail.caption')}</h2>
+    <h2 class="font-color-green">{$_('signup.mail.caption')}</h2>
     <HorizontalOrVerticalDisplayedContent>
-      <Mail size="165" strokeWidth="1" title={$_('signup.mail.bullets.subscription')} />
+      <Mail size="165" strokeWidth="1" orientation="vertical" title={$_('signup.mail.bullets.subscription')} />
       <Laptop title={$_('signup.mail.bullets.client')} />
       <Plant size="220" title={$_('signup.mail.bullets.account')} />
     </HorizontalOrVerticalDisplayedContent>
@@ -144,10 +142,6 @@
 
   .signup {
     text-align: center;
-
-    h2 {
-      line-height: 1.6em;
-    }
 
     &__offer,
     &__green,
@@ -220,26 +214,12 @@
         }
       }
     }
-    &__privacy {
-      > h2:nth-child(2) {
-        color: colors.$red;
-      }
-    }
-    &__respect {
-      span {
-        color: colors.$yellow;
-      }
-    }
     &__mail {
       @include screen-tablet {
         h2 {
           width: 90%;
           margin: auto;
         }
-      }
-
-      > h2:nth-child(2) {
-        color: colors.$green;
       }
     }
     &__roadmap {

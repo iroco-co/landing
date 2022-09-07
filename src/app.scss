@@ -20,23 +20,13 @@ button {
   color: colors.$beige;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  font-size: large;
-  line-height: 1.7em;
-}
-
 h1 {
-  font-size: 2.8em;
-  line-height: 1.3em;
+  font-size: 2em;
+  line-height: 1em;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 main {
@@ -51,6 +41,7 @@ html {
   > body {
     @include fonts.Arial(14px, colors.$beige);
     line-height: 1.7em;
+    font-size: 18px;
     margin: 0;
     padding: 0;
     cursor: default;
@@ -61,6 +52,18 @@ html {
     background: colors.$darkBlue;
   }
 }
+
+.font-color-blue {color: colors.$blue;}
+.font-color-darkBlue {color: colors.$darkBlue;}
+.font-color-nightBlue {color: colors.$nightBlue;}
+.font-color-green {color: colors.$green;}
+.font-color-red {color: colors.$red;}
+.font-color-yellow {color: colors.$yellow;}
+.font-color-beige {color: colors.$beige;}
+.font-color-darkBeige {color: colors.$darkBeige;}
+.font-color-mediumGrey {color: colors.$mediumGrey;}
+.font-color-darkGrey {color: colors.$darkGrey;}
+.font-color-lightGrey {color: colors.$lightGrey;}
 
 .illustration {
   width: 100%;
@@ -75,14 +78,13 @@ html {
 
   > h4 {
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     margin-top: 50px;
     text-align: center;
-    line-height: 2.2em;
+    line-height: 2em;
     white-space: pre-wrap;
 
     @include screen-tablet-S() {
-      font-size: 0.9em;
       margin-top: 40px;
     }
 

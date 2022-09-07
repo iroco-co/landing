@@ -167,57 +167,52 @@
   @import 'node_modules/@iroco/ui/lib/button';
 
   .faq {
-    background: colors.$nightBlue;
-    padding: 4em;
-
+    max-width: 1024px;
     h1 {
       text-align: center;
     }
-
-    h3 {
-      line-height: 1.6em;
-    }
-
-    &__paragraph {
-      margin: 3em auto;
-      width: 70%;
-      text-align: center;
-
-      @include screen-laptop {
-        width: 90%;
-      }
-    }
-
     &__q-a {
-      position: relative;
-      width: 100%;
-      > div {
-        margin: 0.5em 2em;
-      }
-      p {
-        font-size: 14px;
-        white-space: pre-wrap;
-        color: colors.$darkBeige;
-      }
-      ul {
-        padding-left: 2em;
-        color: colors.$darkBeige;
-      }
-      a {
-        font-weight: bold;
-        color: colors.$green;
-      }
-
       img {
-        margin: 1em;
-        width: 70%;
-        object-fit: cover;
+        display: inherit;
+        padding-top: 1em;
+      }
+      &__cookies {
+        iframe {
+          border: 1px, colors.$beige;
+          border-radius: 2%;
+          height: 200px;
+          width: 600px;
+          margin-top: 20px;
 
-        @include screen-laptop-L {
-          width: 85%;
-        }
-        @include screen-tablet {
-          width: 100%;
+          @include screen-laptop() {
+            width: 500px;
+            height: 200px;
+          }
+
+          @include screen-tablet() {
+            width: 450px;
+            height: 200px;
+          }
+
+          @include screen-tablet-S() {
+            width: 400px;
+            height: 200px;
+          }
+
+          @include screen-mobile-L() {
+            width: 350px;
+            height: 170px;
+          }
+
+          @include screen-mobile-M() {
+            width: 300px;
+            height: 160px;
+          }
+
+          @include screen-mobile-S() {
+            width: 250px;
+            height: 150px;
+          }
         }
       }
     }

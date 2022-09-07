@@ -30,6 +30,7 @@
   }
 
   .header > :global(.navigation) {
+    font-size: 0.8em;
     border-bottom: none;
     position: fixed;
     background-color: colors.$darkBlue;

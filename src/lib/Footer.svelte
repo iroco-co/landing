@@ -71,6 +71,13 @@
     h3 {
       color: colors.$darkBeige;
     }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
     &__contact {
       &__container {
         &__icons {

@@ -2,9 +2,10 @@
   export let size: number;
   export let strokeWidth: number;
   export let title: string | null = null;
+  export let orientation: 'vertical'|'horizontal' = 'horizontal';
 </script>
 
-<div class="mail illustration">
+<div class="mail illustration {orientation}">
   <svg viewBox="0 0 58.96 85.92" height={size}>
     <title>Mail</title>
     <rect
@@ -38,6 +39,8 @@
   @import 'node_modules/@iroco/ui/lib/containers';
   .mail {
     display: flex;
+  }
+  .horizontal {
     flex-direction: row;
     gap: 2em;
     h4 {
