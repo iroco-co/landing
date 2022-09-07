@@ -15,7 +15,6 @@ describe('Testing Header Component', () => {
     const { getByText } = render(Header);
     expect(getByText('About')).toBeInTheDocument();
     expect(getByText('Blog')).toBeInTheDocument();
-    expect(getByText('Contact')).toBeInTheDocument();
     expect(getByText('Subscription')).toBeInTheDocument();
     expect(getByText('Sign in')).toBeInTheDocument();
   });
