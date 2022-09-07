@@ -9,7 +9,7 @@
       <img src="/images/screen.png" alt="Iroco mail application on a smartphone screen" />
     </div>
     <div class="newsletter__container__subscription">
-      <Mail size="90" strokeWidth="2" title={$_('newsletter.title')}/>
+      <Mail size="90" strokeWidth="2" title={$_('newsletter.title')} />
       <div class="newsletter__container__subscription__iframe">
         <iframe
           title="mailjet"
