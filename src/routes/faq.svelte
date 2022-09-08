@@ -24,7 +24,7 @@
       <li><a href="#cookies">{$_('signup.faq.questions.cookies.title')}</a></li>
     </ul>
   </div>
-
+  <hr />
   <div class="faq__q-a">
     <div id="offercontent" class="faq__q-a__offercontent">
       <h3><a href="#htop">{$_('signup.faq.questions.offercontent.title')}</a></h3>
