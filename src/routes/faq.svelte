@@ -23,7 +23,7 @@
   </div>
   <hr />
   <div class="faq__q-a">
-    <div id="offercontent" class="faq__q-a__offercontent">
+    <div id="offercontent" class="faq__q-a__offercontent question">
       <h3><a href="#htop">{$_('signup.faq.questions.offercontent.title')}</a></h3>
       <p>{$_('signup.faq.questions.offercontent.p')}</p>
       <ul>
@@ -41,8 +41,8 @@
       </p>
       <p>{$_('signup.faq.questions.offercontent.soon')}</p>
     </div>
-    <div id="ecofriendlyservice" class="faq__q-a__ecofriendlyservice">
-      <h3>{$_('signup.faq.questions.ecofriendlyservice.title')}</h3>
+    <div id="ecofriendlyservice" class="faq__q-a__ecofriendlyservice question">
+      <h3><a href="#htop">{$_('signup.faq.questions.ecofriendlyservice.title')}</a></h3>
       <p>{$_('signup.faq.questions.ecofriendlyservice.behind')}</p>
       <p>{$_('signup.faq.questions.ecofriendlyservice.detail')}</p>
       <ul>
@@ -69,8 +69,8 @@
       </p>
       <p>{$_('signup.faq.questions.ecofriendlyservice.print')}</p>
     </div>
-    <div id="data" class="faq__q-a__data">
-      <h3>{$_('signup.faq.questions.data.title')}</h3>
+    <div id="data" class="faq__q-a__data question">
+      <h3><a href="#htop">{$_('signup.faq.questions.data.title')}</a></h3>
       <p>{$_('signup.faq.questions.data.p')}</p>
       <p>{$_('signup.faq.questions.data.personal')}</p>
       <p>{$_('signup.faq.questions.data.access')}</p>
@@ -99,13 +99,13 @@
         </li>
       </ul>
     </div>
-    <div id="costprice" class="faq__q-a__paidservice">
-      <h3>{$_('signup.faq.questions.paidservice.title')}</h3>
+    <div id="costprice" class="faq__q-a__paidservice question">
+      <h3><a href="#htop">{$_('signup.faq.questions.paidservice.title')}</a></h3>
       <p>{$_('signup.faq.questions.paidservice.others')}</p>
       <p>{$_('signup.faq.questions.paidservice.iroco')}</p>
     </div>
-    <div id="subscription" class="faq__q-a__subscription">
-      <h3>{$_('signup.faq.questions.subscription.title')}</h3>
+    <div id="subscription" class="faq__q-a__subscription question">
+      <h3><a href="#htop">{$_('signup.faq.questions.subscription.title')}</a></h3>
       <p>{$_('signup.faq.questions.subscription.emailservice')}</p>
       <p>{$_('signup.faq.questions.subscription.detail')}</p>
       <ul>
@@ -116,16 +116,16 @@
       </ul>
       <Chart size="500" />
     </div>
-    <div id="nonbindingoffer" class="faq__q-a__offer">
-      <h3>{$_('signup.faq.questions.offer.title')}</h3>
+    <div id="nonbindingoffer" class="faq__q-a__offer question">
+      <h3><a href="#htop">{$_('signup.faq.questions.offer.title')}</a></h3>
       <p>{$_('signup.faq.questions.offer.p')}</p>
     </div>
     <div id="withdrawal" class="faq__q-a__withdrawal">
-      <h3>{$_('signup.faq.questions.withdrawal.title')}</h3>
+      <h3><a href="#htop">{$_('signup.faq.questions.withdrawal.title')}</a></h3>
       <p>{$_('signup.faq.questions.withdrawal.p')}</p>
     </div>
     <div id="configuration" class="faq__q-a__configuration">
-      <h3>{$_('signup.faq.questions.configuration.title')}</h3>
+      <h3><a href="#htop">{$_('signup.faq.questions.configuration.title')}</a></h3>
       <p>{$_('signup.faq.questions.configuration.introduction')}</p>
       <ul>
         <li>{$_('signup.faq.questions.configuration.imap')}</li>
@@ -141,8 +141,8 @@
         <img alt="smtp configuration example" src="/images/smtp.png" />
       </p>
     </div>
-    <div id="emailsyntax" class="faq__q-a__emailsyntax">
-      <h3>{$_('signup.faq.questions.emailsyntax.title')}</h3>
+    <div id="emailsyntax" class="faq__q-a__emailsyntax question">
+      <h3><a href="#htop">{$_('signup.faq.questions.emailsyntax.title')}</a></h3>
       <p>{$_('signup.faq.questions.emailsyntax.introduction')}</p>
       <p>{$_('signup.faq.questions.emailsyntax.local-part')}</p>
       <p>{$_('signup.faq.questions.emailsyntax.local-part-exclude')}</p>
@@ -151,8 +151,8 @@
         <a href="https://datatracker.ietf.org/doc/html/rfc5322">RFC 5322</a>.
       </p>
     </div>
-    <div id="cookies" class="faq__q-a__cookies">
-      <h3>{$_('signup.faq.questions.cookies.title')}</h3>
+    <div id="cookies" class="faq__q-a__cookies question">
+      <h3><a href="#htop">{$_('signup.faq.questions.cookies.title')}</a></h3>
       <p>
         {$_('signup.faq.questions.cookies.weuse')}
         <a href="https://fr.matomo.org/matomo-on-premise/">Matomo</a>
@@ -180,6 +180,10 @@
 
   .faq {
     max-width: 1024px;
+    .question,
+    &__toc {
+      scroll-margin-top: 10em;
+    }
     &__q-a {
       img {
         display: inherit;
