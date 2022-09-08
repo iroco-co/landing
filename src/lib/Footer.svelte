@@ -78,6 +78,12 @@
       list-style-type: none;
     }
 
+    a,
+    a:visited,
+    a:active {
+      color: colors.$beige;
+    }
+
     &__contact {
       &__container {
         &__icons {

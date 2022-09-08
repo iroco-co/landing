@@ -11,9 +11,12 @@
   box-sizing: border-box;
 }
 
-a,
-a:visited,
-a:active,
+a {
+  color: colors.$green;
+  outline: none;
+  text-decoration: none;
+}
+
 button {
   outline: none;
   text-decoration: none;
