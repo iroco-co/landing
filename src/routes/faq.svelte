@@ -8,10 +8,26 @@
 <Header />
 <main class="faq">
   <h1>{$_('signup.faq.title')}</h1>
+  <div class="faq__toc" id="htop">
+    <ul>
+      <li><a href="#offercontent">{$_('signup.faq.questions.offercontent.title')}</a></li>
+      <li>
+        <a href="#ecofriendlyservice">{$_('signup.faq.questions.ecofriendlyservice.title')}</a>
+      </li>
+      <li><a href="#data">{$_('signup.faq.questions.data.title')}</a></li>
+      <li><a href="#costprice">{$_('signup.faq.questions.paidservice.title')}</a></li>
+      <li><a href="#subscription">{$_('signup.faq.questions.subscription.title')}</a></li>
+      <li><a href="#nonbindingoffer">{$_('signup.faq.questions.offer.title')}</a></li>
+      <li><a href="#withdrawal">{$_('signup.faq.questions.withdrawal.title')}</a></li>
+      <li><a href="#configuration">{$_('signup.faq.questions.configuration.title')}</a></li>
+      <li><a href="#emailsyntax">{$_('signup.faq.questions.emailsyntax.title')}</a></li>
+      <li><a href="#cookies">{$_('signup.faq.questions.cookies.title')}</a></li>
+    </ul>
+  </div>
 
   <div class="faq__q-a">
     <div id="offercontent" class="faq__q-a__offercontent">
-      <h3>{$_('signup.faq.questions.offercontent.title')}</h3>
+      <h3><a href="#htop">{$_('signup.faq.questions.offercontent.title')}</a></h3>
       <p>{$_('signup.faq.questions.offercontent.p')}</p>
       <ul>
         <li>{$_('signup.faq.questions.offercontent.list.address')}</li>
