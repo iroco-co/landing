@@ -14,7 +14,6 @@ describe('Testing Faq Page', () => {
   test('the content is correctly rendered', () => {
     const { getByText } = render(faq);
 
-    expect(getByText('FAQ')).toBeInTheDocument();
-    expect(getByText('What exactly does your offer include?')).toBeInTheDocument();
+    expect(getByText('Frequently Asked Questions')).toBeInTheDocument();
   });
 });
