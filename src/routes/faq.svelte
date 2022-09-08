@@ -184,8 +184,12 @@
 
   .faq {
     max-width: 1024px;
-    h1 {
-      text-align: center;
+    &__toc {
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
     }
     &__q-a {
       img {
