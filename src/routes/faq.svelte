@@ -120,11 +120,11 @@
       <h3><a href="#htop">{$_('signup.faq.questions.offer.title')}</a></h3>
       <p>{$_('signup.faq.questions.offer.p')}</p>
     </div>
-    <div id="withdrawal" class="faq__q-a__withdrawal">
+    <div id="withdrawal" class="faq__q-a__withdrawal question">
       <h3><a href="#htop">{$_('signup.faq.questions.withdrawal.title')}</a></h3>
       <p>{$_('signup.faq.questions.withdrawal.p')}</p>
     </div>
-    <div id="configuration" class="faq__q-a__configuration">
+    <div id="configuration" class="faq__q-a__configuration question">
       <h3><a href="#htop">{$_('signup.faq.questions.configuration.title')}</a></h3>
       <p>{$_('signup.faq.questions.configuration.introduction')}</p>
       <ul>
