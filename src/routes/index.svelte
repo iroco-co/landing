@@ -1,7 +1,5 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import Header from '../lib/Header.svelte';
-  import Footer from '../lib/Footer.svelte';
   import ImageArticle from '../lib/ImageArticle.svelte';
   import Newsletter from '../lib/Newsletter.svelte';
   import IrocologoSignupbutton from '../lib/IrocologoSignupbutton.svelte';
@@ -10,8 +8,7 @@
 <svelte:head>
   <title>{$_('page.title')}</title>
 </svelte:head>
-<Header />
-<main class="page-content">
+<section class="page-content">
   <ImageArticle
     imgSrc="/images/irocoTeamSpirit.png"
     alt="Iroco Team hiking in the mountains"
@@ -55,8 +52,7 @@
   <IrocologoSignupbutton />
 
   <Newsletter />
-</main>
-<Footer />
+</section>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';

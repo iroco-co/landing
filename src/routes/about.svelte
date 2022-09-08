@@ -1,14 +1,11 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import Header from '../lib/Header.svelte';
-  import Footer from '../lib/Footer.svelte';
   import Article from '../lib/Article.svelte';
   import Host from '../lib/Host.svelte';
   import IrocologoSignupbutton from '../lib/IrocologoSignupbutton.svelte';
 </script>
 
-<Header />
-<main class="about">
+<section class="about">
   <Article title={$_('about.beginning.title')} content={$_('about.beginning.p')}>
     <img
       class="about__image"
@@ -77,8 +74,7 @@
     </Article>
   </div>
   <IrocologoSignupbutton />
-</main>
-<Footer />
+</section>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';

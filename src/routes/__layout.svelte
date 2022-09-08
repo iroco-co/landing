@@ -2,8 +2,14 @@
   import '../app.scss';
   import '../i18n';
   import { isLoading } from 'svelte-i18n';
+  import Header from '../lib/Header.svelte';
+  import Footer from '../lib/Footer.svelte';
 </script>
 
 {#if !$isLoading}
-  <slot />
+  <Header />
+  <main class="main">
+    <slot />
+  </main>
+  <Footer />
 {/if}

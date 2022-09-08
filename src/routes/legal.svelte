@@ -1,11 +1,4 @@
-<script lang="ts">
-  import Header from '../lib/Header.svelte';
-  import Footer from '../lib/Footer.svelte';
-</script>
-
-<Header />
-
-<main class="legal">
+<section class="legal">
   <h1>Mentions légales</h1>
   <div class="legal__iroco">
     <h2>&Eacute;diteur</h2>
@@ -38,9 +31,7 @@
     <h3>Montant du Capital Social</h3>
     <p>28 988 euros</p>
   </div>
-</main>
-
-<Footer />
+</section>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';

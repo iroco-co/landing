@@ -1,11 +1,4 @@
-<script lang="ts">
-  import Header from '../lib/Header.svelte';
-  import Footer from '../lib/Footer.svelte';
-</script>
-
-<Header />
-
-<main class="terms">
+<section class="terms">
   <h1>Conditions Générales de Vente en vigueur et politique de gestion des données personnelles</h1>
 
   <h2 class="article">Article 1 - Contenu et champ d&apos;application</h2>
@@ -423,9 +416,7 @@
     avec les termes de la nouvelle rédaction de la clause de protection des données à caractère
     personnel, il a la possibilité de supprimer son compte.
   </p>
-</main>
-
-<Footer />
+</section>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';

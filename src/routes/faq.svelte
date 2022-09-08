@@ -1,12 +1,9 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import Header from '../lib/Header.svelte';
-  import Footer from '../lib/Footer.svelte';
   import Chart from '../lib/Chart.svelte';
 </script>
 
-<Header />
-<main class="faq">
+<section class="faq">
   <h1>{$_('signup.faq.title')}</h1>
   <div class="faq__toc" id="htop">
     <ul class="no-bullet">
@@ -173,8 +170,7 @@
       />
     </div>
   </div>
-</main>
-<Footer />
+</section>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';

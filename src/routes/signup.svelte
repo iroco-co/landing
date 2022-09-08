@@ -1,7 +1,5 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import Header from '../lib/Header.svelte';
-  import Footer from '../lib/Footer.svelte';
   import { Icon } from '@iroco/ui/';
   import Energy from '../lib/Energy.svelte';
   import GreenHost from '../lib/GreenHost.svelte';
@@ -18,8 +16,7 @@
   import HorizontalOrVerticalDisplayedContent from '../lib/HorizontalOrVerticalDisplayedContent.svelte';
 </script>
 
-<Header />
-<main class="signup">
+<section class="signup">
   <div class="signup__offer">
     <h2>{$_('signup.offer.title')}</h2>
     <div class="signup__offer__card">
@@ -136,8 +133,7 @@
       ]}
     />
   </div>
-</main>
-<Footer />
+</section>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
