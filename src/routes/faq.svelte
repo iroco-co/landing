@@ -9,7 +9,7 @@
 <main class="faq">
   <h1>{$_('signup.faq.title')}</h1>
   <div class="faq__toc" id="htop">
-    <ul>
+    <ul class="no-bullet">
       <li><a href="#offercontent">{$_('signup.faq.questions.offercontent.title')}</a></li>
       <li>
         <a href="#ecofriendlyservice">{$_('signup.faq.questions.ecofriendlyservice.title')}</a>
@@ -184,13 +184,6 @@
 
   .faq {
     max-width: 1024px;
-    &__toc {
-      ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-      }
-    }
     &__q-a {
       img {
         display: inherit;

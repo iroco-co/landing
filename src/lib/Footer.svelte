@@ -33,7 +33,7 @@
     </div>
     <div class="footer__menu">
       <h3>{$_('footer.menu.title')}</h3>
-      <ul>
+      <ul class="no-bullet">
         <li><a href="/">{$_('footer.menu.philosophy')}</a></li>
         <li><a href="/">{$_('footer.menu.planet')}</a></li>
         <li><a href="/">{$_('footer.menu.human')}</a></li>
@@ -43,7 +43,7 @@
     </div>
     <div class="footer__other">
       <h3>{$_('footer.other.title')}</h3>
-      <ul>
+      <ul class="no-bullet">
         <li><a href="https://blog.iroco.co/">{$_('footer.other.blog')}</a></li>
         <li>
           <a href="https://jobs.makesense.org/projects/iroco-364/">{$_('footer.other.job')}</a>
@@ -70,12 +70,6 @@
 
     h3 {
       color: colors.$darkBeige;
-    }
-
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
     }
 
     a,

@@ -17,6 +17,12 @@ a {
   text-decoration: none;
 }
 
+ul.no-bullet {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 hr {
   border: 0;
   margin: 4em;
