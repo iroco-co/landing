@@ -93,7 +93,12 @@
     <h2>{$_('signup.mail.title')}</h2>
     <h2 class="font-color-green">{$_('signup.mail.caption')}</h2>
     <HorizontalOrVerticalDisplayedContent>
-      <Mail size="165" strokeWidth="1" orientation="vertical" title={$_('signup.mail.bullets.subscription')} />
+      <Mail
+        size="165"
+        strokeWidth="1"
+        orientation="vertical"
+        title={$_('signup.mail.bullets.subscription')}
+      />
       <Laptop title={$_('signup.mail.bullets.client')} />
       <Plant size="220" title={$_('signup.mail.bullets.account')} />
     </HorizontalOrVerticalDisplayedContent>

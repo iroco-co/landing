@@ -2,7 +2,7 @@
   export let size: number;
   export let strokeWidth: number;
   export let title: string | null = null;
-  export let orientation: 'vertical'|'horizontal' = 'horizontal';
+  export let orientation: 'vertical' | 'horizontal' = 'horizontal';
 </script>
 
 <div class="mail illustration {orientation}">
