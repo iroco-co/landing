@@ -1,15 +1,41 @@
 <script>
   import '../app.scss';
   import '../i18n';
-  import { isLoading } from 'svelte-i18n';
-  import Header from '../lib/Header.svelte';
+  import { _, isLoading } from 'svelte-i18n';
   import Footer from '../lib/Footer.svelte';
+  import { Navigation, NavigationItem } from '@iroco/ui';
 </script>
 
 {#if !$isLoading}
-  <Header />
+  <Navigation
+    navigationItems={[
+      new NavigationItem($_('header.about'), '/about'),
+      new NavigationItem($_('header.blog'), 'https://blog.iroco.co'),
+      new NavigationItem($_('header.faq'), '/faq'),
+      new NavigationItem($_('header.signup'), '/signup'),
+      new NavigationItem($_('header.signin'), 'https://app.iroco.co', true)
+    ]}
+    type="topbar"
+  />
   <main class="main">
     <slot />
   </main>
   <Footer />
 {/if}
+
+<style lang="scss">
+  @use 'node_modules/@iroco/ui/lib/colors';
+
+  :global(.navigation) {
+    position: fixed;
+    top: 0;
+    text-transform: uppercase;
+    background-color: colors.$darkBlue;
+    z-index: 1;
+  }
+
+  :global(.navigation--mobile) {
+    border-bottom: none;
+    background-color: colors.$darkBlue;
+  }
+</style>
