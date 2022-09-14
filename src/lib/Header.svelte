@@ -7,13 +7,7 @@
     new NavigationItem($_('header.blog'), 'https://blog.iroco.co'),
     new NavigationItem($_('header.faq'), '/faq'),
     new NavigationItem($_('header.signup'), '/signup'),
-    new NavigationItem(
-      $_('header.signin'),
-      () => {
-        window.location.assign('https://app.iroco.co');
-      },
-      true
-    )
+    new NavigationItem($_('header.signin'), 'https://app.iroco.co', true)
   ];
 </script>
 
