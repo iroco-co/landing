@@ -37,24 +37,24 @@
   },
   "homepage": {
     "iroco": {
-      "title": "Iroco, c'est quoi ?",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
-      "btn": "A propos"
+      "title": "Une boîte mail transparente et responsable",
+      "p": "Le mail open source et éco-conçu qui respecte vos données. Développé et hébergé en France.",
+      "btn": "Ouvrir un compte"
     },
     "respect": {
-      "title": "Respect de vous et de la planète",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      "title": "Une boîte mail engagée",
+      "p": "Parce que le mail est un outil indispensable du quotidien, choisissez une boîte mail alignée avec vos valeurs.",
       "btn": "Nos engagements"
     },
     "innovation": {
-      "title": "Innovation et ouverture",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
-      "btn": "Blog",
-      "github": "Github"
+      "title": "Contribuer aux communs",
+      "p": "Le numérique auquel nous croyons est ouvert, transparent et convivial. Nous apportons notre contribution aux communs numériques et travaillons constamment pour améliorer la sécurité, l'empreinte environnementale et l'expérience utilisateur de nos services.",
+      "btn": "Notre blog",
+      "github": "Iroco sur Github"
     },
     "inclusive": {
-      "title": "Un projet avec vous",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      "title": "Une boîte mail avec vous",
+      "p": "Nous travaillons pour vous et avec vous pour développer des outils utiles et accessibles à tous. Une question à nous poser, un retour à nous faire ? C'est par ici !",
       "btn": "FAQ",
       "contact": "Contact"
     }
