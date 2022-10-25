@@ -61,11 +61,11 @@
   },
   "about": {
     "beginning": {
-      "title": "Un projet qui a commencé en 2008",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
+      "title": "Un mail responsable, pourquoi ?",
+      "p": "Nous envoyons et recevons tous les jours des mails : certains utiles, d'autres futiles ; certains légers, d'autres beaucoup plus sérieux. Nous confions beaucoup de choses à notre boîte mail, sans toujours savoir qui a accès à ces informations, ni à quoi ressemblent les serveurs qui permettent de la faire tourner. Parce que nous devons avoir confiance en notre boîte mail, nous proposons un service de mail transparent, respectueux de vos données et de la planète et hébergé en France. Un mail responsable."
     },
     "mail": {
-      "title": "La découverte des impacts multiples du numérique </br> et pourquoi le choix d'aller vers le mail ?",
+      "title": "Le numérique, c'est pas (obligatoirement) fantastique",
       "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
     },
     "app": {
@@ -78,7 +78,7 @@
     }
   },
   "commitments": {
-    "title": "Engagements",
+    "title": "Nos engagements",
     "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "sections": {
       "cooperation": {
