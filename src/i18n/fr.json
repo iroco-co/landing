@@ -82,16 +82,16 @@
     "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "sections": {
       "cooperation": {
-        "title": "Entreprise transparente et coopérative",
-        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
+        "title": "Respect des données et de la vie privée",
+        "p": "Vos données personnelles n'appartiennent qu'à vous. Nous ne collectons et utilisons que les données absolument indispensables au bon fonctionnement de nos services, et nous ne les vendons à personne. Bien évidemment, nous n’accédons pas non plus au contenu de vos mails : vous avez la certitude que vos données stockées sur nos serveurs resteront confidentielles."
       },
       "energy": {
-        "title": "Fournisseur d'énergie verte",
-        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
+        "title": "Eco-conception numérique",
+        "p": "Nous éco-concevons notre code afin de développer des applications frugales, capables de fonctionner sur des appareils disposant de ressources limitées. Même si le mail n'est qu'une goutte d'eau dans l'océan de notre empreinte sur l'environnement, nous nous mettons en mouvement vers un numérique plus sobre et plus respectueux de la planète et de ses ressources."
       },
       "data": {
-        "title": "Centre de données vert",
-        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
+        "title": "Souveraineté",
+        "p": "Parce que nous pensons qu'un numérique souverain et de proximité est possible, notre équipe est française et nos services sont développés et hébergés en France."
       }
     }
   },
