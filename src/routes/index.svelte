@@ -10,16 +10,16 @@
 </svelte:head>
 <section class="page-content">
   <ImageArticle
-    imgSrc="/images/irocoTeamSpirit.png"
-    alt="Iroco Team hiking in the mountains"
+    imgSrc="/images/people_chatting.svg"
+    alt="People chatting and using electronic devices"
     articleTitle={$_('homepage.iroco.title')}
     articleContent={$_('homepage.iroco.p')}
-    buttonList={[{ href: '/about', label: $_('homepage.iroco.btn') }]}
+    buttonList={[{ href: '/signup', label: $_('homepage.iroco.btn') }]}
   />
 
   <ImageArticle
-    imgSrc="/images/pairprogramming.png"
-    alt="A man and a woman pair programming"
+    imgSrc="/images/commons.svg"
+    alt="People riding bikes, scooters and using email"
     articleTitle={$_('homepage.respect.title')}
     articleContent={$_('homepage.respect.p')}
     buttonList={[{ href: '/about#commitments', label: $_('homepage.respect.btn') }]}
@@ -27,8 +27,8 @@
   />
 
   <ImageArticle
-    imgSrc="/images/irocoTeamSpirit.png"
-    alt="Iroco Team hiking in the mountains"
+    imgSrc="/images/convivialite.svg"
+    alt="People talking to each other from one window to another"
     articleTitle={$_('homepage.innovation.title')}
     articleContent={$_('homepage.innovation.p')}
     buttonList={[
@@ -38,8 +38,8 @@
   />
 
   <ImageArticle
-    imgSrc="/images/pairprogramming.png"
-    alt="A man and a woman pair programming"
+    imgSrc="/images/collaboration.svg"
+    alt="People exchanging electronic messages and sharing hearts and thumbs ups"
     articleTitle={$_('homepage.inclusive.title')}
     articleContent={$_('homepage.inclusive.p')}
     buttonList={[
