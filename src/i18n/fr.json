@@ -79,19 +79,31 @@
   },
   "commitments": {
     "title": "Nos engagements",
-    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "p": "",
     "sections": {
-      "cooperation": {
+      "data": {
         "title": "Respect des données et de la vie privée",
         "p": "Vos données personnelles n'appartiennent qu'à vous. Nous ne collectons et utilisons que les données absolument indispensables au bon fonctionnement de nos services, et nous ne les vendons à personne. Bien évidemment, nous n’accédons pas non plus au contenu de vos mails : vous avez la certitude que vos données stockées sur nos serveurs resteront confidentielles."
       },
-      "energy": {
+      "ecodesign": {
         "title": "Eco-conception numérique",
         "p": "Nous éco-concevons notre code afin de développer des applications frugales, capables de fonctionner sur des appareils disposant de ressources limitées. Même si le mail n'est qu'une goutte d'eau dans l'océan de notre empreinte sur l'environnement, nous nous mettons en mouvement vers un numérique plus sobre et plus respectueux de la planète et de ses ressources."
       },
-      "data": {
+      "sovereign": {
         "title": "Souveraineté",
-        "p": "Parce que nous pensons qu'un numérique souverain et de proximité est possible, notre équipe est française et nos services sont développés et hébergés en France."
+        "p": "Parce que nous pensons qu'un numérique souverain et de proximité est possible, nos services sont développés et hébergés en France. Nous croyons que les circuits courts peuvent aussi s'appliquer au numérique, et nous réfléchissons à la manière de nous réapproprier et de démocratiser l'utilisation de nos outils digitaux."
+      }
+      "hosting" : {
+        "title": "Hébergement engagé",
+        "p": "Nos services sont hébergés à Grenoble, dans un data center engagé dans une démarche d'éco-responsabilité. Situé dans un bâtiment réhabilité et alimenté par de l'énergie renouvelable, notre hébergeur est notamment engagé dans une gestion énergétique responsable."
+      }
+      "opensource" : {
+        "title": "Open source et communs numériques",
+        "p": "Parce que nous croyons qu'un numérique ouvert est plus transparent, plus convivial et plus résilient, nous avons fait le choix de baser nos services sur des briques logicielles open source. Nous apportons également notre contribution aux communs du numérique en participant au développement d'outils et de méthodologies open source."
+      }
+      "transparency" : {
+        "title": "Transparence et pédagogie",
+        "p": "Nous tentons d'être aussi transparents que possible sur la manière dont nos services et notre organisation fonctionnent. Nous tentons de vous emmener aussi souvent que possible sous le capot de nos outils numériques, et essayons de vulgariser les sujets les plus techniques afin que chacun puisse comprendre les enjeux du numérique d'aujourd'hui."
       }
     }
   },
