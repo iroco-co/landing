@@ -46,29 +46,29 @@
   <div class="about__commitments">
     <Article title={$_('commitments.title')} content={$_('commitments.p')}>
       <div class="about__commitments__sections">
-        <article class="about__commitments__sections__cooperation">
-          <h3>{$_('commitments.sections.cooperation.title')}</h3>
-          <p>{$_('commitments.sections.cooperation.p')}</p>
-        </article>
-        <article class="about__commitments__sections__energy">
-          <h3>{$_('commitments.sections.energy.title')}</h3>
-          <p>{$_('commitments.sections.energy.p')}</p>
-        </article>
         <article class="about__commitments__sections__data">
           <h3>{$_('commitments.sections.data.title')}</h3>
           <p>{$_('commitments.sections.data.p')}</p>
         </article>
-        <article class="about__commitments__sections__cooperation">
-          <h3>{$_('commitments.sections.cooperation.title')}</h3>
-          <p>{$_('commitments.sections.cooperation.p')}</p>
+        <article class="about__commitments__sections__ecodesign">
+          <h3>{$_('commitments.sections.ecodesign.title')}</h3>
+          <p>{$_('commitments.sections.ecodesign.p')}</p>
         </article>
-        <article class="about__commitments__sections__energy">
-          <h3>{$_('commitments.sections.energy.title')}</h3>
-          <p>{$_('commitments.sections.energy.p')}</p>
+        <article class="about__commitments__sections__sovereign">
+          <h3>{$_('commitments.sections.sovereign.title')}</h3>
+          <p>{$_('commitments.sections.sovereign.p')}</p>
         </article>
-        <article class="about__commitments__sections__data">
-          <h3>{$_('commitments.sections.data.title')}</h3>
-          <p>{$_('commitments.sections.data.p')}</p>
+        <article class="about__commitments__sections__hosting">
+          <h3>{$_('commitments.sections.hosting.title')}</h3>
+          <p>{$_('commitments.sections.hosting.p')}</p>
+        </article>
+        <article class="about__commitments__sections__opensource">
+          <h3>{$_('commitments.sections.opensource.title')}</h3>
+          <p>{$_('commitments.sections.opensource.p')}</p>
+        </article>
+        <article class="about__commitments__sections__transparency">
+          <h3>{$_('commitments.sections.transparency.title')}</h3>
+          <p>{$_('commitments.sections.transparency.p')}</p>
         </article>
       </div>
     </Article>
@@ -197,12 +197,15 @@
 
     &__commitments,
     &__commitments__sections,
-    &__commitments__sections__cooperation,
-    &__commitments__sections__energy,
-    &__commitments__sections__data {
+    &__commitments__sections__data,
+    &__commitments__sections__ecodesign,
+    &__commitments__sections__sovereign,
+    &__commitments__sections__hosting,
+    &__commitments__sections__opensource,
+    &__commitments__sections__transparency {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: start;
       text-align: center;
     }
     &__commitments {
@@ -221,9 +224,12 @@
           width: 90%;
         }
 
-        &__cooperation,
-        &__energy,
-        &__data {
+        &__data,
+        &__ecodesign,
+        &__sovereign,
+        &__hosting,
+        &__opensource,
+        &__transparency {
           justify-content: space-around;
           flex-direction: column;
           height: 300px;
