@@ -213,6 +213,7 @@
       &__sections {
         flex-wrap: wrap;
         gap: 2em;
+        line-height: 1em;
 
         @include screen-tablet {
           width: 50%;
