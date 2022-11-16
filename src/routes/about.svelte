@@ -233,7 +233,6 @@
         &__transparency {
           justify-content: space-around;
           flex-direction: column;
-          height: 300px;
           flex: 1;
           flex-basis: 300px;
           p {
