@@ -93,15 +93,15 @@
         "title": "Souveraineté",
         "p": "Parce que nous pensons qu'un numérique souverain et de proximité est possible, nos services sont développés et hébergés en France. Nous croyons que les circuits courts peuvent aussi s'appliquer au numérique, et nous réfléchissons à la manière de nous réapproprier et de démocratiser l'utilisation de nos outils digitaux."
       },
-      "hosting" : {
+      "hosting": {
         "title": "Hébergement engagé",
         "p": "Nos services sont hébergés à Grenoble, dans un data center engagé dans une démarche d'éco-responsabilité. Situé dans un bâtiment réhabilité et alimenté par de l'énergie renouvelable, notre hébergeur est notamment engagé dans une gestion énergétique responsable."
       },
-      "opensource" : {
+      "opensource": {
         "title": "Open source et communs numériques",
         "p": "Parce que nous croyons qu'un numérique ouvert est plus transparent, plus convivial et plus résilient, nous avons fait le choix de baser nos services sur des briques logicielles open source. Nous apportons également notre contribution aux communs du numérique en participant au développement d'outils et de méthodologies open source."
       },
-      "transparency" : {
+      "transparency": {
         "title": "Transparence et pédagogie",
         "p": "Nous tentons d'être aussi transparents que possible sur la manière dont nos services et notre organisation fonctionnent. Nous tentons de vous emmener aussi souvent que possible sous le capot de nos outils numériques, et essayons de vulgariser les sujets les plus techniques afin que chacun puisse comprendre les enjeux du numérique d'aujourd'hui."
       }
