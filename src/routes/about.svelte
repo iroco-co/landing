@@ -242,12 +242,7 @@
           width: 90%;
         }
 
-        &__data,
-        &__ecodesign,
-        &__sovereign,
-        &__hosting,
-        &__opensource,
-        &__transparency {
+        article {
           justify-content: space-around;
           flex-direction: column;
           flex: 1;
