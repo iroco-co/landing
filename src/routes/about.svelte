@@ -1,26 +1,33 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import Article from '../lib/Article.svelte';
   import Host from '../lib/Host.svelte';
   import IrocologoSignupbutton from '../lib/IrocologoSignupbutton.svelte';
 </script>
 
-<section class="about">
-  <Article title={$_('about.beginning.title')} content={$_('about.beginning.p')}>
+<div class="about">
+  <section class="about__project">
+    <h1>{$_('about.beginning.title')}</h1>
+    <p>{$_('about.beginning.p')}</p>
     <img
       class="about__image"
       src="/images/screenshotIrocoTeamBuilding.png"
       alt="Iroco Team Building"
     />
-  </Article>
-  <Article title={$_('about.mail.title')} content={$_('about.mail.p')}>
+  </section>
+
+  <section class="about__tech">
+    <h1>{$_('about.mail.title')}</h1>
+    <p>{$_('about.mail.p')}</p>
     <img
       class="about__image"
       src="/images/screenshotDataviz.png"
       alt="Map explaining our data consumption from start to end"
     />
-  </Article>
-  <Article title={$_('about.app.title')} content={$_('about.app.p')}>
+  </section>
+
+  <section class="about__ethic">
+    <h1>{$_('about.app.title')}</h1>
+    <p>{$_('about.app.p')}</p>
     <div class="about__app__images">
       <div class="about__app__images__left">
         <Host />
@@ -42,44 +49,65 @@
         </div>
       </div>
     </div>
-  </Article>
-  <div class="about__commitments">
-    <Article title={$_('commitments.title')} content={$_('commitments.p')}>
-      <div class="about__commitments__sections">
-        <article class="about__commitments__sections__data">
-          <h3>{$_('commitments.sections.data.title')}</h3>
-          <p>{$_('commitments.sections.data.p')}</p>
-        </article>
-        <article class="about__commitments__sections__ecodesign">
-          <h3>{$_('commitments.sections.ecodesign.title')}</h3>
-          <p>{$_('commitments.sections.ecodesign.p')}</p>
-        </article>
-        <article class="about__commitments__sections__sovereign">
-          <h3>{$_('commitments.sections.sovereign.title')}</h3>
-          <p>{$_('commitments.sections.sovereign.p')}</p>
-        </article>
-        <article class="about__commitments__sections__hosting">
-          <h3>{$_('commitments.sections.hosting.title')}</h3>
-          <p>{$_('commitments.sections.hosting.p')}</p>
-        </article>
-        <article class="about__commitments__sections__opensource">
-          <h3>{$_('commitments.sections.opensource.title')}</h3>
-          <p>{$_('commitments.sections.opensource.p')}</p>
-        </article>
-        <article class="about__commitments__sections__transparency">
-          <h3>{$_('commitments.sections.transparency.title')}</h3>
-          <p>{$_('commitments.sections.transparency.p')}</p>
-        </article>
-      </div>
-    </Article>
-  </div>
+  </section>
+
+  <section class="about__commitments">
+    <h1>{$_('commitments.title')}</h1>
+    <p>{$_('commitments.p')}</p>
+    <div class="about__commitments__sections">
+      <article class="about__commitments__sections__data">
+        <h3>{$_('commitments.sections.data.title')}</h3>
+        <p>{$_('commitments.sections.data.p')}</p>
+      </article>
+      <article class="about__commitments__sections__ecodesign">
+        <h3>{$_('commitments.sections.ecodesign.title')}</h3>
+        <p>{$_('commitments.sections.ecodesign.p')}</p>
+      </article>
+      <article class="about__commitments__sections__sovereign">
+        <h3>{$_('commitments.sections.sovereign.title')}</h3>
+        <p>{$_('commitments.sections.sovereign.p')}</p>
+      </article>
+      <article class="about__commitments__sections__hosting">
+        <h3>{$_('commitments.sections.hosting.title')}</h3>
+        <p>{$_('commitments.sections.hosting.p')}</p>
+      </article>
+      <article class="about__commitments__sections__opensource">
+        <h3>{$_('commitments.sections.opensource.title')}</h3>
+        <p>{$_('commitments.sections.opensource.p')}</p>
+      </article>
+      <article class="about__commitments__sections__transparency">
+        <h3>{$_('commitments.sections.transparency.title')}</h3>
+        <p>{$_('commitments.sections.transparency.p')}</p>
+      </article>
+    </div>
+  </section>
+
   <IrocologoSignupbutton />
-</section>
+</div>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
   @import 'node_modules/@iroco/ui/scss/containers';
   .about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    section:not(.about__commitments) {
+      max-width: 50%;
+      @include screen-laptop {
+        max-width: 70%;
+      }
+      @include screen-tablet {
+        max-width: 85%;
+      }
+      @include screen-tablet-S {
+        max-width: 100%;
+      }
+    }
+
     &__app__images__left__server,
     &__app__images__right__respect__font {
       font-size: small;
@@ -195,22 +223,12 @@
       }
     }
 
-    &__commitments,
-    &__commitments__sections,
-    &__commitments__sections__data,
-    &__commitments__sections__ecodesign,
-    &__commitments__sections__sovereign,
-    &__commitments__sections__hosting,
-    &__commitments__sections__opensource,
-    &__commitments__sections__transparency {
-      display: flex;
-      justify-content: center;
-      align-items: start;
-      text-align: center;
-    }
     &__commitments {
+      display: flex;
+      flex-direction: column;
       text-align: center;
       &__sections {
+        display: flex;
         flex-wrap: wrap;
         gap: 2em;
         line-height: 1em;
@@ -237,27 +255,10 @@
           flex-basis: 300px;
           p {
             font-size: small;
-            padding: 1em;
           }
         }
       }
     }
   }
 
-  .about__image {
-    width: 50%;
-    object-fit: contain;
-    @include screen-laptop-L {
-      width: 60%;
-    }
-    @include screen-laptop {
-      width: 80%;
-    }
-    @include screen-tablet {
-      width: 90%;
-    }
-    @include screen-tablet-S {
-      width: 100%;
-    }
-  }
 </style>
