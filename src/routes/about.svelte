@@ -53,7 +53,6 @@
 
   <section class="about__commitments">
     <h1>{$_('commitments.title')}</h1>
-    <p>{$_('commitments.p')}</p>
     <div class="about__commitments__sections">
       <article class="about__commitments__sections__data">
         <h3>{$_('commitments.sections.data.title')}</h3>
