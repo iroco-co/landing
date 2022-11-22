@@ -125,11 +125,6 @@
           year: $_('signup.roadmap.ul.webmail.date'),
           details: $_('signup.roadmap.ul.webmail.details')
         },
-        {
-          title: $_('signup.roadmap.ul.file.title'),
-          year: $_('signup.roadmap.ul.file.date'),
-          details: $_('signup.roadmap.ul.file.details')
-        }
       ]}
     />
   </div>
