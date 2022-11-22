@@ -164,27 +164,27 @@
     },
     "roadmap": {
       "title": "Feuille de route",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "p": "Nous ne voulons pas nous arrêter en si bon chemin et avons plein de projets et d'idées dans les tuyaux :",
       "ul": {
         "servers": {
-          "title": "Serveurs",
-          "date": "2021",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          "title": "Offre entreprises",
+          "date": "Service",
+          "details": "Une offre à destination des organisations permettant d'utiliser votre propre nom de domaine et de partager calendrier, contacts et documents avec vos collaborateurs."
         },
         "client": {
-          "title": "Client Mail",
-          "date": "2021",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          "title": "Webmail",
+          "date": "Service",
+          "details": "Un webmail éco-conçu avec des fonctionnalités qui rendent la gestion de vos mails plus facile et moins chronophage."
         },
         "company": {
-          "title": "Offre Entreprises",
-          "date": "2022",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          "title": "Numérique et low-tech",
+          "date": "Exploration",
+          "details": "Peut-on concilier services numériques et low-tech, et si oui comment ? C'est un sujet que nous tentons d'explorer au fur et à mesure que nous avançons."
         },
         "webmail": {
-          "title": "Webmail",
-          "date": "2022",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          "title": "Numérique de proximité",
+          "date": "Exploration",
+          "details": "Quel serait l'équivalent d'une AMAP pour le numérique ? Nous essayons de réfléchir à ce à quoi pourrait ressembler un numérique local, décentralisé et convivial."
         },
         "file": {
           "title": "Dossier",
