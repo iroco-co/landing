@@ -124,7 +124,7 @@
           title: $_('signup.roadmap.ul.webmail.title'),
           year: $_('signup.roadmap.ul.webmail.date'),
           details: $_('signup.roadmap.ul.webmail.details')
-        },
+        }
       ]}
     />
   </div>
