@@ -75,22 +75,56 @@
         "left": "Ethical and green server",
         "right": "Practical and respectful"
       }
-    }
-  },
-  "commitments": {
-    "title": "Commitments",
-    "sections": {
-      "cooperation": {
-        "title": "Transparent and Cooperative Company",
-        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
-      },
-      "energy": {
-        "title": "Green Energy Supplier",
-        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
-      },
-      "data": {
-        "title": "Green Data Center",
-        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
+    },
+    "commitments": {
+      "title": "Commitments",
+      "sections": {
+        "cooperation": {
+          "title": "Transparent and Cooperative Company",
+          "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
+        },
+        "energy": {
+          "title": "Green Energy Supplier",
+          "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
+        },
+        "data": {
+          "title": "Green Data Center",
+          "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
+        }
+      }
+    },
+    "ecosystem": {
+      "title": "Our Ecosystem"
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "ul": {
+        "servers": {
+          "title": "Servers",
+          "date": "2021",
+          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        },
+        "client": {
+          "title": "Email Client",
+          "date": "2021",
+          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        },
+        "company": {
+          "title": "Company Offer",
+          "date": "2022",
+          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        },
+        "webmail": {
+          "title": "Webmail",
+          "date": "2022",
+          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        },
+        "file": {
+          "title": "File",
+          "date": "2022",
+          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
       }
     }
   },
@@ -148,37 +182,6 @@
         "subscription": "Subscribing",
         "client": "Configuring\nyour email client",
         "account": "Managing\nyour account"
-      }
-    },
-    "roadmap": {
-      "title": "Roadmap",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
-      "ul": {
-        "servers": {
-          "title": "Servers",
-          "date": "2021",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-        },
-        "client": {
-          "title": "Email Client",
-          "date": "2021",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-        },
-        "company": {
-          "title": "Company Offer",
-          "date": "2022",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-        },
-        "webmail": {
-          "title": "Webmail",
-          "date": "2022",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-        },
-        "file": {
-          "title": "File",
-          "date": "2022",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-        }
       }
     },
     "faq": {
