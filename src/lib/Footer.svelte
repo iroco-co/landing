@@ -66,7 +66,6 @@
   .footer {
     display: flex;
     justify-content: space-around;
-    text-transform: uppercase;
 
     h3 {
       color: colors.$darkBeige;

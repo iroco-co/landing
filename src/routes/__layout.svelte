@@ -1,9 +1,9 @@
 <script>
-  import '../app.scss';
   import '../i18n';
   import { _, isLoading } from 'svelte-i18n';
   import Footer from '../lib/Footer.svelte';
   import { Navigation, NavigationItem } from '@iroco/ui';
+  import '../app.scss';
 </script>
 
 {#if !$isLoading}
@@ -29,9 +29,12 @@
   :global(.navigation) {
     position: fixed;
     top: 0;
-    text-transform: uppercase;
     background-color: colors.$darkBlue;
     z-index: 1;
+    :global(.nav__topbar__item a):not(.iroco-ui-button) {
+      font-size: 1.6em;
+      color: colors.$beige;
+    }
   }
 
   :global(.navigation--mobile) {
