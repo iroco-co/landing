@@ -21,8 +21,7 @@
           href={buttonModel.href}
           role="button"
         >
-          <Icon name="chevron-right" />
-          {buttonModel.label}
+          > {buttonModel.label}
         </a>
       {/each}
     </div>
@@ -52,15 +51,8 @@
       align-items: center;
       padding: 2em;
       &__buttonGroup {
-        width: 60%;
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        > a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
+        gap: 1em;
       }
     }
     &.reversed {
