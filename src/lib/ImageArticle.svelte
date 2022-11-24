@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { Icon } from '@iroco/ui/';
   import type { ButtonModel } from './definition';
   export let imgSrc: string;
   export let alt: string;
