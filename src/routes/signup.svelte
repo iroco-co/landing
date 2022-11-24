@@ -11,7 +11,6 @@
   import Zen from '../lib/Zen.svelte';
   import Disconnect from '../lib/Disconnect.svelte';
   import Mail from '../lib/Mail.svelte';
-  import EventList from '../lib/EventList.svelte';
   import Laptop from '../lib/Laptop.svelte';
   import HorizontalOrVerticalDisplayedContent from '../lib/HorizontalOrVerticalDisplayedContent.svelte';
 </script>
@@ -99,34 +98,6 @@
       <Laptop title={$_('signup.mail.bullets.client')} />
       <Plant size="220" title={$_('signup.mail.bullets.account')} />
     </HorizontalOrVerticalDisplayedContent>
-  </div>
-  <div class="signup__roadmap">
-    <h2>{$_('signup.roadmap.title')}</h2>
-    <p class="paragraph-section">{$_('signup.roadmap.p')}</p>
-    <EventList
-      eventList={[
-        {
-          title: $_('signup.roadmap.ul.servers.title'),
-          year: $_('signup.roadmap.ul.servers.date'),
-          details: $_('signup.roadmap.ul.servers.details')
-        },
-        {
-          title: $_('signup.roadmap.ul.client.title'),
-          year: $_('signup.roadmap.ul.client.date'),
-          details: $_('signup.roadmap.ul.client.details')
-        },
-        {
-          title: $_('signup.roadmap.ul.company.title'),
-          year: $_('signup.roadmap.ul.company.date'),
-          details: $_('signup.roadmap.ul.company.details')
-        },
-        {
-          title: $_('signup.roadmap.ul.webmail.title'),
-          year: $_('signup.roadmap.ul.webmail.date'),
-          details: $_('signup.roadmap.ul.webmail.details')
-        }
-      ]}
-    />
   </div>
 </section>
 

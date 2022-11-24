@@ -32,7 +32,7 @@
     background-color: colors.$darkBlue;
     z-index: 1;
     :global(.nav__topbar__item a):not(.iroco-ui-button) {
-      font-size: 1.6em;
+      font-size: 1.5em;
       color: colors.$beige;
     }
   }

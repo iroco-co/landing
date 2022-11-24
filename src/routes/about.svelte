@@ -1,6 +1,5 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import Host from '../lib/Host.svelte';
   import IrocologoSignupbutton from '../lib/IrocologoSignupbutton.svelte';
 </script>
 
@@ -15,43 +14,7 @@
     />
   </section>
 
-  <section class="about__tech">
-    <h1>{$_('about.mail.title')}</h1>
-    <p>{$_('about.mail.p')}</p>
-    <img
-      class="about__image"
-      src="/images/screenshotDataviz.png"
-      alt="Map explaining our data consumption from start to end"
-    />
-  </section>
-
-  <section class="about__ethic">
-    <h1>{$_('about.app.title')}</h1>
-    <p>{$_('about.app.p')}</p>
-    <div class="about__app__images">
-      <div class="about__app__images__left">
-        <Host />
-        <span class="about__app__images__left__server">{$_('about.app.box.left')}</span>
-      </div>
-      <div class="about__app__images__right">
-        <img
-          class="about__app__images__right__screen"
-          src="/images/screen.png"
-          alt="Iroco webmail on mobile"
-        />
-        <div class="about__app__images__right__respect">
-          <img
-            class="about__app__images__right__respect__laptop"
-            src="/images/laptop.png"
-            alt="Iroco webmail on desktop"
-          />
-          <span class="about__app__images__right__respect__font">{$_('about.app.box.right')}</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="about__commitments" id="commitments">
+  <section class="about__commitments bloc-grid" id="commitments">
     <h1>{$_('commitments.title')}</h1>
     <div class="about__commitments__sections">
       <article class="about__commitments__sections__data">
@@ -81,6 +44,33 @@
     </div>
   </section>
 
+  <section class="about__roadmap bloc-grid">
+    <h1>{$_('signup.roadmap.title')}</h1>
+    <p>{$_('signup.roadmap.p')}</p>
+    <div class="about__roadmap__sections">
+      <article class="about__roadmap__sections__servers">
+        <h3>{$_('signup.roadmap.ul.servers.title')}</h3>
+        <h4>{$_('signup.roadmap.ul.servers.date')}</h4>
+        <p>{$_('signup.roadmap.ul.servers.details')}</p>
+      </article>
+      <article class="about__roadmap__sections__client">
+        <h3>{$_('signup.roadmap.ul.client.title')}</h3>
+        <h4>{$_('signup.roadmap.ul.client.date')}</h4>
+        <p>{$_('signup.roadmap.ul.client.details')}</p>
+      </article>
+      <article class="about__roadmap__sections__company">
+        <h3>{$_('signup.roadmap.ul.company.title')}</h3>
+        <h4>{$_('signup.roadmap.ul.company.date')}</h4>
+        <p>{$_('signup.roadmap.ul.company.details')}</p>
+      </article>
+      <article class="about__roadmap__sections__webmail">
+        <h3>{$_('signup.roadmap.ul.webmail.title')}</h3>
+        <h4>{$_('signup.roadmap.ul.webmail.date')}</h4>
+        <p>{$_('signup.roadmap.ul.webmail.details')}</p>
+      </article>
+    </div>
+  </section>
+
   <IrocologoSignupbutton />
 </div>
 
@@ -94,7 +84,24 @@
     align-items: center;
     justify-content: center;
 
-    section:not(.about__commitments) {
+    &__image {
+      width: 50%;
+      object-fit: contain;
+      @include screen-laptop-L {
+        width: 60%;
+      }
+      @include screen-laptop {
+        width: 80%;
+      }
+      @include screen-tablet {
+        width: 90%;
+      }
+      @include screen-tablet-S {
+        width: 100%;
+      }
+    }
+
+    section.half-size {
       max-width: 50%;
       @include screen-laptop {
         max-width: 70%;
@@ -222,7 +229,8 @@
       }
     }
 
-    &__commitments {
+    &__commitments,
+    &__roadmap {
       display: flex;
       flex-direction: column;
       text-align: center;
