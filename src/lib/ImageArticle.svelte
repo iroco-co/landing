@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { ButtonModel } from './definition';
+  import { Icon } from '@iroco/ui/src/index';
   export let imgSrc: string;
   export let alt: string;
   export let articleTitle: string;
@@ -20,7 +21,8 @@
           href={buttonModel.href}
           role="button"
         >
-          > {buttonModel.label}
+          <Icon name="chevron-right" />
+          {buttonModel.label}
         </a>
       {/each}
     </div>
@@ -33,8 +35,6 @@
   @import 'node_modules/@iroco/ui/lib/button';
   .imagearticle {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     &__image {
       width: 50%;
       display: block;
