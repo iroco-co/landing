@@ -51,7 +51,7 @@
     </div>
   </section>
 
-  <section class="about__commitments">
+  <section class="about__commitments" id="commitments">
     <h1>{$_('commitments.title')}</h1>
     <div class="about__commitments__sections">
       <article class="about__commitments__sections__data">
@@ -226,6 +226,7 @@
       display: flex;
       flex-direction: column;
       text-align: center;
+      scroll-margin-top: 10em;
       &__sections {
         display: flex;
         flex-wrap: wrap;
