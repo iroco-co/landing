@@ -35,6 +35,8 @@
   @import 'node_modules/@iroco/ui/lib/button';
   .imagearticle {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     &__image {
       width: 50%;
       display: block;
