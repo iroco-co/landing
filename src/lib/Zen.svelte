@@ -62,19 +62,7 @@
       </clipPath>
     </defs>
   </svg>
-  <h4>{title}</h4>
+  {#if title != null}
+    <h4>{title}</h4>
+  {/if}
 </span>
-
-<style lang="scss">
-  @import 'node_modules/@iroco/ui/lib/containers';
-
-  .zen {
-    > svg {
-      transform: translateY(50%);
-
-      @include screen-laptop() {
-        transform: translateY(0%);
-      }
-    }
-  }
-</style>

@@ -24,5 +24,7 @@
     />
     <circle cx="32.36" cy="33.86" r="32.36" fill="#fff" />
   </svg>
-  <h4>{title}</h4>
+  {#if title != null}
+    <h4>{title}</h4>
+  {/if}
 </span>

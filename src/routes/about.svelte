@@ -1,6 +1,12 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
   import IrocologoSignupbutton from '../lib/IrocologoSignupbutton.svelte';
+  import GreenHost from "../lib/GreenHost.svelte";
+  import Privacy from "../lib/Privacy.svelte";
+  import Server from "../lib/Server.svelte";
+  import Plant from "../lib/Plant.svelte";
+  import Energy from "../lib/Energy.svelte";
+  import Host from "../lib/Host.svelte";
 </script>
 
 <div class="about">
@@ -15,26 +21,32 @@
     <h1>{$_('about.commitments.title')}</h1>
     <div class="about__commitments__sections">
       <article class="about__commitments__sections__data">
+        <Privacy size="100px"/>
         <h3>{$_('about.commitments.sections.data.title')}</h3>
         <p>{$_('about.commitments.sections.data.p')}</p>
       </article>
       <article class="about__commitments__sections__ecodesign">
+        <GreenHost size="100px" />
         <h3>{$_('about.commitments.sections.ecodesign.title')}</h3>
         <p>{$_('about.commitments.sections.ecodesign.p')}</p>
       </article>
       <article class="about__commitments__sections__sovereign">
+        <Server size="100px"/>
         <h3>{$_('about.commitments.sections.sovereign.title')}</h3>
         <p>{$_('about.commitments.sections.sovereign.p')}</p>
       </article>
       <article class="about__commitments__sections__hosting">
+        <Plant size="100px"/>
         <h3>{$_('about.commitments.sections.hosting.title')}</h3>
         <p>{$_('about.commitments.sections.hosting.p')}</p>
       </article>
       <article class="about__commitments__sections__opensource">
+        <Energy size="100px"/>
         <h3>{$_('about.commitments.sections.opensource.title')}</h3>
         <p>{$_('about.commitments.sections.opensource.p')}</p>
       </article>
       <article class="about__commitments__sections__transparency">
+        <Host size="100px" />
         <h3>{$_('about.commitments.sections.transparency.title')}</h3>
         <p>{$_('about.commitments.sections.transparency.p')}</p>
       </article>
@@ -150,121 +162,6 @@
       padding: 5em 5em;
       @include screen-tablet {
         width: 60vh;
-      }
-    }
-
-    &__app__images__left__server,
-    &__app__images__right__respect__font {
-      font-size: small;
-      font-weight: 600;
-      text-transform: uppercase;
-      color: colors.$nightBlue;
-      padding: 0.5em 2em;
-      white-space: nowrap;
-    }
-
-    &__app__images {
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-      @include screen-laptop {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 3em;
-      }
-      @include screen-tablet {
-        gap: 5em;
-      }
-
-      &__left {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        @include screen-tablet {
-          gap: 1.5em;
-        }
-        @include screen-mobile-M {
-          gap: 0;
-        }
-        &__server {
-          background-color: colors.$green;
-          transform: translate(-12em, -6.5em);
-          @include screen-laptop {
-            transform: translate(-13.5em, -6.5em);
-          }
-          @include screen-tablet {
-            transform: translate(0em, 0em);
-          }
-        }
-      }
-      &__right {
-        display: flex;
-        justify-content: space-between;
-        @include screen-laptop {
-          justify-content: center;
-          align-items: center;
-        }
-        &__screen {
-          transform: translate(4.2em, -3em);
-          object-fit: contain;
-          width: 125px;
-          align-self: flex-start;
-
-          @include screen-laptop {
-            transform: translate(1.2em, -3em);
-          }
-          @include screen-tablet {
-            width: 30%;
-            transform: translate(0em, -3em);
-          }
-          @include screen-tablet {
-            width: 40%;
-          }
-          @include screen-mobile-L {
-            width: 60%;
-          }
-          @include screen-mobile-M {
-            width: 90%;
-          }
-        }
-        &__respect {
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-end;
-          align-items: flex-end;
-          @include screen-laptop {
-            align-items: center;
-            transform: translateX(-10%);
-          }
-          @include screen-tablet {
-            gap: 1.5em;
-          }
-          @include screen-tablet {
-            gap: 2em;
-          }
-          &__laptop {
-            width: 420px;
-            z-index: -1;
-            @include screen-tablet {
-              width: 100%;
-            }
-            @include screen-mobile-M {
-              width: 80%;
-            }
-          }
-          &__font {
-            background-color: colors.$yellow;
-            transform: translate(12em, -6.5em);
-            @include screen-tablet {
-              transform: translate(-2em, 0em);
-            }
-            @include screen-tablet-S {
-              transform: translate(0em, 0em);
-            }
-          }
-        }
       }
     }
 

@@ -53,5 +53,7 @@
       />
     </g>
   </svg>
-  <h4>{title}</h4>
+  {#if title != null}
+    <h4>{title}</h4>
+  {/if}
 </span>

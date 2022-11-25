@@ -1,6 +1,6 @@
 <script lang="ts">
   export let size: number;
-  export let title: string;
+  export let title: string = null;
 </script>
 
 <span class="green-host illustration">
@@ -69,18 +69,7 @@
       <path fill="#00d692" d="M73.07,42.93H103.2V12.79A30.13,30.13,0,0,0,73.07,42.93Z" />
     </g>
   </svg>
-  <h4>{title}</h4>
+  {#if title != null}
+    <h4>{title}</h4>
+  {/if}
 </span>
-
-<style lang="scss">
-  @import 'node_modules/@iroco/ui/lib/containers';
-
-  .green-host {
-    h4 {
-      transform: translateY(2.2em);
-      @include screen-tablet-S() {
-        transform: translateY(0em);
-      }
-    }
-  }
-</style>

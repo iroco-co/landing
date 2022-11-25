@@ -1,5 +1,8 @@
+<script lang="ts">
+  export let size = 312
+</script>
 <span class="host">
-  <svg width="147" height="312" viewBox="0 0 147 312" fill="none">
+  <svg width="147" viewBox="0 0 147 312" height={size} fill="none">
     <title>Server</title>
     <g clip-path="url(#clip0_4021_44990)">
       <path
@@ -42,18 +45,3 @@
     </defs>
   </svg>
 </span>
-
-<style lang="scss">
-  @import 'node_modules/@iroco/ui/scss/containers';
-
-  .host {
-    @include screen-tablet {
-      display: flex;
-      width: 60%;
-    }
-
-    @include screen-mobile-M {
-      width: 50%;
-    }
-  }
-</style>
