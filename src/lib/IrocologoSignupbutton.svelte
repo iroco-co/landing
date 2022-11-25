@@ -20,12 +20,4 @@
 
 <style lang="scss">
   @import 'node_modules/@iroco/ui/lib/button';
-  .irocologo-signupbutton {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2em 4em;
-    margin-bottom: 5em;
-  }
 </style>
