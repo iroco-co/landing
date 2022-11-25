@@ -104,11 +104,11 @@
     },
     "ecosystem": {
       "title": "Notre écosystème",
-      "boavizta": "Boavizta est une association qui a pour objectif la mesure d’impact environnemental du numérique des organisations",
-      "agit": "l'Aliance Green IT est une association dont le but est de définir et de diffuser les pratiques écologiquement et socialement responsables au sein des métiers du numérique",
-      "eolas": "Eolas est l'hébergeur Grenoblois, \"durable et reponsable\" d'Iroco.",
-      "shift-your-job": "Est une plateforme de bénévoles du <a href=\"https://theshiftproject.org/\">Shift Project</a> visant à assister les citoyens à agir dans leur vie professionnelle pour une économie moins carbonée.",
-      "bpi-france": "Est la banque des entrepreneurs, qui nous a aidé à créer notre organisation."
+      "boavizta": "Nous sommes membres de Boavizta, groupe de travail collaboratif dont l'objectif est la mesure d’impact environnemental du numérique des organisations. Boavizta propose des méthodologies de calcul et des outils sous licence libre.",
+      "agit": "Nous sommes également membres de l'Alliance Green IT, association qui a pour but de définir et de diffuser les bonnes pratiques écologiquement et socialement responsables au sein des métiers du numérique.",
+      "eolas": "Nos services sont hébergés chez Eolas, data center engagé dans une démarche d'éco-responsabilité situé à Grenoble.",
+      "shift-your-job": "Shift Your Job est une plateforme portée par les bénévoles du <a href=\"https://theshiftproject.org/\">Shift Project</a> qui répertorie les organisations contribuant de manière directe ou indirecte à la transition carbone.",
+      "bpi-france": "Dans le cadre du dispositif Innov'Up Faisabilité, nous avons bénéficié d'une aide financière de BPIFrance pour le développement de notre projet."
     },
     "commitments": {
       "title": "Nos engagements",
