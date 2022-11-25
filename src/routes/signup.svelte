@@ -1,7 +1,14 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import { Icon } from '@iroco/ui/';
+  import { Icon, Button } from '@iroco/ui/';
   import Mail from '../lib/Mail.svelte';
+
+  let more = false;
+
+  function toggleMore(): void {
+    more = !more
+  }
+
 </script>
 
 <section class="signup">
@@ -31,17 +38,36 @@
       </div>
 
       <div class="signup__offer__card__buttons">
-        <a
-          class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"
-          href="https://app.iroco.co/signup/"
-        >
+        <a href="https://app.iroco.co/signup/" class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success">
           <Icon name="chevron-right" color="colors.$nightBlue" />
           {$_('signup.offer.buttons.subscribe')}
         </a>
-        <a class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--dark" href="#faq">
-          <Icon name="chevron-right" color="colors.$beige" />
+        <Button kind="dark" on:click={toggleMore}>
+          {#if more}
+            <Icon name="chevron-down" />
+          {:else}
+            <Icon name="chevron-right" />
+          {/if}
           {$_('signup.offer.buttons.details')}
-        </a>
+        </Button>
+        <div class="signup__offer__card__buttons__more" class:displayed="{ more }">
+          <h3>{$_('signup.faq.questions.offercontent.title')}</h3>
+          <p>{$_('signup.faq.questions.offercontent.p')}</p>
+          <ul>
+            <li>{$_('signup.faq.questions.offercontent.list.address')}</li>
+            <li>{$_('signup.faq.questions.offercontent.list.mailbox')}</li>
+            <li>{$_('signup.faq.questions.offercontent.list.aliases')}</li>
+            <li>{$_('signup.faq.questions.offercontent.list.contact-calendar')}</li>
+          </ul>
+          <p>
+            {$_('signup.faq.questions.offercontent.nowebmail')}
+            <a href="#configuration">
+              {$_('signup.faq.questions.offercontent.configurationquestion')}
+            </a>
+            {$_('signup.faq.questions.offercontent.nowebmailtofollow')}
+          </p>
+          <p>{$_('signup.faq.questions.offercontent.soon')}</p>
+        </div>
       </div>
     </div>
   </div>
@@ -55,16 +81,6 @@
 
   .signup {
     text-align: center;
-
-    &__offer,
-    &__green,
-    &__privacy,
-    &__respect,
-    &__mail,
-    &__roadmap,
-    &__faq {
-      margin: 6em auto;
-    }
 
     &__offer {
       &__card {
@@ -119,30 +135,22 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          & > a {
+          > a {
             display: flex;
             justify-content: center;
             align-items: center;
           }
-        }
-      }
-    }
-    &__mail {
-      @include screen-tablet {
-        h2 {
-          width: 90%;
-          margin: auto;
-        }
-      }
-    }
-    &__roadmap {
-      &__paragraph {
-        margin: 3em auto;
-        width: 70%;
-        text-align: center;
-
-        @include screen-laptop {
-          width: 90%;
+          .displayed {
+            display: block;
+          }
+          &__more {
+            display: none;  
+            h3 {
+              text-align: center;
+            }
+            text-align: left;
+            padding: 2em;
+          }
         }
       }
     }
