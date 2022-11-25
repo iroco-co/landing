@@ -170,7 +170,6 @@
       display: flex;
       flex-direction: column;
       text-align: center;
-      scroll-margin-top: 10em;
       &__sections {
         display: flex;
         flex-wrap: wrap;

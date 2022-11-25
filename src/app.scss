@@ -66,32 +66,3 @@ html {
     background: colors.$darkBlue;
   }
 }
-
-.illustration {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
-  @include screen-laptop() {
-    height: 100%;
-  }
-
-  > h4 {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-top: 50px;
-    text-align: center;
-    line-height: 2em;
-    white-space: pre-wrap;
-
-    @include screen-tablet-S() {
-      margin-top: 40px;
-    }
-
-    @include screen-mobile-L() {
-      margin-top: 30px;
-    }
-  }
-}
