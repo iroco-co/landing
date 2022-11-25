@@ -132,24 +132,6 @@
     align-items: center;
     justify-content: center;
 
-    &__image {
-      padding: 5em 5em;
-      width: 50%;
-      object-fit: contain;
-      @include screen-laptop-L {
-        width: 60%;
-      }
-      @include screen-laptop {
-        width: 80%;
-      }
-      @include screen-tablet {
-        width: 90%;
-      }
-      @include screen-tablet-S {
-        width: 100%;
-      }
-    }
-
     section.half-size {
       max-width: 50%;
       @include screen-laptop {
@@ -160,6 +142,14 @@
       }
       @include screen-tablet-S {
         max-width: 100%;
+      }
+    }
+
+    .about__image {
+      width: 70vh;
+      padding: 5em 5em;
+      @include screen-tablet {
+        width: 60vh;
       }
     }
 
