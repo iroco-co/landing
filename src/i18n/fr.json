@@ -103,7 +103,12 @@
       }
     },
     "ecosystem": {
-      "title": "Notre écosystème"
+      "title": "Notre écosystème",
+      "boavizta": "Boavizta est une association qui a pour objectif la mesure d’impact environnemental du numérique des organisations",
+      "agit": "l'Aliance Green IT est une association dont le but est de définir et de diffuser les pratiques écologiquement et socialement responsables au sein des métiers du numérique",
+      "eolas": "Eolas est l'hébergeur \"durable et reponsable\" d'Iroco",
+      "shift-your-job": "TODO",
+      "bpi-france": "TODO"
     },
     "commitments": {
       "title": "Nos engagements",

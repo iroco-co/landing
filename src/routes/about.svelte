@@ -315,6 +315,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         &__item {
+          padding: 0.5em;
           &__img {
             display: flex;
             height: 150px;

@@ -94,7 +94,12 @@
       }
     },
     "ecosystem": {
-      "title": "Our Ecosystem"
+      "title": "Our Ecosystem",
+      "boavizta": "TODO",
+      "agit": "TODO",
+      "eolas": "TODO",
+      "shift-your-job": "TODO",
+      "bpi-france": "TODO"
     },
     "roadmap": {
       "title": "Roadmap",
