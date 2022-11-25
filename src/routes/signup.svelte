@@ -1,18 +1,7 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
   import { Icon } from '@iroco/ui/';
-  import Energy from '../lib/Energy.svelte';
-  import GreenHost from '../lib/GreenHost.svelte';
-  import Plant from '../lib/Plant.svelte';
-  import Privacy from '../lib/Privacy.svelte';
-  import Server from '../lib/Server.svelte';
-  import Security from '../lib/Security.svelte';
-  import Ux from '../lib/UserExperience.svelte';
-  import Zen from '../lib/Zen.svelte';
-  import Disconnect from '../lib/Disconnect.svelte';
   import Mail from '../lib/Mail.svelte';
-  import Laptop from '../lib/Laptop.svelte';
-  import HorizontalOrVerticalDisplayedContent from '../lib/HorizontalOrVerticalDisplayedContent.svelte';
 </script>
 
 <section class="signup">
@@ -55,49 +44,6 @@
         </a>
       </div>
     </div>
-  </div>
-  <div class="signup__green">
-    <h2>{$_('signup.green.title')}</h2>
-    <p class="paragraph-section">{$_('signup.green.p')}</p>
-    <HorizontalOrVerticalDisplayedContent>
-      <Energy size="220" title={$_('signup.green.bullets.energy')} />
-      <GreenHost size="220" title={$_('signup.green.bullets.host')} />
-      <Plant size="220" title={$_('signup.green.bullets.gesture')} />
-    </HorizontalOrVerticalDisplayedContent>
-  </div>
-  <div class="signup__privacy dark-section">
-    <h2>{$_('signup.privacy.title')}</h2>
-    <h2 class="font-color-red">{$_('signup.privacy.caption')}</h2>
-    <HorizontalOrVerticalDisplayedContent>
-      <Privacy size="220" title={$_('signup.privacy.bullets.privacy')} />
-      <Security size="220" title={$_('signup.privacy.bullets.security')} />
-      <Server size="220" title={$_('signup.privacy.bullets.server')} />
-    </HorizontalOrVerticalDisplayedContent>
-  </div>
-  <div class="signup__respect">
-    <h2>
-      {$_('signup.privacy.respect.title')}
-      <span class="font-color-yellow">{$_('signup.privacy.respect.yellow')}</span>
-    </h2>
-    <HorizontalOrVerticalDisplayedContent>
-      <Ux title={$_('signup.privacy.respect.bullets.ux')} />
-      <Zen title={$_('signup.privacy.respect.bullets.mental-load')} />
-      <Disconnect title={$_('signup.privacy.respect.bullets.disconnect')} />
-    </HorizontalOrVerticalDisplayedContent>
-  </div>
-  <div class="signup__mail dark-section">
-    <h2>{$_('signup.mail.title')}</h2>
-    <h2 class="font-color-green">{$_('signup.mail.caption')}</h2>
-    <HorizontalOrVerticalDisplayedContent>
-      <Mail
-        size="165"
-        strokeWidth="1"
-        orientation="vertical"
-        title={$_('signup.mail.bullets.subscription')}
-      />
-      <Laptop title={$_('signup.mail.bullets.client')} />
-      <Plant size="220" title={$_('signup.mail.bullets.account')} />
-    </HorizontalOrVerticalDisplayedContent>
   </div>
 </section>
 

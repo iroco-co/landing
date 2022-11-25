@@ -15,8 +15,5 @@ describe('Testing Signup Page', () => {
     const { getByText } = render(signup);
 
     expect(getByText('Our offer')).toBeInTheDocument();
-    expect(getByText("If it's free, it's the planet the product")).toBeInTheDocument();
-    expect(getByText('Ethics and confidentiality')).toBeInTheDocument();
-    expect(getByText("We don't change email every year")).toBeInTheDocument();
   });
 });
