@@ -144,19 +144,6 @@
     align-items: center;
     justify-content: center;
 
-    section.half-size {
-      max-width: 50%;
-      @include screen-laptop {
-        max-width: 70%;
-      }
-      @include screen-tablet {
-        max-width: 85%;
-      }
-      @include screen-tablet-S {
-        max-width: 100%;
-      }
-    }
-
     .about__image {
       width: 70vh;
       padding: 5em 5em;
@@ -176,16 +163,6 @@
         gap: 2em;
         line-height: 1em;
 
-        @include screen-tablet {
-          width: 50%;
-        }
-        @include screen-tablet-S {
-          width: 70%;
-        }
-        @include screen-mobile-L {
-          width: 90%;
-        }
-
         article {
           justify-content: space-around;
           flex-direction: column;
@@ -197,6 +174,7 @@
         }
       }
     }
+
     &__ecosystem {
       &__grid {
         display: flex;
