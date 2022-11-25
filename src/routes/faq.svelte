@@ -39,7 +39,6 @@
         </a>
         {$_('signup.faq.questions.offercontent.nowebmailtofollow')}
       </p>
-      <p>{$_('signup.faq.questions.offercontent.soon')}</p>
     </div>
     <div id="ecofriendlyservice" class="faq__q-a__ecofriendlyservice question">
       <h3><a href="#htop">{$_('signup.faq.questions.ecofriendlyservice.title')}</a></h3>

@@ -61,10 +61,9 @@
           </ul>
           <p>
             {$_('signup.faq.questions.offercontent.nowebmail')}
-            <a href="#configuration">
+            <a href="faq#configuration">
               {$_('signup.faq.questions.offercontent.configurationquestion')}
             </a>
-            {$_('signup.faq.questions.offercontent.nowebmailtofollow')}
           </p>
           <p>{$_('signup.faq.questions.offercontent.soon')}</p>
         </div>

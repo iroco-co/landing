@@ -209,8 +209,7 @@
             "contact-calendar": "La possibilité de gérer vos contacts et calendrier."
           },
           "nowebmail": "Notre offre n'inclut pour le moment pas (encore) de webmail : vous devrez donc configurer un client de messagerie, c'est-à-dire un outil existant permettant de gérer vos mails (Thunderbird par exemple, mais il en existe beaucoup d'autres) pour recevoir vos mails. Si besoin, référez-vous à ",
-          "configurationquestion": "la question concernant la configuration de votre client mail,",
-          "nowebmailtofollow": "plus bas sur cette page.",
+          "configurationquestion": "la question concernant la configuration de votre client mail.",
           "soon": "Nous travaillons sur le développement de notre webmail éco-conçu et espérons pouvoir bientôt pouvoir le mettre entre vos mains !"
         },
         "ecofriendlyservice": {
