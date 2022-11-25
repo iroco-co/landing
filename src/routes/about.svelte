@@ -7,12 +7,9 @@
   <section class="about__project">
     <h1>{$_('about.beginning.title')}</h1>
     <p>{$_('about.beginning.p')}</p>
-    <img
-      class="about__image"
-      src="/images/Iroco-illustration-a-propos.svg"
-      alt="Paper plane leaving behind a heart-shaped trail"
-    />
   </section>
+
+  <img class="about__image" src="/images/Iroco-illustration-a-propos.svg" alt="Paper plane leaving behind a heart-shaped trail"/>
 
   <section class="about__commitments" id="commitments">
     <h1>{$_('about.commitments.title')}</h1>
@@ -42,12 +39,9 @@
         <p>{$_('about.commitments.sections.transparency.p')}</p>
       </article>
     </div>
-    <img
-      class="about__image"
-      src="/images/Iroco-illustration-a-propos.svg"
-      alt="Paper plane leaving behind a heart-shaped trail"
-    />
   </section>
+
+  <img class="about__image" src="/images/Iroco-illustration-a-propos.svg" alt="Paper plane leaving behind a heart-shaped trail"/>
 
   <section class="about__ecosystem">
     <h1>{$_('about.ecosystem.title')}</h1>
@@ -96,6 +90,8 @@
     </div>
   </section>
 
+  <img class="about__image" src="/images/Iroco-illustration-a-propos.svg" alt="Paper plane leaving behind a heart-shaped trail"/>
+
   <section class="about__roadmap">
     <h1>{$_('about.roadmap.title')}</h1>
     <p>{$_('about.roadmap.p')}</p>
@@ -137,6 +133,7 @@
     justify-content: center;
 
     &__image {
+      padding: 5em 5em;
       width: 50%;
       object-fit: contain;
       @include screen-laptop-L {
