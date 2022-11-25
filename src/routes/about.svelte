@@ -9,8 +9,8 @@
     <p>{$_('about.beginning.p')}</p>
     <img
       class="about__image"
-      src="/images/screenshotIrocoTeamBuilding.png"
-      alt="Iroco Team Building"
+      src="/images/Iroco-illustration-a-propos.svg"
+      alt="Paper plane leaving behind a heart-shaped trail"
     />
   </section>
 
@@ -42,6 +42,11 @@
         <p>{$_('about.commitments.sections.transparency.p')}</p>
       </article>
     </div>
+    <img
+      class="about__image"
+      src="/images/Iroco-illustration-a-propos.svg"
+      alt="Paper plane leaving behind a heart-shaped trail"
+    />
   </section>
 
   <section class="about__ecosystem">
