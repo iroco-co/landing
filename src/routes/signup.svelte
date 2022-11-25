@@ -87,6 +87,11 @@
         border-radius: constants.$border-radius;
         width: 80%;
         margin: 0 auto;
+
+        @include screen-tablet {
+          width: 100%;
+        }
+
         &__svglistgroup {
           display: flex;
           justify-content: center;
@@ -120,12 +125,6 @@
             }
             &__elements {
               color: colors.$green;
-              transform: translateX(1em);
-
-              @include screen-tablet {
-                text-align: center;
-                transform: translateX(0);
-              }
             }
           }
         }
