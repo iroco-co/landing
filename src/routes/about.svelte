@@ -80,7 +80,7 @@
             /></a
           >
         </div>
-        <p>{$_('about.ecosystem.shift-your-job')}</p>
+        <p>{@html $_('about.ecosystem.shift-your-job')}</p>
       </div>
       <div class="about__ecosystem__grid__item">
         <div class="about__ecosystem__grid__item__img">
@@ -304,7 +304,7 @@
           flex: 1;
           flex-basis: 300px;
           p {
-            font-size: small;
+            font-size: smaller;
           }
         }
       }
@@ -315,7 +315,9 @@
         flex-wrap: wrap;
         justify-content: space-around;
         &__item {
+          line-height: 1em;
           padding: 0.5em;
+          flex-basis: 300px;
           &__img {
             display: flex;
             height: 150px;
@@ -323,6 +325,9 @@
             justify-content: center;
           }
           flex-grow: 1;
+          p {
+            font-size: smaller;
+          }
         }
         &__item:not(.vertical) {
           img {
