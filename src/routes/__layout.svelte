@@ -38,6 +38,13 @@
   }
 
   :global(.navigation--mobile) {
+    :global(.nav__topbar__item a) {
+      color: colors.$beige;
+      font-size: 1.5em;
+    }
+  }
+
+  :global(.navigation--mobile) {
     border-bottom: none;
     background-color: colors.$darkBlue;
   }
