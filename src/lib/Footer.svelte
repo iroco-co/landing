@@ -34,13 +34,13 @@
     <div class="footer__other">
       <h3>{$_('footer.menu.title')}</h3>
       <ul class="no-bullet">
-        <li><a href="https://blog.iroco.co/">{$_('footer.other.blog')}</a></li>
         <li>
           <a href="https://jobs.makesense.org/projects/iroco-364/">{$_('footer.other.job')}</a>
         </li>
-        <li><a href="/terms">{$_('footer.other.terms')}</a></li>
+        <li><a href="https://blog.iroco.co/">{$_('footer.other.blog')}</a></li>
         <li><a href="/legal">{$_('footer.other.legal')}</a></li>
         <li><a href="/faq">{$_('footer.other.faq')}</a></li>
+        <li><a href="/terms">{$_('footer.other.terms')}</a></li>
       </ul>
     </div>
   </div>
@@ -70,6 +70,7 @@
 
     &__contact {
       &__container {
+        text-align: right;
         &__icons {
           display: flex;
           margin-top: 1em;
