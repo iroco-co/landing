@@ -31,18 +31,8 @@
         </div>
       </div>
     </div>
-    <div class="footer__menu">
-      <h3>{$_('footer.menu.title')}</h3>
-      <ul class="no-bullet">
-        <li><a href="/">{$_('footer.menu.philosophy')}</a></li>
-        <li><a href="/">{$_('footer.menu.planet')}</a></li>
-        <li><a href="/">{$_('footer.menu.human')}</a></li>
-        <li><a href="/">{$_('footer.menu.app')}</a></li>
-        <li><a href="/">{$_('footer.menu.commitment')}</a></li>
-      </ul>
-    </div>
     <div class="footer__other">
-      <h3>{$_('footer.other.title')}</h3>
+      <h3>{$_('footer.menu.title')}</h3>
       <ul class="no-bullet">
         <li><a href="https://blog.iroco.co/">{$_('footer.other.blog')}</a></li>
         <li>
@@ -65,7 +55,8 @@
 
   .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3em;
 
     h3 {
       color: colors.$darkBeige;
