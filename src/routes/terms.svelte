@@ -1,4 +1,5 @@
 <section class="terms">
+  <div class="term-content">
   <h1>Conditions Générales de Vente en vigueur et politique de gestion des données personnelles</h1>
 
   <h2 class="article">Article 1 - Contenu et champ d&apos;application</h2>
@@ -416,34 +417,29 @@
     avec les termes de la nouvelle rédaction de la clause de protection des données à caractère
     personnel, il a la possibilité de supprimer son compte.
   </p>
+  </div>
 </section>
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
   @use 'node_modules/@iroco/ui/lib/fonts';
-
-  :global(p) {
-    text-align: left;
-    @include fonts.Arial(1em, colors.$beige);
-  }
+  @import 'node_modules/@iroco/ui/lib/containers';
 
   .terms {
-    width: 60vw;
-    margin: 8em auto 2.5em;
-    padding: 0 20px;
-
-    p {
-      padding: 8px 0;
-    }
-    ul {
-      margin: 0.5em 0 1em;
-      padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    .term-content{
+      width: 70%;
     }
     .article {
       color: colors.$yellow;
     }
-    .sub-article {
-      text-decoration: underline;
+  }
+  @include screen-laptop() {
+    .terms {
+      .term-content {
+        width: 100%;
+      }
     }
   }
 </style>
