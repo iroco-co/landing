@@ -1,6 +1,7 @@
 <section class="legal">
-  <h1>Mentions légales</h1>
-  <div class="legal__iroco">
+  <div class="legal__content">
+    <h1>Mentions légales</h1>
+
     <h2>&Eacute;diteur</h2>
     <h3>Raison sociale</h3>
     <p>IROCO SAS</p>
@@ -15,8 +16,7 @@
     <p>88942425500012</p>
     <h3>Nom du directeur et/ou co-directeur</h3>
     <p>Adeline AGUT, Bruno THOMAS</p>
-  </div>
-  <div class="legal__hosting">
+
     <h2>Hébergeur</h2>
     <h3>Raison Sociale</h3>
     <p>
@@ -35,33 +35,22 @@
 
 <style lang="scss">
   @use 'node_modules/@iroco/ui/lib/colors';
-  @use 'node_modules/@iroco/ui/lib/containers';
-  @use 'node_modules/@iroco/ui/lib/fonts';
+  @import 'node_modules/@iroco/ui/lib/containers';
   .legal {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin-top: 5em;
-
-    h1 {
-      text-align: center;
+    &__content{
+      width: 40%;
+      h2 {
+        color: colors.$yellow;
+      }
     }
-
-    h2 {
-      color: colors.$green;
-    }
-
-    a:link {
-      @include fonts.Arial(medium, colors.$green);
-    }
-
-    a:visited {
-      color: colors.$darkGrey;
-    }
-
-    &__iroco,
-    &__hosting {
-      justify-self: space-between;
+  }
+  @include screen-laptop() {
+    .legal {
+      &__content {
+        width: 100%;
+      }
     }
   }
 </style>
