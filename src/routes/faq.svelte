@@ -7,8 +7,9 @@
 <svelte:window bind:innerWidth={windowWidth}/>
 
 <section class="faq">
+  <div class="faq__content">
   <h1>{$_('signup.faq.title')}</h1>
-  <div class="faq__toc" id="htop">
+  <div class="faq__content__toc" id="htop">
     <ul class="no-bullet">
       <li><a href="#offercontent">{$_('signup.faq.questions.offercontent.title')}</a></li>
       <li>
@@ -171,6 +172,7 @@
       />
     </div>
   </div>
+  </div>
 </section>
 
 <style lang="scss">
@@ -180,53 +182,67 @@
   @import 'node_modules/@iroco/ui/lib/button';
 
   .faq {
-    max-width: 1024px;
-    .question,
-    &__toc {
-      scroll-margin-top: 10em;
-    }
-    &__q-a {
-      img {
-        display: inherit;
-        padding-top: 1em;
+    display: flex;
+    justify-content: center;
+
+    &__content {
+      width: 70%;
+      .question,
+      &__toc {
+        scroll-margin-top: 10em;
       }
-      &__cookies {
-        iframe {
-          border: 1px, colors.$beige;
-          border-radius: 2%;
-          height: 200px;
-          width: 600px;
-          margin-top: 20px;
 
-          @include screen-laptop() {
-            width: 500px;
+      &__q-a {
+        img {
+          display: inherit;
+          padding-top: 1em;
+        }
+
+        &__cookies {
+          iframe {
+            border: 1px, colors.$beige;
+            border-radius: 2%;
             height: 200px;
-          }
+            width: 600px;
+            margin-top: 20px;
 
-          @include screen-tablet() {
-            width: 450px;
-            height: 200px;
-          }
+            @include screen-laptop() {
+              width: 500px;
+              height: 200px;
+            }
 
-          @include screen-tablet-S() {
-            width: 400px;
-            height: 200px;
-          }
+            @include screen-tablet() {
+              width: 450px;
+              height: 200px;
+            }
 
-          @include screen-mobile-L() {
-            width: 350px;
-            height: 170px;
-          }
+            @include screen-tablet-S() {
+              width: 400px;
+              height: 200px;
+            }
 
-          @include screen-mobile-M() {
-            width: 300px;
-            height: 160px;
-          }
+            @include screen-mobile-L() {
+              width: 350px;
+              height: 170px;
+            }
 
-          @include screen-mobile-S() {
-            width: 250px;
-            height: 150px;
+            @include screen-mobile-M() {
+              width: 300px;
+              height: 160px;
+            }
+
+            @include screen-mobile-S() {
+              width: 250px;
+              height: 150px;
+            }
           }
+        }
+      }
+    }
+    @include screen-laptop() {
+      .faq {
+        &__content{
+          width: 100%;
         }
       }
     }
