@@ -102,6 +102,18 @@
     .footer {
       display: block;
       padding: 0 2em;
+      &__contact {
+        &__container {
+          text-align: center;
+          &__icons {
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+      &__other {
+        text-align: center;
+      }
     }
   }
 </style>
