@@ -1,5 +1,5 @@
 <section class="terms">
-  <div class="term-content">
+  <div class="terms__content">
   <h1>Conditions Générales de Vente en vigueur et politique de gestion des données personnelles</h1>
 
   <h2 class="article">Article 1 - Contenu et champ d&apos;application</h2>
@@ -428,7 +428,7 @@
   .terms {
     display: flex;
     justify-content: center;
-    .term-content{
+    &__content{
       width: 70%;
     }
     .article {
@@ -437,7 +437,7 @@
   }
   @include screen-laptop() {
     .terms {
-      .term-content {
+      &__content{
         width: 100%;
       }
     }
