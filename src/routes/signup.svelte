@@ -39,7 +39,7 @@
 
       <div class="signup__offer__card__buttons">
         <a href="https://app.iroco.co/signup/" class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success">
-          <Icon name="chevron-right" color="colors.$nightBlue" />
+          <Icon name="chevron-right" />
           {$_('signup.offer.buttons.subscribe')}
         </a>
         <Button kind="dark" on:click={toggleMore}>

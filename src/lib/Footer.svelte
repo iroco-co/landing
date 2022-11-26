@@ -1,6 +1,6 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import { Icon, IconMastodon } from '@iroco/ui';
+  import { Icon, IconMastodon, Color} from '@iroco/ui';
 </script>
 
 <footer>
@@ -9,23 +9,23 @@
       <div class="footer__contact__container">
         <h3>{$_('footer.socialmedia')}</h3>
         <a href="mailto:hello@iroco.fr">
-          <Icon name="mail" width="1.2em" height="1.2em" />
+          <Icon name="mail" width="1.2em" color={Color.green} height="1.2em" />
           {$_('footer.mailto')}
         </a>
         <div class="footer__contact__container__icons">
           <span class="footer__contact__container__icons__icon">
             <a href="https://www.linkedin.com/company/irocodigital/">
-              <Icon name="linkedin" width="1.5em" height="1.5em" />
+              <Icon name="linkedin" color={Color.green} width="1.5em" height="1.5em" />
             </a>
           </span>
           <span class="footer__contact__container__icons__icon">
             <a href="https://twitter.com/IrocoDigital">
-              <Icon name="twitter" width="1.5em" height="1.5em" />
+              <Icon name="twitter" color={Color.green} width="1.5em" height="1.5em" />
             </a>
           </span>
           <span class="footer__contact__container__icons__icon">
             <a href="https://mastodon.social/@iroco">
-              <IconMastodon width="1.5em" height="1.5em" />
+              <IconMastodon fill={Color.green} width="1.5em" height="1.5em" />
             </a>
           </span>
         </div>
