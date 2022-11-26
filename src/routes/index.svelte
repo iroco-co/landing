@@ -61,6 +61,5 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    flex-wrap: wrap;
   }
 </style>
