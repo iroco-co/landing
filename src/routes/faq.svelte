@@ -1,7 +1,10 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
   import Chart from '../lib/Chart.svelte';
+  let windowWidth;
 </script>
+
+<svelte:window bind:innerWidth={windowWidth}/>
 
 <section class="faq">
   <h1>{$_('signup.faq.title')}</h1>
@@ -37,7 +40,6 @@
         <a href="#configuration">
           {$_('signup.faq.questions.offercontent.configurationquestion')}
         </a>
-        {$_('signup.faq.questions.offercontent.nowebmailtofollow')}
       </p>
     </div>
     <div id="ecofriendlyservice" class="faq__q-a__ecofriendlyservice question">
@@ -113,7 +115,7 @@
         <li>{$_('signup.faq.questions.subscription.list.deployment')}</li>
         <li>{$_('signup.faq.questions.subscription.list.rest')}</li>
       </ul>
-      <Chart size="500" />
+      <Chart size={Math.min(windowWidth*0.8 / 2, 500)} />
     </div>
     <div id="nonbindingoffer" class="faq__q-a__offer question">
       <h3><a href="#htop">{$_('signup.faq.questions.offer.title')}</a></h3>
@@ -133,11 +135,11 @@
       <p>{$_('signup.faq.questions.configuration.user')}</p>
       <p>
         {$_('signup.faq.questions.configuration.imap-example')}
-        <img alt="imap configuration example" src="/images/imap.png" />
+        <img alt="imap configuration example" src="/images/imap.png" width={Math.min(609, windowWidth*0.8)}/>
       </p>
       <p>
         {$_('signup.faq.questions.configuration.smtp-example')}
-        <img alt="smtp configuration example" src="/images/smtp.png" />
+        <img alt="smtp configuration example" src="/images/smtp.png" width={Math.min(609, windowWidth*0.8)}/>
       </p>
     </div>
     <div id="emailsyntax" class="faq__q-a__emailsyntax question">
