@@ -1,6 +1,6 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import { Icon, IrocoLogo } from '@iroco/ui/';
+  import { Icon, IrocoLogo, Color } from '@iroco/ui/';
 </script>
 
 <div class="irocologo-signupbutton">
@@ -12,7 +12,7 @@
       class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"
       href="https://app.iroco.co/signup/"
     >
-      <Icon name="chevron-right"/>
+      <Icon name="chevron-right" color={Color.darkBlue}/>
       {$_('footer.subscribe')}
     </a>
   </div>

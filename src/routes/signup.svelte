@@ -1,6 +1,6 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
-  import { Icon, Button } from '@iroco/ui/';
+  import { Icon, Button, Color } from '@iroco/ui/';
   import Mail from '../lib/Mail.svelte';
 
   let more = false;
@@ -39,7 +39,7 @@
 
       <div class="signup__offer__card__buttons">
         <a href="https://app.iroco.co/signup/" class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success">
-          <Icon name="chevron-right" />
+          <Icon name="chevron-right" color={Color.nightBlue} />
           {$_('signup.offer.buttons.subscribe')}
         </a>
         <Button kind="dark" on:click={toggleMore}>
