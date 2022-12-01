@@ -43,7 +43,7 @@
     articleTitle={$_('homepage.inclusive.title')}
     articleContent={$_('homepage.inclusive.p')}
     buttonList={[
-      { href: '/signup#faq', label: $_('homepage.inclusive.btn') },
+      { href: '/faq', label: $_('homepage.inclusive.btn') },
       { href: 'mailto:hello@iroco.fr', label: $_('homepage.inclusive.contact') }
     ]}
     reversed
