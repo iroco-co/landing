@@ -20,6 +20,21 @@
   <section class="about__commitments" id="commitments">
     <h1>{$_('about.commitments.title')}</h1>
     <div class="about__commitments__sections">
+      <article class="about__commitments__sections__transparency">
+        <Host size="100px" />
+        <h3>{$_('about.commitments.sections.transparency.title')}</h3>
+        <p>{$_('about.commitments.sections.transparency.p')}</p>
+      </article>
+      <article class="about__commitments__sections__hosting">
+        <Plant size="100px"/>
+        <h3>{$_('about.commitments.sections.hosting.title')}</h3>
+        <p>{$_('about.commitments.sections.hosting.p')}</p>
+      </article>
+      <article class="about__commitments__sections__opensource">
+        <Energy size="100px"/>
+        <h3>{$_('about.commitments.sections.opensource.title')}</h3>
+        <p>{$_('about.commitments.sections.opensource.p')}</p>
+      </article>
       <article class="about__commitments__sections__data">
         <Privacy size="100px"/>
         <h3>{$_('about.commitments.sections.data.title')}</h3>
@@ -34,21 +49,6 @@
         <Server size="100px"/>
         <h3>{$_('about.commitments.sections.sovereign.title')}</h3>
         <p>{$_('about.commitments.sections.sovereign.p')}</p>
-      </article>
-      <article class="about__commitments__sections__hosting">
-        <Plant size="100px"/>
-        <h3>{$_('about.commitments.sections.hosting.title')}</h3>
-        <p>{$_('about.commitments.sections.hosting.p')}</p>
-      </article>
-      <article class="about__commitments__sections__opensource">
-        <Energy size="100px"/>
-        <h3>{$_('about.commitments.sections.opensource.title')}</h3>
-        <p>{$_('about.commitments.sections.opensource.p')}</p>
-      </article>
-      <article class="about__commitments__sections__transparency">
-        <Host size="100px" />
-        <h3>{$_('about.commitments.sections.transparency.title')}</h3>
-        <p>{$_('about.commitments.sections.transparency.p')}</p>
       </article>
     </div>
   </section>
