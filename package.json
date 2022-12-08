@@ -10,7 +10,8 @@
     "test:watch": "vitest",
     "test": "vitest --run",
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
-    "format": "prettier --plugin-search-dir . --write ."
+    "format": "prettier --plugin-search-dir . --write .",
+    "clean": "rm -rf .svelte-kit build && npm cache clean --force"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
