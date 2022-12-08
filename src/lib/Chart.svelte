@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
+  import { _ } from "svelte-i18n";
   export let size: number;
 </script>
 
@@ -13,10 +13,22 @@
     <title>Subscription Chart</title>
     <g data-z-index="3">
       <g data-z-index=".1" stroke-linejoin="round">
-        <path fill="#FFE032" d="M324.977 82.2a114.8 114.8 0 0 1 109.174 79.233L325 197z" />
-        <path fill="#ff504d" d="M434.187 161.542a114.8 114.8 0 0 1 4.219 53.294L325 197z" />
-        <path fill="#00B9FF" d="M438.388 214.95A114.8 114.8 0 0 1 210.2 197.068L325 197z" />
-        <path fill="#00d692" d="M203.2 189.953A114.8 114.8 0 0 1 317.84 75.2L318 190z" />
+        <path
+          fill="#FFE032"
+          d="M324.977 82.2a114.8 114.8 0 0 1 109.174 79.233L325 197z"
+        />
+        <path
+          fill="#ff504d"
+          d="M434.187 161.542a114.8 114.8 0 0 1 4.219 53.294L325 197z"
+        />
+        <path
+          fill="#00B9FF"
+          d="M438.388 214.95A114.8 114.8 0 0 1 210.2 197.068L325 197z"
+        />
+        <path
+          fill="#00d692"
+          d="M203.2 189.953A114.8 114.8 0 0 1 317.84 75.2L318 190z"
+        />
       </g>
     </g>
     <g data-z-index="6">
@@ -41,9 +53,17 @@
         d="M217.61 94.61c5 0 17.729 12.729 21.972 16.972l4.242 4.242"
       />
       <g>
-        <text x="5" data-z-index="1" y="16" transform="translate(420 70)" fill="#f2ebe3">
-          <tspan>{$_('signup.faq.questions.subscription.chart.tax.title')}</tspan>
-          &nbsp;{$_('signup.faq.questions.subscription.chart.tax.percentage')}
+        <text
+          x="5"
+          data-z-index="1"
+          y="16"
+          transform="translate(420 70)"
+          fill="#f2ebe3"
+        >
+          <tspan
+            >{$_("signup.faq.questions.subscription.chart.tax.title")}</tspan
+          >
+          &nbsp;{$_("signup.faq.questions.subscription.chart.tax.percentage")}
         </text>
       </g>
       <g>
@@ -55,8 +75,14 @@
           fill="#f2ebe3"
           font-fontSize="1em"
         >
-          <tspan>{$_('signup.faq.questions.subscription.chart.payment.title')}</tspan>
-          &nbsp;{$_('signup.faq.questions.subscription.chart.payment.percentage')}
+          <tspan
+            >{$_(
+              "signup.faq.questions.subscription.chart.payment.title"
+            )}</tspan
+          >
+          &nbsp;{$_(
+            "signup.faq.questions.subscription.chart.payment.percentage"
+          )}
         </text>
       </g>
       <g>
@@ -68,8 +94,14 @@
           fill="#f2ebe3"
           font-fontSize="1rem"
         >
-          <tspan>{$_('signup.faq.questions.subscription.chart.hosting.title')}</tspan>
-          &nbsp;{$_('signup.faq.questions.subscription.chart.hosting.percentage')}
+          <tspan
+            >{$_(
+              "signup.faq.questions.subscription.chart.hosting.title"
+            )}</tspan
+          >
+          &nbsp;{$_(
+            "signup.faq.questions.subscription.chart.hosting.percentage"
+          )}
         </text>
       </g>
       <g>
@@ -81,8 +113,10 @@
           fill="#f2ebe3"
           font-fontSize="1rem"
         >
-          <tspan>{$_('signup.faq.questions.subscription.chart.iroco.title')}</tspan>
-          &nbsp;{$_('signup.faq.questions.subscription.chart.iroco.percentage')}
+          <tspan
+            >{$_("signup.faq.questions.subscription.chart.iroco.title")}</tspan
+          >
+          &nbsp;{$_("signup.faq.questions.subscription.chart.iroco.percentage")}
         </text>
       </g>
     </g>

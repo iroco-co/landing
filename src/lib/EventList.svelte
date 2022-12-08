@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { EventModel } from './definition';
+  import type { EventModel } from "./definition";
   export let eventList: EventModel[] = [];
 </script>
 
@@ -14,7 +14,7 @@
 </div>
 
 <style lang="scss">
-  @import 'node_modules/@iroco/ui/lib/containers';
+  @import "node_modules/@iroco/ui/lib/containers";
   .eventList {
     display: flex;
     gap: 3em;

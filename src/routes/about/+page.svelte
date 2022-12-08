@@ -1,62 +1,70 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
-  import IrocologoSignupbutton from '../lib/IrocologoSignupbutton.svelte';
-  import GreenHost from "../lib/GreenHost.svelte";
-  import Privacy from "../lib/Privacy.svelte";
-  import Server from "../lib/Server.svelte";
-  import Plant from "../lib/Plant.svelte";
-  import Energy from "../lib/Energy.svelte";
-  import Host from "../lib/Host.svelte";
+  import { _ } from "svelte-i18n";
+  import IrocologoSignupbutton from "../../lib/IrocologoSignupbutton.svelte";
+  import GreenHost from "../../lib/GreenHost.svelte";
+  import Privacy from "../../lib/Privacy.svelte";
+  import Server from "../../lib/Server.svelte";
+  import Plant from "../../lib/Plant.svelte";
+  import Energy from "../../lib/Energy.svelte";
+  import Host from "../../lib/Host.svelte";
 </script>
 
 <div class="about">
   <section class="about__project">
-    <h1>{$_('about.beginning.title')}</h1>
-    <p>{$_('about.beginning.p')}</p>
+    <h1>{$_("about.beginning.title")}</h1>
+    <p>{$_("about.beginning.p")}</p>
   </section>
 
-  <img class="about__image" src="/images/Iroco-illustration-a-propos.svg" alt="Paper plane leaving behind a heart-shaped trail"/>
+  <img
+    class="about__image"
+    src="/images/Iroco-illustration-a-propos.svg"
+    alt="Paper plane leaving behind a heart-shaped trail"
+  />
 
   <section class="about__commitments" id="commitments">
-    <h1>{$_('about.commitments.title')}</h1>
+    <h1>{$_("about.commitments.title")}</h1>
     <div class="about__commitments__sections">
       <article class="about__commitments__sections__transparency">
         <Host size="100px" />
-        <h3>{$_('about.commitments.sections.transparency.title')}</h3>
-        <p>{$_('about.commitments.sections.transparency.p')}</p>
+        <h3>{$_("about.commitments.sections.transparency.title")}</h3>
+        <p>{$_("about.commitments.sections.transparency.p")}</p>
       </article>
       <article class="about__commitments__sections__hosting">
-        <Plant size="100px"/>
-        <h3>{$_('about.commitments.sections.hosting.title')}</h3>
-        <p>{$_('about.commitments.sections.hosting.p')}</p>
+        <Plant size="100px" />
+        <h3>{$_("about.commitments.sections.hosting.title")}</h3>
+        <p>{$_("about.commitments.sections.hosting.p")}</p>
       </article>
       <article class="about__commitments__sections__opensource">
-        <Energy size="100px"/>
-        <h3>{$_('about.commitments.sections.opensource.title')}</h3>
-        <p>{$_('about.commitments.sections.opensource.p')}</p>
+        <Energy size="100px" />
+        <h3>{$_("about.commitments.sections.opensource.title")}</h3>
+        <p>{$_("about.commitments.sections.opensource.p")}</p>
       </article>
       <article class="about__commitments__sections__data">
-        <Privacy size="100px"/>
-        <h3>{$_('about.commitments.sections.data.title')}</h3>
-        <p>{$_('about.commitments.sections.data.p')}</p>
+        <Privacy size="100px" />
+        <h3>{$_("about.commitments.sections.data.title")}</h3>
+        <p>{$_("about.commitments.sections.data.p")}</p>
       </article>
       <article class="about__commitments__sections__ecodesign">
         <GreenHost size="100px" />
-        <h3>{$_('about.commitments.sections.ecodesign.title')}</h3>
-        <p>{$_('about.commitments.sections.ecodesign.p')}</p>
+        <h3>{$_("about.commitments.sections.ecodesign.title")}</h3>
+        <p>{$_("about.commitments.sections.ecodesign.p")}</p>
       </article>
       <article class="about__commitments__sections__sovereign">
-        <Server size="100px"/>
-        <h3>{$_('about.commitments.sections.sovereign.title')}</h3>
-        <p>{$_('about.commitments.sections.sovereign.p')}</p>
+        <Server size="100px" />
+        <h3>{$_("about.commitments.sections.sovereign.title")}</h3>
+        <p>{$_("about.commitments.sections.sovereign.p")}</p>
       </article>
     </div>
   </section>
 
-  <img class="about__image" src="/images/Iroco-illustration-a-propos.svg" alt="Paper plane leaving behind a heart-shaped trail"/>
+  <img
+    class="about__image"
+    src="/images/Iroco-illustration-a-propos.svg"
+    alt="Paper plane leaving behind a heart-shaped trail"
+  />
 
   <section class="about__ecosystem">
-    <h1>{$_('about.ecosystem.title')}</h1>
+    <h1>{$_("about.ecosystem.title")}</h1>
     <div class="about__ecosystem__grid">
       <div class="about__ecosystem__grid__item vertical">
         <div class="about__ecosystem__grid__item__img">
@@ -64,7 +72,7 @@
             ><img src="/images/partners/boavizta.png" alt="Boavizta" /></a
           >
         </div>
-        <p>{$_('about.ecosystem.boavizta')}</p>
+        <p>{$_("about.ecosystem.boavizta")}</p>
       </div>
       <div class="about__ecosystem__grid__item">
         <div class="about__ecosystem__grid__item__img">
@@ -72,7 +80,7 @@
             ><img src="/images/partners/agit.png" alt="Agit" /></a
           >
         </div>
-        <p>{$_('about.ecosystem.agit')}</p>
+        <p>{$_("about.ecosystem.agit")}</p>
       </div>
       <div class="about__ecosystem__grid__item">
         <div class="about__ecosystem__grid__item__img">
@@ -80,7 +88,7 @@
             ><img src="/images/partners/bpi.svg" alt="BPI France" /></a
           >
         </div>
-        <p>{$_('about.ecosystem.bpi-france')}</p>
+        <p>{$_("about.ecosystem.bpi-france")}</p>
       </div>
       <div class="about__ecosystem__grid__item">
         <div class="about__ecosystem__grid__item__img">
@@ -91,42 +99,48 @@
             /></a
           >
         </div>
-        <p>{@html $_('about.ecosystem.shift-your-job')}</p>
+        <p>{@html $_("about.ecosystem.shift-your-job")}</p>
       </div>
       <div class="about__ecosystem__grid__item">
         <div class="about__ecosystem__grid__item__img">
-          <a href="https://www.eolas.fr/"><img src="/images/partners/eolas.png" alt="Eolas" /></a>
+          <a href="https://www.eolas.fr/"
+            ><img src="/images/partners/eolas.png" alt="Eolas" /></a
+          >
         </div>
-        <p>{$_('about.ecosystem.eolas')}</p>
+        <p>{$_("about.ecosystem.eolas")}</p>
       </div>
     </div>
   </section>
 
-  <img class="about__image" src="/images/Iroco-illustration-a-propos.svg" alt="Paper plane leaving behind a heart-shaped trail"/>
+  <img
+    class="about__image"
+    src="/images/Iroco-illustration-a-propos.svg"
+    alt="Paper plane leaving behind a heart-shaped trail"
+  />
 
   <section class="about__roadmap">
-    <h1>{$_('about.roadmap.title')}</h1>
-    <p>{$_('about.roadmap.p')}</p>
+    <h1>{$_("about.roadmap.title")}</h1>
+    <p>{$_("about.roadmap.p")}</p>
     <div class="about__roadmap__sections">
       <article class="about__roadmap__sections__servers">
-        <h3>{$_('about.roadmap.ul.servers.title')}</h3>
-        <h4>{$_('about.roadmap.ul.servers.date')}</h4>
-        <p>{$_('about.roadmap.ul.servers.details')}</p>
+        <h3>{$_("about.roadmap.ul.servers.title")}</h3>
+        <h4>{$_("about.roadmap.ul.servers.date")}</h4>
+        <p>{$_("about.roadmap.ul.servers.details")}</p>
       </article>
       <article class="about__roadmap__sections__client">
-        <h3>{$_('about.roadmap.ul.client.title')}</h3>
-        <h4>{$_('about.roadmap.ul.client.date')}</h4>
-        <p>{$_('about.roadmap.ul.client.details')}</p>
+        <h3>{$_("about.roadmap.ul.client.title")}</h3>
+        <h4>{$_("about.roadmap.ul.client.date")}</h4>
+        <p>{$_("about.roadmap.ul.client.details")}</p>
       </article>
       <article class="about__roadmap__sections__company">
-        <h3>{$_('about.roadmap.ul.company.title')}</h3>
-        <h4>{$_('about.roadmap.ul.company.date')}</h4>
-        <p>{$_('about.roadmap.ul.company.details')}</p>
+        <h3>{$_("about.roadmap.ul.company.title")}</h3>
+        <h4>{$_("about.roadmap.ul.company.date")}</h4>
+        <p>{$_("about.roadmap.ul.company.details")}</p>
       </article>
       <article class="about__roadmap__sections__webmail">
-        <h3>{$_('about.roadmap.ul.webmail.title')}</h3>
-        <h4>{$_('about.roadmap.ul.webmail.date')}</h4>
-        <p>{$_('about.roadmap.ul.webmail.details')}</p>
+        <h3>{$_("about.roadmap.ul.webmail.title")}</h3>
+        <h4>{$_("about.roadmap.ul.webmail.date")}</h4>
+        <p>{$_("about.roadmap.ul.webmail.details")}</p>
       </article>
     </div>
   </section>
@@ -135,8 +149,8 @@
 </div>
 
 <style lang="scss">
-  @use 'node_modules/@iroco/ui/lib/colors';
-  @import 'node_modules/@iroco/ui/scss/containers';
+  @use "node_modules/@iroco/ui/lib/colors";
+  @import "node_modules/@iroco/ui/scss/containers";
   .about {
     display: flex;
     flex-direction: column;

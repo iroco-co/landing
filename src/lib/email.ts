@@ -10,10 +10,10 @@ export const isSuffixValid = (emailSuffix: string): boolean => {
   return /^[a-z0-9]+$/i.test(emailSuffix);
 };
 export const getEmailBase = (email: string): string => {
-  return email.split('@')[0];
+  return email.split("@")[0];
 };
 export const getEmailDomain = (email: string): string => {
-  return email.split('@')[1];
+  return email.split("@")[1];
 };
 
 export const composeLocalPart = (base: string, suffix: string): string => {

@@ -60,7 +60,10 @@
     </g>
     <g>
       <circle cx="80.67" cy="61.54" r="11.33" fill="#ff504d" />
-      <polygon points="66.16 92 50.21 76.05 72.65 69.56 66.16 92" fill="#ff504d" />
+      <polygon
+        points="66.16 92 50.21 76.05 72.65 69.56 66.16 92"
+        fill="#ff504d"
+      />
     </g>
   </svg>
   {#if title != null}

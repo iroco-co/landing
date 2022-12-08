@@ -1,6 +1,7 @@
 <script lang="ts">
-  export let size = 312
+  export let size = 312;
 </script>
+
 <span class="host">
   <svg width="147" viewBox="0 0 147 312" height={size} fill="none">
     <title>Server</title>
@@ -21,14 +22,25 @@
         stroke-width="3"
         stroke-miterlimit="10"
       />
-      <path d="M2.12012 154.31V239.53" stroke="#00D692" stroke-miterlimit="10" />
+      <path
+        d="M2.12012 154.31V239.53"
+        stroke="#00D692"
+        stroke-miterlimit="10"
+      />
       <path d="M144.01 154.31V239.53" stroke="#00D692" stroke-miterlimit="10" />
-      <path d="M73.0701 225.26V310.48" stroke="#00D692" stroke-miterlimit="10" />
+      <path
+        d="M73.0701 225.26V310.48"
+        stroke="#00D692"
+        stroke-miterlimit="10"
+      />
       <path
         d="M80.6701 154.12C86.9275 154.12 92.0001 149.047 92.0001 142.79C92.0001 136.533 86.9275 131.46 80.6701 131.46C74.4127 131.46 69.3401 136.533 69.3401 142.79C69.3401 149.047 74.4127 154.12 80.6701 154.12Z"
         fill="#FF504D"
       />
-      <path d="M66.16 173.25L50.21 157.3L72.65 150.8L66.16 173.25Z" fill="#FF504D" />
+      <path
+        d="M66.16 173.25L50.21 157.3L72.65 150.8L66.16 173.25Z"
+        fill="#FF504D"
+      />
       <path
         d="M96.83 0C100.089 3.25936 102.675 7.12882 104.439 11.3875C106.203 15.6461 107.111 20.2105 107.111 24.8201C107.111 29.4296 106.203 33.9941 104.439 38.2527C102.675 42.5113 100.089 46.3808 96.83 49.6401L71.97 24.79L96.83 0Z"
         fill="#00D692"

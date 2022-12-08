@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { ButtonModel } from './definition';
-  import { Icon } from '@iroco/ui/src/index';
+  import type { ButtonModel } from "./definition";
+  import { Icon } from "@iroco/ui/src/index";
   export let imgSrc: string;
   export let alt: string;
   export let articleTitle: string;
@@ -30,9 +30,9 @@
 </div>
 
 <style lang="scss">
-  @use 'node_modules/@iroco/ui/lib/colors';
-  @import 'node_modules/@iroco/ui/scss/containers';
-  @import 'node_modules/@iroco/ui/lib/button';
+  @use "node_modules/@iroco/ui/lib/colors";
+  @import "node_modules/@iroco/ui/scss/containers";
+  @import "node_modules/@iroco/ui/lib/button";
   .imagearticle {
     display: flex;
     justify-content: space-around;

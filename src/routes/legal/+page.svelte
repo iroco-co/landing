@@ -34,12 +34,12 @@
 </section>
 
 <style lang="scss">
-  @use 'node_modules/@iroco/ui/lib/colors';
-  @import 'node_modules/@iroco/ui/lib/containers';
+  @use "node_modules/@iroco/ui/lib/colors";
+  @import "node_modules/@iroco/ui/lib/containers";
   .legal {
     display: flex;
     justify-content: center;
-    &__content{
+    &__content {
       width: 40%;
       h2 {
         color: colors.$yellow;

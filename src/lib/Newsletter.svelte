@@ -1,32 +1,35 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
-  import Mail from '../lib/Mail.svelte';
+  import { _ } from "svelte-i18n";
+  import Mail from "../lib/Mail.svelte";
 </script>
 
 <div class="newsletter">
   <div class="newsletter__container">
     <div class="newsletter__container__screen">
-      <img src="/images/screen.png" alt="Iroco mail application on a smartphone screen" />
+      <img
+        src="/images/screen.png"
+        alt="Iroco mail application on a smartphone screen"
+      />
     </div>
     <div class="newsletter__container__subscription">
-      <Mail size="90" strokeWidth="2" title={$_('newsletter.title')} />
+      <Mail size="90" strokeWidth="2" title={$_("newsletter.title")} />
       <div class="newsletter__container__subscription__iframe">
         <iframe
           title="mailjet"
           class="mj-w-res-iframe"
           src="https://app.mailjet.com/widget/iframe/6a9K/NvZ"
         />
-        <p>{$_('newsletter.disclaimer')}</p>
+        <p>{$_("newsletter.disclaimer")}</p>
       </div>
     </div>
   </div>
 </div>
 
 <style lang="scss">
-  @use 'node_modules/@iroco/ui/lib/colors';
-  @use 'node_modules/@iroco/ui/lib/constants';
-  @use 'node_modules/@iroco/ui/lib/fonts';
-  @import 'node_modules/@iroco/ui/scss/containers';
+  @use "node_modules/@iroco/ui/lib/colors";
+  @use "node_modules/@iroco/ui/lib/constants";
+  @use "node_modules/@iroco/ui/lib/fonts";
+  @import "node_modules/@iroco/ui/scss/containers";
 
   .newsletter {
     max-width: 1024px;
