@@ -15,6 +15,7 @@
     articleTitle={$_("homepage.iroco.title")}
     articleContent={$_("homepage.iroco.p")}
     buttonList={[{ href: "/signup", label: $_("homepage.iroco.btn") }]}
+    reversed
   />
 
   <ImageArticle
@@ -25,7 +26,6 @@
     buttonList={[
       { href: "/about#commitments", label: $_("homepage.respect.btn") },
     ]}
-    reversed
   />
 
   <ImageArticle
@@ -40,6 +40,7 @@
         label: $_("homepage.innovation.github"),
       },
     ]}
+    reversed
   />
 
   <ImageArticle
@@ -54,7 +55,6 @@
         label: $_("homepage.inclusive.contact"),
       },
     ]}
-    reversed
   />
 
   <IrocologoSignupbutton />
