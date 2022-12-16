@@ -39,7 +39,7 @@
     justify-content: space-around;
     align-items: center;
     &__image {
-      width: 50%;
+      width: 40%;
       display: block;
       object-fit: cover;
       margin: 0 auto;
@@ -66,7 +66,7 @@
   @include screen-tablet {
     .imagearticle {
       display: block;
-      width: 100%;
+      width: 80%;
       text-align: center;
 
       &__image {
