@@ -153,9 +153,9 @@
         "email": "Une adresse mail",
         "storage": "5 Gigaoctets de stockage",
         "alias": "50 alias e-mail",
-        "contact-calendar": "Gestion des contacts et calendrier"
-        "hosting": "Hébergé en France"
-        "ads": "Sans publicité"
+        "contact-calendar": "Gestion des contacts et calendrier",
+        "hosting": "Hébergé en France",
+        "ads": "Sans publicité",
         "privacy": "Protège vos données et votre vie privée"
       },
       "buttons": {
