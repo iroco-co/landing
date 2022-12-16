@@ -32,6 +32,9 @@
             <li>{$_("signup.offer.list.storage")}</li>
             <li>{$_("signup.offer.list.alias")}</li>
             <li>{$_("signup.offer.list.contact-calendar")}</li>
+            <li>{$_("signup.offer.list.hosting")}</li>
+            <li>{$_("signup.offer.list.ads")}</li>
+            <li>{$_("signup.offer.list.privacy")}</li>
           </ul>
         </div>
       </div>
