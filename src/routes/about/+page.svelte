@@ -175,16 +175,13 @@
         display: flex;
         flex-wrap: wrap;
         gap: 2em;
-        line-height: 1em;
+        line-height: 1.2em;
 
         article {
           justify-content: space-around;
           flex-direction: column;
           flex: 1;
           flex-basis: 300px;
-          p {
-            font-size: smaller;
-          }
         }
       }
     }
@@ -195,7 +192,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         &__item {
-          line-height: 1em;
+          line-height: 1.2em;
           padding: 0.5em;
           flex-basis: 300px;
           &__img {
@@ -205,9 +202,6 @@
             justify-content: center;
           }
           flex-grow: 1;
-          p {
-            font-size: smaller;
-          }
         }
         &__item:not(.vertical) {
           img {
