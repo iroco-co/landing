@@ -38,7 +38,7 @@
   "homepage": {
     "iroco": {
       "title": "Une boîte mail transparente et responsable",
-      "p": "Le mail open source et éco-conçu qui respecte vos données. Développé et hébergé en France.",
+      "p": "Le mail éco-conçu et open source qui respecte vos données. Développé et hébergé en France.",
       "btn": "Ouvrir un compte"
     },
     "respect": {
@@ -154,6 +154,9 @@
         "storage": "5 Gigaoctets de stockage",
         "alias": "50 alias e-mail",
         "contact-calendar": "Gestion des contacts et calendrier"
+        "hosting": "Hébergé en France"
+        "ads": "Sans publicité"
+        "privacy": "Protège vos données et votre vie privée"
       },
       "buttons": {
         "subscribe": "Ouvrir un compte",
