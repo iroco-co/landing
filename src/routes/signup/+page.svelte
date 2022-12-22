@@ -1,8 +1,8 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import { Button, Color } from "@iroco/ui";
-  import Icon from 'svelte-awesome';
-  import {chevronRight, chevronDown} from 'svelte-awesome/icons';
+  import Icon from "svelte-awesome";
+  import { chevronRight, chevronDown } from "svelte-awesome/icons";
   import Mail from "../../lib/Mail.svelte";
 
   let more = false;

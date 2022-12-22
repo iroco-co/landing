@@ -1,8 +1,8 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import { IconMastodon, Color } from "@iroco/ui";
-  import Icon from 'svelte-awesome';
-  import {twitter, envelope, linkedin} from 'svelte-awesome/icons';
+  import Icon from "svelte-awesome";
+  import { twitter, envelope, linkedin } from "svelte-awesome/icons";
 </script>
 
 <footer>
@@ -11,18 +11,18 @@
       <div class="footer__contact__container">
         <h3>{$_("footer.socialmedia")}</h3>
         <a href="mailto:hello@iroco.fr">
-          <Icon data={envelope} style="color: {Color.green};"/>
+          <Icon data={envelope} style="color: {Color.green};" />
           {$_("footer.mailto")}
         </a>
         <div class="footer__contact__container__icons">
           <span class="footer__contact__container__icons__icon">
             <a href="https://www.linkedin.com/company/irocodigital/">
-              <Icon data={linkedin} scale={1.5} style="color: {Color.green};"/>
+              <Icon data={linkedin} scale={1.5} style="color: {Color.green};" />
             </a>
           </span>
           <span class="footer__contact__container__icons__icon">
             <a href="https://twitter.com/IrocoDigital">
-              <Icon data={twitter} scale={1.5} style="color: {Color.green}; "/>
+              <Icon data={twitter} scale={1.5} style="color: {Color.green}; " />
             </a>
           </span>
           <span class="footer__contact__container__icons__icon">

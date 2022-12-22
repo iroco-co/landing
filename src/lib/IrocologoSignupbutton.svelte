@@ -1,8 +1,8 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import { IrocoLogo, Color } from "@iroco/ui";
-  import Icon from 'svelte-awesome';
-  import chevronRight from 'svelte-awesome/icons/chevronRight';
+  import Icon from "svelte-awesome";
+  import chevronRight from "svelte-awesome/icons/chevronRight";
 </script>
 
 <div class="irocologo-signupbutton">

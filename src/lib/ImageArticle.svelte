@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { ButtonModel } from "./definition";
   import { Icon } from "svelte-awesome";
-  import chevronRight from 'svelte-awesome/icons/chevronRight';
+  import chevronRight from "svelte-awesome/icons/chevronRight";
   export let imgSrc: string;
   export let alt: string;
   export let articleTitle: string;
