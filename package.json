@@ -39,7 +39,8 @@
     "vitest": "^0.25.3"
   },
   "dependencies": {
-    "@iroco/ui": "^0.20.0",
+    "@iroco/ui": "^0.50.0",
+    "svelte-awesome": "^3.0.1",
     "svelte-i18n": "^3.6"
   },
   "lint-staged": {

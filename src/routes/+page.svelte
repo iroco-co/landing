@@ -63,8 +63,8 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/lib/colors";
-  @import "node_modules/@iroco/ui/lib/button";
+  @use "node_modules/@iroco/ui/scss/colors";
+  @import "node_modules/@iroco/ui/scss/button";
   .page-content {
     display: flex;
     flex-direction: column;

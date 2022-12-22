@@ -26,9 +26,9 @@
 </div>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/lib/colors";
-  @use "node_modules/@iroco/ui/lib/constants";
-  @use "node_modules/@iroco/ui/lib/fonts";
+  @use "node_modules/@iroco/ui/scss/colors";
+  @use "node_modules/@iroco/ui/scss/constants";
+  @use "node_modules/@iroco/ui/scss/fonts";
   @import "node_modules/@iroco/ui/scss/containers";
 
   .newsletter {

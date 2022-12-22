@@ -1,6 +1,8 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
-  import { Icon, Button, Color } from "@iroco/ui/";
+  import { Button, Color } from "@iroco/ui";
+  import Icon from 'svelte-awesome';
+  import {chevronRight, chevronDown} from 'svelte-awesome/icons';
   import Mail from "../../lib/Mail.svelte";
 
   let more = false;
@@ -44,14 +46,14 @@
           href="https://app.iroco.co/signup/"
           class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"
         >
-          <Icon name="chevron-right" color={Color.nightBlue} />
+          <Icon data={chevronRight} color={Color.nightBlue} />
           {$_("signup.offer.buttons.subscribe")}
         </a>
         <Button kind="dark" on:click={toggleMore}>
           {#if more}
-            <Icon name="chevron-down" />
+            <Icon data={chevronDown} />
           {:else}
-            <Icon name="chevron-right" />
+            <Icon data={chevronRight} />
           {/if}
           {$_("signup.offer.buttons.details")}
         </Button>
@@ -80,10 +82,10 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/lib/colors";
-  @use "node_modules/@iroco/ui/lib/constants";
-  @import "node_modules/@iroco/ui/lib/containers";
-  @import "node_modules/@iroco/ui/lib/button";
+  @use "node_modules/@iroco/ui/scss/colors";
+  @use "node_modules/@iroco/ui/scss/constants";
+  @import "node_modules/@iroco/ui/scss/containers";
+  @import "node_modules/@iroco/ui/scss/button";
 
   .signup {
     text-align: center;

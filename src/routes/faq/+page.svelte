@@ -256,10 +256,10 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/lib/colors";
-  @use "node_modules/@iroco/ui/lib/constants";
-  @import "node_modules/@iroco/ui/lib/containers";
-  @import "node_modules/@iroco/ui/lib/button";
+  @use "node_modules/@iroco/ui/scss/colors";
+  @use "node_modules/@iroco/ui/scss/constants";
+  @import "node_modules/@iroco/ui/scss/containers";
+  @import "node_modules/@iroco/ui/scss/button";
 
   .faq {
     display: flex;

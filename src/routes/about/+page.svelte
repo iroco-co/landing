@@ -149,7 +149,7 @@
 </div>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/lib/colors";
+  @use "node_modules/@iroco/ui/scss/colors";
   @import "node_modules/@iroco/ui/scss/containers";
   .about {
     display: flex;

@@ -24,7 +24,7 @@
 {/if}
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/lib/colors";
+  @use "node_modules/@iroco/ui/scss/colors";
 
   :global(.navigation) {
     position: fixed;

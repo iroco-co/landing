@@ -1,6 +1,8 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
-  import { Icon, IconMastodon, Color } from "@iroco/ui";
+  import { IconMastodon, Color } from "@iroco/ui";
+  import Icon from 'svelte-awesome';
+  import {twitter, envelope, linkedin} from 'svelte-awesome/icons';
 </script>
 
 <footer>
@@ -9,32 +11,22 @@
       <div class="footer__contact__container">
         <h3>{$_("footer.socialmedia")}</h3>
         <a href="mailto:hello@iroco.fr">
-          <Icon name="mail" width="1.2em" color={Color.green} height="1.2em" />
+          <Icon data={envelope} style="color: {Color.green};"/>
           {$_("footer.mailto")}
         </a>
         <div class="footer__contact__container__icons">
           <span class="footer__contact__container__icons__icon">
             <a href="https://www.linkedin.com/company/irocodigital/">
-              <Icon
-                name="linkedin"
-                color={Color.green}
-                width="1.5em"
-                height="1.5em"
-              />
+              <Icon data={linkedin} scale={1.5} style="color: {Color.green};"/>
             </a>
           </span>
           <span class="footer__contact__container__icons__icon">
             <a href="https://twitter.com/IrocoDigital">
-              <Icon
-                name="twitter"
-                color={Color.green}
-                width="1.5em"
-                height="1.5em"
-              />
+              <Icon data={twitter} scale={1.5} style="color: {Color.green}; "/>
             </a>
           </span>
           <span class="footer__contact__container__icons__icon">
-            <a href="https://mastodon.social/@iroco">
+            <a rel="me" href="https://mastodon.social/@iroco">
               <IconMastodon fill={Color.green} width="1.5em" height="1.5em" />
             </a>
           </span>
@@ -62,7 +54,7 @@
 </footer>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/lib/colors";
+  @use "node_modules/@iroco/ui/scss/colors";
   @import "node_modules/@iroco/ui/scss/containers";
 
   .footer {

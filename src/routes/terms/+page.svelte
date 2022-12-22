@@ -508,9 +508,9 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/lib/colors";
-  @use "node_modules/@iroco/ui/lib/fonts";
-  @import "node_modules/@iroco/ui/lib/containers";
+  @use "node_modules/@iroco/ui/scss/colors";
+  @use "node_modules/@iroco/ui/scss/fonts";
+  @import "node_modules/@iroco/ui/scss/containers";
 
   .terms {
     display: flex;

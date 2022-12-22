@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { ButtonModel } from "./definition";
-  import { Icon } from "@iroco/ui/src/index";
+  import { Icon } from "svelte-awesome";
+  import chevronRight from 'svelte-awesome/icons/chevronRight';
   export let imgSrc: string;
   export let alt: string;
   export let articleTitle: string;
@@ -21,7 +22,7 @@
           href={buttonModel.href}
           role="button"
         >
-          <Icon name="chevron-right" />
+          <Icon data={chevronRight} />
           {buttonModel.label}
         </a>
       {/each}
@@ -30,9 +31,9 @@
 </div>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/lib/colors";
+  @use "node_modules/@iroco/ui/scss/colors";
   @import "node_modules/@iroco/ui/scss/containers";
-  @import "node_modules/@iroco/ui/lib/button";
+  @import "node_modules/@iroco/ui/scss/button";
   .imagearticle {
     display: flex;
     justify-content: space-around;
