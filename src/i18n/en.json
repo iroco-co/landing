@@ -115,33 +115,28 @@
     },
     "roadmap": {
       "title": "Roadmap",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "p": "We have a lot of projects and ideas in the works!",
       "ul": {
         "servers": {
-          "title": "Servers",
-          "date": "2021",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          "title": "Corporate offer",
+          "date": "Service",
+          "details": "Use your own domain name and easily share your documents, contacts and agenda with your collaborators."
         },
         "client": {
-          "title": "Email Client",
-          "date": "2021",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          "title": "Web client",
+          "date": "Service",
+          "details": "An eco-designed webmail with plenty of useful features to make inbox management less time- and energy-consuming."
         },
         "company": {
-          "title": "Company Offer",
-          "date": "2022",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          "title": "Digital low-tech",
+          "date": "Exploration",
+          "details": "How can digital services and low-tech work together to help us build a sustainable future? We are trying to explore this question as we build our services."
         },
         "webmail": {
-          "title": "Webmail",
-          "date": "2022",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          "title": "Local digital services",
+          "date": "Exploration",
+          "details": "What is the equivalent of local food circuits for digital services? We try to reflect upon what a local, decentralized and convivial digital world would look like."
         },
-        "file": {
-          "title": "File",
-          "date": "2022",
-          "details": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-        }
       }
     }
   },
