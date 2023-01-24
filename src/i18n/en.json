@@ -104,7 +104,7 @@
           "p": "We try to be as transparent as possible regarding how our services and our organization work. We want to show you as often as possible what is under the hood and we try to make technical topics easier to understand so that everyone knows what it at stake in the digital world."
         }
       }
-    }
+    },
     "ecosystem": {
       "title": "Our Ecosystem",
       "boavizta": "We are members of Boavizta, a collaborative workgroup aiming at providing open source methodologies and tools to measure the environmental footprint of digital technology.",
@@ -136,7 +136,7 @@
           "title": "Local digital services",
           "date": "Exploration",
           "details": "What is the equivalent of local food circuits for digital services? We try to reflect upon what a local, decentralized and convivial digital world would look like."
-        },
+        }
       }
     }
   },
