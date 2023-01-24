@@ -7,16 +7,16 @@
     "blog": "Blog",
     "contact": "Contact",
     "faq": "FAQ",
-    "signup": "Subscription",
+    "signup": "Sign up",
     "signin": "Sign in"
   },
   "footer": {
     "subscribe": "Sign up",
-    "mailto": "Send us a mail",
-    "socialmedia": "Contact",
+    "mailto": "Send us an email",
+    "socialmedia": "Get in touch",
     "newsletter": "Newsletter",
-    "email": "Your Email Address",
-    "invalid_email": "Invalid email",
+    "email": "Your email address",
+    "invalid_email": "Invalid email address",
     "menu": {
       "title": "Menu",
       "philosophy": "Philosophy",
@@ -37,32 +37,32 @@
   },
   "homepage": {
     "iroco": {
-      "title": "Iroco, what is it?",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
-      "btn": "About"
+      "title": "Open source and trustworthy email",
+      "p": "Ecodesigned email which cares about your privacy. Developed and hosted in France.",
+      "btn": "Open your account"
     },
     "respect": {
-      "title": "Respecting you and the planet",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      "title": "Committed to our values",
+      "p": "We use email everyday. Choose an inbox that's in line with what you believe in.",
       "btn": "Our Commitments"
     },
     "innovation": {
-      "title": "Innovation and openness",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
-      "btn": "Blog",
-      "github": "Github"
+      "title": "Contributing to digital commons",
+      "p": "We believe in an open, transparent and user-friendly digital world. We proudly contribute to digital commons and work tirelessly to improve the security, environmental footprint and user experience of our services.",
+      "btn": "Our blog",
+      "github": "Iroco's Github"
     },
     "inclusive": {
-      "title": "A project including you",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      "title": "Email for you and with you",
+      "p": "We want to offer useful and inclusive digital tools. If you have questions to ask or feedback to provide, we're open!",
       "btn": "FAQ",
-      "contact": "Contact"
+      "contact": "Get in touch"
     }
   },
   "about": {
     "beginning": {
-      "title": "A project that started in 2008",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
+      "title": "Why do we need trustworthy email?",
+      "p": "We send and receive email everyday - serious email, light and fun email, and sometimes really important email. We entrust our inbox with a lot of information although we don't always know who has access to it, or what the physical infrastructure running it looks like. We believe that you should trust your inbox - that's why we offer open source, privacy-oriented and eco-friendly email."
     },
     "mail": {
       "title": "Why the choice to go to email?",
@@ -77,29 +77,41 @@
       }
     },
     "commitments": {
-      "title": "Commitments",
+      "title": "Our commitments",
       "sections": {
-        "cooperation": {
-          "title": "Transparent and Cooperative Company",
-          "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
-        },
-        "energy": {
-          "title": "Green Energy Supplier",
-          "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
-        },
         "data": {
-          "title": "Green Data Center",
-          "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel metus vitae lectus eleifend euismod. Donec a venenatis dolor, ut porta risus. Nulla ac faucibus enim, vitae placerat tortor."
+          "title": "Privacy",
+          "p": "Your personal data belongs only to you. We only collect and use the data strictly necessary to run our service, and do not sell or rent this data to anyone. We obviously don't access the content of your emails either - your inbox is in safe hands."
+        },
+        "ecodesign": {
+          "title": "Ecodesign",
+          "p": "We built our code to be efficient and frugal so that it can run on devices with limited capability. Even if email is just a drop in the ocean of our global environmental footprint, we want to transition to a more sustainable and simple digital world."
+        },
+        "sovereign": {
+          "title": "Sovereignty",
+          "p": "We believe that digital services should be both sovereign and local - that's why we chose to develop and host our services in France. We think that short distribution channels can also apply to the digital world, and we explore how we can reclaim and democratize the use of digital tools."
+        },
+        "hosting": {
+          "title": "Commited hosting",
+          "p": "Our services are hosted in an eco-friendly data center in Grenoble, located in a rehabilitated industrial building and powered by renewable energy."
+        },
+        "opensource": {
+          "title": "Open source and digital commons",
+          "p": "We believe that an open digital world is more trustworthy, more user-friendly and more resilient. Our software is made of open source building blocks and we also contribute to digital commons, in particular digital footprint measurement tools."
+        },
+        "transparency": {
+          "title": "Transparency",
+          "p": "We try to be as transparent as possible regarding how our services and our organization work. We want to show you as often as possible what is under the hood and we try to make technical topics easier to understand so that everyone knows what it at stake in the digital world."
         }
       }
-    },
+    }
     "ecosystem": {
       "title": "Our Ecosystem",
-      "boavizta": "TODO",
-      "agit": "TODO",
-      "eolas": "TODO",
-      "shift-your-job": "TODO",
-      "bpi-france": "TODO"
+      "boavizta": "We are members of Boavizta, a collaborative workgroup aiming at providing open source methodologies and tools to measure the environmental footprint of digital technology.",
+      "agit": "We are also members of Alliance Green IT, a non-profit organization whose goal is to disseminate environmental and social best practices in the digital world.",
+      "eolas": "Our services are hosted by Eolas, a sustainability-oriented data center located in Grenoble, France.",
+      "shift-your-job": "Shift Your Job is a platform listing organizations which contribute to the transition to a low-carbon world.",
+      "bpi-france": "As part of the Innov'Up 'Faisabilité' financing scheme, we received financial support from BPIFrance to develop our project."
     },
     "roadmap": {
       "title": "Roadmap",
