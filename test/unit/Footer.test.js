@@ -11,7 +11,7 @@ init({ fallbackLocale: "en", initialLocale: "en" });
 describe("Testing Footer Component", () => {
   test("any title is visible", () => {
     const { getByText } = render(Footer);
-    expect(getByText("Contact")).toBeInTheDocument();
-    expect(getByText("Menu")).toBeInTheDocument();
+    expect(getByText("Job opportunities")).toBeInTheDocument();
+    expect(getByText("Blog & News")).toBeInTheDocument();
   });
 });

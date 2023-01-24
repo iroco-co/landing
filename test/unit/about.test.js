@@ -11,6 +11,6 @@ init({ fallbackLocale: "en", initialLocale: "en" });
 describe("Testing About Page", () => {
   test("the page is correctly rendered", () => {
     const { getByText } = render(about);
-    expect(getByText("A project that started in 2008")).toBeInTheDocument();
+    expect(getByText("Why do we need trustworthy email?")).toBeInTheDocument();
   });
 });

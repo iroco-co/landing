@@ -11,6 +11,6 @@ init({ fallbackLocale: "en", initialLocale: "en" });
 describe("Testing HomePage", () => {
   test("the page is correctly rendered", () => {
     const { getByText } = render(index);
-    expect(getByText(`Iroco, what is it?`)).toBeInTheDocument();
+    expect(getByText('Open source and trustworthy email')).toBeInTheDocument();
   });
 });
