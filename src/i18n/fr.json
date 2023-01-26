@@ -158,7 +158,7 @@
     "offer": {
       "title": "Notre offre",
       "list": {
-        "pricetaxincluded": "3,60 € par mois",
+        "pricetaxincluded": "30 jours d'essai gratuits puis 3,60 € par mois",
         "priceprecisions": "(soit 3,00 € hors taxes + 0,60 € TVA à 20%)",
         "email": "Une adresse mail",
         "storage": "5 Gigaoctets de stockage",
