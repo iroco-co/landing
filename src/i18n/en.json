@@ -41,10 +41,20 @@
       "p": "Ecodesigned email which cares about your privacy. Developed and hosted in France.",
       "btn": "Open your account"
     },
+    "client": {
+      "title": "Email the way you like it",
+      "p": "Use our email with your favorite email client, on desktop and mobile.",
+      "btn": "Try it now - 30-day free trial"
+    },
     "respect": {
       "title": "Committed to our values",
       "p": "We use email everyday. Choose an inbox that's in line with what you believe in.",
       "btn": "Our Commitments"
+    },
+    "services": {
+      "title": "All the features you need",;
+      "p": "Easily manage you email, contacts and calendars thanks to CalDAV and CardDAV standards.",
+      "btn": "Open your account"
     },
     "innovation": {
       "title": "Contributing to digital commons",
