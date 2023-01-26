@@ -225,27 +225,13 @@
           "configurationquestion": "la question concernant la configuration de votre client mail.",
           "soon": "Nous travaillons sur le développement de notre webmail éco-conçu et espérons pouvoir bientôt pouvoir le mettre entre vos mains !"
         },
-        "ecofriendlyservice": {
-          "title": "Pourquoi affirmez-vous que votre service est écologique ?",
-          "behind": "Derrière le fonctionnement d'un service de mail, il y a plusieurs choses qu'on ne voit pas toujours : des lignes de code qui assurent l'acheminement des messages et la gestion de votre boîte mail, des serveurs physiques qui hébergent applications et données, l'ordinateur ou le smartphone que vous utilisez pour consulter votre messagerie et écrire vos mails... Nous tentons de travailler sur chacun de ces aspects pour vous proposer un service économe en ressources.",
-          "detail": "Dans le détail, voici ce que nous faisons :",
-          "list": {
-            "ecoresponsibility": "Nos serveurs sont hébergés chez un prestataire engagé dans une démarche d'éco-responsabilité.",
-            "ecoconception": {
-              "frugalapps": "Nous éco-concevons notre code afin de développer des applications frugales, capables de fonctionner sur des appareils disposant de ressources limitées. Si cela vous intéresse (et que vous êtes un peu geek), vous pouvez consulter ",
-              "blog": "notre blog",
-              "overview": " pour un aperçu de nos travaux."
-            },
-            "ecodesign": "Nous travaillons sur le design de nos interfaces pour vous proposer une expérience utilisateur agréable, accessible mais également économe en données et en ressources."
-          },
-          "impact": {
-            "numeric": "Si la question des impacts environnementaux du numérique vous intéresse, vous pouvez participer par exemple à une ",
-            "fresque": "Fresque du Numérique",
-            "preferences": " ou lire les ",
-            "publications": "publications de référence",
-            "question": " sur la question."
-          },
-          "print": "L’utilisation du mail reste par ailleurs une goutte d’eau dans l’océan de notre empreinte sur l’environnement... Alors n’hésitez pas à explorer les nombreuses autres manières d’améliorer cette empreinte !"
+        "freetrial": {
+          "title": "Y a-t-il des différences de fonctionnalités entre l'essai gratuit et l'offre payante ?",
+          "p": "Aucune. Nous vous proposons de tester notre boîte mail gratuitement pendant une durée de 30 jours afin de vous familiariser avec les services que nous proposons et de déterminer s'ils répondent ou non à votre besoin. Pendant cet essai, vous bénéficiez des mêmes fonctionnalités qu'un abonnement payant : une adresse mail, des alias, des calendriers, la gestion de vos contacts... Si nos services vous plaisent, vous pouvez passer à un abonnement payant à n'importe quel moment de votre période d'essai pour conserver votre adresse mail et continuer à utiliser votre boîte mail pendant la durée qu'il vous plaira.",
+        },
+        "offer": {
+          "title": "Votre offre est-elle sans engagement ?",
+          "p": "Oui : vous pouvez résilier votre abonnement à tout moment. Il n'y a pas de période d'engagement minimale. En cas de résiliation, votre abonnement prendra fin au terme du mois en cours. Pour résilier votre abonnement, rendez-vous dans l'onglet "Compte" de votre tableau de bord utilisateur."
         },
         "data": {
           "title": "Que deviennent nos données ?",
@@ -276,6 +262,32 @@
               "noaccess": ": nous n’y avons donc pas accès en clair."
             }
           }
+        },
+        "advertisements": {
+          "title": "Y a-t-il de la publicité sur Iroco ?",
+          "p": "Aucune. Contrairement à beaucoup de fournisseurs d'email gratuits, nous n'affichons pas de publicités - ni sur notre site, ni sur notre app, ni dans votre boîte mail. Ce choix est aligné avec notre modèle : nous préférons faire payer à nos utilisateurs un abonnement au coût modeste plutôt que de nous rémunérer en vendant leurs données personnelles et leur vie privée au plus offrant.",
+        },
+        "ecofriendlyservice": {
+          "title": "Pourquoi affirmez-vous que votre service est écologique ?",
+          "behind": "Derrière le fonctionnement d'un service de mail, il y a plusieurs choses qu'on ne voit pas toujours : des lignes de code qui assurent l'acheminement des messages et la gestion de votre boîte mail, des serveurs physiques qui hébergent applications et données, l'ordinateur ou le smartphone que vous utilisez pour consulter votre messagerie et écrire vos mails... Nous tentons de travailler sur chacun de ces aspects pour vous proposer un service économe en ressources.",
+          "detail": "Dans le détail, voici ce que nous faisons :",
+          "list": {
+            "ecoresponsibility": "Nos serveurs sont hébergés chez un prestataire engagé dans une démarche d'éco-responsabilité.",
+            "ecoconception": {
+              "frugalapps": "Nous éco-concevons notre code afin de développer des applications frugales, capables de fonctionner sur des appareils disposant de ressources limitées. Si cela vous intéresse (et que vous êtes un peu geek), vous pouvez consulter ",
+              "blog": "notre blog",
+              "overview": " pour un aperçu de nos travaux."
+            },
+            "ecodesign": "Nous travaillons sur le design de nos interfaces pour vous proposer une expérience utilisateur agréable, accessible mais également économe en données et en ressources."
+          },
+          "impact": {
+            "numeric": "Si la question des impacts environnementaux du numérique vous intéresse, vous pouvez participer par exemple à une ",
+            "fresque": "Fresque du Numérique",
+            "preferences": " ou lire les ",
+            "publications": "publications de référence",
+            "question": " sur la question."
+          },
+          "print": "L’utilisation du mail reste par ailleurs une goutte d’eau dans l’océan de notre empreinte sur l’environnement... Alors n’hésitez pas à explorer les nombreuses autres manières d’améliorer cette empreinte !"
         },
         "paidservice": {
           "title": "Il y a plein de services qui proposent une boîte mail gratuitement, pourquoi votre service est-il payant ?",
@@ -310,10 +322,6 @@
               "percentage": ": 25%"
             }
           }
-        },
-        "offer": {
-          "title": "Votre offre est-elle sans engagement ?",
-          "p": "Oui : vous pouvez résilier votre abonnement à tout moment. Il n'y a pas de période d'engagement minimale. En cas de résiliation, votre abonnement prendra fin au terme du mois en cours."
         },
         "withdrawal": {
           "title": "Quand est prélevé le montant de mon abonnement ?",
