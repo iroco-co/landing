@@ -19,12 +19,33 @@
   />
 
   <ImageArticle
+    imgSrc="/images/clients-messagerie.svg"
+    alt="Electronic devices and email clients logos"
+    articleTitle={$_("homepage.client.title")}
+    articleContent={$_("homepage.client.p")}
+    buttonList={[
+      { href: "/signup", label: $_("homepage.client.btn") },
+    ]}
+  />
+  
+  <ImageArticle
     imgSrc="/images/commons.svg"
     alt="People riding bikes, scooters and using email"
     articleTitle={$_("homepage.respect.title")}
     articleContent={$_("homepage.respect.p")}
     buttonList={[
       { href: "/about#commitments", label: $_("homepage.respect.btn") },
+    ]}
+    reversed
+  />
+  
+  <ImageArticle
+    imgSrc="/images/services-visuel.svg"
+    alt="Screen captures of email, calendar and contact management services"
+    articleTitle={$_("homepage.services.title")}
+    articleContent={$_("homepage.services.p")}
+    buttonList={[
+      { href: "/signup", label: $_("homepage.services.btn") },
     ]}
   />
 
