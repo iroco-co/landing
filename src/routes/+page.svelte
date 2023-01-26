@@ -40,7 +40,7 @@
   />
   
   <ImageArticle
-    imgSrc="/images/services-visuel.svg"
+    imgSrc="/images/services-visuel.png"
     alt="Screen captures of email, calendar and contact management services"
     articleTitle={$_("homepage.services.title")}
     articleContent={$_("homepage.services.p")}
