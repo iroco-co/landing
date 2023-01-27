@@ -227,11 +227,11 @@
         },
         "freetrial": {
           "title": "Y a-t-il des différences de fonctionnalités entre l'essai gratuit et l'offre payante ?",
-          "p": "Aucune. Nous vous proposons de tester notre boîte mail gratuitement pendant une durée de 30 jours afin de vous familiariser avec les services que nous proposons et de déterminer s'ils répondent ou non à votre besoin. Pendant cet essai, vous bénéficiez des mêmes fonctionnalités qu'un abonnement payant : une adresse mail, des alias, des calendriers, la gestion de vos contacts... Si nos services vous plaisent, vous pouvez passer à un abonnement payant à n'importe quel moment de votre période d'essai pour conserver votre adresse mail et continuer à utiliser votre boîte mail pendant la durée qu'il vous plaira.",
+          "p": "Aucune. Nous vous proposons de tester notre boîte mail gratuitement pendant une durée de 30 jours afin de vous familiariser avec les services que nous proposons et de déterminer s'ils répondent ou non à votre besoin. Pendant cet essai, vous bénéficiez des mêmes fonctionnalités qu'un abonnement payant : une adresse mail, des alias, des calendriers, la gestion de vos contacts... Si nos services vous plaisent, vous pouvez passer à un abonnement payant à n'importe quel moment de votre période d'essai pour conserver votre adresse mail et continuer à utiliser votre boîte mail pendant la durée qu'il vous plaira."
         },
         "offer": {
           "title": "Votre offre est-elle sans engagement ?",
-          "p": "Oui : vous pouvez résilier votre abonnement à tout moment. Il n'y a pas de période d'engagement minimale. En cas de résiliation, votre abonnement prendra fin au terme du mois en cours. Pour résilier votre abonnement, rendez-vous dans l'onglet "Compte" de votre tableau de bord utilisateur."
+          "p": "Oui : vous pouvez résilier votre abonnement à tout moment. Il n'y a pas de période d'engagement minimale. En cas de résiliation, votre abonnement prendra fin au terme du mois en cours. Pour résilier votre abonnement, rendez-vous dans l'onglet \"Compte\" de votre tableau de bord utilisateur."
         },
         "data": {
           "title": "Que deviennent nos données ?",
@@ -265,7 +265,7 @@
         },
         "advertisements": {
           "title": "Y a-t-il de la publicité sur Iroco ?",
-          "p": "Aucune. Contrairement à beaucoup de fournisseurs d'email gratuits, nous n'affichons pas de publicités - ni sur notre site, ni sur notre app, ni dans votre boîte mail. Ce choix est aligné avec notre modèle : nous préférons faire payer à nos utilisateurs un abonnement au coût modeste plutôt que de nous rémunérer en vendant leurs données personnelles et leur vie privée au plus offrant.",
+          "p": "Aucune. Contrairement à beaucoup de fournisseurs d'email gratuits, nous n'affichons pas de publicités - ni sur notre site, ni sur notre app, ni dans votre boîte mail. Ce choix est aligné avec notre modèle : nous préférons faire payer à nos utilisateurs un abonnement au coût modeste plutôt que de nous rémunérer en vendant leurs données personnelles et leur vie privée au plus offrant."
         },
         "ecofriendlyservice": {
           "title": "Pourquoi affirmez-vous que votre service est écologique ?",
