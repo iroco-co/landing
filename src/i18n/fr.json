@@ -265,7 +265,7 @@
         },
         "advertisements": {
           "title": "Y a-t-il de la publicité sur Iroco ?",
-          "p": "Aucune. Contrairement à beaucoup de fournisseurs d'email gratuits, nous n'affichons pas de publicités - ni sur notre site, ni sur notre app, ni dans votre boîte mail. Ce choix est aligné avec notre modèle : nous préférons faire payer à nos utilisateurs un abonnement au coût modeste plutôt que de nous rémunérer en vendant leurs données personnelles et leur vie privée au plus offrant."
+          "p": "Aucune. Contrairement à beaucoup de fournisseurs d'email gratuits, nous n'affichons pas de publicités - ni sur notre site, ni sur notre app, ni dans votre boîte mail. Ce choix est aligné avec notre modèle : nous préférons proposer l'abonnement à nos services à un coût modeste plutôt que de nous rémunérer en vendant les données personnelles et la vie privée de nos utilisateurs au plus offrant."
         },
         "ecofriendlyservice": {
           "title": "Pourquoi affirmez-vous que votre service est écologique ?",
@@ -288,6 +288,14 @@
             "question": " sur la question."
           },
           "print": "L’utilisation du mail reste par ailleurs une goutte d’eau dans l’océan de notre empreinte sur l’environnement... Alors n’hésitez pas à explorer les nombreuses autres manières d’améliorer cette empreinte !"
+        },
+        "opensource": {
+          "title": "Que signifie un mail open source ?",
+          "p": "Le terme open source désigne un certain nombre de caractéristiques liées à l'accessibilité du code source que nous utilisons pour faire tourner nos services. En particulier, il signifie que notre code source est librement accessible pour qui souhaite le consulter : c'est un gage de transparence de notre part, qui garantit notamment que nos services fonctionnent bien conformément à ce que nous annonçons. Proposer des services open source, c'est également s'inscrire dans une philosophie des communs du numérique : nous utilisons ces communs (par exemple le serveur de mail Cyrus, développé depuis des années par la communauté open source) et nous y contribuons également en publiant le code source que nous développons et qui peut être ainsi réutilisé par ceux qui en ont besoin.",
+        },
+        "location": {
+          "title": "Où sont situés vos serveurs ?",
+          "p": "Le terme open source désigne un certain nombre de caractéristiques liées à l'accessibilité du code source que nous utilisons pour faire tourner nos services. En particulier, il signifie que notre code source est librement accessible pour qui souhaite le consulter : c'est un gage de transparence de notre part, qui garantit notamment que nos services fonctionnent bien conformément à ce que nous annonçons. Proposer des services open source, c'est également s'inscrire dans une philosophie des communs du numérique : nous utilisons ces communs (par exemple le serveur de mail Cyrus, développé depuis des années par la communauté open source) et nous y contribuons également en publiant le code source que nous développons et qui peut être ainsi réutilisé par ceux qui en ont besoin.",
         },
         "paidservice": {
           "title": "Il y a plein de services qui proposent une boîte mail gratuitement, pourquoi votre service est-il payant ?",
