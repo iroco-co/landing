@@ -211,6 +211,9 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
+      "category1": "Our offer",
+      "category2": "Using our services",
+      "category3": "Miscellaneous",
       "questions": {
         "offercontent": {
           "title": "What exactly does your offer include?",
