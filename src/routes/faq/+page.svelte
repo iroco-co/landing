@@ -17,11 +17,39 @@
           >
         </li>
         <li>
+          <a href="#freetrial"
+            >{$_("signup.faq.questions.freetrial.title")}</a
+          >
+        </li>
+        <li>
+          <a href="#offer"
+            >{$_("signup.faq.questions.offer.title")}</a
+          >
+        </li>
+        <li><a href="#data">{$_("signup.faq.questions.data.title")}</a></li>
+        <li>
+          <a href="#advertisements">{$_("signup.faq.questions.advertisements.title")}</a>
+        </li>
+        <li>
           <a href="#ecofriendlyservice"
             >{$_("signup.faq.questions.ecofriendlyservice.title")}</a
           >
         </li>
-        <li><a href="#data">{$_("signup.faq.questions.data.title")}</a></li>
+        <li>
+          <a href="#opensource"
+            >{$_("signup.faq.questions.opensource.title")}</a
+          >
+        </li>
+        <li>
+          <a href="#location"
+            >{$_("signup.faq.questions.location.title")}</a
+          >
+        </li>
+        <li>
+          <a href="#security"
+            >{$_("signup.faq.questions.security.title")}</a
+          >
+        </li>
         <li>
           <a href="#costprice">{$_("signup.faq.questions.paidservice.title")}</a
           >
@@ -32,16 +60,8 @@
           >
         </li>
         <li>
-          <a href="#nonbindingoffer">{$_("signup.faq.questions.offer.title")}</a
-          >
-        </li>
-        <li>
-          <a href="#withdrawal">{$_("signup.faq.questions.withdrawal.title")}</a
-          >
-        </li>
-        <li>
-          <a href="#configuration"
-            >{$_("signup.faq.questions.configuration.title")}</a
+          <a href="#account"
+            >{$_("signup.faq.questions.account.title")}</a
           >
         </li>
         <li>
@@ -50,7 +70,31 @@
           >
         </li>
         <li>
+          <a href="#configuration"
+            >{$_("signup.faq.questions.configuration.title")}</a
+          >
+        </li>
+        <li>
+          <a href="#domainname"
+            >{$_("signup.faq.questions.domainname.title")}</a
+          >
+        </li>
+        <li>
+          <a href="#webmail"
+            >{$_("signup.faq.questions.webmail.title")}</a
+          >
+        </li>
+        <li>
+          <a href="#invalid"
+            >{$_("signup.faq.questions.invalid.title")}</a
+          >
+        </li>
+        <li>
           <a href="#cookies">{$_("signup.faq.questions.cookies.title")}</a>
+        </li>
+        <li>
+          <a href="#team">{$_("signup.faq.questions.team.title")}</a
+          >
         </li>
       </ul>
     </div>
@@ -75,6 +119,62 @@
             {$_("signup.faq.questions.offercontent.configurationquestion")}
           </a>
         </p>
+      </div>
+      <div id="freetrial" class="faq__q-a__freetrial question">
+        <h3>
+          <a href="#htop">{$_("signup.faq.questions.freetrial.title")}</a>
+        </h3>
+        <p>{$_("signup.faq.questions.freetrial.p")}</p>
+      </div>
+      <div id="offer" class="faq__q-a__offer question">
+        <h3>
+          <a href="#htop">{$_("signup.faq.questions.offer.title")}</a>
+        </h3>
+        <p>{$_("signup.faq.questions.offer.p")}</p>
+      </div>
+      <div id="data" class="faq__q-a__data question">
+        <h3><a href="#htop">{$_("signup.faq.questions.data.title")}</a></h3>
+        <p>{$_("signup.faq.questions.data.p")}</p>
+        <p>{$_("signup.faq.questions.data.personal")}</p>
+        <p>{$_("signup.faq.questions.data.access")}</p>
+        <p>{$_("signup.faq.questions.data.detail")}</p>
+        <ul>
+          <li>
+            {$_("signup.faq.questions.data.list.provider.collect")}
+            <strong
+              >{$_("signup.faq.questions.data.list.provider.lastname")}</strong
+            >,
+            <strong
+              >{$_("signup.faq.questions.data.list.provider.firstname")}</strong
+            >
+            {$_("signup.faq.questions.data.list.provider.and")}
+            <strong
+              >{$_("signup.faq.questions.data.list.provider.invoice")}</strong
+            > .
+          </li>
+          <li>
+            {$_("signup.faq.questions.data.list.also.collect")}
+            <strong>{$_("signup.faq.questions.data.list.also.bank")}</strong>
+            {$_("signup.faq.questions.data.list.also.noaccess")}
+          </li>
+          <li>
+            {$_("signup.faq.questions.data.list.last.store")}
+            <strong>{$_("signup.faq.questions.data.list.last.mail")}</strong>,
+            {$_("signup.faq.questions.data.list.last.iroco")}
+            <strong>{$_("signup.faq.questions.data.list.last.alias")}</strong>
+            {$_("signup.faq.questions.data.list.last.pass")}
+            <strong
+              >{$_("signup.faq.questions.data.list.last.encrypted")}</strong
+            >
+            {$_("signup.faq.questions.data.list.last.noaccess")}
+          </li>
+        </ul>
+      </div>
+      <div id="advertisements" class="faq__q-a__advertisements question">
+        <h3>
+          <a href="#htop">{$_("signup.faq.questions.advertisements.title")}</a>
+        </h3>
+        <p>{$_("signup.faq.questions.advertisements.p")}</p>
       </div>
       <div
         id="ecofriendlyservice"
@@ -125,43 +225,23 @@
         </p>
         <p>{$_("signup.faq.questions.ecofriendlyservice.print")}</p>
       </div>
-      <div id="data" class="faq__q-a__data question">
-        <h3><a href="#htop">{$_("signup.faq.questions.data.title")}</a></h3>
-        <p>{$_("signup.faq.questions.data.p")}</p>
-        <p>{$_("signup.faq.questions.data.personal")}</p>
-        <p>{$_("signup.faq.questions.data.access")}</p>
-        <p>{$_("signup.faq.questions.data.detail")}</p>
-        <ul>
-          <li>
-            {$_("signup.faq.questions.data.list.provider.collect")}
-            <strong
-              >{$_("signup.faq.questions.data.list.provider.lastname")}</strong
-            >,
-            <strong
-              >{$_("signup.faq.questions.data.list.provider.firstname")}</strong
-            >
-            {$_("signup.faq.questions.data.list.provider.and")}
-            <strong
-              >{$_("signup.faq.questions.data.list.provider.invoice")}</strong
-            > .
-          </li>
-          <li>
-            {$_("signup.faq.questions.data.list.also.collect")}
-            <strong>{$_("signup.faq.questions.data.list.also.bank")}</strong>
-            {$_("signup.faq.questions.data.list.also.noaccess")}
-          </li>
-          <li>
-            {$_("signup.faq.questions.data.list.last.store")}
-            <strong>{$_("signup.faq.questions.data.list.last.mail")}</strong>,
-            {$_("signup.faq.questions.data.list.last.iroco")}
-            <strong>{$_("signup.faq.questions.data.list.last.alias")}</strong>
-            {$_("signup.faq.questions.data.list.last.pass")}
-            <strong
-              >{$_("signup.faq.questions.data.list.last.encrypted")}</strong
-            >
-            {$_("signup.faq.questions.data.list.last.noaccess")}
-          </li>
-        </ul>
+      <div id="opensource" class="faq__q-a__opensource question">
+        <h3>
+          <a href="#htop">{$_("signup.faq.questions.opensource.title")}</a>
+        </h3>
+        <p>{$_("signup.faq.questions.opensource.p")}</p>
+      </div>
+      <div id="location" class="faq__q-a__location question">
+        <h3>
+          <a href="#htop">{$_("signup.faq.questions.location.title")}</a>
+        </h3>
+        <p>{$_("signup.faq.questions.location.p")}</p>
+      </div>
+      <div id="security" class="faq__q-a__security question">
+        <h3>
+          <a href="#htop">{$_("signup.faq.questions.security.title")}</a>
+        </h3>
+        <p>{$_("signup.faq.questions.security.p")}</p>
       </div>
       <div id="costprice" class="faq__q-a__paidservice question">
         <h3>
@@ -184,15 +264,23 @@
         </ul>
         <Chart size={Math.min((windowWidth * 0.8) / 2, 500)} />
       </div>
-      <div id="nonbindingoffer" class="faq__q-a__offer question">
-        <h3><a href="#htop">{$_("signup.faq.questions.offer.title")}</a></h3>
-        <p>{$_("signup.faq.questions.offer.p")}</p>
-      </div>
-      <div id="withdrawal" class="faq__q-a__withdrawal question">
+      <div id="account" class="faq__q-a__account question">
         <h3>
-          <a href="#htop">{$_("signup.faq.questions.withdrawal.title")}</a>
+          <a href="#htop">{$_("signup.faq.questions.account.title")}</a>
         </h3>
-        <p>{$_("signup.faq.questions.withdrawal.p")}</p>
+        <p>{$_("signup.faq.questions.account.p")}</p>
+      </div>
+      <div id="emailsyntax" class="faq__q-a__emailsyntax question">
+        <h3>
+          <a href="#htop">{$_("signup.faq.questions.emailsyntax.title")}</a>
+        </h3>
+        <p>{$_("signup.faq.questions.emailsyntax.introduction")}</p>
+        <p>{$_("signup.faq.questions.emailsyntax.local-part")}</p>
+        <p>{$_("signup.faq.questions.emailsyntax.local-part-exclude")}</p>
+        <p>
+          {$_("signup.faq.questions.emailsyntax.local-part-spec")}
+          <a href="https://datatracker.ietf.org/doc/html/rfc5322">RFC 5322</a>.
+        </p>
       </div>
       <div id="configuration" class="faq__q-a__configuration question">
         <h3>
@@ -221,17 +309,23 @@
           />
         </p>
       </div>
-      <div id="emailsyntax" class="faq__q-a__emailsyntax question">
+      <div id="domainname" class="faq__q-a__domainname question">
         <h3>
-          <a href="#htop">{$_("signup.faq.questions.emailsyntax.title")}</a>
+          <a href="#htop">{$_("signup.faq.questions.domainname.title")}</a>
         </h3>
-        <p>{$_("signup.faq.questions.emailsyntax.introduction")}</p>
-        <p>{$_("signup.faq.questions.emailsyntax.local-part")}</p>
-        <p>{$_("signup.faq.questions.emailsyntax.local-part-exclude")}</p>
-        <p>
-          {$_("signup.faq.questions.emailsyntax.local-part-spec")}
-          <a href="https://datatracker.ietf.org/doc/html/rfc5322">RFC 5322</a>.
-        </p>
+        <p>{$_("signup.faq.questions.domainname.p")}</p>
+      </div>
+      <div id="webmail" class="faq__q-a__webmail question">
+        <h3>
+          <a href="#htop">{$_("signup.faq.questions.webmail.title")}</a>
+        </h3>
+        <p>{$_("signup.faq.questions.webmail.p")}</p>
+      </div>
+      <div id="invalid" class="faq__q-a__invalid question">
+        <h3>
+          <a href="#htop">{$_("signup.faq.questions.invalid.title")}</a>
+        </h3>
+        <p>{$_("signup.faq.questions.invalid.p")}</p>
       </div>
       <div id="cookies" class="faq__q-a__cookies question">
         <h3><a href="#htop">{$_("signup.faq.questions.cookies.title")}</a></h3>
@@ -250,6 +344,12 @@
           title="matomo"
           src="https://matomo.iroco.co/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=211d28&fontColor=f2ebe3&fontSize=&fontFamily=Arial"
         />
+      </div>
+      <div id="team" class="faq__q-a__team question">
+        <h3>
+          <a href="#htop">{$_("signup.faq.questions.team.title")}</a>
+        </h3>
+        <p>{$_("signup.faq.questions.team.p")}</p>
       </div>
     </div>
   </div>
