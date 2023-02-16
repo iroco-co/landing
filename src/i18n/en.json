@@ -229,27 +229,13 @@
           "nowebmailtofollow": " , further down on this page.",
           "soon": "We are working on the development of our eco-designed webmail and hope to soon be able to put it in your hands!"
         },
-        "ecofriendlyservice": {
-          "title": "Why do you claim your service is green?",
-          "behind": "Behind the functioning of an email service, there are many things that we do not always see: lines of code that ensure the routing of messages and the management of your mailbox, physical servers that host applications and data, the computer or the smartphone that you use to check your mailbox and write your mails... We try to work on each of these aspects to offer you a service that saves resources.",
-          "detail": "In detail, here is what we do:",
-          "list": {
-            "ecoresponsibility": "Our servers are hosted by a service provider committed to an eco-responsible approach.",
-            "ecoconception": {
-              "frugalapps": "We eco-design our code in order to develop lean applications, capable of running on devices with limited resources. If you are interested by this (and you are a bit of a geek), you can consult",
-              "blog": "our blog",
-              "overview": " for an overview of our work."
-            },
-            "ecodesign": "We work towards the design of our interfaces to offer you a pleasant, accessible but also ressource-efficient user experience."
-          },
-          "impact": {
-            "numeric": "If you are interested in the environmental impacts of digital technology, you can, for example, take part in a workshop by",
-            "fresque": "the Digital Collage",
-            "preferences": " or read ",
-            "publications": "the reference publications",
-            "question": " on the subject."
-          },
-          "print": "Email usage is still a drop in the ocean of our environmental footprint ... so feel free to explore the many other ways we can improve that footprint!"
+        "freetrial": {
+          "title": "Are there any differences in functionality between the free trial and the paid offer?",
+          "p": "None. We offer you to test our mailbox for free for a period of 30 days in order to familiarize yourself with the services we offer and to determine if they meet your needs or not. During this trial period, you will benefit from the same features as a paid subscription: an email address, aliases, calendars, contact management... If you like our services, you can switch to a paid subscription at any time during your trial period to keep your email address and continue to use your mailbox for as long as you like."
+        },
+        "offer": {
+          "title": "Is your offer non-binding?",
+          "p": "Yes: you can cancel your subscription at any time. There is no minimum commitment period."
         },
         "data": {
           "title": "What happens to our data? ",
@@ -280,6 +266,40 @@
               "noaccess": ": we therefore do not have clear access to it."
             }
           }
+        },
+        "advertisements": {
+          "title": "Will I get any ads using Iroco?",
+          "p": "None. Unlike many free email providers, we don't display ads - not on our site, not on our app, not in your mailbox. This choice is in line with our business model: we prefer to offer our services at a modest cost rather than pay ourselves by selling our users' personal data and privacy to the highest bidder."
+        },
+        "ecofriendlyservice": {
+          "title": "Why do you claim your service is green?",
+          "behind": "Behind the functioning of an email service, there are many things that we do not always see: lines of code that ensure the routing of messages and the management of your mailbox, physical servers that host applications and data, the computer or the smartphone that you use to check your mailbox and write your mails... We try to work on each of these aspects to offer you a service that saves resources.",
+          "detail": "In detail, here is what we do:",
+          "list": {
+            "ecoresponsibility": "Our servers are hosted by a service provider committed to an eco-responsible approach.",
+            "ecoconception": {
+              "frugalapps": "We eco-design our code in order to develop lean applications, capable of running on devices with limited resources. If you are interested by this (and you are a bit of a geek), you can consult",
+              "blog": "our blog",
+              "overview": " for an overview of our work."
+            },
+            "ecodesign": "We work towards the design of our interfaces to offer you a pleasant, accessible but also ressource-efficient user experience."
+          },
+          "impact": {
+            "numeric": "If you are interested in the environmental impacts of digital technology, you can, for example, take part in a workshop by",
+            "fresque": "the Digital Collage",
+            "preferences": " or read ",
+            "publications": "the reference publications",
+            "question": " on the subject."
+          },
+          "print": "Email usage is still a drop in the ocean of our environmental footprint ... so feel free to explore the many other ways we can improve that footprint!"
+        },
+        "opensource": {
+          "title": "What does open source email mean?",
+          "p": "The term open source refers to a number of features related to the accessibility of the source code we use to run our services. In particular, it means that our source code is freely accessible to anyone who wishes to consult it: this is a guarantee of transparency on our part, and it ensures that our services work as we say they will. Offering open source services is also part of the philosophy of the digital commons: we use these commons (for example the Cyrus email server, developed for years by the open source community) and we also contribute to them by publishing the source code that we develop and that can thus be reused by those who need it.",
+        },
+        "location": {
+          "title": "Where are your servers located?",
+          "p": "Our services are hosted in a data center located in Grenoble, France and operated by Eolas, a French company. The data center is secure, ISO27001 certified and committed to an eco-responsible approach. The data on our servers is subject to French regulations, particularly concerning the protection of privacy.",
         },
         "paidservice": {
           "title": "There are plenty of services that offer a mailbox for free, why is yours chargeable? ",
@@ -315,13 +335,21 @@
             }
           }
         },
-        "offer": {
-          "title": "Is your offer non-binding?",
-          "p": "Yes: you can cancel your subscription at any time. There is no minimum commitment period."
+        "security": {
+          "title": "Vos services sont-ils sécurisés ?",
+          "p": "Our service is hosted under Linux/Debian operating system with regularly updated software packages. Linux/Debian is one of the most reliable open source operating systems, and we follow the recommendations of the maintainers. Our email and web servers are accessible only through TLS secured connections. Moreover, we use intrusion detectors such as fail2ban, as well as Amavis (fight against spam, viruses and malware), SpamAssassin (fight against spam) and ClamAV (fight against spam and viruses). Our services are therefore fully compliant with current security standards.",
         },
         "withdrawal": {
           "title": "When will the subscription amount be debited?",
           "p": "When you register, the subscription is debited the day after you register. The amount of the subscription is then withdrawn every month, the day after the anniversary date of your registration. In the event of termination, your subscription will end at the end of the current month."
+        },
+        "team": {
+          "title": "Who is behind Iroco ?",
+          "p": "Behind Iroco, there is a small independent team passionate about eco-design, open source and user-friendly and desirable digital. To learn more about us, you can find us on our LinkedIn page."
+        },
+        "account": {
+          "title": "How do I create an account?",
+          "p": "You can create a free account in a very simple way by clicking here. You will be asked to create an email address of your choice and a password. You have 30 days to test our services for free; if you like them, you can switch to a paid subscription at any time during your trial period in order to continue using them beyond the 30-day period."
         },
         "cookies": {
           "title": "Why don't you ask me my cookie preferences?",
@@ -345,6 +373,18 @@
           "local-part": "The local part is quite open (uppercase, lowercase, numbers, accentuated characters, symbols). Two patterns won't be valid: last character as dot, and two dots (..).",
           "local-part-spec": "If you want to go into further details, here is the specification",
           "local-part-exclude": "We have excluded the '+' symbol, reserved for your mail aliases."
+        },
+        "webmail": {
+          "title": "Do you propose a webmail to consult our mailbox?",
+          "p": "Not yet. We are working on creating an eco-designed webmail, but it is an important project that will take some time to materialize. In the meantime, why not use an open source mail client like Thunderbird for example?"
+        },
+        "invalid": {
+          "title": "I can't access my account",
+          "p": "If you are unable to access your Iroco account, first make sure you are using the correct email address and password. If you have forgotten your password, select 'Forgot your password?' at login and use the reset code provided to you at registration to fill in the fields indicated. If you signed up for our free trial and did not upgrade to a paid plan before the end of the trial period, your account has been automatically deactivated and you will no longer be able to access it. If your account is active and you still can't access it, you can contact us by email at support@iroco.fr or on one of our social networks."
+        },
+        "domainname": {
+          "title": "Is it possible to use a custom domain name?",
+          "p": "This will be possible very soon! For the moment, we only offer the domain names iroco.io and iroco.co, but we are working on the integration of custom domain names to allow you to use your own domain name with our services. This feature should be available in a few weeks."
         }
       },
       "button": "Read more",
