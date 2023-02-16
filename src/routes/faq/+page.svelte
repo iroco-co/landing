@@ -11,6 +11,7 @@
     <h1>{$_("signup.faq.title")}</h1>
     <div class="faq__content__toc" id="htop">
       <ul class="no-bullet">
+        <h2>{$_("signup.faq.category1")}</h2>
         <li>
           <a href="#offercontent"
             >{$_("signup.faq.questions.offercontent.title")}</a
@@ -59,6 +60,7 @@
             >{$_("signup.faq.questions.subscription.title")}</a
           >
         </li>
+        <h2>{$_("signup.faq.category2")}</h2>
         <li>
           <a href="#account"
             >{$_("signup.faq.questions.account.title")}</a
@@ -89,6 +91,7 @@
             >{$_("signup.faq.questions.invalid.title")}</a
           >
         </li>
+        <h2>{$_("signup.faq.category3")}</h2>
         <li>
           <a href="#cookies">{$_("signup.faq.questions.cookies.title")}</a>
         </li>
