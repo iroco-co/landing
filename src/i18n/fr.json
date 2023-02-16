@@ -211,6 +211,9 @@
     },
     "faq": {
       "title": "Foire Aux Questions",
+      "category1": "Notre offre",
+      "category2": "Utiliser nos services",
+      "category3": "Divers",
       "questions": {
         "offercontent": {
           "title": "Que comprend exactement votre offre ?",
