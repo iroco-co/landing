@@ -294,11 +294,11 @@
         },
         "opensource": {
           "title": "Que signifie un mail open source ?",
-          "p": "Le terme open source désigne un certain nombre de caractéristiques liées à l'accessibilité du code source que nous utilisons pour faire tourner nos services. En particulier, il signifie que notre code source est librement accessible pour qui souhaite le consulter : c'est un gage de transparence de notre part, qui garantit notamment que nos services fonctionnent bien conformément à ce que nous annonçons. Proposer des services open source, c'est également s'inscrire dans une philosophie des communs du numérique : nous utilisons ces communs (par exemple le serveur de mail Cyrus, développé depuis des années par la communauté open source) et nous y contribuons également en publiant le code source que nous développons et qui peut être ainsi réutilisé par ceux qui en ont besoin.",
+          "p": "Le terme open source désigne un certain nombre de caractéristiques liées à l'accessibilité du code source que nous utilisons pour faire tourner nos services. En particulier, il signifie que notre code source est librement accessible pour qui souhaite le consulter : c'est un gage de transparence de notre part, qui garantit notamment que nos services fonctionnent bien conformément à ce que nous annonçons. Proposer des services open source, c'est également s'inscrire dans une philosophie des communs du numérique : nous utilisons ces communs (par exemple le serveur de mail Cyrus, développé depuis des années par la communauté open source) et nous y contribuons également en publiant le code source que nous développons et qui peut être ainsi réutilisé par ceux qui en ont besoin."
         },
         "location": {
           "title": "Où sont situés vos serveurs ?",
-          "p": "Nos services sont hébergés dans un data center situé à Grenoble dans l'Isère et opéré par Eolas, une société française. Le data center est sécurisé, certifié ISO27001 et engagé dans une démarche d'éco-responsabilité. Les données présentes sur nos serveurs sont soumises à la règlementation française, notamment concernant la protection de la vie privée.",
+          "p": "Nos services sont hébergés dans un data center situé à Grenoble dans l'Isère et opéré par Eolas, une société française. Le data center est sécurisé, certifié ISO27001 et engagé dans une démarche d'éco-responsabilité. Les données présentes sur nos serveurs sont soumises à la règlementation française, notamment concernant la protection de la vie privée."
         },
         "paidservice": {
           "title": "Il y a plein de services qui proposent une boîte mail gratuitement, pourquoi votre service est-il payant ?",
@@ -336,7 +336,7 @@
         },
         "security": {
           "title": "Vos services sont-ils sécurisés ?",
-          "p": "Notre service est hébergé sous système d'exploitation Linux/Debian avec des paquets logiciels mis à jour régulièrement. Linux/Debian est l'un des systèmes d'exploitation open source des plus fiables, et nous suivons les préconisations des mainteneurs. Nos serveurs de mail et web sont accessibles quant à eux uniquement via des connexions sécurisées par TLS. Par ailleurs, nous utilisons des détecteurs d'intrusion comme fail2ban, ainsi que Amavis (lutte contre les spam, virus et malware), SpamAssassin (lutte contre le spam) et ClamAV (lutte contre le spam et les virus). Nos services sont donc parfaitement conformes aux standards de sécurité en vigueur.",
+          "p": "Notre service est hébergé sous système d'exploitation Linux/Debian avec des paquets logiciels mis à jour régulièrement. Linux/Debian est l'un des systèmes d'exploitation open source des plus fiables, et nous suivons les préconisations des mainteneurs. Nos serveurs de mail et web sont accessibles quant à eux uniquement via des connexions sécurisées par TLS. Par ailleurs, nous utilisons des détecteurs d'intrusion comme fail2ban, ainsi que Amavis (lutte contre les spam, virus et malware), SpamAssassin (lutte contre le spam) et ClamAV (lutte contre le spam et les virus). Nos services sont donc parfaitement conformes aux standards de sécurité en vigueur."
         },
         "withdrawal": {
           "title": "Quand est prélevé le montant de mon abonnement ?",

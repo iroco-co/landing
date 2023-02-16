@@ -18,18 +18,16 @@
           >
         </li>
         <li>
-          <a href="#freetrial"
-            >{$_("signup.faq.questions.freetrial.title")}</a
-          >
+          <a href="#freetrial">{$_("signup.faq.questions.freetrial.title")}</a>
         </li>
         <li>
-          <a href="#offer"
-            >{$_("signup.faq.questions.offer.title")}</a
-          >
+          <a href="#offer">{$_("signup.faq.questions.offer.title")}</a>
         </li>
         <li><a href="#data">{$_("signup.faq.questions.data.title")}</a></li>
         <li>
-          <a href="#advertisements">{$_("signup.faq.questions.advertisements.title")}</a>
+          <a href="#advertisements"
+            >{$_("signup.faq.questions.advertisements.title")}</a
+          >
         </li>
         <li>
           <a href="#ecofriendlyservice"
@@ -37,19 +35,14 @@
           >
         </li>
         <li>
-          <a href="#opensource"
-            >{$_("signup.faq.questions.opensource.title")}</a
+          <a href="#opensource">{$_("signup.faq.questions.opensource.title")}</a
           >
         </li>
         <li>
-          <a href="#location"
-            >{$_("signup.faq.questions.location.title")}</a
-          >
+          <a href="#location">{$_("signup.faq.questions.location.title")}</a>
         </li>
         <li>
-          <a href="#security"
-            >{$_("signup.faq.questions.security.title")}</a
-          >
+          <a href="#security">{$_("signup.faq.questions.security.title")}</a>
         </li>
         <li>
           <a href="#costprice">{$_("signup.faq.questions.paidservice.title")}</a
@@ -62,9 +55,7 @@
         </li>
         <h2>{$_("signup.faq.category2")}</h2>
         <li>
-          <a href="#account"
-            >{$_("signup.faq.questions.account.title")}</a
-          >
+          <a href="#account">{$_("signup.faq.questions.account.title")}</a>
         </li>
         <li>
           <a href="#emailsyntax"
@@ -77,27 +68,21 @@
           >
         </li>
         <li>
-          <a href="#domainname"
-            >{$_("signup.faq.questions.domainname.title")}</a
+          <a href="#domainname">{$_("signup.faq.questions.domainname.title")}</a
           >
         </li>
         <li>
-          <a href="#webmail"
-            >{$_("signup.faq.questions.webmail.title")}</a
-          >
+          <a href="#webmail">{$_("signup.faq.questions.webmail.title")}</a>
         </li>
         <li>
-          <a href="#invalid"
-            >{$_("signup.faq.questions.invalid.title")}</a
-          >
+          <a href="#invalid">{$_("signup.faq.questions.invalid.title")}</a>
         </li>
         <h2>{$_("signup.faq.category3")}</h2>
         <li>
           <a href="#cookies">{$_("signup.faq.questions.cookies.title")}</a>
         </li>
         <li>
-          <a href="#team">{$_("signup.faq.questions.team.title")}</a
-          >
+          <a href="#team">{$_("signup.faq.questions.team.title")}</a>
         </li>
       </ul>
     </div>
