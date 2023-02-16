@@ -295,11 +295,11 @@
         },
         "opensource": {
           "title": "What does open source email mean?",
-          "p": "The term open source refers to a number of features related to the accessibility of the source code we use to run our services. In particular, it means that our source code is freely accessible to anyone who wishes to consult it: this is a guarantee of transparency on our part, and it ensures that our services work as we say they will. Offering open source services is also part of the philosophy of the digital commons: we use these commons (for example the Cyrus email server, developed for years by the open source community) and we also contribute to them by publishing the source code that we develop and that can thus be reused by those who need it.",
+          "p": "The term open source refers to a number of features related to the accessibility of the source code we use to run our services. In particular, it means that our source code is freely accessible to anyone who wishes to consult it: this is a guarantee of transparency on our part, and it ensures that our services work as we say they will. Offering open source services is also part of the philosophy of the digital commons: we use these commons (for example the Cyrus email server, developed for years by the open source community) and we also contribute to them by publishing the source code that we develop and that can thus be reused by those who need it."
         },
         "location": {
           "title": "Where are your servers located?",
-          "p": "Our services are hosted in a data center located in Grenoble, France and operated by Eolas, a French company. The data center is secure, ISO27001 certified and committed to an eco-responsible approach. The data on our servers is subject to French regulations, particularly concerning the protection of privacy.",
+          "p": "Our services are hosted in a data center located in Grenoble, France and operated by Eolas, a French company. The data center is secure, ISO27001 certified and committed to an eco-responsible approach. The data on our servers is subject to French regulations, particularly concerning the protection of privacy."
         },
         "paidservice": {
           "title": "There are plenty of services that offer a mailbox for free, why is yours chargeable? ",
@@ -337,7 +337,7 @@
         },
         "security": {
           "title": "Vos services sont-ils sécurisés ?",
-          "p": "Our service is hosted under Linux/Debian operating system with regularly updated software packages. Linux/Debian is one of the most reliable open source operating systems, and we follow the recommendations of the maintainers. Our email and web servers are accessible only through TLS secured connections. Moreover, we use intrusion detectors such as fail2ban, as well as Amavis (fight against spam, viruses and malware), SpamAssassin (fight against spam) and ClamAV (fight against spam and viruses). Our services are therefore fully compliant with current security standards.",
+          "p": "Our service is hosted under Linux/Debian operating system with regularly updated software packages. Linux/Debian is one of the most reliable open source operating systems, and we follow the recommendations of the maintainers. Our email and web servers are accessible only through TLS secured connections. Moreover, we use intrusion detectors such as fail2ban, as well as Amavis (fight against spam, viruses and malware), SpamAssassin (fight against spam) and ClamAV (fight against spam and viruses). Our services are therefore fully compliant with current security standards."
         },
         "withdrawal": {
           "title": "When will the subscription amount be debited?",
