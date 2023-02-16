@@ -369,15 +369,15 @@
           "local-part": "Pour la partie locale, le choix est très ouvert : majuscules, minuscules, chiffres, caractères accentués, symboles sont acceptés. Deux cas ne sont cependant pas valides : un point comme dernier caractère, et deux points qui se suivent.",
           "local-part-exclude": "Nous avons par ailleurs exclu des possibilités le symbole '+' que nous réservons pour vos alias de mail.",
           "local-part-spec": "Si vous souhaitez approfondir ce sujet, vous pouvez consulter la spécification"
-        }
+        },
         "webmail": {
           "title": "Proposez-vous une interface web pour consulter notre boîte mail ?",
           "p": "Pas encore. Nous travaillons à la création d'un webmail éco-conçu, mais il s'agit d'un projet important qui mettra un peu de temps à se concrétiser. En attendant, pourquoi ne pas utiliser un client mail open source comme Thunderbird par exemple ?"
-        }
+        },
         "invalid": {
           "title": "Je n'arrive pas à accéder à mon compte",
           "p": "Si vous ne parvenez pas à accéder à votre compte Iroco, vérifiez avant tout que vous utilisez la bonne adresse mail et le bon mot de passe. Si vous avez oublié votre mot de passe, sélectionnez "Mot de passe oublié ?" au moment de la connexion et munissez-vous du code de réinitialisation qui vous a été fourni à l'inscription pour remplir les champs indiqués. Si vous avez souscrit à notre offre d'essai gratuite et que vous n'avez pas mis à niveau votre abonnement vers une offre payante avant la fin de la période d'essai, votre compte a été automatiquement désactivé et vous ne pourrez plus y accéder. Si votre compte est bien actif et que vous ne parvenez toujours pas y accéder, vous pouvez nous contacter par mail à l'adresse support@iroco.fr ou sur l'un de nos réseaux sociaux."
-        }
+        },
         "domainname": {
           "title": "Est-il possible d'utiliser un nom de domaine personnalisé ?",
           "p": "Cela sera très bientôt possible ! Nous ne proposons pour le moment que les noms de domaine iroco.io et iroco.co, mais nous travaillons à l'intégration de noms de domaine personnalisés afin de vous permettre d'utiliser votre propre nom de domaine avec nos services. Cette fonctionnalité devrait être disponible d'ici quelques semaines."
