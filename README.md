@@ -1,4 +1,6 @@
-# Iroco landing  [![CircleCI](https://dl.circleci.com/status-badge/img/gh/iroco-co/landing/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/iroco-co/landing/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/iroco-co/landing/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/iroco-co/landing/tree/main)
+
+# Iroco landing  
 
 Sveltekit Iroco landing page.
 
