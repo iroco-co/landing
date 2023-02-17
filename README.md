@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/iroco-co/landing/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/iroco-co/landing/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/iroco-co/landing/tree/main.svg?style=svg&circle-token=8cb0d5262f24c0c3d6b3344ff77494ae14f7ef8c)](https://dl.circleci.com/status-badge/redirect/gh/iroco-co/landing/tree/main)
 
 # Iroco landing
 
