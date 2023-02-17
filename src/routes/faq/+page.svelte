@@ -256,7 +256,7 @@
         <h3>
           <a href="#htop">{$_("signup.faq.questions.account.title")}</a>
         </h3>
-        <p>{$_("signup.faq.questions.account.p")}</p>
+        <p>{@html $_("signup.faq.questions.account.p")}</p>
       </div>
       <div id="emailsyntax" class="faq__q-a__emailsyntax question">
         <h3>
@@ -337,7 +337,7 @@
         <h3>
           <a href="#htop">{$_("signup.faq.questions.team.title")}</a>
         </h3>
-        <p>{$_("signup.faq.questions.team.p")}</p>
+        <p>{@html $_("signup.faq.questions.team.p")}</p>
       </div>
     </div>
   </div>
