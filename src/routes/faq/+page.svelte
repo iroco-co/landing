@@ -313,7 +313,7 @@
         <h3>
           <a href="#htop">{$_("signup.faq.questions.invalid.title")}</a>
         </h3>
-        <p>{$_("signup.faq.questions.invalid.p")}</p>
+        <p>{@html $_("signup.faq.questions.invalid.p")}</p>
       </div>
       <div id="cookies" class="faq__q-a__cookies question">
         <h3><a href="#htop">{$_("signup.faq.questions.cookies.title")}</a></h3>

@@ -380,7 +380,7 @@
         },
         "invalid": {
           "title": "I can't access my account",
-          "p": "If you are unable to access your Iroco account, first make sure you are using the correct email address and password. If you have forgotten your password, select 'Forgot your password?' at login and use the reset code provided to you at registration to fill in the fields indicated. If you signed up for our free trial and did not upgrade to a paid plan before the end of the trial period, your account has been automatically deactivated and you will no longer be able to access it. If your account is active and you still can't access it, you can contact us by email at support@iroco.fr or on one of our social networks."
+          "p": "If you are unable to access your Iroco account, first make sure you are using the correct email address and password. If you have forgotten your password, select 'Forgot your password?' at login and use the reset code provided to you at registration to fill in the fields indicated. If you signed up for our free trial and did not upgrade to a paid plan before the end of the trial period, your account has been automatically deactivated and you will no longer be able to access it. If your account is active and you still can't access it, you can contact us by email at &#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#105;&#114;&#111;&#099;&#111;&#046;&#102;&#114; or on one of our social networks."
         },
         "domainname": {
           "title": "Is it possible to use a custom domain name?",
