@@ -1,10 +1,3 @@
-<script lang="ts">
-  import {_} from "svelte-i18n";
-  import Mail from "../lib/Mail.svelte";
-
-  let iframe;
-</script>
-
 <div class="newsletter">
   <div class="newsletter__container">
     <div class="newsletter__container__subscription">
