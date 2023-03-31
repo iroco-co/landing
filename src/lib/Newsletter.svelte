@@ -1,24 +1,18 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import Mail from "../lib/Mail.svelte";
+  let iframe;
 </script>
 
 <div class="newsletter">
   <div class="newsletter__container">
-    <div class="newsletter__container__screen">
-      <img
-        src="/images/screen.png"
-        alt="Iroco mail application on a smartphone screen"
-      />
-    </div>
     <div class="newsletter__container__subscription">
-      <Mail size="90" strokeWidth="2" title={$_("newsletter.title")} />
       <div class="newsletter__container__subscription__iframe">
         <iframe
           data-w-type="embedded"
           src="http://xq520.mjt.lu/wgt/xq520/m4m/form?c=75474af6"
           width="100%"
-        />
+        bind:this={iframe}/>
         <script type="text/javascript" src="/js/pas-nc-embedded-v1.js"></script>
         <p>{$_("newsletter.disclaimer")}</p>
       </div>
@@ -54,7 +48,7 @@
           text-align: center;
           iframe {
             border: none;
-            height: 180px;
+            height: 666px;
             width: 100%;
           }
           > p {

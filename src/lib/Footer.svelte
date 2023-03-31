@@ -10,10 +10,15 @@
     <div class="footer__contact">
       <div class="footer__contact__container">
         <h3>{$_("footer.socialmedia")}</h3>
-        <a href="mailto:hello@iroco.fr">
-          <Icon data={envelope} style="color: {Color.green};" />
-          {$_("footer.mailto")}
-        </a>
+        <div>
+          <a href="/newsletter">{$_("footer.newsletter")}</a>
+        </div>
+        <div>
+          <a href="mailto:hello@iroco.fr">
+            <Icon data={envelope} style="color: {Color.green};" />
+            {$_("footer.mailto")}
+          </a>
+        </div>
         <div class="footer__contact__container__icons">
           <span class="footer__contact__container__icons__icon">
             <a href="https://www.linkedin.com/company/irocodigital/">
