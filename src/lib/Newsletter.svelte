@@ -15,10 +15,11 @@
       <Mail size="90" strokeWidth="2" title={$_("newsletter.title")} />
       <div class="newsletter__container__subscription__iframe">
         <iframe
-          title="mailjet"
-          class="mj-w-res-iframe"
-          src="https://app.mailjet.com/widget/iframe/6a9K/NvZ"
+          data-w-type="embedded"
+          src="http://xq520.mjt.lu/wgt/xq520/m4m/form?c=75474af6"
+          width="100%"
         />
+        <script type="text/javascript" src="/js/pas-nc-embedded-v1.js"></script>
         <p>{$_("newsletter.disclaimer")}</p>
       </div>
     </div>

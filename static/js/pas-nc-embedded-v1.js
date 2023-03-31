@@ -702,9 +702,9 @@
     (g = {
       autoResize: !(i = k = null),
       bodyBackground: null,
-      bodyMargin: null,
-      bodyMarginV1: null,
-      bodyPadding: null,
+      bodyMargin: 0,
+      bodyMarginV1: 0,
+      bodyPadding: 0,
       checkOrigin: !(a = l = !1),
       inPageLinks: !(F = {}),
       enablePublicMethods: !(f = 0),
