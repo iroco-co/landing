@@ -12,8 +12,9 @@
           data-w-type="embedded"
           src="http://xq520.mjt.lu/wgt/xq520/m4m/form?c=75474af6"
           width="100%"
-        bind:this={iframe}/>
-        <script type="text/javascript" src="/js/pas-nc-embedded-v1.js"></script>
+          height="705px"
+          bind:this={iframe}
+        />
         <p>{$_("newsletter.disclaimer")}</p>
       </div>
     </div>
@@ -48,7 +49,6 @@
           text-align: center;
           iframe {
             border: none;
-            height: 666px;
             width: 100%;
           }
           > p {
