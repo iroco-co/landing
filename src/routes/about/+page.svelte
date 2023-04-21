@@ -9,6 +9,9 @@
   import Host from "../../lib/Host.svelte";
 </script>
 
+<svelte:head>
+  <title>{$_("about.title")}</title>
+</svelte:head>
 <div class="about">
   <section class="about__project">
     <h1>{$_("about.beginning.title")}</h1>

@@ -1,3 +1,10 @@
+<script lang="ts">
+  import { _ } from "svelte-i18n";
+</script>
+
+<svelte:head>
+  <title>{$_("terms.title")}</title>
+</svelte:head>
 <section class="terms">
   <div class="terms__content">
     <h1>

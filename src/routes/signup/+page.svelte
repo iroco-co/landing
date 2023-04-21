@@ -12,6 +12,10 @@
   }
 </script>
 
+<svelte:head>
+  <title>{$_("signup.title")}</title>
+</svelte:head>
+
 <section class="signup">
   <div class="signup__offer">
     <h2>{$_("signup.offer.title")}</h2>

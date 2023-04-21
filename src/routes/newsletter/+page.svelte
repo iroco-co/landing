@@ -1,6 +1,11 @@
 <script>
   import Newsletter from "$lib/Newsletter.svelte";
+  import { _ } from "svelte-i18n";
 </script>
+
+<svelte:head>
+  <title>{$_("newsletter.title")}</title>
+</svelte:head>
 
 <section class="newsletter">
   <Newsletter />

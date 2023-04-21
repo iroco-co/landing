@@ -70,6 +70,7 @@
     }
   },
   "about": {
+    "title": "A propos d'Iroco",
     "beginning": {
       "title": "Un mail responsable, pourquoi ?",
       "p": "Nous envoyons et recevons tous les jours des mails : certains utiles, d'autres futiles ; certains légers, d'autres beaucoup plus sérieux. Nous confions beaucoup de choses à notre boîte mail, sans toujours savoir qui a accès à ces informations, ni à quoi ressemblent les serveurs qui permettent de la faire tourner. Parce que nous devons avoir confiance en notre boîte mail, nous proposons un service de mail transparent, respectueux de vos données et de la planète et hébergé en France. Un mail responsable."
@@ -155,6 +156,7 @@
     "disclaimer": "Votre adresse mail sera utilisée uniquement pour vous envoyer ponctuellement des informations sur nos projets. Pas de spam, pas de circulation non souhaitée de vos données non plus."
   },
   "signup": {
+    "title": "Iroco: page d'inscription",
     "offer": {
       "title": "Notre offre",
       "list": {
@@ -208,186 +210,192 @@
         "client": "Configuration de\nvotre client mail",
         "account": "Gestion de\nvotre compte"
       }
-    },
-    "faq": {
-      "title": "Foire Aux Questions",
-      "category1": "Notre offre",
-      "category2": "Utiliser nos services",
-      "category3": "Divers",
-      "questions": {
-        "offercontent": {
-          "title": "Que comprend exactement votre offre ?",
-          "p": "En souscrivant à l'offre ci-dessus, vous obtiendrez :",
-          "list": {
-            "address": "Une adresse mail de votre choix sur le nom de domaine iroco.co ou iroco.io ;",
-            "mailbox": "Une boîte mail associée à cette adresse disposant de 5Go d'espace de stockage (ce qui correspond, en ordre de grandeur, à 100 000 mails simples de 50Ko chacun ou à 5 000 mails avec une pièce jointe de 1Mo chacun) ;",
-            "aliases": "50 alias, c'est-à-dire des adresses mails secondaires composées sur la base de votre adresse principale. Les messages envoyés à ces alias arriveront dans votre boîte de réception principale. Vous pouvez utiliser des alias par exemple pour vous inscrire à un service sans révéler votre adresse principale, pour échanger avec une adresse différente pour chaque type d'interlocuteur (famille, relations professionnelles, amis...) ou pour tous les usages que vous souhaitez.",
-            "contact-calendar": "La possibilité de gérer vos contacts et calendrier."
+    }
+  },
+  "faq": {
+    "title": "Foire Aux Questions",
+    "category1": "Notre offre",
+    "category2": "Utiliser nos services",
+    "category3": "Divers",
+    "questions": {
+      "offercontent": {
+        "title": "Que comprend exactement votre offre ?",
+        "p": "En souscrivant à l'offre ci-dessus, vous obtiendrez :",
+        "list": {
+          "address": "Une adresse mail de votre choix sur le nom de domaine iroco.co ou iroco.io ;",
+          "mailbox": "Une boîte mail associée à cette adresse disposant de 5Go d'espace de stockage (ce qui correspond, en ordre de grandeur, à 100 000 mails simples de 50Ko chacun ou à 5 000 mails avec une pièce jointe de 1Mo chacun) ;",
+          "aliases": "50 alias, c'est-à-dire des adresses mails secondaires composées sur la base de votre adresse principale. Les messages envoyés à ces alias arriveront dans votre boîte de réception principale. Vous pouvez utiliser des alias par exemple pour vous inscrire à un service sans révéler votre adresse principale, pour échanger avec une adresse différente pour chaque type d'interlocuteur (famille, relations professionnelles, amis...) ou pour tous les usages que vous souhaitez.",
+          "contact-calendar": "La possibilité de gérer vos contacts et calendrier."
+        },
+        "nowebmail": "Notre offre n'inclut pour le moment pas (encore) de webmail : vous devrez donc configurer un client de messagerie, c'est-à-dire un outil existant permettant de gérer vos mails (Thunderbird par exemple, mais il en existe beaucoup d'autres) pour recevoir vos mails. Si besoin, référez-vous à ",
+        "configurationquestion": "la question concernant la configuration de votre client mail.",
+        "soon": "Nous travaillons sur le développement de notre webmail éco-conçu et espérons pouvoir bientôt pouvoir le mettre entre vos mains !"
+      },
+      "freetrial": {
+        "title": "Y a-t-il des différences de fonctionnalités entre l'essai gratuit et l'offre payante ?",
+        "p": "Aucune. Nous vous proposons de tester notre boîte mail gratuitement pendant une durée de 30 jours afin de vous familiariser avec les services que nous proposons et de déterminer s'ils répondent ou non à votre besoin. Pendant cet essai, vous bénéficiez des mêmes fonctionnalités qu'un abonnement payant : une adresse mail, des alias, des calendriers, la gestion de vos contacts... Si nos services vous plaisent, vous pouvez passer à un abonnement payant à n'importe quel moment de votre période d'essai pour conserver votre adresse mail et continuer à utiliser votre boîte mail pendant la durée qu'il vous plaira."
+      },
+      "offer": {
+        "title": "Votre offre est-elle sans engagement ?",
+        "p": "Oui : vous pouvez résilier votre abonnement à tout moment. Il n'y a pas de période d'engagement minimale. En cas de résiliation, votre abonnement prendra fin au terme du mois en cours. Pour résilier votre abonnement, rendez-vous dans l'onglet \"Compte\" de votre tableau de bord utilisateur."
+      },
+      "data": {
+        "title": "Que deviennent nos données ?",
+        "p": "Rien.",
+        "personal": "Plus exactement, nous sommes obligés de collecter certaines données personnelles au moment de votre inscription mais nous nous engageons à ne pas transmettre ou vendre ces données à des tiers en dehors des circonstances strictement nécessaires au bon fonctionnement de notre service. Contrairement à d’autres fournisseurs de services numériques, notre modèle d’affaires ne repose pas sur la vente ou l’exploitation de vos données personnelles à des fins publicitaires : c’est d’ailleurs pour cela que notre service est payant.",
+        "access": "Bien évidemment, nous n’accédons pas non plus au contenu de vos mails : vous avez la certitude que vos données stockées sur nos serveurs resteront confidentielles.",
+        "detail": "Dans le détail, voici les données personnelles que nous collectons lors de votre inscription :",
+        "list": {
+          "provider": {
+            "collect": "Via notre prestataire de paiement (la société GoCardless), nous collectons vos ",
+            "lastname": "nom",
+            "firstname": "prénom",
+            "and": " et ",
+            "invoice": "adresse de facturation"
           },
-          "nowebmail": "Notre offre n'inclut pour le moment pas (encore) de webmail : vous devrez donc configurer un client de messagerie, c'est-à-dire un outil existant permettant de gérer vos mails (Thunderbird par exemple, mais il en existe beaucoup d'autres) pour recevoir vos mails. Si besoin, référez-vous à ",
-          "configurationquestion": "la question concernant la configuration de votre client mail.",
-          "soon": "Nous travaillons sur le développement de notre webmail éco-conçu et espérons pouvoir bientôt pouvoir le mettre entre vos mains !"
-        },
-        "freetrial": {
-          "title": "Y a-t-il des différences de fonctionnalités entre l'essai gratuit et l'offre payante ?",
-          "p": "Aucune. Nous vous proposons de tester notre boîte mail gratuitement pendant une durée de 30 jours afin de vous familiariser avec les services que nous proposons et de déterminer s'ils répondent ou non à votre besoin. Pendant cet essai, vous bénéficiez des mêmes fonctionnalités qu'un abonnement payant : une adresse mail, des alias, des calendriers, la gestion de vos contacts... Si nos services vous plaisent, vous pouvez passer à un abonnement payant à n'importe quel moment de votre période d'essai pour conserver votre adresse mail et continuer à utiliser votre boîte mail pendant la durée qu'il vous plaira."
-        },
-        "offer": {
-          "title": "Votre offre est-elle sans engagement ?",
-          "p": "Oui : vous pouvez résilier votre abonnement à tout moment. Il n'y a pas de période d'engagement minimale. En cas de résiliation, votre abonnement prendra fin au terme du mois en cours. Pour résilier votre abonnement, rendez-vous dans l'onglet \"Compte\" de votre tableau de bord utilisateur."
-        },
-        "data": {
-          "title": "Que deviennent nos données ?",
-          "p": "Rien.",
-          "personal": "Plus exactement, nous sommes obligés de collecter certaines données personnelles au moment de votre inscription mais nous nous engageons à ne pas transmettre ou vendre ces données à des tiers en dehors des circonstances strictement nécessaires au bon fonctionnement de notre service. Contrairement à d’autres fournisseurs de services numériques, notre modèle d’affaires ne repose pas sur la vente ou l’exploitation de vos données personnelles à des fins publicitaires : c’est d’ailleurs pour cela que notre service est payant.",
-          "access": "Bien évidemment, nous n’accédons pas non plus au contenu de vos mails : vous avez la certitude que vos données stockées sur nos serveurs resteront confidentielles.",
-          "detail": "Dans le détail, voici les données personnelles que nous collectons lors de votre inscription :",
-          "list": {
-            "provider": {
-              "collect": "Via notre prestataire de paiement (la société GoCardless), nous collectons vos ",
-              "lastname": "nom",
-              "firstname": "prénom",
-              "and": " et ",
-              "invoice": "adresse de facturation"
-            },
-            "also": {
-              "collect": "Notre prestataire de paiement collecte également vos ",
-              "bank": "coordonnées bancaires",
-              "noaccess": " (IBAN), mais nous n’y avons pas accès."
-            },
-            "last": {
-              "store": "Enfin, nous stockons bien entendu la ou les ",
-              "mail": "adresses mail",
-              "iroco": " que vous avez créées chez Iroco, ainsi que les ",
-              "alias": "alias",
-              "pass": " qui y sont associés. Nous stockons également votre mot de passe sous ",
-              "encrypted": "forme cryptée ",
-              "noaccess": ": nous n’y avons donc pas accès en clair."
-            }
+          "also": {
+            "collect": "Notre prestataire de paiement collecte également vos ",
+            "bank": "coordonnées bancaires",
+            "noaccess": " (IBAN), mais nous n’y avons pas accès."
+          },
+          "last": {
+            "store": "Enfin, nous stockons bien entendu la ou les ",
+            "mail": "adresses mail",
+            "iroco": " que vous avez créées chez Iroco, ainsi que les ",
+            "alias": "alias",
+            "pass": " qui y sont associés. Nous stockons également votre mot de passe sous ",
+            "encrypted": "forme cryptée ",
+            "noaccess": ": nous n’y avons donc pas accès en clair."
           }
-        },
-        "advertisements": {
-          "title": "Y a-t-il de la publicité sur Iroco ?",
-          "p": "Aucune. Contrairement à beaucoup de fournisseurs d'email gratuits, nous n'affichons pas de publicités - ni sur notre site, ni sur notre app, ni dans votre boîte mail. Ce choix est aligné avec notre modèle : nous préférons proposer l'abonnement à nos services à un coût modeste plutôt que de nous rémunérer en vendant les données personnelles et la vie privée de nos utilisateurs au plus offrant."
-        },
-        "ecofriendlyservice": {
-          "title": "Pourquoi affirmez-vous que votre service est éco-conçu ?",
-          "behind": "Derrière le fonctionnement d'un service de mail, il y a plusieurs choses qu'on ne voit pas toujours : des lignes de code qui assurent l'acheminement des messages et la gestion de votre boîte mail, des serveurs physiques qui hébergent applications et données, l'ordinateur ou le smartphone que vous utilisez pour consulter votre messagerie et écrire vos mails... Nous tentons de travailler sur chacun de ces aspects pour vous proposer un service économe en ressources.",
-          "detail": "Dans le détail, voici ce que nous faisons :",
-          "list": {
-            "ecoresponsibility": "Nos serveurs sont hébergés chez un prestataire engagé dans une démarche d'éco-responsabilité.",
-            "ecoconception": {
-              "frugalapps": "Nous éco-concevons notre code afin de développer des applications frugales, capables de fonctionner sur des appareils disposant de ressources limitées. Si cela vous intéresse (et que vous êtes un peu geek), vous pouvez consulter ",
-              "blog": "notre blog",
-              "overview": " pour un aperçu de nos travaux."
-            },
-            "ecodesign": "Nous travaillons sur le design de nos interfaces pour vous proposer une expérience utilisateur agréable, accessible mais également économe en données et en ressources."
-          },
-          "impact": {
-            "numeric": "Si la question des impacts environnementaux du numérique vous intéresse, vous pouvez participer par exemple à une ",
-            "fresque": "Fresque du Numérique",
-            "preferences": " ou lire les ",
-            "publications": "publications de référence",
-            "question": " sur la question."
-          },
-          "print": "L’utilisation du mail reste par ailleurs une goutte d’eau dans l’océan de notre empreinte sur l’environnement... Alors n’hésitez pas à explorer les nombreuses autres manières d’améliorer cette empreinte !"
-        },
-        "opensource": {
-          "title": "Que signifie un mail open source ?",
-          "p": "Le terme open source désigne un certain nombre de caractéristiques liées à l'accessibilité du code source que nous utilisons pour faire tourner nos services. En particulier, il signifie que notre code source est librement accessible pour qui souhaite le consulter : c'est un gage de transparence de notre part, qui garantit notamment que nos services fonctionnent bien conformément à ce que nous annonçons. Proposer des services open source, c'est également s'inscrire dans une philosophie des communs du numérique : nous utilisons ces communs (par exemple le serveur de mail Cyrus, développé depuis des années par la communauté open source) et nous y contribuons également en publiant le code source que nous développons et qui peut être ainsi réutilisé par ceux qui en ont besoin."
-        },
-        "location": {
-          "title": "Où sont situés vos serveurs ?",
-          "p": "Nos services sont hébergés dans un data center situé à Grenoble dans l'Isère et opéré par Eolas, une société française. Le data center est sécurisé, certifié ISO27001 et engagé dans une démarche d'éco-responsabilité. Les données présentes sur nos serveurs sont soumises à la règlementation française, notamment concernant la protection de la vie privée."
-        },
-        "paidservice": {
-          "title": "Il y a plein de services qui proposent une boîte mail gratuitement, pourquoi votre service est-il payant ?",
-          "others": "Les services réellement gratuits sont très rares, et les boîtes mail ne font pas exception. Certains fournisseurs vous proposent effectivement une boîte mail apparemment gratuite… mais se rémunèrent en vendant ou en exploitant vos données personnelles, par exemple à des fins de ciblage publicitaire. D’autres fournisseurs adossent un service de mail à un autre service payant : c’est le cas des fournisseurs d’accès à Internet, qui proposent souvent des adresses mail incluses dans un abonnement payant à Internet.",
-          "iroco": "Chez Iroco, nous proposons un service transparent : le coût de votre abonnement sert à financer le fonctionnement de notre service de mail. Nous ne collectons que les données personnelles indispensables au fonctionnement de ce service et nous ne les exploitons pas à d’autres fins que ce fonctionnement."
-        },
-        "subscription": {
-          "title": "A quoi sert le montant de l’abonnement ?",
-          "emailservice": "Pour faire fonctionner un service de mail, il faut plusieurs choses : des serveurs pour héberger applications et données, des personnes pour développer et faire la maintenance des applications, quelques services tiers que nous avons choisi de confier à des prestataires...",
-          "detail": "Dans le détail, voici quelle est l’utilisation du montant de l’abonnement versé par nos utilisateurs :",
-          "list": {
-            "taxes": " Un peu moins de 16% (soit 20% du montant hors taxes) de ce montant va à l’administration fiscale sous forme de TVA : les services proposés par Iroco sont assujettis au taux normal de TVA de 20%, comme la plupart des biens et services.",
-            "fee": "Notre prestataire de paiement prélève une commission de 7% environ sur le montant de l’abonnement.",
-            "deployment": "Près de 48% de l'abonnement sert à couvrir nos coûts d'hébergement, c'est-à-dire les serveurs physiques sur lesquels sont stockés applications et données.",
-            "rest": "Le reste sert à payer nos autres frais et à rémunérer l'équipe d'Iroco."
-          },
-          "chart": {
-            "tax": {
-              "title": "TVA",
-              "percentage": ": 20% (soit 16% HT)"
-            },
-            "payment": {
-              "title": "Prestataire de paiement",
-              "percentage": ": 7%"
-            },
-            "hosting": {
-              "title": "Hébergement",
-              "percentage": ": 48%"
-            },
-            "iroco": {
-              "title": "Iroco",
-              "percentage": ": 25%"
-            }
-          }
-        },
-        "security": {
-          "title": "Vos services sont-ils sécurisés ?",
-          "p": "Notre service est hébergé sous système d'exploitation Linux/Debian avec des paquets logiciels mis à jour régulièrement. Linux/Debian est l'un des systèmes d'exploitation open source des plus fiables, et nous suivons les préconisations des mainteneurs. Nos serveurs de mail et web sont accessibles quant à eux uniquement via des connexions sécurisées par TLS. Par ailleurs, nous utilisons des détecteurs d'intrusion comme fail2ban, ainsi que Amavis (lutte contre les spam, virus et malware), SpamAssassin (lutte contre le spam) et ClamAV (lutte contre le spam et les virus). Nos services sont donc parfaitement conformes aux standards de sécurité en vigueur."
-        },
-        "withdrawal": {
-          "title": "Quand est prélevé le montant de mon abonnement ?",
-          "p": "Lorsque vous souscrivez à une offre payante, vous bénéficiez dans tous les cas de 30 jours gratuits avant d'être prélevé du montant de votre abonnement. Le montant de l'abonnement est ensuite prélevé tous les mois, le lendemain de la date anniversaire de votre inscription."
-        },
-        "team": {
-          "title": "Qui est derrière Iroco ?",
-          "p": "Derrière Iroco, il y a une petite équipe indépendante passionnée d'éco-conception, d'open source et de numérique convivial et désirable. Pour en savoir plus sur nous, vous pouvez nous retrouver sur <a href=\"https://www.linkedin.com/company/irocodigital\">notre page LinkedIn</a>."
-        },
-        "account": {
-          "title": "Comment puis-je me créer un compte Iroco ?",
-          "p": "Vous pouvez vous créer un compte gratuit de manière très simple <a href=\"https://app.iroco.co/signup\">en cliquant ici</a>. Il vous sera proposé de créer l'adresse mail de votre choix et un mot de passe. Vous disposez de 30 jours pour tester gratuitement nos services ; si ceux-ci vous plaisent, vous pouvez à tout moment de votre essai passer à un abonnement payant afin de continuer à les utiliser au-delà de la durée de 30 jours."
-        },
-        "cookies": {
-          "title": "Pourquoi ne me demandez-vous pas mes préférences en matière de cookies ?",
-          "weuse": "Nous utilisons",
-          "selfhosted": "pour mesurer notre audience en mode auto-hébergé (Matomo tourne sur nos serveurs). Nous avons suivi ",
-          "recommendations": "les recommandations",
-          "cnil": "de la CNIL afin de ne pas avoir à le faire. Vous pouvez voir et modifier votre statut ci-dessous en ce qui concerne nos mesures d'audience."
-        },
-        "configuration": {
-          "title": "Comment configurer mon client mail ?",
-          "introduction": "Il faut préciser les deux adresses du serveur d'envoi de mail (SMTP), de réception de mail (IMAP), l'utilisateur et le mot de passe. Les adresses des serveurs sont :",
-          "imap": "imap.iroco.io si votre mail est sur iroco.io, imap.iroco.co si votre mail est sur iroco.co. La sécurité de connexion est SSL/TLS",
-          "smtp": "smtp.iroco.io si votre mail est sur iroco.io, smtp.iroco.co si votre mail est sur iroco.co. La sécurité de connexion est SSL/TLS",
-          "user": "Votre nom d'utilisateur est votre email, votre mot de passe, celui que vous avez fourni lors de l'inscription.",
-          "imap-example": "Par exemple sur Thunderbird dans configuration > paramètres serveur :",
-          "smtp-example": "Toujours sur Thunderbird dans configuration > serveur sortant:"
-        },
-        "emailsyntax": {
-          "title": "Que puis-je choisir comme nom d'email ?",
-          "introduction": "L'email a deux parties : la partie locale (avant l'arobase) que vous pouvez choisir et le nom de domaine qui est soit iroco.co, soit iroco.io.",
-          "local-part": "Pour la partie locale, le choix est très ouvert : majuscules, minuscules, chiffres, caractères accentués, symboles sont acceptés. Deux cas ne sont cependant pas valides : un point comme dernier caractère, et deux points qui se suivent.",
-          "local-part-exclude": "Nous avons par ailleurs exclu des possibilités le symbole '+' que nous réservons pour vos alias de mail.",
-          "local-part-spec": "Si vous souhaitez approfondir ce sujet, vous pouvez consulter la spécification"
-        },
-        "webmail": {
-          "title": "Proposez-vous une interface web pour consulter notre boîte mail ?",
-          "p": "Pas encore. Nous travaillons à la création d'un webmail éco-conçu, mais il s'agit d'un projet important qui mettra un peu de temps à se concrétiser. En attendant, pourquoi ne pas utiliser un client mail open source comme Thunderbird par exemple ?"
-        },
-        "invalid": {
-          "title": "Je n'arrive pas à accéder à mon compte",
-          "p": "Si vous ne parvenez pas à accéder à votre compte Iroco, vérifiez avant tout que vous utilisez la bonne adresse mail et le bon mot de passe. Si vous avez oublié votre mot de passe, sélectionnez 'Mot de passe oublié ?' au moment de la connexion et munissez-vous du code de réinitialisation qui vous a été fourni à l'inscription pour remplir les champs indiqués. Si vous avez souscrit à notre offre d'essai gratuite et que vous n'avez pas mis à niveau votre abonnement vers une offre payante avant la fin de la période d'essai, votre compte a été automatiquement désactivé et vous ne pourrez plus y accéder. Si votre compte est bien actif et que vous ne parvenez toujours pas y accéder, vous pouvez nous contacter par mail à l'adresse &#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#105;&#114;&#111;&#099;&#111;&#046;&#102;&#114; ou sur l'un de nos réseaux sociaux."
-        },
-        "domainname": {
-          "title": "Est-il possible d'utiliser un nom de domaine personnalisé ?",
-          "p": "Cela sera très bientôt possible ! Nous ne proposons pour le moment que les noms de domaine iroco.io et iroco.co, mais nous travaillons à l'intégration de noms de domaine personnalisés afin de vous permettre d'utiliser votre propre nom de domaine avec nos services. Cette fonctionnalité devrait être disponible d'ici quelques semaines."
         }
       },
-      "button": "Lire la suite",
-      "close": "Réduire"
-    }
+      "advertisements": {
+        "title": "Y a-t-il de la publicité sur Iroco ?",
+        "p": "Aucune. Contrairement à beaucoup de fournisseurs d'email gratuits, nous n'affichons pas de publicités - ni sur notre site, ni sur notre app, ni dans votre boîte mail. Ce choix est aligné avec notre modèle : nous préférons proposer l'abonnement à nos services à un coût modeste plutôt que de nous rémunérer en vendant les données personnelles et la vie privée de nos utilisateurs au plus offrant."
+      },
+      "ecofriendlyservice": {
+        "title": "Pourquoi affirmez-vous que votre service est éco-conçu ?",
+        "behind": "Derrière le fonctionnement d'un service de mail, il y a plusieurs choses qu'on ne voit pas toujours : des lignes de code qui assurent l'acheminement des messages et la gestion de votre boîte mail, des serveurs physiques qui hébergent applications et données, l'ordinateur ou le smartphone que vous utilisez pour consulter votre messagerie et écrire vos mails... Nous tentons de travailler sur chacun de ces aspects pour vous proposer un service économe en ressources.",
+        "detail": "Dans le détail, voici ce que nous faisons :",
+        "list": {
+          "ecoresponsibility": "Nos serveurs sont hébergés chez un prestataire engagé dans une démarche d'éco-responsabilité.",
+          "ecoconception": {
+            "frugalapps": "Nous éco-concevons notre code afin de développer des applications frugales, capables de fonctionner sur des appareils disposant de ressources limitées. Si cela vous intéresse (et que vous êtes un peu geek), vous pouvez consulter ",
+            "blog": "notre blog",
+            "overview": " pour un aperçu de nos travaux."
+          },
+          "ecodesign": "Nous travaillons sur le design de nos interfaces pour vous proposer une expérience utilisateur agréable, accessible mais également économe en données et en ressources."
+        },
+        "impact": {
+          "numeric": "Si la question des impacts environnementaux du numérique vous intéresse, vous pouvez participer par exemple à une ",
+          "fresque": "Fresque du Numérique",
+          "preferences": " ou lire les ",
+          "publications": "publications de référence",
+          "question": " sur la question."
+        },
+        "print": "L’utilisation du mail reste par ailleurs une goutte d’eau dans l’océan de notre empreinte sur l’environnement... Alors n’hésitez pas à explorer les nombreuses autres manières d’améliorer cette empreinte !"
+      },
+      "opensource": {
+        "title": "Que signifie un mail open source ?",
+        "p": "Le terme open source désigne un certain nombre de caractéristiques liées à l'accessibilité du code source que nous utilisons pour faire tourner nos services. En particulier, il signifie que notre code source est librement accessible pour qui souhaite le consulter : c'est un gage de transparence de notre part, qui garantit notamment que nos services fonctionnent bien conformément à ce que nous annonçons. Proposer des services open source, c'est également s'inscrire dans une philosophie des communs du numérique : nous utilisons ces communs (par exemple le serveur de mail Cyrus, développé depuis des années par la communauté open source) et nous y contribuons également en publiant le code source que nous développons et qui peut être ainsi réutilisé par ceux qui en ont besoin."
+      },
+      "location": {
+        "title": "Où sont situés vos serveurs ?",
+        "p": "Nos services sont hébergés dans un data center situé à Grenoble dans l'Isère et opéré par Eolas, une société française. Le data center est sécurisé, certifié ISO27001 et engagé dans une démarche d'éco-responsabilité. Les données présentes sur nos serveurs sont soumises à la règlementation française, notamment concernant la protection de la vie privée."
+      },
+      "paidservice": {
+        "title": "Il y a plein de services qui proposent une boîte mail gratuitement, pourquoi votre service est-il payant ?",
+        "others": "Les services réellement gratuits sont très rares, et les boîtes mail ne font pas exception. Certains fournisseurs vous proposent effectivement une boîte mail apparemment gratuite… mais se rémunèrent en vendant ou en exploitant vos données personnelles, par exemple à des fins de ciblage publicitaire. D’autres fournisseurs adossent un service de mail à un autre service payant : c’est le cas des fournisseurs d’accès à Internet, qui proposent souvent des adresses mail incluses dans un abonnement payant à Internet.",
+        "iroco": "Chez Iroco, nous proposons un service transparent : le coût de votre abonnement sert à financer le fonctionnement de notre service de mail. Nous ne collectons que les données personnelles indispensables au fonctionnement de ce service et nous ne les exploitons pas à d’autres fins que ce fonctionnement."
+      },
+      "subscription": {
+        "title": "A quoi sert le montant de l’abonnement ?",
+        "emailservice": "Pour faire fonctionner un service de mail, il faut plusieurs choses : des serveurs pour héberger applications et données, des personnes pour développer et faire la maintenance des applications, quelques services tiers que nous avons choisi de confier à des prestataires...",
+        "detail": "Dans le détail, voici quelle est l’utilisation du montant de l’abonnement versé par nos utilisateurs :",
+        "list": {
+          "taxes": " Un peu moins de 16% (soit 20% du montant hors taxes) de ce montant va à l’administration fiscale sous forme de TVA : les services proposés par Iroco sont assujettis au taux normal de TVA de 20%, comme la plupart des biens et services.",
+          "fee": "Notre prestataire de paiement prélève une commission de 7% environ sur le montant de l’abonnement.",
+          "deployment": "Près de 48% de l'abonnement sert à couvrir nos coûts d'hébergement, c'est-à-dire les serveurs physiques sur lesquels sont stockés applications et données.",
+          "rest": "Le reste sert à payer nos autres frais et à rémunérer l'équipe d'Iroco."
+        },
+        "chart": {
+          "tax": {
+            "title": "TVA",
+            "percentage": ": 20% (soit 16% HT)"
+          },
+          "payment": {
+            "title": "Prestataire de paiement",
+            "percentage": ": 7%"
+          },
+          "hosting": {
+            "title": "Hébergement",
+            "percentage": ": 48%"
+          },
+          "iroco": {
+            "title": "Iroco",
+            "percentage": ": 25%"
+          }
+        }
+      },
+      "security": {
+        "title": "Vos services sont-ils sécurisés ?",
+        "p": "Notre service est hébergé sous système d'exploitation Linux/Debian avec des paquets logiciels mis à jour régulièrement. Linux/Debian est l'un des systèmes d'exploitation open source des plus fiables, et nous suivons les préconisations des mainteneurs. Nos serveurs de mail et web sont accessibles quant à eux uniquement via des connexions sécurisées par TLS. Par ailleurs, nous utilisons des détecteurs d'intrusion comme fail2ban, ainsi que Amavis (lutte contre les spam, virus et malware), SpamAssassin (lutte contre le spam) et ClamAV (lutte contre le spam et les virus). Nos services sont donc parfaitement conformes aux standards de sécurité en vigueur."
+      },
+      "withdrawal": {
+        "title": "Quand est prélevé le montant de mon abonnement ?",
+        "p": "Lorsque vous souscrivez à une offre payante, vous bénéficiez dans tous les cas de 30 jours gratuits avant d'être prélevé du montant de votre abonnement. Le montant de l'abonnement est ensuite prélevé tous les mois, le lendemain de la date anniversaire de votre inscription."
+      },
+      "team": {
+        "title": "Qui est derrière Iroco ?",
+        "p": "Derrière Iroco, il y a une petite équipe indépendante passionnée d'éco-conception, d'open source et de numérique convivial et désirable. Pour en savoir plus sur nous, vous pouvez nous retrouver sur <a href=\"https://www.linkedin.com/company/irocodigital\">notre page LinkedIn</a>."
+      },
+      "account": {
+        "title": "Comment puis-je me créer un compte Iroco ?",
+        "p": "Vous pouvez vous créer un compte gratuit de manière très simple <a href=\"https://app.iroco.co/signup\">en cliquant ici</a>. Il vous sera proposé de créer l'adresse mail de votre choix et un mot de passe. Vous disposez de 30 jours pour tester gratuitement nos services ; si ceux-ci vous plaisent, vous pouvez à tout moment de votre essai passer à un abonnement payant afin de continuer à les utiliser au-delà de la durée de 30 jours."
+      },
+      "cookies": {
+        "title": "Pourquoi ne me demandez-vous pas mes préférences en matière de cookies ?",
+        "weuse": "Nous utilisons",
+        "selfhosted": "pour mesurer notre audience en mode auto-hébergé (Matomo tourne sur nos serveurs). Nous avons suivi ",
+        "recommendations": "les recommandations",
+        "cnil": "de la CNIL afin de ne pas avoir à le faire. Vous pouvez voir et modifier votre statut ci-dessous en ce qui concerne nos mesures d'audience."
+      },
+      "configuration": {
+        "title": "Comment configurer mon client mail ?",
+        "introduction": "Il faut préciser les deux adresses du serveur d'envoi de mail (SMTP), de réception de mail (IMAP), l'utilisateur et le mot de passe. Les adresses des serveurs sont :",
+        "imap": "imap.iroco.io si votre mail est sur iroco.io, imap.iroco.co si votre mail est sur iroco.co. La sécurité de connexion est SSL/TLS",
+        "smtp": "smtp.iroco.io si votre mail est sur iroco.io, smtp.iroco.co si votre mail est sur iroco.co. La sécurité de connexion est SSL/TLS",
+        "user": "Votre nom d'utilisateur est votre email, votre mot de passe, celui que vous avez fourni lors de l'inscription.",
+        "imap-example": "Par exemple sur Thunderbird dans configuration > paramètres serveur :",
+        "smtp-example": "Toujours sur Thunderbird dans configuration > serveur sortant:"
+      },
+      "emailsyntax": {
+        "title": "Que puis-je choisir comme nom d'email ?",
+        "introduction": "L'email a deux parties : la partie locale (avant l'arobase) que vous pouvez choisir et le nom de domaine qui est soit iroco.co, soit iroco.io.",
+        "local-part": "Pour la partie locale, le choix est très ouvert : majuscules, minuscules, chiffres, caractères accentués, symboles sont acceptés. Deux cas ne sont cependant pas valides : un point comme dernier caractère, et deux points qui se suivent.",
+        "local-part-exclude": "Nous avons par ailleurs exclu des possibilités le symbole '+' que nous réservons pour vos alias de mail.",
+        "local-part-spec": "Si vous souhaitez approfondir ce sujet, vous pouvez consulter la spécification"
+      },
+      "webmail": {
+        "title": "Proposez-vous une interface web pour consulter notre boîte mail ?",
+        "p": "Pas encore. Nous travaillons à la création d'un webmail éco-conçu, mais il s'agit d'un projet important qui mettra un peu de temps à se concrétiser. En attendant, pourquoi ne pas utiliser un client mail open source comme Thunderbird par exemple ?"
+      },
+      "invalid": {
+        "title": "Je n'arrive pas à accéder à mon compte",
+        "p": "Si vous ne parvenez pas à accéder à votre compte Iroco, vérifiez avant tout que vous utilisez la bonne adresse mail et le bon mot de passe. Si vous avez oublié votre mot de passe, sélectionnez 'Mot de passe oublié ?' au moment de la connexion et munissez-vous du code de réinitialisation qui vous a été fourni à l'inscription pour remplir les champs indiqués. Si vous avez souscrit à notre offre d'essai gratuite et que vous n'avez pas mis à niveau votre abonnement vers une offre payante avant la fin de la période d'essai, votre compte a été automatiquement désactivé et vous ne pourrez plus y accéder. Si votre compte est bien actif et que vous ne parvenez toujours pas y accéder, vous pouvez nous contacter par mail à l'adresse &#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#105;&#114;&#111;&#099;&#111;&#046;&#102;&#114; ou sur l'un de nos réseaux sociaux."
+      },
+      "domainname": {
+        "title": "Est-il possible d'utiliser un nom de domaine personnalisé ?",
+        "p": "Cela sera très bientôt possible ! Nous ne proposons pour le moment que les noms de domaine iroco.io et iroco.co, mais nous travaillons à l'intégration de noms de domaine personnalisés afin de vous permettre d'utiliser votre propre nom de domaine avec nos services. Cette fonctionnalité devrait être disponible d'ici quelques semaines."
+      }
+    },
+    "button": "Lire la suite",
+    "close": "Réduire"
+  },
+  "legal": {
+    "title": "Mentions légales"
+  },
+  "terms": {
+    "title": "Conditions Générales de Vente"
   }
 }

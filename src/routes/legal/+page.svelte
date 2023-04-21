@@ -1,3 +1,10 @@
+<script lang="ts">
+  import { _ } from "svelte-i18n";
+</script>
+
+<svelte:head>
+  <title>{$_("legal.title")}</title>
+</svelte:head>
 <section class="legal">
   <div class="legal__content">
     <h1>Mentions légales</h1>
