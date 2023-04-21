@@ -61,9 +61,9 @@
           fill="#f2ebe3"
         >
           <tspan
-            >{$_("signup.faq.questions.subscription.chart.tax.title")}</tspan
+            >{$_("faq.questions.subscription.chart.tax.title")}</tspan
           >
-          &nbsp;{$_("signup.faq.questions.subscription.chart.tax.percentage")}
+          &nbsp;{$_("faq.questions.subscription.chart.tax.percentage")}
         </text>
       </g>
       <g>
@@ -77,11 +77,11 @@
         >
           <tspan
             >{$_(
-              "signup.faq.questions.subscription.chart.payment.title"
+              "faq.questions.subscription.chart.payment.title"
             )}</tspan
           >
           &nbsp;{$_(
-            "signup.faq.questions.subscription.chart.payment.percentage"
+            "faq.questions.subscription.chart.payment.percentage"
           )}
         </text>
       </g>
@@ -96,11 +96,11 @@
         >
           <tspan
             >{$_(
-              "signup.faq.questions.subscription.chart.hosting.title"
+              "faq.questions.subscription.chart.hosting.title"
             )}</tspan
           >
           &nbsp;{$_(
-            "signup.faq.questions.subscription.chart.hosting.percentage"
+            "faq.questions.subscription.chart.hosting.percentage"
           )}
         </text>
       </g>
@@ -114,9 +114,9 @@
           font-fontSize="1rem"
         >
           <tspan
-            >{$_("signup.faq.questions.subscription.chart.iroco.title")}</tspan
+            >{$_("faq.questions.subscription.chart.iroco.title")}</tspan
           >
-          &nbsp;{$_("signup.faq.questions.subscription.chart.iroco.percentage")}
+          &nbsp;{$_("faq.questions.subscription.chart.iroco.percentage")}
         </text>
       </g>
     </g>
