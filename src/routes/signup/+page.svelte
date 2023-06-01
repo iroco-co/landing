@@ -62,23 +62,23 @@
           {$_("signup.offer.buttons.details")}
         </Button>
         <div class="signup__offer__card__buttons__more" class:displayed={more}>
-          <h3>{$_("signup.faq.questions.offercontent.title")}</h3>
-          <p>{$_("signup.faq.questions.offercontent.p")}</p>
+          <h3>{$_("faq.questions.offercontent.title")}</h3>
+          <p>{$_("faq.questions.offercontent.p")}</p>
           <ul>
-            <li>{$_("signup.faq.questions.offercontent.list.address")}</li>
-            <li>{$_("signup.faq.questions.offercontent.list.mailbox")}</li>
-            <li>{$_("signup.faq.questions.offercontent.list.aliases")}</li>
+            <li>{$_("faq.questions.offercontent.list.address")}</li>
+            <li>{$_("faq.questions.offercontent.list.mailbox")}</li>
+            <li>{$_("faq.questions.offercontent.list.aliases")}</li>
             <li>
-              {$_("signup.faq.questions.offercontent.list.contact-calendar")}
+              {$_("faq.questions.offercontent.list.contact-calendar")}
             </li>
           </ul>
           <p>
-            {$_("signup.faq.questions.offercontent.nowebmail")}
+            {$_("faq.questions.offercontent.nowebmail")}
             <a href="faq#configuration">
-              {$_("signup.faq.questions.offercontent.configurationquestion")}
+              {$_("faq.questions.offercontent.configurationquestion")}
             </a>
           </p>
-          <p>{$_("signup.faq.questions.offercontent.soon")}</p>
+          <p>{$_("faq.questions.offercontent.soon")}</p>
         </div>
       </div>
     </div>
