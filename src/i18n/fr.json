@@ -2,6 +2,9 @@
   "page": {
     "title": "Iroco"
   },
+  "doc": {
+    "title": "Documentation"
+  },
   "header": {
     "about": "A propos",
     "blog": "Blog",
@@ -28,6 +31,7 @@
     "other": {
       "title": "Et aussi",
       "blog": "Blog & Actualités",
+      "doc": "Documentation",
       "job": "Postuler",
       "terms": "Conditions Générales de Vente",
       "legal": "Mentions Légales",

@@ -46,6 +46,7 @@
             >{$_("footer.other.job")}</a
           >
         </li>
+        <li><a href="/doc">{$_("footer.other.doc")}</a></li>
         <li><a href="https://blog.iroco.co/">{$_("footer.other.blog")}</a></li>
         <li><a href="/legal">{$_("footer.other.legal")}</a></li>
         <li><a href="/faq">{$_("footer.other.faq")}</a></li>
