@@ -21,11 +21,11 @@ const config = {
       directives: {
         "default-src": ["self"],
         "connect-src": ["https://matomo.iroco.co"],
-        "script-src": ["self", "https://matomo.iroco.co"] ,
-        "img-src": ['self', "https://matomo.iroco.co"],
-        "style-src": ['self'],
-        "frame-ancestors": ['self'],
-        "frame-src": ['self', "https://xq520.mjt.lu"]
+        "script-src": ["self", "https://matomo.iroco.co"],
+        "img-src": ["self", "https://matomo.iroco.co"],
+        "style-src": ["self"],
+        "frame-ancestors": ["self"],
+        "frame-src": ["self", "https://xq520.mjt.lu"],
       },
     },
   },
