@@ -2,7 +2,7 @@
   import { _ } from "svelte-i18n";
   import { IconMastodon, Color } from "@iroco/ui";
   import Icon from "svelte-awesome";
-  import { twitter, envelope, linkedin } from "svelte-awesome/icons";
+  import { twitter, envelope, linkedin, github } from "svelte-awesome/icons";
 </script>
 
 <footer>
@@ -20,6 +20,11 @@
           </a>
         </div>
         <div class="footer__contact__container__icons">
+          <span class="footer__contact__container__icons__icon">
+            <a href="https://github.com/iroco-co/landing">
+              <Icon data={github} scale={1.5} style="color: {Color.green};" />
+            </a>
+          </span>
           <span class="footer__contact__container__icons__icon">
             <a href="https://www.linkedin.com/company/irocodigital/">
               <Icon data={linkedin} scale={1.5} style="color: {Color.green};" />
