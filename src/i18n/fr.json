@@ -3,7 +3,39 @@
     "title": "Iroco"
   },
   "doc": {
-    "title": "Documentation"
+    "title": "Documentation",
+    "control": {
+      "title": "Niveau de contrôle sur l'infrastructure",
+      "content": "Iroco a un contrôle sur les serveurs en administrateur (root). Iroco n'a pas le contôle sur les infrastructures réseau d'acheminement des flux jusqu'aux serveurs."
+    },
+    "topology": {
+      "title": "Topologie",
+      "content": "A l'heure actuelle, la topologie est simple car Iroco a deux serveurs : <ul><li>un serveur de production chez <a href=\"https://www.eolas.fr/4-societe.htm\">Éolas</a></li><li>un serveur de préproduction chez OVH.</li></ul>"
+    },
+    "infrastructure": {
+      "title": "Forme d'infrastructure",
+      "content": "Les serveurs d'Iroco sont de type VPS :<ul><li>production: VMware</li><li>préproduction: OpenStack Nova</li></ul>"
+    },
+    "hardware": {
+      "title": "Caractéristiques matérielles",
+      "content": "<ul><li>production : Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz</li><li>préproduction : OVH VPS vps2020-essential-2-4-80 Intel Core Processor (Haswell, no TSX) 2,3 GHz </li></ul>"
+    },
+    "software": {
+      "title": "Caractéristiques logicielles",
+      "content": "Les services Iroco fonctionnent uniquement grâce à des logiciels libres. A part la couche de virtualisation VMware en production : <ul><li>Système d'exploitation : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>Serveur SMTP : <a href=\"http://www.postfix.org/\">Postfix</a></li><li>Serveur IMAP, calendriers/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Serveur Web : <a href=\"https://nginx.org\">Nginx</a></li></ul>"
+    },
+    "deploy": {
+      "title": "Déploiement",
+      "content": "Notre système de déploiement est basé sur <a href=\"https://docs.ansible.com\">Ansible</a>."
+    },
+    "backup": {
+      "title": "Sauvegardes",
+      "content": "Eolas assure les sauvegardes de notre serveur de production : <ul><li>une sauvegarde quotidienne complète de la VM</li><li>plusieurs sauvegardes différentielles des données par jour</li></ul>"
+    },
+    "monitoring": {
+      "title": "Monitoring",
+      "content": "Le monitoring de nos serveurs est fait avec <a href=\"https://www.centreon.com\">Centreon</a>."
+    }
   },
   "header": {
     "about": "A propos",

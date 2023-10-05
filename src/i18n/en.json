@@ -3,7 +3,39 @@
     "title": "Iroco"
   },
   "doc": {
-    "title": "Documentation"
+    "title": "Documentation",
+    "control": {
+      "title": "Level of control",
+      "content": "Iroco has root control over the servers. Iroco does not have control over the network infrastructure used to route traffic to the servers."
+    },
+    "topology": {
+      "title": "Topology",
+      "content": "At present, the topology is simple because Iroco has two servers: <ul><li>a production server at <a href=\"https://www.eolas.fr/4-societe.htm\">Éolas</a></li><li>a preproduction server at OVH.</li></ul>"
+    },
+    "infrastructure": {
+      "title": "Type of infrastructure",
+      "content": "Iroco servers are VPS :<ul><li>production: VMware</li><li>preproduction: OpenStack Nova</li></ul>"
+    },
+    "hardware": {
+      "title": "Hardware",
+      "content": "<ul><li>production : Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz</li><li>preproduction : OVH VPS vps2020-essential-2-4-80 Intel Core Processor (Haswell, no TSX) 2,3 GHz </li></ul>"
+    },
+    "software": {
+      "title": "Software",
+      "content": "Iroco services run entirely on open-source software. Apart from the VMware virtualisation layer in production: <ul><li>Operation system : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>SMTP Server: <a href=\"http://www.postfix.org/\">Postfix</a></li><li>IMAP Server, calendars/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Web server: <a href=\"https://nginx.org\">Nginx</a></li></ul>"
+    },
+    "deploy": {
+      "title": "Deployment",
+      "content": "Our deployment system is based on <a href=\"https://docs.ansible.com\">Ansible</a>."
+    },
+    "backup": {
+      "title": "Backups",
+      "content": ""
+    },
+    "monitoring": {
+      "title": "Monitoring",
+      "content": ""
+    }
   },
   "header": {
     "about": "About",
