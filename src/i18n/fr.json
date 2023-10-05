@@ -10,7 +10,7 @@
     },
     "topology": {
       "title": "Topologie",
-      "content": "A l'heure actuelle, la topologie est simple car Iroco a deux serveurs : <ul><li>un serveur de production chez <a href=\"https://www.eolas.fr/4-societe.htm\">Éolas</a></li><li>un serveur de préproduction chez OVH.</li></ul>"
+      "content": "A l'heure actuelle, la topologie est simple car Iroco a deux serveurs : <ul><li>un serveur de production chez <a href=\"https://www.eolas.fr/4-societe.htm\">Éolas</a>. Notre serveur est situé dans la région Grenobloise.</li><li>un serveur de préproduction chez OVH.</li></ul>"
     },
     "infrastructure": {
       "title": "Forme d'infrastructure",
@@ -30,7 +30,7 @@
     },
     "backup": {
       "title": "Sauvegardes",
-      "content": "Eolas assure les sauvegardes de notre serveur de production : <ul><li>une sauvegarde quotidienne complète de la VM</li><li>plusieurs sauvegardes différentielles des données par jour</li></ul>"
+      "content": "Eolas assure les sauvegardes de notre serveur de production : <ul><li>une sauvegarde quotidienne complète de la VM</li><li>plusieurs sauvegardes différentielles des données par jour</li></ul>Ces sauvegardes sont aussi localisées dans les centres de services de Grenoble."
     },
     "monitoring": {
       "title": "Monitoring",
