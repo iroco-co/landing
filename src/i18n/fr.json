@@ -30,7 +30,7 @@
     },
     "backup": {
       "title": "Sauvegardes",
-      "content": "Eolas assure les sauvegardes de notre serveur de production : <ul><li>une sauvegarde quotidienne complète de la VM</li><li>plusieurs sauvegardes différentielles des données par jour</li></ul>Ces sauvegardes sont aussi localisées dans les centres de services de Grenoble."
+      "content": "Eolas assure les sauvegardes de notre serveur de production : <ul><li>une sauvegarde quotidienne complète de la VM</li><li>plusieurs sauvegardes différentielles des données par jour</li></ul>Ces sauvegardes sont aussi localisées dans les centres de service de Grenoble."
     },
     "monitoring": {
       "title": "Monitoring",

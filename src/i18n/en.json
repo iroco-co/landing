@@ -30,11 +30,11 @@
     },
     "backup": {
       "title": "Backups",
-      "content": ""
+      "content": "Eolas handles the backups of our production server: <ul><li>a full daily backup of the VM</li><li>several differential data backups per day</li></ul>These backups are located in the Grenoble service centres."
     },
     "monitoring": {
       "title": "Monitoring",
-      "content": ""
+      "content": "Our servers are monitored using <a href=\"https://www.centreon.com\">Centreon</a>."
     }
   },
   "header": {
