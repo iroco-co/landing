@@ -41,8 +41,8 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/scss/colors";
-  @import "node_modules/@iroco/ui/scss/containers";
+  @use "node_modules/@iroco/ui/dist/scss/colors";
+  @import "node_modules/@iroco/ui/dist/scss/containers";
   .legal {
     display: flex;
     justify-content: center;

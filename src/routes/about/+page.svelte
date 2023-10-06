@@ -1,4 +1,5 @@
 <script lang="ts">
+  /* eslint svelte/no-at-html-tags: "off" */
   import { _ } from "svelte-i18n";
   import IrocologoSignupbutton from "../../lib/IrocologoSignupbutton.svelte";
   import GreenHost from "../../lib/GreenHost.svelte";
@@ -152,8 +153,8 @@
 </div>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/scss/colors";
-  @import "node_modules/@iroco/ui/scss/containers";
+  @use "node_modules/@iroco/ui/dist/scss/colors";
+  @import "node_modules/@iroco/ui/dist/scss/containers";
   .about {
     display: flex;
     flex-direction: column;

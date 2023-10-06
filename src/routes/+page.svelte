@@ -80,8 +80,8 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/scss/colors";
-  @import "node_modules/@iroco/ui/scss/button";
+  @use "node_modules/@iroco/ui/dist/scss/colors";
+  @import "node_modules/@iroco/ui/dist/scss/button";
   .page-content {
     display: flex;
     flex-direction: column;

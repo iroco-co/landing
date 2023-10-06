@@ -86,10 +86,10 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/scss/colors";
-  @use "node_modules/@iroco/ui/scss/constants";
-  @import "node_modules/@iroco/ui/scss/containers";
-  @import "node_modules/@iroco/ui/scss/button";
+  @use "node_modules/@iroco/ui/dist/scss/colors";
+  @use "node_modules/@iroco/ui/dist/scss/constants";
+  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @import "node_modules/@iroco/ui/dist/scss/button";
 
   .signup {
     text-align: center;

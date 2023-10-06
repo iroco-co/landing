@@ -36,7 +36,7 @@
 </div>
 
 <style lang="scss">
-  @import "node_modules/@iroco/ui/scss/containers";
+  @import "node_modules/@iroco/ui/dist/scss/containers";
   .mail {
     display: flex;
   }

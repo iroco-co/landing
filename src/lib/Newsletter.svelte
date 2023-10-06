@@ -3,6 +3,7 @@
     <div class="newsletter__container__subscription">
       <div class="newsletter__container__subscription__iframe">
         <iframe
+          title="Mailchimp"
           data-w-type="embedded"
           src="https://xq520.mjt.lu/wgt/xq520/m4m/form?c=75474af6"
           width="100%"
@@ -13,10 +14,10 @@
 </div>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/scss/colors";
-  @use "node_modules/@iroco/ui/scss/constants";
-  @use "node_modules/@iroco/ui/scss/fonts";
-  @import "node_modules/@iroco/ui/scss/containers";
+  @use "node_modules/@iroco/ui/dist/scss/colors";
+  @use "node_modules/@iroco/ui/dist/scss/constants";
+  @use "node_modules/@iroco/ui/dist/scss/fonts";
+  @import "node_modules/@iroco/ui/dist/scss/containers";
 
   .newsletter {
     max-width: 1024px;

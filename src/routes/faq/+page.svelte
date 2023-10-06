@@ -1,7 +1,8 @@
 <script lang="ts">
+  /* eslint svelte/no-at-html-tags: "off" */
   import { _ } from "svelte-i18n";
   import Chart from "../../lib/Chart.svelte";
-  let windowWidth;
+  let windowWidth: number;
 </script>
 
 <svelte:window bind:innerWidth={windowWidth} />
@@ -320,10 +321,10 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/scss/colors";
-  @use "node_modules/@iroco/ui/scss/constants";
-  @import "node_modules/@iroco/ui/scss/containers";
-  @import "node_modules/@iroco/ui/scss/button";
+  @use "node_modules/@iroco/ui/dist/scss/colors";
+  @use "node_modules/@iroco/ui/dist/scss/constants";
+  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @import "node_modules/@iroco/ui/dist/scss/button";
 
   .faq {
     display: flex;

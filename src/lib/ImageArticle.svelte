@@ -31,9 +31,9 @@
 </div>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/scss/colors";
-  @import "node_modules/@iroco/ui/scss/containers";
-  @import "node_modules/@iroco/ui/scss/button";
+  @use "node_modules/@iroco/ui/dist/scss/colors";
+  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @import "node_modules/@iroco/ui/dist/scss/button";
   .imagearticle {
     display: flex;
     justify-content: space-around;
