@@ -3,7 +3,7 @@
     <div class="newsletter__container__subscription">
       <div class="newsletter__container__subscription__iframe">
         <iframe
-          title="Mailchimp"
+          title="Mailjet"
           data-w-type="embedded"
           src="https://xq520.mjt.lu/wgt/xq520/m4m/form?c=75474af6"
           width="100%"
