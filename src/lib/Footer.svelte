@@ -60,7 +60,7 @@
     </div>
   </div>
   <p class="copyright">
-    © {$_("footer.other.copyrights")}
+    {$_("footer.other.copyrights")}
   </p>
 </footer>
 
