@@ -22,17 +22,17 @@
         <div class="footer__contact__container__icons">
           <span class="footer__contact__container__icons__icon">
             <a href="https://github.com/iroco-co/landing">
-              <Icon data={github} scale={1.5} style="color: {Color.green};" />
+              <Icon label="github" data={github} scale={1.5} style="color: {Color.green};" />
             </a>
           </span>
           <span class="footer__contact__container__icons__icon">
             <a href="https://www.linkedin.com/company/irocodigital/">
-              <Icon data={linkedin} scale={1.5} style="color: {Color.green};" />
+              <Icon label="linkedin" data={linkedin} scale={1.5} style="color: {Color.green};" />
             </a>
           </span>
           <span class="footer__contact__container__icons__icon">
             <a href="https://twitter.com/IrocoDigital">
-              <Icon data={twitter} scale={1.5} style="color: {Color.green}; " />
+              <Icon label="twitter" data={twitter} scale={1.5} style="color: {Color.green}; " />
             </a>
           </span>
           <span class="footer__contact__container__icons__icon">
