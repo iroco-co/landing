@@ -9,7 +9,7 @@
   <div class="footer">
     <div class="footer__contact">
       <div class="footer__contact__container">
-        <h3>{$_("footer.socialmedia")}</h3>
+        <h2>{$_("footer.socialmedia")}</h2>
         <div>
           <a href="/newsletter">{$_("footer.newsletter")}</a>
         </div>
@@ -59,7 +59,7 @@
       </div>
     </div>
     <div class="footer__other">
-      <h3>{$_("footer.menu.title")}</h3>
+      <h2>{$_("footer.menu.title")}</h2>
       <ul class="no-bullet">
         <li>
           <a href="https://jobs.makesense.org/projects/iroco-364/"
@@ -88,8 +88,9 @@
     justify-content: center;
     gap: 3em;
 
-    h3 {
+    h2 {
       color: colors.$darkBeige;
+      font-size: 120%;
     }
 
     a,
