@@ -1,8 +1,8 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
-  import { IconMastodon, Color } from "@iroco/ui";
   import Icon from "svelte-awesome";
   import { twitter, envelope, linkedin, github } from "svelte-awesome/icons";
+  import mastodon from "$lib/mastodon";
 </script>
 
 <footer>
@@ -15,7 +15,7 @@
         </div>
         <div>
           <a href="mailto:hello@iroco.fr">
-            <Icon data={envelope} style="color: {Color.green};" />
+            <Icon data={envelope} class="greenIcon" />
             {$_("footer.mailto")}
           </a>
         </div>
@@ -26,7 +26,7 @@
                 label="github"
                 data={github}
                 scale={1.5}
-                style="color: {Color.green};"
+                class="greenIcon"
               />
             </a>
           </span>
@@ -36,7 +36,7 @@
                 label="linkedin"
                 data={linkedin}
                 scale={1.5}
-                style="color: {Color.green};"
+                class="greenIcon"
               />
             </a>
           </span>
@@ -46,13 +46,18 @@
                 label="twitter"
                 data={twitter}
                 scale={1.5}
-                style="color: {Color.green}; "
+                class="greenIcon"
               />
             </a>
           </span>
           <span class="footer__contact__container__icons__icon">
             <a rel="me" href="https://mastodon.social/@iroco">
-              <IconMastodon fill={Color.green} width="1.5em" height="1.5em" />
+              <Icon
+                label="mastodon"
+                data={mastodon}
+                scale={1.5}
+                class="greenIcon"
+              />
             </a>
           </span>
         </div>
@@ -82,6 +87,10 @@
 <style lang="scss">
   @use "node_modules/@iroco/ui/dist/scss/colors";
   @import "node_modules/@iroco/ui/dist/scss/containers";
+
+  :global svg.greenIcon {
+    fill: colors.$green !important;
+  }
 
   .footer {
     display: flex;
