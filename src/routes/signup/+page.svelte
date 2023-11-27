@@ -136,9 +136,6 @@
                 text-align: center;
               }
             }
-            &__elements {
-              color: colors.$green;
-            }
           }
         }
         &__buttons {

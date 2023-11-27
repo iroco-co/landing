@@ -41,7 +41,7 @@
     "svelte-sitemap": "^2.6.0"
   },
   "dependencies": {
-    "@iroco/ui": "^0.62.2",
+    "@iroco/ui": "^0.62.3",
     "svelte-awesome": "^3.0.1",
     "svelte-i18n": "<3.7.3"
   },
