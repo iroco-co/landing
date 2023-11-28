@@ -355,6 +355,7 @@
           "rest": "Le reste sert à payer nos autres frais et à rémunérer l'équipe d'Iroco."
         },
         "chart": {
+          "title": "Diagramme de répartition des coûts de service pour Iroco",
           "tax": {
             "title": "TVA",
             "percentage": ": 20% (soit 16% HT)"

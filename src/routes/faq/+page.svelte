@@ -1,7 +1,7 @@
 <script lang="ts">
   /* eslint svelte/no-at-html-tags: "off" */
   import { _ } from "svelte-i18n";
-  import Chart from "../../lib/Chart.svelte";
+  import SubscriptionChart from "$lib/SubscriptionChart.svelte";
   let windowWidth: number;
 </script>
 
@@ -227,7 +227,7 @@
           <li>{$_("faq.questions.subscription.list.deployment")}</li>
           <li>{$_("faq.questions.subscription.list.rest")}</li>
         </ul>
-        <Chart size={Math.min((windowWidth * 0.8) / 2, 500)} />
+        <SubscriptionChart size={Math.min((windowWidth * 0.8) / 2, 500)} />
       </div>
       <div id="account" class="faq__q-a__account question">
         <h3>

@@ -11,7 +11,7 @@
     role="img"
     width={(5 * size) / 3}
   >
-    <title>Subscription Chart</title>
+    <title>{$_("faq.questions.subscription.chart.title")}</title>
     <g data-z-index="3">
       <g data-z-index=".1" stroke-linejoin="round">
         <path
@@ -72,7 +72,7 @@
           y="16"
           transform="translate(479 176)"
           fill="#f2ebe3"
-          font-fontSize="1em"
+          font-size="1em"
         >
           <tspan>{$_("faq.questions.subscription.chart.payment.title")}</tspan>
           &nbsp;{$_("faq.questions.subscription.chart.payment.percentage")}
@@ -85,7 +85,7 @@
           y="16"
           transform="translate(182 347)"
           fill="#f2ebe3"
-          font-fontSize="1rem"
+          font-size="1rem"
         >
           <tspan>{$_("faq.questions.subscription.chart.hosting.title")}</tspan>
           &nbsp;{$_("faq.questions.subscription.chart.hosting.percentage")}
@@ -98,7 +98,7 @@
           y="16"
           transform="translate(90 85)"
           fill="#f2ebe3"
-          font-fontSize="1rem"
+          font-size="1rem"
         >
           <tspan>{$_("faq.questions.subscription.chart.iroco.title")}</tspan>
           &nbsp;{$_("faq.questions.subscription.chart.iroco.percentage")}
