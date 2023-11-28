@@ -1,10 +1,10 @@
 <script lang="ts">
-  export let size: number;
-  export let title: string = null;
+  export let size: string;
+  export let title: string | null = null;
 </script>
 
 <span class="green-host illustration">
-  <svg viewBox="0 0 146.13 229.94" height={size}>
+  <svg viewBox="0 0 146.13 229.94" height={size} role="img">
     <title>Green Host</title>
     <rect
       stroke-miterlimit="10"

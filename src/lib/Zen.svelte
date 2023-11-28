@@ -8,6 +8,7 @@
     height="106"
     viewBox="0 0 211 106"
     fill="none"
+    role="img"
     xmlns="http://www.w3.org/2000/svg"
   >
     <title>Zen</title>

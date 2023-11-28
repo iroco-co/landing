@@ -1,10 +1,10 @@
 <script lang="ts">
-  export let size: number;
+  export let size: string;
   export let title: string;
 </script>
 
 <span class="privacy illustration">
-  <svg viewBox="0 0 146.13 229.94" height={size}>
+  <svg viewBox="0 0 146.13 229.94" height={size} role="img">
     <title>Privacy</title>
     <g>
       <polyline

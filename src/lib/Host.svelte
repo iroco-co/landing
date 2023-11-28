@@ -1,9 +1,9 @@
 <script lang="ts">
-  export let size = 312;
+  export let size = "312px";
 </script>
 
 <span class="host">
-  <svg width="147" viewBox="0 0 147 312" height={size} fill="none">
+  <svg width="147" viewBox="0 0 147 312" height={size} fill="none" role="img">
     <title>Server</title>
     <g clip-path="url(#clip0_4021_44990)">
       <path

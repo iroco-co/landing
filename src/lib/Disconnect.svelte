@@ -8,6 +8,7 @@
     height="189"
     viewBox="0 0 189 189"
     fill="none"
+    role="img"
     xmlns="http://www.w3.org/2000/svg"
   >
     <title>Disconnect</title>

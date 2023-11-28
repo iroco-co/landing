@@ -9,6 +9,7 @@
     height={size}
     viewBox="0 0 149 151"
     fill="none"
+    role="img"
     xmlns="http://www.w3.org/2000/svg"
   >
     <title>Security</title>

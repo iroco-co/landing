@@ -1,10 +1,10 @@
 <script lang="ts">
-  export let size: number;
+  export let size: string;
   export let title: string;
 </script>
 
 <span class="energy illustration">
-  <svg viewBox="0 0 134.87 232.95" height={size}>
+  <svg viewBox="0 0 134.87 232.95" height={size} role="img">
     <title>Energy</title>
     <rect
       fill="#00d692"

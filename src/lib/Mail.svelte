@@ -6,7 +6,7 @@
 </script>
 
 <div class="mail illustration {orientation}">
-  <svg viewBox="0 0 58.96 85.92" height={size}>
+  <svg viewBox="0 0 58.96 85.92" height={size} role="img">
     <title>Mail</title>
     <rect
       x="1.95"

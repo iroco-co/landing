@@ -8,6 +8,7 @@
     height="202"
     viewBox="0 0 103 202"
     fill="none"
+    role="img"
     xmlns="http://www.w3.org/2000/svg"
   >
     <title>User Experience</title>

@@ -8,6 +8,7 @@
     preserveAspectRatio="xMaxYMin meet"
     viewBox="0 0 800 400"
     height={size}
+    role="img"
     width={(5 * size) / 3}
   >
     <title>Subscription Chart</title>
