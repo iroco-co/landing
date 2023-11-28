@@ -7,7 +7,7 @@
 
 <div class="mail illustration {orientation}">
   <svg viewBox="0 0 58.96 85.92" height={size} role="img">
-    <title>Mail</title>
+    <title>Mail Icon</title>
     <rect
       x="1.95"
       y="28.91"

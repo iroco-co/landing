@@ -18,7 +18,7 @@
 
 <section class="signup">
   <div class="signup__offer">
-    <h2>{$_("signup.offer.title")}</h2>
+    <h1>{$_("signup.offer.title")}</h1>
     <div class="signup__offer__card">
       <div class="signup__offer__card__svglistgroup">
         <div class="signup__offer__card__svglistgroup__icon">
@@ -62,7 +62,7 @@
           {$_("signup.offer.buttons.details")}
         </Button>
         <div class="signup__offer__card__buttons__more" class:displayed={more}>
-          <h3>{$_("faq.questions.offercontent.title")}</h3>
+          <h2>{$_("faq.questions.offercontent.title")}</h2>
           <p>{$_("faq.questions.offercontent.p")}</p>
           <ul>
             <li>{$_("faq.questions.offercontent.list.address")}</li>
