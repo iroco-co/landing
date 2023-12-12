@@ -24,6 +24,10 @@
       "title": "Software",
       "content": "Iroco services run entirely on open-source software. Apart from the VMware virtualisation layer in production: <ul><li>Operation system : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>SMTP Server: <a href=\"http://www.postfix.org/\">Postfix</a></li><li>IMAP Server, calendars/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Web server: <a href=\"https://nginx.org\">Nginx</a></li></ul>"
     },
+    "audits": {
+      "title": "Audits",
+      "content": "You can find <a href=\"https://audits.iroco.co\">various audits</a> of the site carried out with frago. We have initiated an accessibility audit following the RGAA (WCAG) criteria. You can follow the improvements to the site's accessibility on the <a href=\"https://audits.iroco.co\">audits.iroco.co</a> pages. We will also be adding the RGESN (green IT) audit in the near future."
+    },
     "deploy": {
       "title": "Deployment",
       "content": "Our deployment system is based on <a href=\"https://docs.ansible.com\">Ansible</a>."

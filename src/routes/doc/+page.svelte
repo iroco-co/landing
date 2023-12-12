@@ -27,6 +27,9 @@
     <h2>{$_("doc.software.title")}</h2>
     {@html $_("doc.software.content")}
 
+    <h2>{$_("doc.audits.title")}</h2>
+    {@html $_("doc.audits.content")}
+
     <h2>{$_("doc.deploy.title")}</h2>
     {@html $_("doc.deploy.content")}
 

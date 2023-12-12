@@ -24,6 +24,10 @@
       "title": "Caractéristiques logicielles",
       "content": "Les services Iroco fonctionnent uniquement grâce à des logiciels libres. A part la couche de virtualisation VMware en production : <ul><li>Système d'exploitation : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>Serveur SMTP : <a href=\"http://www.postfix.org/\">Postfix</a></li><li>Serveur IMAP, calendriers/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Serveur Web : <a href=\"https://nginx.org\">Nginx</a></li></ul>"
     },
+    "audits": {
+      "title": "Audits du site",
+      "content": "Vous pouvez retrouver <a href=\"https://audits.iroco.co\">différents audits</a> du site réalisés avec <a href=\"https://lowdit.github.io/frago/\">frago</a>. Nous avons initié un audit d'accessibilité suivant les critères RGAA. Vous pourrez suivre les améliorations de l'accessibilité et de l'écoconception du site sur les pages <a href=\"https://audits.iroco.co\">audits.iroco.co</a>. Nous ajouterons dans un futur proche l'audit RGESN."
+    },
     "deploy": {
       "title": "Déploiement",
       "content": "Notre système de déploiement est basé sur <a href=\"https://docs.ansible.com\">Ansible</a>."
