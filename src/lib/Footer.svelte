@@ -1,7 +1,7 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import Icon from "svelte-awesome";
-  import { twitter, envelope, linkedin, github } from "svelte-awesome/icons";
+  import { envelope, linkedin, github, cloud } from "svelte-awesome/icons";
   import mastodon from "$lib/mastodon";
 </script>
 
@@ -41,10 +41,10 @@
             </a>
           </span>
           <span class="footer__contact__container__icons__icon">
-            <a href="https://twitter.com/IrocoDigital">
+            <a href="https://bsky.app/profile/iroco.co">
               <Icon
-                label="twitter"
-                data={twitter}
+                label="bluesky"
+                data={cloud}
                 scale={1.5}
                 class="greenIcon"
               />
@@ -125,11 +125,6 @@
         }
       }
     }
-  }
-
-  :global(.feather-mail) {
-    vertical-align: text-bottom;
-    margin-right: 5px;
   }
 
   .copyright {
