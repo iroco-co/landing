@@ -22,7 +22,7 @@ const config = {
         "default-src": ["self"],
         "connect-src": ["https://matomo.iroco.co"],
         "script-src": ["self", "https://matomo.iroco.co"],
-        "img-src": ["self", "https://matomo.iroco.co"],
+        "img-src": ["self", "https://matomo.iroco.co", "https://www.abuseipdb.com"],
         "style-src": ["self"],
         "frame-ancestors": ["self"],
         "frame-src": ["self", "https://xq520.mjt.lu"],
