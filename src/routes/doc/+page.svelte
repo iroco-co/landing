@@ -1,7 +1,7 @@
 <script lang="ts">
   /* eslint svelte/no-at-html-tags: "off" */
   import { _ } from "svelte-i18n";
-  import { Color } from '@iroco/ui';
+  import { Color } from "@iroco/ui";
   let windowWidth: number;
 </script>
 
@@ -33,8 +33,15 @@
       {@html $_("doc.security.content")}
     </div>
     <div class="doc__content__security__image">
-      <a href="https://www.abuseipdb.com/user/136267" title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks">
-        <img src="https://www.abuseipdb.com/contributor/136267.svg" alt="AbuseIPDB Contributor Badge" style="width: 286px;background: {Color.green} ;padding: 5px;margin-top: 10px;">
+      <a
+        href="https://www.abuseipdb.com/user/136267"
+        title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks"
+      >
+        <img
+          src="https://www.abuseipdb.com/contributor/136267.svg"
+          alt="AbuseIPDB Contributor Badge"
+          style="width: 286px;background: {Color.green} ;padding: 5px;margin-top: 10px;"
+        />
       </a>
     </div>
 
