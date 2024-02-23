@@ -311,7 +311,7 @@
           {$_("faq.questions.cookies.cnil")}
         </p>
         <iframe
-          height="5em"
+          height="270px"
           title="matomo"
           src="https://matomo.iroco.co/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=211d28&fontColor=f2ebe3&fontSize=&fontFamily=Arial"
         />
