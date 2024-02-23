@@ -21,15 +21,11 @@ const config = {
       directives: {
         "default-src": ["self"],
         "connect-src": ["matomo.iroco.co"],
-        "script-src": ["self", "matomo.iroco.co","iroco.co"],
-        "img-src": [
-          "self",
-          "matomo.iroco.co",
-          "www.abuseipdb.com",
-        ],
+        "script-src": ["self", "matomo.iroco.co", "iroco.co"],
+        "img-src": ["self", "matomo.iroco.co", "www.abuseipdb.com"],
         "style-src": ["self"],
         "frame-ancestors": ["self"],
-        "frame-src": ["self", "xq520.mjt.lu","matomo.iroco.co"],
+        "frame-src": ["self", "xq520.mjt.lu", "matomo.iroco.co"],
       },
     },
   },
