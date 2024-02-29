@@ -119,18 +119,6 @@
       "title": "Why do we need trustworthy email?",
       "p": "We send and receive email everyday - serious email, light and fun email, and sometimes really important email. We entrust our inbox with a lot of information although we don't always know who has access to it, or what the physical infrastructure running it looks like. We believe that you should trust your inbox - that's why we offer open source, privacy-oriented and eco-friendly email."
     },
-    "mail": {
-      "title": "Why the choice to go to email?",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
-    },
-    "app": {
-      "title": "The desire for a responsible and ethical application",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
-      "box": {
-        "left": "Ethical and green server",
-        "right": "Practical and respectful"
-      }
-    },
     "commitments": {
       "title": "Our commitments",
       "sections": {

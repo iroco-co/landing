@@ -22,7 +22,7 @@
     },
     "security": {
       "title": "Sécurité",
-      "content": "Le serveur de mail est protégé par le détecteur d'intrusion <a href=\"https://github.com/fail2ban/fail2ban\">fail2ban</a>. Fail2ban est relié au site <a href=\"https://www.abuseipdb.com\">AbuseIPDB</a> qui sert à indiquer les adresses IP malveillantes sur internet. Nos serveurs téléchargent ensuite la liste pour mettre à jour nos pare-feu."
+      "content": "Le serveur de mail est protégé par le détecteur d'intrusion <a href=\"https://github.com/fail2ban/fail2ban\">fail2ban</a>. Fail2ban est relié au site <a href=\"https://www.abuseipdb.com\">AbuseIPDB</a> qui sert à indiquer les adresses IP malveillantes sur internet. Nos serveurs téléchargent ensuite la liste pour mettre à jour nos pare-feux."
     },
     "software": {
       "title": "Caractéristiques logicielles",
@@ -118,18 +118,6 @@
     "beginning": {
       "title": "Un mail responsable, pourquoi ?",
       "p": "Nous envoyons et recevons tous les jours des mails : certains utiles, d'autres futiles ; certains légers, d'autres beaucoup plus sérieux. Nous confions beaucoup de choses à notre boîte mail, sans toujours savoir qui a accès à ces informations, ni à quoi ressemblent les serveurs qui permettent de la faire tourner. Parce que nous devons avoir confiance en notre boîte mail, nous proposons un service de mail transparent, respectueux de vos données et de la planète et hébergé en France. Un mail responsable."
-    },
-    "mail": {
-      "title": "Le numérique, c'est pas (obligatoirement) fantastique",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
-    },
-    "app": {
-      "title": "L'envie d'une application responsable et éthique",
-      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
-      "box": {
-        "left": "Serveur éthique et vert",
-        "right": "Pratique et respectueux"
-      }
     },
     "roadmap": {
       "title": "Feuille de route",
