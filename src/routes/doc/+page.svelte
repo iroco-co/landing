@@ -1,7 +1,6 @@
 <script lang="ts">
   /* eslint svelte/no-at-html-tags: "off" */
   import { _ } from "svelte-i18n";
-  import { Color } from "@iroco/ui";
   let windowWidth: number;
 </script>
 
@@ -40,7 +39,6 @@
         <img
           src="https://www.abuseipdb.com/contributor/136267.svg"
           alt="AbuseIPDB Contributor Badge"
-          style="width: 286px;background: {Color.green} ;padding: 5px;margin-top: 10px;"
         />
       </a>
     </div>
@@ -71,6 +69,16 @@
 
     &__content {
       width: 70%;
+      &__security {
+        &__image {
+          a > img {
+            width: 286px;
+            background: colors.$green;
+            padding: 5px;
+            margin-top: 10px;
+          }
+        }
+      }
     }
   }
 </style>
