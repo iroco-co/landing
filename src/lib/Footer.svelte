@@ -1,87 +1,87 @@
 <script lang="ts">
-    import {_} from "svelte-i18n";
-    import Icon from "svelte-awesome";
-    import {cloud, envelope, github, linkedin} from "svelte-awesome/icons";
-    import mastodon from "$lib/mastodon";
+  import { _ } from "svelte-i18n";
+  import Icon from "svelte-awesome";
+  import { cloud, envelope, github, linkedin } from "svelte-awesome/icons";
+  import mastodon from "$lib/mastodon";
 </script>
 
 <footer>
-    <div class="footer">
-        <div class="footer__contact">
-            <div class="footer__contact__container">
-                <h1>{$_("footer.socialmedia")}</h1>
-                <div>
-                    <a href="/newsletter">{$_("footer.newsletter")}</a>
-                </div>
-                <div>
-                    <a href="mailto:hello@iroco.fr">
-                        <Icon data={envelope} class="greenIcon"/>
-                        {$_("footer.mailto")}
-                    </a>
-                </div>
-                <div class="footer__contact__container__icons">
+  <div class="footer">
+    <div class="footer__contact">
+      <div class="footer__contact__container">
+        <h1>{$_("footer.socialmedia")}</h1>
+        <div>
+          <a href="/newsletter">{$_("footer.newsletter")}</a>
+        </div>
+        <div>
+          <a href="mailto:hello@iroco.fr">
+            <Icon data={envelope} class="greenIcon" />
+            {$_("footer.mailto")}
+          </a>
+        </div>
+        <div class="footer__contact__container__icons">
           <span class="footer__contact__container__icons__icon">
             <a href="https://github.com/iroco-co/landing">
               <Icon
-                      label="github"
-                      data={github}
-                      scale={1.5}
-                      class="greenIcon"
+                label="github"
+                data={github}
+                scale={1.5}
+                class="greenIcon"
               />
             </a>
           </span>
-                    <span class="footer__contact__container__icons__icon">
+          <span class="footer__contact__container__icons__icon">
             <a href="https://www.linkedin.com/company/irocodigital/">
               <Icon
-                      label="linkedin"
-                      data={linkedin}
-                      scale={1.5}
-                      class="greenIcon"
+                label="linkedin"
+                data={linkedin}
+                scale={1.5}
+                class="greenIcon"
               />
             </a>
           </span>
-                    <span class="footer__contact__container__icons__icon">
+          <span class="footer__contact__container__icons__icon">
             <a href="https://bsky.app/profile/iroco.co">
               <Icon
-                      label="bluesky"
-                      data={cloud}
-                      scale={1.5}
-                      class="greenIcon"
+                label="bluesky"
+                data={cloud}
+                scale={1.5}
+                class="greenIcon"
               />
             </a>
           </span>
-                    <span class="footer__contact__container__icons__icon">
+          <span class="footer__contact__container__icons__icon">
             <a rel="me" href="https://mastodon.social/@iroco">
               <Icon
-                      label="mastodon"
-                      data={mastodon}
-                      scale={1.5}
-                      class="greenIcon"
+                label="mastodon"
+                data={mastodon}
+                scale={1.5}
+                class="greenIcon"
               />
             </a>
           </span>
-                </div>
-            </div>
         </div>
-        <div class="footer__other">
-            <h1>{$_("footer.menu.title")}</h1>
-            <ul class="no-bullet">
-                <li>
-                    <a href="https://jobs.makesense.org/projects/iroco-364/"
-                    >{$_("footer.other.job")}</a
-                    >
-                </li>
-                <li><a href="/doc">{$_("footer.other.doc")}</a></li>
-                <li><a href="https://blog.iroco.co/">{$_("footer.other.blog")}</a></li>
-                <li><a href="/legal">{$_("footer.other.legal")}</a></li>
-                <li><a href="/faq">{$_("footer.other.faq")}</a></li>
-                <li><a href="/terms">{$_("footer.other.terms")}</a></li>
-            </ul>
-        </div>
+      </div>
     </div>
-    <p class="copyright">
-        {$_("footer.other.copyrights")}
-    </p>
+    <div class="footer__other">
+      <h1>{$_("footer.menu.title")}</h1>
+      <ul class="no-bullet">
+        <li>
+          <a href="https://jobs.makesense.org/projects/iroco-364/"
+            >{$_("footer.other.job")}</a
+          >
+        </li>
+        <li><a href="/doc">{$_("footer.other.doc")}</a></li>
+        <li><a href="https://blog.iroco.co/">{$_("footer.other.blog")}</a></li>
+        <li><a href="/legal">{$_("footer.other.legal")}</a></li>
+        <li><a href="/faq">{$_("footer.other.faq")}</a></li>
+        <li><a href="/terms">{$_("footer.other.terms")}</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copyright">
+    {$_("footer.other.copyrights")}
+  </p>
 </footer>
 
 <style lang="scss">
