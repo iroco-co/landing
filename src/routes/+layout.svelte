@@ -26,26 +26,4 @@
 <style lang="scss">
   @use "node_modules/@iroco/ui/dist/scss/colors";
 
-  :global(.navigation) {
-    position: fixed;
-    top: 0;
-    background-color: colors.$darkBlue;
-    z-index: 1;
-    :global(.nav__topbar__item a):not(.iroco-ui-button) {
-      font-size: 1.5em;
-      color: colors.$beige;
-    }
-  }
-
-  :global(.navigation--mobile) {
-    :global(.nav__topbar__item a) {
-      color: colors.$beige;
-      font-size: 1.5em;
-    }
-  }
-
-  :global(.navigation--mobile) {
-    border-bottom: none;
-    background-color: colors.$darkBlue;
-  }
 </style>
