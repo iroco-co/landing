@@ -1,12 +1,11 @@
 <script>
   import "../i18n";
-  import { _, isLoading } from "svelte-i18n";
+  import {_} from "svelte-i18n";
   import Footer from "../lib/Footer.svelte";
-  import { Navigation, NavigationItem } from "@iroco/ui";
+  import {Navigation, NavigationItem} from "@iroco/ui";
   import "../app.scss";
 </script>
 
-{#if !$isLoading}
   <Navigation
     navigationItems={[
       new NavigationItem($_("header.about"), "/about"),
@@ -21,7 +20,6 @@
     <slot />
   </main>
   <Footer />
-{/if}
 
 <style lang="scss">
   @use "node_modules/@iroco/ui/dist/scss/colors";
