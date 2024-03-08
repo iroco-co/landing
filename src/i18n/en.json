@@ -418,6 +418,10 @@
         "title": "I can't access my account",
         "p": "If you are unable to access your Iroco account, first make sure you are using the correct email address and password. If you have forgotten your password, select 'Forgot your password?' at login and use the reset code provided to you at registration to fill in the fields indicated. If you signed up for our free trial and did not upgrade to a paid plan before the end of the trial period, your account has been automatically deactivated and you will no longer be able to access it. If your account is active and you still can't access it, you can contact us by email at &#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#105;&#114;&#111;&#099;&#111;&#046;&#102;&#114; or on one of our social networks."
       },
+      "tor": {
+        "title": "Why I have this error: \"We do not authorise registration with a TOR address\"?",
+        "p": "The privacy of our users is one of our commitments. However, we have been confronted with abuses of our service by spam/phishing organisations. The impact is as follows: <ul><li>The recipients' mail servers receive a large volume of fraudulent messages;</li><li>The recipients of these messages are defrauded;</li><li>Third-party servers lower the trust rating of Iroco servers;</li><li>Legitimate Iroco users can no longer send messages to these third-party servers. These blockages can last several weeks.</li></ul>To avoid these inconveniences, we have deactivated registration with TOR."
+      },
       "domainname": {
         "title": "Is it possible to use a custom domain name?",
         "p": "This will be possible very soon! For the moment, we only offer the domain names iroco.io and iroco.co, but we are working on the integration of custom domain names to allow you to use your own domain name with our services. This feature should be available in a few weeks."

@@ -73,6 +73,9 @@
         <li>
           <a href="#invalid">{$_("faq.questions.invalid.title")}</a>
         </li>
+        <li>
+          <a href="#tor">{$_("faq.questions.tor.title")}</a>
+        </li>
       </ul>
       <h2>{$_("faq.category3")}</h2>
       <ul class="no-bullet">
@@ -296,6 +299,12 @@
           <a href="#htop">{$_("faq.questions.invalid.title")}</a>
         </h3>
         <p>{@html $_("faq.questions.invalid.p")}</p>
+      </div>
+      <div id="tor" class="faq__q-a__tor question">
+        <h3>
+          <a href="#htop">{$_("faq.questions.tor.title")}</a>
+        </h3>
+        <p>{@html $_("faq.questions.tor.p")}</p>
       </div>
       <div id="cookies" class="faq__q-a__cookies question">
         <h3><a href="#htop">{$_("faq.questions.cookies.title")}</a></h3>
