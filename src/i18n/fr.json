@@ -192,7 +192,7 @@
     "offer": {
       "title": "Notre offre",
       "list": {
-        "pricetaxincluded": "30 jours d'essai gratuits puis 3,60 € par mois",
+        "pricetaxincluded": "3,60 € par mois",
         "priceprecisions": "(soit 3,00 € hors taxes + 0,60 € TVA à 20%)",
         "email": "Une adresse mail",
         "storage": "5 Gigaoctets de stockage",
@@ -265,7 +265,7 @@
       },
       "freetrial": {
         "title": "Pourquoi avez-vous supprimé la période d'essai gratuite d'un mois ?",
-        "p": "Nous avions ajouté cette fonctionnalité pour permettre à des utilisateurs de tester nos services. Malheureusement, la grande majorité des utilisateurs de cette période d'essai ont créé des boites mail pour envoyer des messages non sollicités ou d'hameçonnage."
+        "p": "Nous avions ajouté cette fonctionnalité pour permettre de tester nos services. Malheureusement, la grande majorité des utilisateurs de cette période d'essai ont créé des boites mail pour envoyer des messages non sollicités ou d'hameçonnage."
       },
       "offer": {
         "title": "Votre offre est-elle sans engagement ?",
