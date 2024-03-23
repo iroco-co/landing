@@ -4,6 +4,7 @@
   import Icon from "svelte-awesome";
   import { chevronRight, chevronDown } from "svelte-awesome/icons";
   import Mail from "../../lib/Mail.svelte";
+  import { page } from "$app/stores";
 
   let more = false;
 
@@ -47,7 +48,7 @@
 
       <div class="signup__offer__card__buttons">
         <a
-          href="https://app.iroco.co/signup/"
+          href={`https://app.${$page.url.host}/signup/`}
           class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"
         >
           <Icon data={chevronRight} color={Color.nightBlue} />
