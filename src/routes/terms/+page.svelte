@@ -412,17 +412,27 @@
     </p>
     <ul>
       <li>
+        vérifications par IROCO, par ses propres moyens ou en ayant recours à
+        des prestataires externes, que l’adresse IP de l’utilisateur n’est pas
+        référencée auprès de AbuseIPDB comme étant une adresse malveillante; en
+        cas de recours à un ou des prestataires externes, ces prestataires
+        disposent d'un accès limité aux données de l'utilisateur, dans le cadre
+        de l'exécution de ces prestations, et ont une obligation contractuelle
+        de les utiliser en conformité avec les dispositions de la réglementation
+        applicable en matière protection des données à caractère personnel;
+      </li>
+      <li>
         quand l&apos;utilisateur utilise les services de paiement, pour la mise
-        en œuvre de ces services, la Plateforme est en relation avec des
-        sociétés bancaires et financières tierces avec lesquelles elle a passé
-        des contrats&nbsp;;
+        en œuvre de ces services, IROCO est en relation avec des sociétés
+        bancaires et financières tierces avec lesquelles elle a passé des
+        contrats&nbsp;;
       </li>
       <li>
         quand l&apos;utilisateur autorise le site web d&apos;un tiers à accéder
         à ses données&nbsp;;
       </li>
       <li>
-        quand la Plateforme recourt aux services de prestataires pour fournir
+        quand IROCO recourt aux services de prestataires pour fournir
         l&apos;assistance utilisateurs, les services de paiement. Ces
         prestataires disposent d&apos;un accès limité aux données de
         l&apos;utilisateur, dans le cadre de l&apos;exécution de ces
@@ -431,34 +441,32 @@
         matière protection des données à caractère personnel&nbsp;;
       </li>
       <li>
-        si la loi l&apos;exige, la Plateforme peut effectuer la transmission de
-        données pour donner suite aux réclamations présentées contre la
-        Plateforme et se conformer aux procédures administratives et
-        judiciaires&nbsp;;
+        si la loi l&apos;exige, IROCO peut effectuer la transmission de données
+        pour donner suite aux réclamations présentées contre la Plateforme et se
+        conformer aux procédures administratives et judiciaires&nbsp;;
       </li>
       <li>
-        si la Plateforme est impliquée dans une opération de fusion,
-        acquisition, cession d&apos;actifs ou procédure de redressement
-        judiciaire, elle pourra être amenée à céder ou partager tout ou partie
-        de ses actifs, y compris les données à caractère personnel. Dans ce cas,
-        les utilisateurs seraient informés, avant que les données à caractère
-        personnel ne soient transférées à une tierce partie.
+        si IROCO est impliquée dans une opération de fusion, acquisition,
+        cession d&apos;actifs ou procédure de redressement judiciaire, elle
+        pourra être amenée à céder ou partager tout ou partie de ses actifs, y
+        compris les données à caractère personnel. Dans ce cas, les utilisateurs
+        seraient informés, avant que les données à caractère personnel ne soient
+        transférées à une tierce partie.
       </li>
     </ul>
     <h3 class="sub-article">15.4 Transfert de données personnelles</h3>
     <p>
-      La Plateforme s'interdit de transférer ses données en dehors de France
-      sans l'accord préalable de l'acheteur.
+      IROCO s'interdit de transférer ses données en dehors de France sans
+      l'accord préalable de l'acheteur.
     </p>
     <h3 class="sub-article">15.5 Sécurité et confidentialité</h3>
     <p>
-      La Plateforme met en œuvre des mesures organisationnelles, techniques,
-      logicielles et physiques en matière de sécurité du numérique pour protéger
-      les données personnelles contre les altérations, destructions et accès non
-      autorisés. Toutefois, il est à signaler qu&apos;internet n&apos;est pas un
-      environnement complètement sécurisé et la Plateforme ne peut pas garantir
-      la sécurité de la transmission ou du stockage des informations sur
-      internet.
+      IROCO met en œuvre des mesures organisationnelles, techniques, logicielles
+      et physiques en matière de sécurité du numérique pour protéger les données
+      personnelles contre les altérations, destructions et accès non autorisés.
+      Toutefois, il est à signaler qu&apos;internet n&apos;est pas un
+      environnement complètement sécurisé et IROCO ne peut pas garantir la
+      sécurité de la transmission ou du stockage des informations sur internet.
     </p>
     <h3 class="sub-article">15.6 Mise en œuvre des droits des utilisateurs</h3>
     <p>
@@ -480,15 +488,13 @@
         ils peuvent exercer leur droit d&apos;accès, pour connaître les données
         personnelles les concernant, en écrivant à l&apos;adresse électronique
         suivante&nbsp;: support@iroco.fr&nbsp;. Dans ce cas, avant la mise en
-        œuvre de ce droit, la Plateforme peut demander une preuve de
-        l&apos;identité de l&apos;utilisateur afin d&apos;en vérifier
-        l&apos;exactitude&nbsp;;
+        œuvre de ce droit, IROCO peut demander une preuve de l&apos;identité de
+        l&apos;utilisateur afin d&apos;en vérifier l&apos;exactitude&nbsp;;
       </li>
       <li>
-        si les données à caractère personnel détenues par la Plateforme sont
-        inexactes, ils peuvent demander la mise à jour des informations, en
-        écrivant à l&apos;adresse électronique suivante&nbsp;: support@iroco.fr
-        ;
+        si les données à caractère personnel détenues par IROCO sont inexactes,
+        ils peuvent demander la mise à jour des informations, en écrivant à
+        l&apos;adresse électronique suivante&nbsp;: support@iroco.fr ;
       </li>
       <li>
         les utilisateurs peuvent demander la suppression de leurs données à
@@ -500,16 +506,16 @@
 
     <h3 class="sub-article">15.7 Évolution de la présente clause</h3>
     <p>
-      La Plateforme se réserve le droit d&apos;apporter toute modification à la
-      présente clause relative à la protection des données à caractère personnel
-      à tout moment. Si une modification est apportée à la présente clause de
-      protection des données à caractère personnel, la Plateforme s&apos;engage
-      à publier la nouvelle version sur son site. La Plateforme informera
-      également les utilisateurs de la modification par messagerie électronique,
-      dans un délai minimum de 15&nbsp;jours avant la date d&apos;effet. Si
-      l&apos;utilisateur n&apos;est pas d&apos;accord avec les termes de la
-      nouvelle rédaction de la clause de protection des données à caractère
-      personnel, il a la possibilité de supprimer son compte.
+      IROCO se réserve le droit d&apos;apporter toute modification à la présente
+      clause relative à la protection des données à caractère personnel à tout
+      moment. Si une modification est apportée à la présente clause de
+      protection des données à caractère personnel, IROCO s&apos;engage à
+      publier la nouvelle version sur son site. IROCO informera également les
+      utilisateurs de la modification par messagerie électronique, dans un délai
+      minimum de 15&nbsp;jours avant la date d&apos;effet. Si l&apos;utilisateur
+      n&apos;est pas d&apos;accord avec les termes de la nouvelle rédaction de
+      la clause de protection des données à caractère personnel, il a la
+      possibilité de supprimer son compte.
     </p>
   </div>
 </section>
@@ -522,13 +528,16 @@
   .terms {
     display: flex;
     justify-content: center;
+
     &__content {
       width: 70%;
     }
+
     .article {
       color: colors.$yellow;
     }
   }
+
   @include screen-laptop() {
     .terms {
       &__content {
