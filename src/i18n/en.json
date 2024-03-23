@@ -265,8 +265,8 @@
         "soon": "We are working on the development of our eco-designed webmail and hope to soon be able to put it in your hands!"
       },
       "freetrial": {
-        "title": "Are there any differences in functionality between the free trial and the paid offer?",
-        "p": "None. We offer you to test our mailbox for free for a period of 30 days in order to familiarize yourself with the services we offer and to determine if they meet your needs or not. During this trial period, you will benefit from the same features as a paid subscription: an email address, aliases, calendars, contact management... If you like our services, you can switch to a paid subscription at any time during your trial period to keep your email address and continue to use your mailbox for as long as you like."
+        "title": "Why have you ended the free one-month trial?",
+        "p": "We added this feature to allow users to test our services. Unfortunately, most of the trial period users created mailboxes to send spam or phishing."
       },
       "offer": {
         "title": "Is your offer non-binding?",

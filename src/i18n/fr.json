@@ -264,8 +264,8 @@
         "soon": "Nous travaillons sur le développement de notre webmail éco-conçu et espérons pouvoir bientôt pouvoir le mettre entre vos mains !"
       },
       "freetrial": {
-        "title": "Y a-t-il des différences de fonctionnalités entre l'essai gratuit et l'offre payante ?",
-        "p": "Aucune. Nous vous proposons de tester notre boîte mail gratuitement pendant une durée de 30 jours afin de vous familiariser avec les services que nous proposons et de déterminer s'ils répondent ou non à votre besoin. Pendant cet essai, vous bénéficiez des mêmes fonctionnalités qu'un abonnement payant : une adresse mail, des alias, des calendriers, la gestion de vos contacts... Si nos services vous plaisent, vous pouvez passer à un abonnement payant à n'importe quel moment de votre période d'essai pour conserver votre adresse mail et continuer à utiliser votre boîte mail pendant la durée qu'il vous plaira."
+        "title": "Pourquoi avez-vous supprimé la période d'essai gratuite d'un mois ?",
+        "p": "Nous avions ajouté cette fonctionnalité pour permettre à des utilisateurs de tester nos services. Malheureusement, la grande majorité des utilisateurs de cette période d'essai ont créé des boites mail pour envoyer des messages non sollicités ou d'hameçonnage."
       },
       "offer": {
         "title": "Votre offre est-elle sans engagement ?",
