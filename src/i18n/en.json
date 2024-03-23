@@ -266,7 +266,7 @@
       },
       "freetrial": {
         "title": "Why have you ended the free one-month trial?",
-        "p": "We added this feature to allow users to test our services. Unfortunately, most of the trial period users created mailboxes to send spam or phishing."
+        "p": "We added this feature to allow users to test our services. Unfortunately, most of the trial period users created mailboxes to send spam or phishing. This meant that we regularly had to shut down the registration service during periods when we couldn't monitor the servers (nights, weekends, holidays), or deploy monitoring and security mechanisms that were costly in terms of time and energy."
       },
       "offer": {
         "title": "Is your offer non-binding?",

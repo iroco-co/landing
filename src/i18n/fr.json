@@ -265,7 +265,7 @@
       },
       "freetrial": {
         "title": "Pourquoi avez-vous supprimé la période d'essai gratuite d'un mois ?",
-        "p": "Nous avions ajouté cette fonctionnalité pour permettre de tester nos services. Malheureusement, la grande majorité des utilisateurs de cette période d'essai ont créé des boites mail pour envoyer des messages non sollicités ou d'hameçonnage."
+        "p": "Nous avions ajouté cette fonctionnalité pour permettre de tester nos services. Malheureusement, la grande majorité des utilisateurs de cette période d'essai ont créé des boites mail pour envoyer des messages non sollicités ou d'hameçonnage. Cela nous obligeait à régulièrement fermer le service d'inscription pendant les périodes où nous ne pouvions pas surveiller les serveurs (la nuit, les week-end, les congés), ou de déployer des mécanismes de monitoring et de sécurité coûteux en temps et en énergie."
       },
       "offer": {
         "title": "Votre offre est-elle sans engagement ?",
