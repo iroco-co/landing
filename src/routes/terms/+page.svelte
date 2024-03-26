@@ -414,11 +414,12 @@
       <li>
         vérifications par IROCO, par ses propres moyens ou en ayant recours à
         des prestataires externes, que l’adresse IP de l’utilisateur n’est pas
-        référencée auprès de AbuseIPDB comme étant une adresse malveillante; en
-        cas de recours à un ou des prestataires externes, ces prestataires
-        disposent d'un accès limité aux données de l'utilisateur, dans le cadre
-        de l'exécution de ces prestations, et ont une obligation contractuelle
-        de les utiliser en conformité avec les dispositions de la réglementation
+        référencée auprès de AbuseIPDB (Marathon Studios, Inc) comme étant une
+        adresse à l'origine d'utilisations abusives de services en ligne; en cas
+        de recours à un ou des prestataires externes, ces prestataires disposent
+        d'un accès limité aux données de l'utilisateur, dans le cadre de
+        l'exécution de ces prestations, et ont une obligation contractuelle de
+        les utiliser en conformité avec les dispositions de la réglementation
         applicable en matière protection des données à caractère personnel;
       </li>
       <li>
