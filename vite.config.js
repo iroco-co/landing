@@ -8,6 +8,7 @@ const config = {
     globals: true, // to avoid importing describe/it everywhere
     types: ["vitest/globals"],
     environment: "jsdom",
+    setupFiles:["test/setupTest.ts"],
     deps: {
       inline: ["test/**/*.svelte"],
     },
