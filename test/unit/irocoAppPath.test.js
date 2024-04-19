@@ -17,7 +17,8 @@ describe("irocoAppPath", () => {
     {
       irocoLandingPath: "https://test.iroco.co",
       expectedIrocoAppPath: "https://app.test.iroco.co",
-    },    {
+    },
+    {
       irocoLandingPath: "http://localhost:5175/",
       expectedIrocoAppPath: "http://app.localhost:5175",
     },

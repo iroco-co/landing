@@ -5,9 +5,9 @@
   import { chevronRight, chevronDown } from "svelte-awesome/icons";
   import Mail from "../../lib/Mail.svelte";
   import { page } from "$app/stores";
-  import {irocoAppPath} from "$lib/irocoAppPath";
+  import { irocoAppPath } from "$lib/irocoAppPath";
 
-  const irocoAppBaseUrl = irocoAppPath($page.url.toString())
+  const irocoAppBaseUrl = irocoAppPath($page.url.toString());
   let more = false;
 
   function toggleMore(): void {
