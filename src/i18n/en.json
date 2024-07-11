@@ -385,7 +385,7 @@
       },
       "account": {
         "title": "How do I create an account?",
-        "p": "You can create a free account in a very simple way by <a href=\"https://app.iroco.co/signup\">clicking here</a>. You will be asked to create an email address of your choice and a password. You have 30 days to test our services for free; if you like them, you can switch to a paid subscription at any time during your trial period in order to continue using them beyond the 30-day period."
+        "p": "You can create a free account in a very simple way by <a href=\"https://app.iroco.co/signup\">clicking here</a>. You will be asked to create an email address of your choice and a password."
       },
       "cookies": {
         "title": "Why don't you ask me my cookie preferences?",

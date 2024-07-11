@@ -384,7 +384,7 @@
       },
       "account": {
         "title": "Comment puis-je me créer un compte Iroco ?",
-        "p": "Vous pouvez vous créer un compte gratuit de manière très simple <a href=\"https://app.iroco.co/signup\">en cliquant ici</a>. Il vous sera proposé de créer l'adresse mail de votre choix et un mot de passe. Vous disposez de 30 jours pour tester gratuitement nos services ; si ceux-ci vous plaisent, vous pouvez à tout moment de votre essai passer à un abonnement payant afin de continuer à les utiliser au-delà de la durée de 30 jours."
+        "p": "Vous pouvez vous créer un compte gratuit de manière très simple <a href=\"https://app.iroco.co/signup\">en cliquant ici</a>. Il vous sera proposé de créer l'adresse mail de votre choix et un mot de passe."
       },
       "cookies": {
         "title": "Pourquoi ne me demandez-vous pas mes préférences en matière de cookies ?",
