@@ -1,4 +1,3 @@
-/*global describe, test, expect*/
 import "@testing-library/jest-dom/extend-expect";
 import { render } from "@testing-library/svelte";
 import Zen from "../../src/lib/Zen.svelte";

@@ -1,4 +1,3 @@
-/*global describe, test, expect*/
 import about from "../../src/routes/about/+page.svelte";
 import "@testing-library/jest-dom/extend-expect";
 import { render } from "@testing-library/svelte";
