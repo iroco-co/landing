@@ -1,3 +1,4 @@
+/*global describe, test, expect*/
 import { irocoAppPath } from "$lib/irocoAppPath.ts";
 
 describe("irocoAppPath", () => {
