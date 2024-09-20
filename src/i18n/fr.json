@@ -269,7 +269,7 @@
       },
       "initial-payment": {
         "title": "Pourquoi avoir mis en place un paiement initial en plus de l'abonnement mensuel ?",
-        "p": "Des goupes de personnes malveillantes pourraient utiliser notre plateforme pour envoyer du spam ou du fishing en prenant de multiples comptes (cas avéré par le passé). Le paiement en début de mois permet de faire un premier contrôle bancaire pour vérifer l'intention non abusive de l'usage de notre service."
+        "p": "Des goupes de personnes malveillantes pourraient utiliser notre plateforme pour envoyer des emails non sollicités ou de hameçonnage  en prenant de multiples comptes (cas avéré par le passé). Le paiement en début de mois permet de faire un premier contrôle bancaire pour vérifer l'intention non abusive de l'usage de notre service."
       },
       "offer": {
         "title": "Votre offre est-elle sans engagement ?",

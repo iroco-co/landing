@@ -270,7 +270,7 @@
       },
       "initial-payment": {
         "title": "Why an upfront payment on top of the monthly subscription?",
-        "p": "Groups of malicious people could use our platform to send spam or fishing by taking multiple accounts (case proven in the past). Payment at the beginning of the month enables us to carry out an initial bank check to verify the non-abusive intention of using our service."
+        "p": "Groups of malicious people could use our platform to send spam or phishing e-mails by taking multiple accounts (case proven in the past). Payment at the beginning of the month enables us to carry out an initial bank check to verify the non-abusive intention of using our service."
       },
       "offer": {
         "title": "Is your offer non-binding?",
