@@ -24,6 +24,11 @@
           <a href="#freetrial">{$_("faq.questions.freetrial.title")}</a>
         </li>
         <li>
+          <a href="#initialpayment"
+            >{$_("faq.questions.initial-payment.title")}</a
+          >
+        </li>
+        <li>
           <a href="#offer">{$_("faq.questions.offer.title")}</a>
         </li>
         <li><a href="#data">{$_("faq.questions.data.title")}</a></li>
@@ -114,6 +119,12 @@
           <a href="#htop">{$_("faq.questions.freetrial.title")}</a>
         </h3>
         <p>{$_("faq.questions.freetrial.p")}</p>
+      </div>
+      <div id="initialpayment" class="faq__q-a__initialpayment question">
+        <h3>
+          <a href="#htop">{$_("faq.questions.initial-payment.title")}</a>
+        </h3>
+        <p>{$_("faq.questions.initial-payment.p")}</p>
       </div>
       <div id="offer" class="faq__q-a__offer question">
         <h3>
