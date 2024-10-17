@@ -7,6 +7,15 @@
   import "../app.scss";
 </script>
 
+<svelte:head>
+  <script src="/tracking.js"></script>
+  <script
+    src="https://matomo.{process.env.HOSTNAME}:8080/matomo.js"
+    async
+    defer
+  ></script>
+</svelte:head>
+
 <Navigation
   navigationItems={[
     new NavigationItem($_("header.about"), "/about"),

@@ -1,5 +1,6 @@
 var idSite = 1;
-var matomoTrackingApiUrl = "https://matomo.iroco.co:8080/matomo.php";
+var hostname = window.location.hostname;
+var matomoTrackingApiUrl = "https://matomo." + hostname + ":8080/matomo.php";
 
 var _paq = (window._paq = window._paq || []);
 _paq.push(["setTrackerUrl", matomoTrackingApiUrl]);
