@@ -111,6 +111,10 @@
       "p": "We want to offer useful and inclusive digital tools. If you have questions to ask or feedback to provide, we're open!",
       "btn": "FAQ",
       "contact": "Get in touch"
+    },
+    "newsletter": {
+      "title": "Subscribe to our newsletter (in french)",
+      "btn": "Subscribe"
     }
   },
   "about": {
