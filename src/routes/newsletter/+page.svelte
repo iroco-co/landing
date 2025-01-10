@@ -1,6 +1,6 @@
 <script>
-  import Newsletter from "$lib/Newsletter.svelte";
   import { _ } from "svelte-i18n";
+  import KeilaForm from "$lib/KeilaForm.svelte";
 </script>
 
 <svelte:head>
@@ -8,7 +8,7 @@
 </svelte:head>
 
 <section class="newsletter">
-  <Newsletter />
+  <KeilaForm />
 </section>
 
 <style lang="scss">
