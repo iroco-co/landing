@@ -111,6 +111,10 @@
       "p": "Nous travaillons pour vous et avec vous pour développer des outils utiles et accessibles à tous. Une question à nous poser, un retour à nous faire ? C'est par ici !",
       "btn": "FAQ",
       "contact": "Contact"
+    },
+    "newsletter": {
+      "title": "Inscrivez-vous à notre infolettre",
+      "btn": "Inscription"
     }
   },
   "about": {

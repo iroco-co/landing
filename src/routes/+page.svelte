@@ -1,8 +1,8 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import ImageArticle from "../lib/ImageArticle.svelte";
-  import Newsletter from "../lib/Newsletter.svelte";
   import IrocologoSignupbutton from "../lib/IrocologoSignupbutton.svelte";
+  import KeilaForm from "$lib/KeilaForm.svelte";
 </script>
 
 <svelte:head>
@@ -76,7 +76,7 @@
 
   <IrocologoSignupbutton />
 
-  <Newsletter />
+  <KeilaForm />
 </section>
 
 <style lang="scss">
