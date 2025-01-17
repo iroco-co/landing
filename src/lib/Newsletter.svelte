@@ -7,17 +7,16 @@
           data-w-type="embedded"
           src="https://xq520.mjt.lu/wgt/xq520/m4m/form?c=75474af6"
           width="100%"
-        />
+></iframe>
       </div>
     </div>
   </div>
 </div>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/colors";
-  @use "node_modules/@iroco/ui/dist/scss/constants";
-  @use "node_modules/@iroco/ui/dist/scss/fonts";
-  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @use "@iroco/ui/scss/constants.scss";
+  @use "@iroco/ui/scss/fonts.scss";
+  @use "@iroco/ui/scss/containers.scss";
 
   .newsletter {
     max-width: 1024px;

@@ -12,8 +12,7 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/colors";
-  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @use "@iroco/ui/scss/containers.scss";
   .newsletter {
     display: flex;
     justify-content: center;

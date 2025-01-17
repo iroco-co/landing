@@ -1,6 +1,10 @@
 <script lang="ts">
-  export let size: number;
-  export let title: string;
+  interface Props {
+    size: number;
+    title: string;
+  }
+
+  let { size, title }: Props = $props();
 </script>
 
 <span class="security illustration">

@@ -2,12 +2,23 @@
   import type { ButtonModel } from "./definition";
   import { Icon } from "svelte-awesome";
   import chevronRight from "svelte-awesome/icons/chevronRight";
-  export let imgSrc: string;
-  export let alt: string;
-  export let articleTitle: string;
-  export let articleContent: string;
-  export let buttonList: ButtonModel[] = [];
-  export let reversed = false;
+  interface Props {
+    imgSrc: string;
+    alt: string;
+    articleTitle: string;
+    articleContent: string;
+    buttonList?: ButtonModel[];
+    reversed?: boolean;
+  }
+
+  let {
+    imgSrc,
+    alt,
+    articleTitle,
+    articleContent,
+    buttonList = [],
+    reversed = false
+  }: Props = $props();
 </script>
 
 <div class="imagearticle" class:reversed>
@@ -31,9 +42,8 @@
 </div>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/colors";
-  @import "node_modules/@iroco/ui/dist/scss/containers";
-  @import "node_modules/@iroco/ui/dist/scss/button";
+  @use "@iroco/ui/scss/containers.scss";
+  @use "@iroco/ui/scss/button.scss";
   .imagearticle {
     display: flex;
     justify-content: space-around;
@@ -63,7 +73,7 @@
     }
   }
 
-  @include screen-tablet {
+  @include containers.screen-tablet {
     .imagearticle {
       display: block;
       width: 80%;

@@ -8,7 +8,7 @@
   import { irocoAppPath } from "$lib/irocoAppPath";
 
   const irocoAppBaseUrl = irocoAppPath($page.url.toString());
-  let more = false;
+  let more = $state(false);
 
   function toggleMore(): void {
     more = !more;
@@ -25,7 +25,7 @@
     <div class="signup__offer__card">
       <div class="signup__offer__card__svglistgroup">
         <div class="signup__offer__card__svglistgroup__icon">
-          <Mail size="165" strokeWidth="1" />
+          <Mail size={165} strokeWidth={1} />
         </div>
         <div class="signup__offer__card__svglistgroup__list">
           <div class="signup__offer__card__svglistgroup__list__header">
@@ -89,22 +89,21 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/colors";
-  @use "node_modules/@iroco/ui/dist/scss/constants";
-  @import "node_modules/@iroco/ui/dist/scss/containers";
-  @import "node_modules/@iroco/ui/dist/scss/button";
+  @use "@iroco/ui/scss/constants.scss";
+  @use "@iroco/ui/scss/containers.scss";
+  @use "@iroco/ui/scss/button.scss";
 
   .signup {
     text-align: center;
 
     &__offer {
       &__card {
-        background: colors.$nightBlue;
+        background: var(--color-night-blue);
         border-radius: constants.$border-radius;
         width: 80%;
         margin: 0 auto;
 
-        @include screen-tablet {
+        @include containers.screen-tablet {
           width: 100%;
         }
 
@@ -115,7 +114,7 @@
           gap: 6em;
           padding: 2em;
 
-          @include screen-tablet {
+          @include containers.screen-tablet {
             display: block;
           }
 
@@ -135,7 +134,7 @@
                 font-weight: normal;
               }
 
-              @include screen-tablet {
+              @include containers.screen-tablet {
                 text-align: center;
               }
             }

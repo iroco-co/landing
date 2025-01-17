@@ -1,8 +1,17 @@
 <script lang="ts">
-  export let size: number;
-  export let strokeWidth: number;
-  export let title: string | null = null;
-  export let orientation: "vertical" | "horizontal" = "horizontal";
+  interface Props {
+    size: number;
+    strokeWidth: number;
+    title?: string | null;
+    orientation?: "vertical" | "horizontal";
+  }
+
+  let {
+    size,
+    strokeWidth,
+    title = null,
+    orientation = "horizontal"
+  }: Props = $props();
 </script>
 
 <div class="mail illustration {orientation}">
@@ -36,7 +45,7 @@
 </div>
 
 <style lang="scss">
-  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @use "@iroco/ui/scss/containers.scss";
   .mail {
     display: flex;
   }
@@ -47,7 +56,7 @@
       text-align: left;
     }
   }
-  @include screen-tablet {
+  @include containers.screen-tablet {
     .mail {
       flex-direction: column;
       gap: 0;

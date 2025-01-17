@@ -85,8 +85,7 @@
 </footer>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/colors";
-  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @use "@iroco/ui/scss/containers.scss";
 
   .footer {
     display: flex;
@@ -94,14 +93,14 @@
     gap: 3em;
 
     h1 {
-      color: colors.$darkBeige;
+      color: var(--color-beige);
       font-size: 120%;
     }
 
     a,
     a:visited,
     a:active {
-      color: colors.$beige;
+      color: var(--color-beige);
     }
 
     &__contact {
@@ -115,10 +114,10 @@
           &__icon {
             padding: 15px 35.5px;
             text-align: center;
-            border-left: 1.5px solid colors.$mediumGrey;
+            border-left: 1.5px solid var(--color-medium-grey);
 
             &:last-of-type {
-              border-right: 1.5px solid colors.$mediumGrey;
+              border-right: 1.5px solid var(--color-medium-grey);
             }
           }
         }
@@ -127,12 +126,12 @@
   }
 
   .copyright {
-    color: colors.$lightGrey;
+    color: var(--color-medium-grey);
     text-align: center;
     font-size: small;
   }
 
-  @include screen-tablet {
+  @include containers.screen-tablet {
     .footer {
       display: block;
       padding: 0 2em;

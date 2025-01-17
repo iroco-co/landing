@@ -1,4 +1,3 @@
-import "@testing-library/jest-dom/extend-expect";
 import { render } from "@testing-library/svelte";
 import Disconnect from "../../src/lib/Disconnect.svelte";
 import en from "../../src/i18n/en.json";

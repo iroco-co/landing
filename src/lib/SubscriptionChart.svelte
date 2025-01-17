@@ -1,6 +1,10 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
-  export let size: number;
+  interface Props {
+    size: number;
+  }
+
+  let { size }: Props = $props();
 </script>
 
 <span class="chart">

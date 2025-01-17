@@ -21,7 +21,7 @@
 </div>
 
 <style lang="scss">
-  @import "node_modules/@iroco/ui/dist/scss/button";
+  @use "@iroco/ui/scss/button.scss";
   .irocologo-signupbutton {
     display: flex;
     flex-direction: column;

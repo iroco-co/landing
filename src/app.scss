@@ -1,8 +1,13 @@
-@use "node_modules/@iroco/ui/dist/scss/colors";
-@use "node_modules/@iroco/ui/dist/scss/fonts";
-@use "node_modules/@iroco/ui/dist/scss/style";
-@use "node_modules/@iroco/ui/dist/scss/constants";
-@import "node_modules/@iroco/ui/dist/scss/containers";
+@use "@iroco/ui/scss/colors.scss";
+@use "@iroco/ui/scss/fonts.scss";
+@use "@iroco/ui/scss/style.scss";
+@use "@iroco/ui/scss/constants.scss";
+@use "@iroco/ui/scss/containers.scss";
+
+.root {
+  --color-yellow: #ffe032;
+  --color-green: #00d692;
+}
 
 *,
 *::before,
@@ -12,7 +17,7 @@
 }
 
 a {
-  color: colors.$green;
+  color: var(--color-green);
   text-decoration: none;
 }
 
@@ -29,7 +34,7 @@ hr {
 
 button {
   text-decoration: none;
-  color: colors.$beige;
+  color: var(--color-beige);
 }
 
 h1 {
@@ -51,7 +56,7 @@ html {
   padding: 0;
 
   > body {
-    @include fonts.Arial(14px, colors.$beige);
+    @include fonts.Arial(14px, var(--color-beige));
     line-height: 1.7em;
     font-size: 18px;
     margin: 0;
@@ -61,32 +66,32 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-kerning: normal;
-    background: colors.$darkBlue;
+    background: var(--color-dark-blue);
   }
 }
 
 svg.greenIcon {
-  fill: colors.$green !important;
+  fill: var(--color-green) !important;
 }
 
 .navigation {
   position: fixed;
   top: 0;
-  background-color: colors.$darkBlue;
+  background-color: var(--color-dark-blue);
   z-index: 1;
 
   .nav__topbar__item a:not(.iroco-ui-button) {
     font-size: 1.5em;
-    color: colors.$beige;
+    color: var(--color-beige);
   }
 }
 
 .navigation--mobile {
   border-bottom: none;
-  background-color: colors.$darkBlue;
+  background-color: var(--color-dark-blue);
 
   .nav__topbar__item a {
-    color: colors.$beige;
+    color: var(--color-beige);
     font-size: 1.5em;
   }
 }

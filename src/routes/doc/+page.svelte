@@ -1,7 +1,7 @@
 <script lang="ts">
   /* eslint svelte/no-at-html-tags: "off" */
   import { _ } from "svelte-i18n";
-  let windowWidth: number;
+  let windowWidth: number | undefined = $state();
 </script>
 
 <svelte:window bind:innerWidth={windowWidth} />
@@ -58,10 +58,9 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/colors";
-  @use "node_modules/@iroco/ui/dist/scss/constants";
-  @import "node_modules/@iroco/ui/dist/scss/containers";
-  @import "node_modules/@iroco/ui/dist/scss/button";
+  @use "@iroco/ui/scss/constants.scss";
+  @use "@iroco/ui/scss/containers.scss";
+  @use "@iroco/ui/scss/button.scss";
 
   .doc {
     display: flex;
@@ -73,7 +72,7 @@
         &__image {
           a > img {
             width: 286px;
-            background: colors.$green;
+            background: var(--color-green);
             padding: 5px;
             margin-top: 10px;
           }

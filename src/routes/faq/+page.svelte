@@ -3,7 +3,7 @@
   import { _ } from "svelte-i18n";
   import SubscriptionChart from "$lib/SubscriptionChart.svelte";
 
-  let windowWidth: number;
+  let windowWidth: number = $state(320);
 </script>
 
 <svelte:window bind:innerWidth={windowWidth} />
@@ -334,7 +334,7 @@
           height="270px"
           title="matomo"
           src="https://matomo.iroco.co:8080/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=211d28&fontColor=f2ebe3&fontSize=&fontFamily=Arial"
-        />
+></iframe>
       </div>
       <div id="team" class="faq__q-a__team question">
         <h3>
@@ -347,10 +347,9 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/colors";
-  @use "node_modules/@iroco/ui/dist/scss/constants";
-  @import "node_modules/@iroco/ui/dist/scss/containers";
-  @import "node_modules/@iroco/ui/dist/scss/button";
+  @use "@iroco/ui/scss/constants.scss";
+  @use "@iroco/ui/scss/containers.scss";
+  @use "@iroco/ui/scss/button.scss";
 
   .faq {
     display: flex;
@@ -372,38 +371,38 @@
 
         &__cookies {
           iframe {
-            border: 1px, colors.$beige;
+            border: 1px, var(--color-beige);
             border-radius: 2%;
             height: 200px;
             width: 600px;
             margin-top: 20px;
 
-            @include screen-laptop() {
+            @include containers.screen-laptop() {
               width: 500px;
               height: 200px;
             }
 
-            @include screen-tablet() {
+            @include containers.screen-tablet() {
               width: 450px;
               height: 200px;
             }
 
-            @include screen-tablet-S() {
+            @include containers.screen-tablet-S() {
               width: 400px;
               height: 200px;
             }
 
-            @include screen-mobile-L() {
+            @include containers.screen-mobile-L() {
               width: 350px;
               height: 170px;
             }
 
-            @include screen-mobile-M() {
+            @include containers.screen-mobile-M() {
               width: 300px;
               height: 160px;
             }
 
-            @include screen-mobile-S() {
+            @include containers.screen-mobile-S() {
               width: 250px;
               height: 150px;
             }
@@ -412,7 +411,7 @@
       }
     }
 
-    @include screen-laptop() {
+    @include containers.screen-laptop() {
       .faq {
         &__content {
           width: 100%;

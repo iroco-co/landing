@@ -41,19 +41,18 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/colors";
-  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @use "@iroco/ui/scss/containers.scss";
   .legal {
     display: flex;
     justify-content: center;
     &__content {
       width: 40%;
       h2 {
-        color: colors.$yellow;
+        color: var(--color-yellow);
       }
     }
   }
-  @include screen-laptop() {
+  @include containers.screen-laptop() {
     .legal {
       &__content {
         width: 100%;

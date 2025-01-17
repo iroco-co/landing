@@ -1,10 +1,15 @@
-<script>
+<script lang="ts">
   import "../i18n";
   import { _ } from "svelte-i18n";
   import Footer from "../lib/Footer.svelte";
   import { Navigation, NavigationItem } from "@iroco/ui";
   import { page } from "$app/stores";
   import "../app.scss";
+  interface Props {
+    children?: import('svelte').Snippet;
+  }
+
+  let { children }: Props = $props();
 </script>
 
 <svelte:head>
@@ -27,10 +32,6 @@
   type="topbar"
 />
 <main class="main">
-  <slot />
+  {@render children?.()}
 </main>
 <Footer />
-
-<style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/colors";
-</style>

@@ -1,5 +1,9 @@
 <script lang="ts">
-  export let title: string;
+  interface Props {
+    title: string;
+  }
+
+  let { title }: Props = $props();
 </script>
 
 <div class="laptop illustration">
@@ -8,7 +12,7 @@
 </div>
 
 <style lang="scss">
-  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @use "@iroco/ui/scss/containers.scss";
 
   .laptop {
     > img {

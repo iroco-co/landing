@@ -1,9 +1,17 @@
+<script lang="ts">
+  interface Props {
+    children?: import('svelte').Snippet;
+  }
+
+  let { children }: Props = $props();
+</script>
+
 <div class="horizontal-or-vertical-displayed-content">
-  <slot />
+  {@render children?.()}
 </div>
 
 <style lang="scss">
-  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @use "@iroco/ui/scss/containers.scss";
 
   .horizontal-or-vertical-displayed-content {
     padding: 2em;

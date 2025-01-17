@@ -37,7 +37,7 @@
         class="h-captcha"
         data-sitekey="10000000-ffff-ffff-ffff-000000000001"
         data-theme="dark"
-      />
+></div>
       <script async="async" defer="defer" src="https://hcaptcha.com/1/api.js">
       </script>
     </div>
@@ -54,8 +54,8 @@
 </div>
 
 <style lang="scss">
-  @import "node_modules/@iroco/ui/dist/scss/button";
-  @import "node_modules/@iroco/ui/dist/scss/forms";
+  @use "@iroco/ui/scss/button.scss";
+  @use "@iroco/ui/scss/forms.scss";
   .newsletter {
     display: flex;
     align-self: center;

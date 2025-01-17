@@ -1,5 +1,9 @@
 <script lang="ts">
-  export let size = "312px";
+  interface Props {
+    size?: string;
+  }
+
+  let { size = "312px" }: Props = $props();
 </script>
 
 <span class="host">

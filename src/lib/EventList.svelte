@@ -1,6 +1,10 @@
 <script lang="ts">
   import type { EventModel } from "./definition";
-  export let eventList: EventModel[] = [];
+  interface Props {
+    eventList?: EventModel[];
+  }
+
+  let { eventList = [] }: Props = $props();
 </script>
 
 <div class="eventList">
@@ -14,7 +18,7 @@
 </div>
 
 <style lang="scss">
-  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @use "@iroco/ui/scss/containers.scss";
   .eventList {
     display: flex;
     gap: 3em;

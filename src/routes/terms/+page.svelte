@@ -522,9 +522,8 @@
 </section>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/colors";
-  @use "node_modules/@iroco/ui/dist/scss/fonts";
-  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @use "@iroco/ui/scss/fonts.scss";
+  @use "@iroco/ui/scss/containers.scss";
 
   .terms {
     display: flex;
@@ -535,11 +534,11 @@
     }
 
     .article {
-      color: colors.$yellow;
+      color: var(--color-yellow);
     }
   }
 
-  @include screen-laptop() {
+  @include containers.screen-laptop() {
     .terms {
       &__content {
         width: 100%;

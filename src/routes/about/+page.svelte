@@ -153,7 +153,7 @@
 </div>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/containers";
+  @use "@iroco/ui/scss/containers.scss";
   .about {
     display: flex;
     flex-direction: column;
@@ -204,13 +204,13 @@
           line-height: 1.2em;
           padding: 0.5em;
           flex-basis: 300px;
+          flex-grow: 1;
           &__img {
             display: flex;
             height: 150px;
             align-items: center;
             justify-content: center;
           }
-          flex-grow: 1;
         }
         &__item:not(.vertical) {
           img {
