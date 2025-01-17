@@ -27,6 +27,6 @@ describe("irocoAppPath", () => {
     ({ irocoLandingPath, expectedIrocoAppPath }) => {
       const host = irocoAppPath(irocoLandingPath);
       expect(host).toBe(expectedIrocoAppPath);
-    }
+    },
   );
 });

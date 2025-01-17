@@ -153,8 +153,7 @@
 </div>
 
 <style lang="scss">
-  @use "node_modules/@iroco/ui/dist/scss/colors";
-  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @use "node_modules/@iroco/ui/dist/scss/containers";
   .about {
     display: flex;
     flex-direction: column;
@@ -165,7 +164,7 @@
     .about__image {
       width: 70vh;
       padding: 5em 5em;
-      @include screen-tablet {
+      @include containers.screen-tablet {
         width: 60vh;
       }
     }

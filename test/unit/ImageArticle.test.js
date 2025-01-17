@@ -21,8 +21,8 @@ describe("Testing ImageArticle Component", () => {
     expect(getByText(`Iroco, what is it?`)).toBeInTheDocument();
     expect(
       getByText(
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
-      )
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      ),
     ).toBeInTheDocument();
     expect(getByText("About")).toBeInTheDocument();
   });
@@ -43,8 +43,8 @@ describe("Testing ImageArticle Component", () => {
     expect(getByText("Innovation and openness")).toBeInTheDocument();
     expect(
       getByText(
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet."
-      )
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet.",
+      ),
     ).toBeInTheDocument();
     expect(getByText("Blog")).toBeInTheDocument();
     expect(getByText("Github")).toBeInTheDocument();
