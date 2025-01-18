@@ -1,7 +1,7 @@
 import adapter from "@sveltejs/adapter-static";
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
-const hostname = process.env.HOSTNAME;
+const hostname = process.env.HOSTNAME ?? "irocoenv";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
