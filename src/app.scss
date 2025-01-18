@@ -4,9 +4,9 @@
 @use "@iroco/ui/scss/constants.scss";
 @use "@iroco/ui/scss/containers.scss";
 
-.root {
-  --color-yellow: #ffe032;
-  --color-green: #00d692;
+:root {
+  --color-yellow: var(--color-warning);
+  --color-green: var(--color-success);
 }
 
 *,

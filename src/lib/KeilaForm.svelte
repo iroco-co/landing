@@ -32,15 +32,6 @@
       novalidate="novalidate"
       style="display: none"
     />
-    <div class="flex flex-col">
-      <div
-        class="h-captcha"
-        data-sitekey="10000000-ffff-ffff-ffff-000000000001"
-        data-theme="dark"
-></div>
-      <script async="async" defer="defer" src="https://hcaptcha.com/1/api.js">
-      </script>
-    </div>
     <div>
       <button
         class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"

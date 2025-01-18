@@ -3,7 +3,7 @@
   import { _ } from "svelte-i18n";
   import Footer from "../lib/Footer.svelte";
   import { Navigation, NavigationItem } from "@iroco/ui";
-  import { page } from "$app/stores";
+  import { page } from "$app/state";
   import "../app.scss";
   interface Props {
     children?: import('svelte').Snippet;
@@ -15,7 +15,7 @@
 <svelte:head>
   <script src="/tracking.js"></script>
   <script
-    src="https://matomo.{process.env.HOSTNAME}:8080/matomo.js"
+    src="https://matomo.{page.url.host}:8080/matomo.js"
     async
     defer
   ></script>
@@ -27,7 +27,7 @@
     new NavigationItem($_("header.blog"), "https://blog.iroco.co"),
     new NavigationItem($_("header.faq"), "/faq"),
     new NavigationItem($_("header.signup"), "/signup"),
-    new NavigationItem($_("header.signin"), `https://app.${$page.url.host}`),
+    new NavigationItem($_("header.signin"), `https://app.${page.url.host}`),
   ]}
   type="topbar"
 />
