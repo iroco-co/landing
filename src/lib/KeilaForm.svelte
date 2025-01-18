@@ -7,7 +7,7 @@
 
 <div class="newsletter">
   <form
-    action="https://newsletter.test.iroco.co/forms/nfrm_weLJnLY5"
+    action="{import.meta.env.VITE_NEWSLETTER_URL}"
     class="iroco-ui-form contact-form container bg-white rounded py-4 md:py-8 flex flex-col gap-4"
     method="post"
     style="background-color:#211d28!important;color:#f2ebe3!important"

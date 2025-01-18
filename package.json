@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "vite dev",
-    "build": "HOSTNAME=localhost vite build",
-    "build-prod": "HOSTNAME=iroco.co vite build",
-    "build-preprod": "HOSTNAME=test.iroco.co vite build",
+    "build": "vite build",
+    "build-prod": "vite build --mode production",
+    "build-preprod": "vite build --mode preprod",
     "postbuild": "npx svelte-sitemap --domain https://iroco.co",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
