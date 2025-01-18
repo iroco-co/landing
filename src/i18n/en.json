@@ -113,7 +113,8 @@
       "contact": "Get in touch"
     },
     "newsletter": {
-      "title": "Subscribe to our newsletter (in french)",
+      "title": "Subscribe to our newsletter",
+      "intro": "Our newsletter is in French and does not monitor your usage. We don't know if you read it, so don't hesitate to give us feedback!",
       "btn": "Subscribe"
     }
   },
@@ -186,10 +187,6 @@
         }
       }
     }
-  },
-  "newsletter": {
-    "title": "Sign up for our newsletter \nto become a soft user",
-    "disclaimer": "Your email address will only be used to send you occasional information about our projects. No spam, no unwanted circulation of your data either."
   },
   "signup": {
     "title": "Iroco signup",

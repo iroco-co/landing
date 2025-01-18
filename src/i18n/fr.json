@@ -114,6 +114,7 @@
     },
     "newsletter": {
       "title": "Inscrivez-vous à notre infolettre",
+      "intro": "Notre infolettre est en français et ne surveille pas vos usages. Nous ne savons pas si vous la lisez, alors n'hésitez pas à nous faire des retours !",
       "btn": "Inscription"
     }
   },
@@ -186,10 +187,6 @@
         }
       }
     }
-  },
-  "newsletter": {
-    "title": "Inscrivez-vous à notre newsletter\npour devenir soft user",
-    "disclaimer": "Votre adresse mail sera utilisée uniquement pour vous envoyer ponctuellement des informations sur nos projets. Pas de spam, pas de circulation non souhaitée de vos données non plus."
   },
   "signup": {
     "title": "Iroco: page d'inscription",

@@ -15,6 +15,9 @@
     <h1 class="text-4xl my-4">
       {$_("homepage.newsletter.title")}
     </h1>
+    <div class="text-xl">
+      {$_("homepage.newsletter.intro")}
+    </div>
     <div class="flex flex-col">
       <label for="contact_email" class="iroco-ui-label"> Email </label>
       <input
