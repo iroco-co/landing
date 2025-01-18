@@ -6,7 +6,9 @@ jobs:
       - image: cimg/node:20.12.0
 
     steps:
-      - checkout
+      - uses: actions/checkout@v2
+      - name: Setup upterm session
+        uses: lhotari/action-upterm@v1
       - run:
           name: Update NPM
           command: "sudo npm install -g npm@10"
