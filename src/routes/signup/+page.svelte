@@ -56,7 +56,7 @@
           <Icon data={chevronRight} color={Color.nightBlue} />
           {$_("signup.offer.buttons.subscribe")}
         </a>
-        <Button kind="dark" on:click={toggleMore}>
+        <Button kind="dark" onclick={toggleMore}>
           {#if more}
             <Icon data={chevronDown} />
           {:else}
