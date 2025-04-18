@@ -8,6 +8,7 @@
   import Plant from "../../lib/Plant.svelte";
   import Energy from "../../lib/Energy.svelte";
   import Host from "../../lib/Host.svelte";
+  import {base} from "$app/paths"
 </script>
 
 <svelte:head>
@@ -151,7 +152,7 @@
   </section>
 
 
-  <IrocologoSignupbutton />
+  <IrocologoSignupbutton signupHref={base+"/signup"} />
 </div>
 
 <style lang="scss">

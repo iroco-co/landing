@@ -4,10 +4,9 @@
   import Icon from "svelte-awesome";
   import { chevronRight, chevronDown } from "svelte-awesome/icons";
   import Mail from "../../lib/Mail.svelte";
-  import { page } from "$app/stores";
-  import { irocoAppPath } from "$lib/irocoAppPath";
+  import { PUBLIC_APP_SIGNUP_URL } from "$env/static/public";
 
-  const irocoAppBaseUrl = irocoAppPath($page.url.toString());
+  const irocoAppSignupUrl = PUBLIC_APP_SIGNUP_URL
   let more = $state(false);
 
   function toggleMore(): void {
@@ -50,7 +49,7 @@
 
       <div class="signup__offer__card__buttons">
         <a
-          href={`${irocoAppBaseUrl}/signup/`}
+          href={irocoAppSignupUrl}
           class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"
         >
           <Icon data={chevronRight} color={Color.nightBlue} />
