@@ -142,8 +142,8 @@
       </div>
       <div class="about__ecosystem__grid__item">
         <div class="about__ecosystem__grid__item__img">
-          <a href="https://www.ovhcloud.com//"
-            ><img src="/images/partners/Logo_OVH.svg" alt="OVH Logo" /></a
+          <a href={$_("about.ecosystem.ovh.href")}
+            ><img src="/images/partners/ovh-eco-small.png" alt="eco.ovhcloud.com Logo" /></a
           >
         </div>
         <p>{$_("about.ecosystem.ovh")}</p>
