@@ -273,6 +273,13 @@
         "title": "Pourquoi avoir mis en place un paiement initial en plus de l'abonnement mensuel ?",
         "p": "Des goupes de personnes malveillantes pourraient utiliser notre plateforme pour envoyer des emails non sollicités ou de hameçonnage  en prenant de multiples comptes (cas avéré par le passé). Le paiement en début de mois permet de faire un premier contrôle bancaire pour vérifer l'intention non abusive de l'usage de notre service."
       },
+      "activation-delay": {
+        "title": "Pourquoi dois-je attendre avant d'envoyer des e-mails? ",
+        "p-how": "Nous devons attendre que votre compte bancaire et votre mandat soient vérifiés. Nous attendons également qu'un premier paiement soit effectué avant d'activer le compte. Signification : la possibilité d'envoyer des e-mails. ",
+        "p-reason": "En 2024, certains utilisateurs ont abusé de la période d'essai gratuite de notre service pour envoyer du SPAM et des e-mails de pêche. C'est une préoccupation très sérieuse pour nous. Si nous ne prenions pas des mesures rapides et radicales, le service pourrait perdre la confiance qu'il a gagnée. Perdre cette confiance entraînerait l'envoi de vos propres e-mails au SPAM. ",
+        "p-actions": "Nous avons interrompu l'essai gratuit. Mais encore, certains utilisateurs créeraient des comptes payants et enverraient des e-mails pendant un mois. Le premier paiement a été établi 28 jours après l'inscription. Ils ont encore le temps d'envoyer des e-mails malveillants. Nous avons ensuite introduit le Paiement Instantané pour vérifier très rapidement si le client était en mesure de payer, et pour que la banque vérifie son compte. Nous avons ensuite compris que le système de Paiement Instantané était limité à quelques banques. Certains clients ne pouvaient pas s'inscrire ! Nous avons décidé de revenir sur cette décision. Nous utilisons maintenant le système de mandat de prélèvement automatique standard avec le premier paiement fixé dès que possible (environ 2 jours ouvrables). Nous activons le compte (peut envoyer des e-mails) lorsque ce premier paiement se produit. Nous avons écrit une explication plus détaillée de cette préoccupation dans la série d'articles de blog ci-dessous.",
+        "href-paywall-history": "https://blog.iroco.co/incident-de-securite/"
+      },
       "offer": {
         "title": "Votre offre est-elle sans engagement ?",
         "p": "Oui : vous pouvez résilier votre abonnement à tout moment. Il n'y a pas de période d'engagement minimale. En cas de résiliation, votre abonnement prendra fin au terme du mois en cours. Pour résilier votre abonnement, rendez-vous dans l'onglet \"Compte\" de votre tableau de bord utilisateur."

@@ -274,6 +274,13 @@
         "title": "Why an upfront payment on top of the monthly subscription?",
         "p": "Groups of malicious people could use our platform to send spam or phishing e-mails by taking multiple accounts (case proven in the past). Payment at the beginning of the month enables us to carry out an initial bank check to verify the non-abusive intention of using our service."
       },
+      "activation-delay": {
+        "title": "Why do I have to wait before sending e-mails ?",
+        "p-how": "We have to wait for your bank account and mandate to be verified. We also wait for a first payment to be made before we activate the account. Meaning : the ability to send e-mails.",
+        "p-reason": "In 2024, some users abused the free trial period of our service to send SPAM and fishing e-mails. This is a very serious concern for us. If we didn't take quick and radical measures, the service could lose the trust it earned. Loosing this trust would result to your own e-mails being sent to SPAM.",
+        "p-actions": "We discontinued the free trial. But still, some users would create paying accounts and send e-mail for a month. The first payment was set 28 days after signing-up. They still have time to send maliciuous e-mails. We then introduced Instant Payment to check very quickly if the customer was able to pay, and for the bank to verify its account. We later figured out that the Instant Payment system was limited to a few banks. Some customers could not sign up ! We decided to revert this decision. We now use the standard direct debit mandate scheme with the first payment set as soon as possible (about 2 work days). We activate the account (can send e-mails) when this first payment occurs. We have written a more detailed explanation of this concern in the blog article series below.",
+        "href-paywall-history": "https://blog.iroco.co/incident-de-securite/"
+      },
       "offer": {
         "title": "Is your offer non-binding?",
         "p": "Yes: you can cancel your subscription at any time. There is no minimum commitment period."

@@ -7,11 +7,10 @@
 	import { PUBLIC_APP_SIGNUP_URL } from '$env/static/public'
 	import { base } from '$app/paths'
 	import SubscriptionChart from '$lib/SubscriptionChart.svelte'
-	import ImageArticle from '$lib/ImageArticle.svelte'
 
 	const irocoAppSignupUrl = PUBLIC_APP_SIGNUP_URL
 
-	let windowWidth: number = $state(320);
+	let windowWidth: number = $state(320)
 </script>
 
 <svelte:window bind:innerWidth={windowWidth} />
@@ -27,12 +26,13 @@
 			<p>
 				Bonjour,
 
-				Est ce que vous avez 15 minutes devant vous ? Oui c’est un peu long pour une inscription mail mais fidèles à nos
+				Est ce que vous avez 15 minutes devant vous ?
+			</p>
+			<p>Oui c’est un peu long pour une inscription mail mais fidèles à nos
 				valeurs, nous préférons prendre du temps avec vous au démarrage pour que vous puissiez venir chez nous en toute
 				conscience. Alors préparez vous une tasse de café, de thé ou de tisane ou de ce que vous voulez (l’équipe
-				diverge
-				sur ce point) et allons-y ! Avant de vous asseoir, assurez vous que vous avez l’IBAN du compte avec lequel vous
-				souhaitez payer avec vous ainsi que votre téléphone. Maintenant on peut commencer :)
+				diverge sur ce point) et allons-y ! Avant de vous asseoir, assurez vous que vous avez l’IBAN du compte avec
+				lequel vous souhaitez payer avec vous ainsi que votre téléphone. Maintenant on peut commencer :)
 
 			</p>
 
@@ -269,7 +269,7 @@
 
   .preamble {
 
-    p,ul,li {
+    p, ul, li {
       min-width: var(--p-min-width, 22ch);
       max-width: var(--p-max-width, 75ch);
 
@@ -281,26 +281,11 @@
   }
 
 
-  @media only screen and (min-width: 768px) {
-    .preamble {
-      width: 90%;
-    }
-  }
-
-  @media only screen and (min-width: 992px) {
-    .preamble {
-    }
-  }
-
-  @media only screen and (min-width: 1200px) {
-    .preamble {
-    }
-  }
 
   .about__image {
     margin-left: auto;
     margin-right: auto;
-		display: block;
+    display: block;
     min-width: var(--p-min-width, 22ch);
     max-width: var(--p-max-width, 50ch);
     padding: 2em 1em;
