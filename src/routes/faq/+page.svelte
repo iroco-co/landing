@@ -430,13 +430,7 @@
     }
 
     &__picture {
-      width: 100vw;
-    }
-
-    @media only screen and (min-width: 576px) {
-      &__picture {
-        width: 85vw;
-      }
+      width: 85vw;
     }
 
     @media only screen and (min-width: 992px) {

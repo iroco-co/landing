@@ -112,7 +112,7 @@
 
 <style>
   .subscription_chart_svg{
-    width: 100vw;
+    width: 85vw;
   }
 
   @media only screen and (min-width: 576px) {
