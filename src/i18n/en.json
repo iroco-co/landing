@@ -271,7 +271,7 @@
         "p": "We added this feature to allow users to test our services. Unfortunately, most of the trial period users created mailboxes to send spam or phishing. This meant that we regularly had to shut down the registration service during periods when we couldn't monitor the servers (nights, weekends, holidays), or deploy monitoring and security mechanisms that were costly in terms of time and energy."
       },
       "initial-payment": {
-        "title": "Why an upfront payment on top of the monthly subscription?",
+        "title": "Why the first payment is as soon as possible on signup?",
         "p": "Groups of malicious people could use our platform to send spam or phishing e-mails by taking multiple accounts (case proven in the past). Payment at the beginning of the month enables us to carry out an initial bank check to verify the non-abusive intention of using our service."
       },
       "activation-delay": {

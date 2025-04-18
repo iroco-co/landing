@@ -270,7 +270,7 @@
         "p": "Nous avions ajouté cette fonctionnalité pour permettre de tester nos services. Malheureusement, la grande majorité des utilisateurs de cette période d'essai ont créé des boites mail pour envoyer des messages non sollicités ou d'hameçonnage. Cela nous obligeait à régulièrement fermer le service d'inscription pendant les périodes où nous ne pouvions pas surveiller les serveurs (la nuit, les week-end, les congés), ou de déployer des mécanismes de monitoring et de sécurité coûteux en temps et en énergie."
       },
       "initial-payment": {
-        "title": "Pourquoi avoir mis en place un paiement initial en plus de l'abonnement mensuel ?",
+        "title": "Pourquoi avoir mis en place un premier paiement au plus tôt lors de la souscription?",
         "p": "Des goupes de personnes malveillantes pourraient utiliser notre plateforme pour envoyer des emails non sollicités ou de hameçonnage  en prenant de multiples comptes (cas avéré par le passé). Le paiement en début de mois permet de faire un premier contrôle bancaire pour vérifer l'intention non abusive de l'usage de notre service."
       },
       "activation-delay": {
