@@ -10,7 +10,7 @@
     },
     "topology": {
       "title": "Topologie",
-      "content": "A l'heure actuelle, la topologie est simple car Iroco a deux serveurs : <ul><li>un serveur de production chez <a href=\"https://www.eolas.fr/4-societe.htm\">Éolas</a>. Notre serveur est situé dans la région Grenobloise.</li><li>un serveur de préproduction chez OVH.</li></ul>"
+      "content": "A l'heure actuelle, la topologie est simple car Iroco a deux serveurs : <ul><li>un serveur de production chez <a href=\"https://eco.ovhcloud.com/\">OVH Eco</a>. Notre serveur est situé dans la région Grenobloise.</li><li>un serveur de préproduction chez OVH.</li></ul>"
     },
     "infrastructure": {
       "title": "Forme d'infrastructure",

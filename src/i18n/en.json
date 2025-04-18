@@ -10,7 +10,7 @@
     },
     "topology": {
       "title": "Topology",
-      "content": "At present, the topology is simple because Iroco has two servers: <ul><li>a production server at <a href=\"https://www.eolas.fr/4-societe.htm\">Éolas</a></li><li>a preproduction server at OVH.</li></ul>"
+      "content": "At present, the topology is simple because Iroco has two servers: <ul><li>a production server at <a href=\"https://eco.ovhcloud.com/\">OVH Eco</a></li><li>a preproduction server at OVH.</li></ul>"
     },
     "infrastructure": {
       "title": "Type of infrastructure",
