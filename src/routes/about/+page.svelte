@@ -67,6 +67,39 @@
     alt="Paper plane leaving behind a heart-shaped trail"
   />
 
+  <section class="about__roadmap">
+    <h1>{$_("about.roadmap.title")}</h1>
+    <p>{$_("about.roadmap.p")}</p>
+    <div class="about__roadmap__sections">
+      <article class="about__roadmap__sections__servers">
+        <h2>{$_("about.roadmap.ul.servers.title")}</h2>
+        <h3>{$_("about.roadmap.ul.servers.date")}</h3>
+        <p>{$_("about.roadmap.ul.servers.details")}</p>
+      </article>
+      <article class="about__roadmap__sections__client">
+        <h2>{$_("about.roadmap.ul.client.title")}</h2>
+        <h3>{$_("about.roadmap.ul.client.date")}</h3>
+        <p>{$_("about.roadmap.ul.client.details")}</p>
+      </article>
+      <article class="about__roadmap__sections__company">
+        <h2>{$_("about.roadmap.ul.company.title")}</h2>
+        <h3>{$_("about.roadmap.ul.company.date")}</h3>
+        <p>{$_("about.roadmap.ul.company.details")}</p>
+      </article>
+      <article class="about__roadmap__sections__webmail">
+        <h2>{$_("about.roadmap.ul.webmail.title")}</h2>
+        <h3>{$_("about.roadmap.ul.webmail.date")}</h3>
+        <p>{$_("about.roadmap.ul.webmail.details")}</p>
+      </article>
+    </div>
+  </section>
+
+  <img
+    class="about__image"
+    src="/images/Iroco-illustration-a-propos.svg"
+    alt="Paper plane leaving behind a heart-shaped trail"
+  />
+
   <section class="about__ecosystem">
     <h1>{$_("about.ecosystem.title")}</h1>
     <div class="about__ecosystem__grid">
@@ -116,38 +149,6 @@
     </div>
   </section>
 
-  <img
-    class="about__image"
-    src="/images/Iroco-illustration-a-propos.svg"
-    alt="Paper plane leaving behind a heart-shaped trail"
-  />
-
-  <section class="about__roadmap">
-    <h1>{$_("about.roadmap.title")}</h1>
-    <p>{$_("about.roadmap.p")}</p>
-    <div class="about__roadmap__sections">
-      <article class="about__roadmap__sections__servers">
-        <h2>{$_("about.roadmap.ul.servers.title")}</h2>
-        <h3>{$_("about.roadmap.ul.servers.date")}</h3>
-        <p>{$_("about.roadmap.ul.servers.details")}</p>
-      </article>
-      <article class="about__roadmap__sections__client">
-        <h2>{$_("about.roadmap.ul.client.title")}</h2>
-        <h3>{$_("about.roadmap.ul.client.date")}</h3>
-        <p>{$_("about.roadmap.ul.client.details")}</p>
-      </article>
-      <article class="about__roadmap__sections__company">
-        <h2>{$_("about.roadmap.ul.company.title")}</h2>
-        <h3>{$_("about.roadmap.ul.company.date")}</h3>
-        <p>{$_("about.roadmap.ul.company.details")}</p>
-      </article>
-      <article class="about__roadmap__sections__webmail">
-        <h2>{$_("about.roadmap.ul.webmail.title")}</h2>
-        <h3>{$_("about.roadmap.ul.webmail.date")}</h3>
-        <p>{$_("about.roadmap.ul.webmail.details")}</p>
-      </article>
-    </div>
-  </section>
 
   <IrocologoSignupbutton />
 </div>
