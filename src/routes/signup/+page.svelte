@@ -49,36 +49,32 @@
       </div>
 
       <div class="signup__offer__card__buttons">
-        <a
-          href={irocoAppSignupUrl}
-          class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"
-        >
-          <Icon data={chevronRight} color={Color.nightBlue} />
-          {$_("signup.offer.buttons.subscribe")}
-        </a>
-        <Button kind="dark" onclick={toggleMore}>
-            <Icon data={detailsIcon} />
-          {$_("signup.offer.buttons.details")}
-        </Button>
-        <div class="signup__offer__card__buttons__more" class:displayed={more}>
-          <h2>{$_("faq.questions.offercontent.title")}</h2>
-          <p>{$_("faq.questions.offercontent.p")}</p>
-          <ul>
-            <li>{$_("faq.questions.offercontent.list.address")}</li>
-            <li>{$_("faq.questions.offercontent.list.mailbox")}</li>
-            <li>{$_("faq.questions.offercontent.list.aliases")}</li>
-            <li>
-              {$_("faq.questions.offercontent.list.contact-calendar")}
-            </li>
-          </ul>
-          <p>
-            {$_("faq.questions.offercontent.nowebmail")}
-            <a href="faq#configuration">
-              {$_("faq.questions.offercontent.configurationquestion")}
-            </a>
-          </p>
-          <p>{$_("faq.questions.offercontent.soon")}</p>
-        </div>
+
+        <details>
+          <summary class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--dark">
+            {$_("signup.offer.buttons.details")}
+          </summary>
+          <div class="signup__offer__card__buttons__more">
+            <h2>{$_("faq.questions.offercontent.title")}</h2>
+            <p>{$_("faq.questions.offercontent.p")}</p>
+            <ul>
+              <li>{$_("faq.questions.offercontent.list.address")}</li>
+              <li>{$_("faq.questions.offercontent.list.mailbox")}</li>
+              <li>{$_("faq.questions.offercontent.list.aliases")}</li>
+              <li>
+                {$_("faq.questions.offercontent.list.contact-calendar")}
+              </li>
+            </ul>
+            <p>
+              {$_("faq.questions.offercontent.nowebmail")}
+              <a href="faq#configuration">
+                {$_("faq.questions.offercontent.configurationquestion")}
+              </a>
+            </p>
+            <p>{$_("faq.questions.offercontent.soon")}</p>
+          </div>
+        </details>
+
       </div>
     </div>
   </div>
@@ -150,7 +146,6 @@
             display: block;
           }
           &__more {
-            display: none;
             h3 {
               text-align: center;
             }
