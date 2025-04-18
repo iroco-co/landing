@@ -141,11 +141,11 @@
       </div>
       <div class="about__ecosystem__grid__item">
         <div class="about__ecosystem__grid__item__img">
-          <a href="https://www.eolas.fr/"
-            ><img src="/images/partners/eolas.png" alt="Eolas Logo" /></a
+          <a href="https://www.ovhcloud.com//"
+            ><img src="/images/partners/Logo_OVH.svg" alt="OVH Logo" /></a
           >
         </div>
-        <p>{$_("about.ecosystem.eolas")}</p>
+        <p>{$_("about.ecosystem.ovh")}</p>
       </div>
     </div>
   </section>
