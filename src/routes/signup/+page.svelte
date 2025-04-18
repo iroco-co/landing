@@ -9,6 +9,7 @@
   const irocoAppSignupUrl = PUBLIC_APP_SIGNUP_URL
   let more = $state(false);
 
+  let detailsIcon = $derived(more?chevronDown:chevronRight)
   function toggleMore(): void {
     more = !more;
   }
@@ -56,11 +57,7 @@
           {$_("signup.offer.buttons.subscribe")}
         </a>
         <Button kind="dark" onclick={toggleMore}>
-          {#if more}
-            <Icon data={chevronDown} />
-          {:else}
-            <Icon data={chevronRight} />
-          {/if}
+            <Icon data={detailsIcon} />
           {$_("signup.offer.buttons.details")}
         </Button>
         <div class="signup__offer__card__buttons__more" class:displayed={more}>
