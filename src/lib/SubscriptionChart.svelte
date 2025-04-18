@@ -4,16 +4,14 @@
     size: number;
   }
 
-  let { size }: Props = $props();
 </script>
 
 <span class="chart">
   <svg
+    class="subscription_chart_svg"
     preserveAspectRatio="xMaxYMin meet"
     viewBox="0 0 800 400"
-    height={size}
     role="img"
-    width={(5 * size) / 3}
   >
     <title>{$_("faq.questions.subscription.chart.title")}</title>
     <g data-z-index="3">
@@ -111,3 +109,21 @@
     </g>
   </svg>
 </span>
+
+<style>
+  .subscription_chart_svg{
+    width: 100vw;
+  }
+
+  @media only screen and (min-width: 576px) {
+    .subscription_chart_svg{
+      width: 85vw;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .subscription_chart_svg{
+      width: 60vw;
+    }
+  }
+</style>

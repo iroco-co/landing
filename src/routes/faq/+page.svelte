@@ -3,10 +3,8 @@
 	import { _ } from 'svelte-i18n'
 	import SubscriptionChart from '$lib/SubscriptionChart.svelte'
 
-	let windowWidth: number = $state(320)
 </script>
 
-<svelte:window bind:innerWidth={windowWidth} />
 <svelte:head>
 	<title>{$_("faq.title")}</title>
 </svelte:head>
@@ -258,7 +256,7 @@
 					<li>{$_("faq.questions.subscription.list.deployment")}</li>
 					<li>{$_("faq.questions.subscription.list.rest")}</li>
 				</ul>
-				<SubscriptionChart size={Math.min((windowWidth * 0.8) / 2, 500)} />
+				<SubscriptionChart />
 			</div>
 			<div id="account" class="faq__q-a__account question">
 				<h3>
@@ -291,17 +289,17 @@
 				<p>
 					{$_("faq.questions.configuration.imap-example")}
 					<img
+						class="faq__picture"
 						alt="imap configuration example"
 						src="/images/imap.png"
-						width={Math.min(609, windowWidth * 0.8)}
 					/>
 				</p>
 				<p>
 					{$_("faq.questions.configuration.smtp-example")}
 					<img
+						class="faq__picture"
 						alt="smtp configuration example"
 						src="/images/smtp.png"
-						width={Math.min(609, windowWidth * 0.8)}
 					/>
 				</p>
 			</div>
@@ -428,6 +426,22 @@
         &__content {
           width: 100%;
         }
+      }
+    }
+
+    &__picture {
+      width: 100vw;
+    }
+
+    @media only screen and (min-width: 576px) {
+      &__picture {
+        width: 85vw;
+      }
+    }
+
+    @media only screen and (min-width: 992px) {
+      &__picture {
+        width: 60vw;
       }
     }
   }

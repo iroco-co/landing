@@ -10,10 +10,7 @@
 
 	const irocoAppSignupUrl = PUBLIC_APP_SIGNUP_URL
 
-	let windowWidth: number = $state(320)
 </script>
-
-<svelte:window bind:innerWidth={windowWidth} />
 
 <svelte:head>
 	<title>{$_("signup.title")}</title>
@@ -68,7 +65,7 @@
 				<li> Le reste (environ 25%) sert à payer nos autres frais et à rémunérer l'équipe d'Iroco.</li>
 
 			</ul>
-			<SubscriptionChart size={Math.min((windowWidth * 0.8) / 2, 500)} />
+			<SubscriptionChart size={320} />
 			<p>
 				Pour ce prix, nous vous proposons un service de mail sans engagement, respectueux de votre vie privée et de
 				l’environnement qui inclut :
@@ -279,7 +276,6 @@
     }
 
   }
-
 
 
   .about__image {
