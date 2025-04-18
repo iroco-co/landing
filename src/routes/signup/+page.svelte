@@ -7,6 +7,7 @@
 	import { PUBLIC_APP_SIGNUP_URL } from '$env/static/public'
 	import { base } from '$app/paths'
 	import SubscriptionChart from '$lib/SubscriptionChart.svelte'
+	import ImageArticle from '$lib/ImageArticle.svelte'
 
 	const irocoAppSignupUrl = PUBLIC_APP_SIGNUP_URL
 
@@ -96,10 +97,11 @@
 					ainsi que la possibilité de gérer vos contacts et calendrier
 				</li>
 			</ul>
+
 			<img
 				class="about__image"
-				src="/images/Iroco-illustration-a-propos.svg"
-				alt="Paper plane leaving behind a heart-shaped trail"
+				src="/images/clients-messagerie.svg"
+				alt="Electronic devices and email clients logos"
 			/>
 			<p>
 				Notre offre n'inclut pour le moment pas (encore) de webmail. Qu’est ce que cela veut dire ? Cela signifie que
