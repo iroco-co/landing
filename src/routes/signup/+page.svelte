@@ -49,7 +49,13 @@
       </div>
 
       <div class="signup__offer__card__buttons">
-
+        <a
+          href={irocoAppSignupUrl}
+          class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"
+        >
+          <Icon data={chevronRight} color={Color.nightBlue} />
+          {$_("signup.offer.buttons.subscribe")}
+        </a>
         <details>
           <summary class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--dark">
             {$_("signup.offer.buttons.details")}
