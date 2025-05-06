@@ -154,7 +154,8 @@
       "title": "Notre écosystème",
       "boavizta": "Nous sommes membres de Boavizta, groupe de travail collaboratif dont l'objectif est la mesure d’impact environnemental du numérique des organisations. Boavizta propose des méthodologies de calcul et des outils sous licence libre.",
       "agit": "Nous sommes également membres de l'Alliance Green IT, association qui a pour but de définir et de diffuser les bonnes pratiques écologiquement et socialement responsables au sein des métiers du numérique.",
-      "eolas": "Nos services sont hébergés chez Eolas, data center engagé dans une démarche d'éco-responsabilité situé à Grenoble.",
+      "ovh": "Nos services sont hébergés chez OVH Cloud Eco. Faible empreinte carbone et une approche cirulaire pour optimiser la durée de vie des composants.",
+      "ovh.href": "https://eco.ovhcloud.com/fr/about/",
       "shift-your-job": "Shift Your Job est une plateforme portée par les bénévoles du <a href=\"https://theshiftproject.org/\">Shift Project</a> qui répertorie les organisations contribuant de manière directe ou indirecte à la transition carbone.",
       "bpi-france": "Dans le cadre du dispositif Innov'Up Faisabilité, nous avons bénéficié d'une aide financière de BPIFrance pour le développement de notre projet."
     },
@@ -269,8 +270,15 @@
         "p": "Nous avions ajouté cette fonctionnalité pour permettre de tester nos services. Malheureusement, la grande majorité des utilisateurs de cette période d'essai ont créé des boites mail pour envoyer des messages non sollicités ou d'hameçonnage. Cela nous obligeait à régulièrement fermer le service d'inscription pendant les périodes où nous ne pouvions pas surveiller les serveurs (la nuit, les week-end, les congés), ou de déployer des mécanismes de monitoring et de sécurité coûteux en temps et en énergie."
       },
       "initial-payment": {
-        "title": "Pourquoi avoir mis en place un paiement initial en plus de l'abonnement mensuel ?",
+        "title": "Pourquoi avoir mis en place un premier paiement au plus tôt lors de la souscription?",
         "p": "Des goupes de personnes malveillantes pourraient utiliser notre plateforme pour envoyer des emails non sollicités ou de hameçonnage  en prenant de multiples comptes (cas avéré par le passé). Le paiement en début de mois permet de faire un premier contrôle bancaire pour vérifer l'intention non abusive de l'usage de notre service."
+      },
+      "activation-delay": {
+        "title": "Pourquoi dois-je attendre avant d'envoyer des e-mails? ",
+        "p-how": "Nous devons attendre que votre compte bancaire et votre mandat soient vérifiés. Nous attendons également qu'un premier paiement soit effectué avant d'activer le compte. Signification : la possibilité d'envoyer des e-mails. ",
+        "p-reason": "En 2024, certains utilisateurs ont abusé de la période d'essai gratuite de notre service pour envoyer du SPAM et des e-mails de pêche. C'est une préoccupation très sérieuse pour nous. Si nous ne prenions pas des mesures rapides et radicales, le service pourrait perdre la confiance qu'il a gagnée. Perdre cette confiance entraînerait l'envoi de vos propres e-mails au SPAM. ",
+        "p-actions": "Nous avons interrompu l'essai gratuit. Mais encore, certains utilisateurs créeraient des comptes payants et enverraient des e-mails pendant un mois. Le premier paiement a été établi 28 jours après l'inscription. Ils ont encore le temps d'envoyer des e-mails malveillants. Nous avons ensuite introduit le Paiement Instantané pour vérifier très rapidement si le client était en mesure de payer, et pour que la banque vérifie son compte. Nous avons ensuite compris que le système de Paiement Instantané était limité à quelques banques. Certains clients ne pouvaient pas s'inscrire ! Nous avons décidé de revenir sur cette décision. Nous utilisons maintenant le système de mandat de prélèvement automatique standard avec le premier paiement fixé dès que possible (environ 2 jours ouvrables). Nous activons le compte (peut envoyer des e-mails) lorsque ce premier paiement se produit. Nous avons écrit une explication plus détaillée de cette préoccupation dans la série d'articles de blog ci-dessous.",
+        "href-paywall-history": "https://blog.iroco.co/incident-de-securite/"
       },
       "offer": {
         "title": "Votre offre est-elle sans engagement ?",
