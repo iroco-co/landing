@@ -23,7 +23,7 @@
 			<p>
 				Bonjour,
 
-				Est ce que vous avez 15 minutes devant vous ?
+				Est ce que vous avez 10 minutes devant vous ?
 			</p>
 			<p>Oui c’est un peu long pour une inscription mail mais fidèles à nos
 				valeurs, nous préférons prendre du temps avec vous au démarrage pour que vous puissiez venir chez nous en toute
@@ -64,17 +64,13 @@
 			
 			<ul>
 				<li>
-					Une adresse mail de votre choix sur le nom de domaine iroco.co ou iroco.io (le choix du nom de domaine n’a pas
-					d’impact, c’est juste une question de préférence - dans notre équipe, certains ont choisi le premier juste
-					parce que ça faisait très rococo ;))
+					Une adresse mail de votre choix sur le nom de domaine iroco.co ou iroco.io au choix
 				</li>
 				<li>
-					Une boîte mail associée à cette adresse disposant de 5Go d'espace de stockage (ce qui correspond, en ordre de
-					grandeur, à 100 000 mails simples (qui font environ 50Ko chacun) ou à 5 000 mails avec une pièce jointe de 1Mo chacun).
+					Une boîte mail associée à cette adresse disposant de 5Go d'espace de stockage
 				</li>
 				<li>
-					50 alias, c'est-à-dire des adresses mails secondaires composées sur la base de votre adresse principale. Les
-					messages envoyés à ces alias arriveront dans votre boîte de réception principale. 
+					50 alias, c'est-à-dire des adresses mails secondaires composées sur la base de votre adresse principale
 				</li>
 				<li>
 					ainsi que la possibilité de gérer vos contacts et calendrier
@@ -94,6 +90,11 @@
 				et tablettes ou comme des logiciels disponibles (Thunderbird par exemple, mais il en existe beaucoup d'autres).
 				Ne vous inquiétez pas, nous avons des guides pas à pas pour vous aider sur cette étape !
 			</p>
+			<img
+				class="about__image"
+				src="/images/Iroco-illustration-a-propos.svg"
+				alt="Paper plane leaving behind a heart-shaped trail"
+			/>
 			<p>Il vous reste des questions ? N’hésitez pas à consulter notre <a href={`${base}/faq`}>FAQ</a>, nos <a
 				href={`${base}/terms`}>CGV</a> ou à
 				nous envoyer un email (<a href="mailto:hello@iroco.fr">hello@iroco.fr</a>)  !
@@ -101,14 +102,7 @@
 			</p>
 
 
-			<img
-				class="about__image"
-				src="/images/clients-messagerie.svg"
-				alt="Electronic devices and email clients logos"
-			/>
-
 		</div>
-
 
 
 		<div class="signup__offer__card">
@@ -145,30 +139,6 @@
 					<Icon data={chevronRight} color={Color.nightBlue} />
 					{$_("signup.offer.buttons.subscribe")}
 				</a>
-				<details>
-					<summary class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--dark">
-						{$_("signup.offer.buttons.details")}
-					</summary>
-					<div class="signup__offer__card__buttons__more">
-						<h2>{$_("faq.questions.offercontent.title")}</h2>
-						<p>{$_("faq.questions.offercontent.p")}</p>
-						<ul>
-							<li>{$_("faq.questions.offercontent.list.address")}</li>
-							<li>{$_("faq.questions.offercontent.list.mailbox")}</li>
-							<li>{$_("faq.questions.offercontent.list.aliases")}</li>
-							<li>
-								{$_("faq.questions.offercontent.list.contact-calendar")}
-							</li>
-						</ul>
-						<p>
-							{$_("faq.questions.offercontent.nowebmail")}
-							<a href="faq#configuration">
-								{$_("faq.questions.offercontent.configurationquestion")}
-							</a>
-						</p>
-						<p>{$_("faq.questions.offercontent.soon")}</p>
-					</div>
-				</details>
 
 			</div>
 		</div>
