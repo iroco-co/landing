@@ -47,29 +47,21 @@
 				privée
 				de nos utilisateurs au plus offrant.
 
-				Dans le détail, voici quelle est l’utilisation du montant de l’abonnement versé par nos utilisateurs :
-
+				Globalement, ce montant permet majoritairement de couvrir les frais d'hébergement et à financer l'équipe mais aussi
+				de payer nos taxes et le prestataire de paiement.
 			</p>
-			<ul>
-				<li> Un peu moins de 16% (soit 20% du montant hors taxes) de ce montant va à l’administration fiscale sous forme
-					de TVA : les services proposés par Iroco sont assujettis au taux normal de TVA de 20%, comme la plupart des
-					biens et services.
-				</li>
 
-				<li> Notre prestataire de paiement prélève une commission de 7% environ sur le montant de l’abonnement.</li>
+			<img
+				class="about__image"
+				src="/images/Iroco-illustration-a-propos.svg"
+				alt="Paper plane leaving behind a heart-shaped trail"
+			/>
 
-				<li> Près de 48% de l'abonnement sert à couvrir nos coûts d'hébergement, c'est-à-dire les serveurs physiques sur
-					lesquels sont stockés applications et données.
-				</li>
-
-				<li> Le reste (environ 25%) sert à payer nos autres frais et à rémunérer l'équipe d'Iroco.</li>
-
-			</ul>
-			<SubscriptionChart size={320} />
 			<p>
 				Pour ce prix, nous vous proposons un service de mail sans engagement, respectueux de votre vie privée et de
 				l’environnement qui inclut :
 			</p>
+			
 			<ul>
 				<li>
 					Une adresse mail de votre choix sur le nom de domaine iroco.co ou iroco.io (le choix du nom de domaine n’a pas
@@ -78,17 +70,11 @@
 				</li>
 				<li>
 					Une boîte mail associée à cette adresse disposant de 5Go d'espace de stockage (ce qui correspond, en ordre de
-					grandeur, à 100 000 mails simples de 50Ko chacun ou à 5 000 mails avec une pièce jointe de 1Mo chacun).
-					Pourquoi 5Go alors que d’autres opérateurs vous propose plus de stockage ? Pour des questions de sobriété ! En
-					effet, une fois impartie, la totalité du stockage est réservée même si vous n’utilisez pas l’espace, ce qui
-					résulte en un gâchis de matière première et d’énergie pour la construction et l’alimentation des serveurs.
+					grandeur, à 100 000 mails simples (qui font environ 50Ko chacun) ou à 5 000 mails avec une pièce jointe de 1Mo chacun).
 				</li>
 				<li>
 					50 alias, c'est-à-dire des adresses mails secondaires composées sur la base de votre adresse principale. Les
-					messages envoyés à ces alias arriveront dans votre boîte de réception principale. C’est une option utile pour
-					votre vie privée : vous pouvez utiliser des alias par exemple pour vous inscrire à un service sans révéler
-					votre adresse principale, pour échanger avec une adresse différente pour chaque type d'interlocuteur (famille,
-					relations professionnelles, amis...) ou pour tous les usages que vous souhaitez.
+					messages envoyés à ces alias arriveront dans votre boîte de réception principale. 
 				</li>
 				<li>
 					ainsi que la possibilité de gérer vos contacts et calendrier
@@ -97,9 +83,10 @@
 
 			<img
 				class="about__image"
-				src="/images/clients-messagerie.svg"
-				alt="Electronic devices and email clients logos"
+				src="/images/Iroco-illustration-a-propos.svg"
+				alt="Paper plane leaving behind a heart-shaped trail"
 			/>
+
 			<p>
 				Notre offre n'inclut pour le moment pas (encore) de webmail. Qu’est ce que cela veut dire ? Cela signifie que
 				vous ne pourrez pas visualiser vos mails via le site Iroco . Pour cela, il faut utiliser des clients de
@@ -112,7 +99,16 @@
 				nous envoyer un email (<a href="mailto:hello@iroco.fr">hello@iroco.fr</a>)  !
 				Vous êtes convaincu.e.s ? Parfait - vous pouvez passer à l’étape d’inscription via le bouton ci-dessous
 			</p>
+
+
+			<img
+				class="about__image"
+				src="/images/clients-messagerie.svg"
+				alt="Electronic devices and email clients logos"
+			/>
+
 		</div>
+
 
 
 		<div class="signup__offer__card">
