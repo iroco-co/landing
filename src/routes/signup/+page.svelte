@@ -40,7 +40,7 @@
 			/>
 
 			<p>
-				Nous avons parlé d’un IBAN. Effectivement notre solution mail n’est pas gratuite. Elle coûte 3,60€ par mois avec
+				Nous avons parlé d’un IBAN, non ?. Effectivement notre solution mail n’est pas gratuite. Elle coûte 3,60€ par mois avec
 				un premier paiement à l’inscription. Ce choix est aligné avec notre modèle : nous préférons proposer
 				l'abonnement
 				à nos services à un coût modeste plutôt que de nous rémunérer en vendant les données personnelles et la vie
@@ -51,12 +51,7 @@
 				de payer nos taxes et le prestataire de paiement.
 			</p>
 
-			<img
-				class="about__image"
-				src="/images/Iroco-illustration-a-propos.svg"
-				alt="Paper plane leaving behind a heart-shaped trail"
-			/>
-
+			
 			<p>
 				Pour ce prix, nous vous proposons un service de mail sans engagement, respectueux de votre vie privée et de
 				l’environnement qui inclut :
