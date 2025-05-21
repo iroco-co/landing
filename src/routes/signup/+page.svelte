@@ -20,83 +20,7 @@
 	<div class="signup__offer">
 		<h1>{$_("signup.offer.title")}</h1>
 		<div class="preamble">
-			<p>
-				Bonjour,
-
-				Est ce que vous avez 10 minutes devant vous ?
-			</p>
-			<p>Oui c’est un peu long pour une inscription mail mais fidèles à nos
-				valeurs, nous préférons prendre du temps avec vous au démarrage pour que vous puissiez venir chez nous en toute
-				conscience. Alors préparez vous une tasse de café, de thé ou de tisane ou de ce que vous voulez (l’équipe
-				diverge sur ce point) et allons-y ! Avant de vous asseoir, assurez vous que vous avez l’IBAN du compte avec
-				lequel vous souhaitez payer avec vous ainsi que votre téléphone. Maintenant on peut commencer :)
-
-			</p>
-
-			<img
-				class="about__image"
-				src="/images/Iroco-illustration-a-propos.svg"
-				alt="Paper plane leaving behind a heart-shaped trail"
-			/>
-
-			<p>
-				Nous avons parlé d’un IBAN, non ?. Effectivement notre solution mail n’est pas gratuite. Elle coûte 3,60€ par mois avec
-				un premier paiement à l’inscription. Ce choix est aligné avec notre modèle : nous préférons proposer
-				l'abonnement
-				à nos services à un coût modeste plutôt que de nous rémunérer en vendant les données personnelles et la vie
-				privée
-				de nos utilisateurs au plus offrant.
-
-				Globalement, ce montant permet majoritairement de couvrir les frais d'hébergement et à financer l'équipe mais aussi
-				de payer nos taxes et le prestataire de paiement.
-			</p>
-
-			
-			<p>
-				Pour ce prix, nous vous proposons un service de mail sans engagement, respectueux de votre vie privée et de
-				l’environnement qui inclut :
-			</p>
-			
-			<ul>
-				<li>
-					Une adresse mail de votre choix sur le nom de domaine iroco.co ou iroco.io au choix
-				</li>
-				<li>
-					Une boîte mail associée à cette adresse disposant de 5Go d'espace de stockage
-				</li>
-				<li>
-					50 alias, c'est-à-dire des adresses mails secondaires composées sur la base de votre adresse principale
-				</li>
-				<li>
-					ainsi que la possibilité de gérer vos contacts et calendrier
-				</li>
-			</ul>
-
-			<img
-				class="about__image"
-				src="/images/Iroco-illustration-a-propos.svg"
-				alt="Paper plane leaving behind a heart-shaped trail"
-			/>
-
-			<p>
-				Notre offre n'inclut pour le moment pas (encore) de webmail. Qu’est ce que cela veut dire ? Cela signifie que
-				vous ne pourrez pas visualiser vos mails via le site Iroco . Pour cela, il faut utiliser des clients de
-				messagerie c’est à dire des applications de messagerie neutres comme celles déjà installées dans vos téléphones
-				et tablettes ou comme des logiciels disponibles (Thunderbird par exemple, mais il en existe beaucoup d'autres).
-				Ne vous inquiétez pas, nous avons des guides pas à pas pour vous aider sur cette étape !
-			</p>
-			<img
-				class="about__image"
-				src="/images/Iroco-illustration-a-propos.svg"
-				alt="Paper plane leaving behind a heart-shaped trail"
-			/>
-			<p>Il vous reste des questions ? N’hésitez pas à consulter notre <a href={`${base}/faq`}>FAQ</a>, nos <a
-				href={`${base}/terms`}>CGV</a> ou à
-				nous envoyer un email (<a href="mailto:hello@iroco.fr">hello@iroco.fr</a>)  !
-				Vous êtes convaincu.e.s ? Parfait - vous pouvez passer à l’étape d’inscription via le bouton ci-dessous
-			</p>
-
-
+			{@html $_('signup.html_preamble')}
 		</div>
 
 
@@ -224,29 +148,4 @@
       }
     }
   }
-
-  .preamble {
-
-    p, ul, li {
-      min-width: var(--p-min-width, 22ch);
-      max-width: var(--p-max-width, 75ch);
-
-      text-align: left;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-  }
-
-
-  .about__image {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    min-width: var(--p-min-width, 22ch);
-    max-width: var(--p-max-width, 50ch);
-    padding: 2em 1em;
-
-  }
-
 </style>
