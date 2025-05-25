@@ -95,3 +95,27 @@ svg.greenIcon {
     font-size: 1.5em;
   }
 }
+
+.signup {
+  .preamble {
+    p,
+    ul,
+    li {
+      min-width: var(--p-min-width, 22ch);
+      max-width: var(--p-max-width, 75ch);
+
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .about__image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    min-width: var(--p-min-width, 22ch);
+    max-width: var(--p-max-width, 50ch);
+    padding: 2em 1em;
+  }
+}

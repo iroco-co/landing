@@ -3,6 +3,7 @@
   import { IrocoLogo, Color } from "@iroco/ui";
   import Icon from "svelte-awesome";
   import chevronRight from "svelte-awesome/icons/chevronRight";
+  let {signupHref="https://app.iroco.co/signup/"} = $props()
 </script>
 
 <div class="irocologo-signupbutton">
@@ -12,7 +13,7 @@
   <div class="irocologo-signupbutton__btn">
     <a
       class="iroco-ui-button iroco-ui-button--regular iroco-ui-button--success"
-      href="https://app.iroco.co/signup/"
+      href={signupHref}
     >
       <Icon data={chevronRight} style="color: {Color.darkBlue}" />
       {$_("footer.subscribe")}

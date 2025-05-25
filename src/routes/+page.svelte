@@ -3,6 +3,7 @@
   import ImageArticle from "../lib/ImageArticle.svelte";
   import IrocologoSignupbutton from "../lib/IrocologoSignupbutton.svelte";
   import KeilaForm from "$lib/KeilaForm.svelte";
+  import { base } from '$app/paths'
 </script>
 
 <svelte:head>
@@ -74,7 +75,7 @@
     ]}
   />
 
-  <IrocologoSignupbutton />
+  <IrocologoSignupbutton signupHref={base+"/signup"} />
 
   <KeilaForm />
 </section>

@@ -10,7 +10,7 @@
     },
     "topology": {
       "title": "Topology",
-      "content": "At present, the topology is simple because Iroco has two servers: <ul><li>a production server at <a href=\"https://www.eolas.fr/4-societe.htm\">Éolas</a></li><li>a preproduction server at OVH.</li></ul>"
+      "content": "At present, the topology is simple because Iroco has two servers: <ul><li>a production server at <a href=\"https://eco.ovhcloud.com/\">OVH Eco</a></li><li>a preproduction server at OVH.</li></ul>"
     },
     "infrastructure": {
       "title": "Type of infrastructure",
@@ -157,7 +157,8 @@
       "title": "Our Ecosystem",
       "boavizta": "We are members of Boavizta, a collaborative workgroup aiming at providing open source methodologies and tools to measure the environmental footprint of digital technology.",
       "agit": "We are also members of Alliance Green IT, a non-profit organization whose goal is to disseminate environmental and social best practices in the digital world.",
-      "eolas": "Our services are hosted by Eolas, a sustainability-oriented data center located in Grenoble, France.",
+      "ovh": "Our services are hosted by OVH Cloud Eco dedicated servers. Low carbon footprint and a circular approach ro optimizing the lifespan of components.",
+      "ovh.href": "https://eco.ovhcloud.com/en/about/",
       "shift-your-job": "Shift Your Job is a platform listing organizations which contribute to the transition to a low-carbon world.",
       "bpi-france": "As part of the Innov'Up 'Faisabilité' financing scheme, we received financial support from BPIFrance to develop our project."
     },
@@ -243,7 +244,8 @@
         "client": "Configuring\nyour email client",
         "account": "Managing\nyour account"
       }
-    }
+    },
+    "html_preamble": "<p>\n\t\t\t\tHello, do you have 10 minutes to spare?\n\n\\n\t\t\t</p>\n\t\t\t<p>Yes, it's a bit long for an e-mail registration, but true to our values, we prefer to take time with you at the start so that you can come to us with a clear conscience. So make yourself a cup of coffee, tea, herbal tea or whatever you like (the team differs on this point) and let's get started! Before you sit down, make sure you've got the IBAN of the account you'd like to pay with and your phone. Now we can get started :)\n\n\t\t\t</p>\n\n\t\t\t<img\n\t\t\t\tclass=\"about__image\"\n\t\t\t\tsrc=\"/images/Iroco-illustration-a-propos.svg\"\n\t\t\t\talt=\"\"\n\t\t\t/>\n\n\t\t\t<p>\n\t\t\t\tWe talked about an IBAN. It's true that our mail solution isn't free. It costs €3.60 per month, with an initial payment on registration. This choice is in line with our business model: we prefer to offer a subscription to our services at a modest cost, rather than selling our users' personal data and privacy to the highest bidder. On the whole, this amount is used mainly to cover hosting costs and to finance the team, as well as to pay our taxes and the payment service provider.\n\t\t\t</p>\n\n\t\t\t<img\n\t\t\t\tclass=\"about__image\"\n\t\t\t\tsrc=\"/images/Iroco-illustration-a-propos.svg\"\n\t\t\t\talt=\"\"\n\t\t\t/>\n\n\t\t\t<p>\n\t\t\t\tFor this price, we offer you a no-obligation e-mail service that respects your privacy and the environment, and includes :\n\n<ul>\n<li>An e-mail address of your choice on the domain name iroco.co or iroco.io</li>\n<li>A mailbox associated with this address with 5GB of storage space</li>\n<li>50 aliases, i.e. secondary e-mail addresses composed on the basis of your main address</li>\n<li>as well as the possibility of managing your contacts and calendar.</li>\n</ul><img\n\t\t\t\tclass=\"about__image\"\n\t\t\t\tsrc=\"/images/Iroco-illustration-a-propos.svg\"\n\t\t\t\talt=\"\"\n\t\t\t/>\n\n\t\t\t<p>\n\t\t\t\tOur offer does not (yet) include webmail. What does this mean? It means you won't be able to view your e-mails via the Iroco site. To do this, you'll need to use mail clients, i.e. neutral e-mail applications such as those already installed on your phones and tablets, or available software (Thunderbird, for example, but there are many others). Don't worry, we've got step-by-step guides to help you with this step!<img\n\t\t\t\tclass=\"about__image\"\n\t\t\t\tsrc=\"/images/Iroco-illustration-a-propos.svg\"\n\t\t\t\talt=\"\"\n\t\t\t/>\n\t\t\t<p>Still have questions? Take a look at our FAQ, our Terms and Conditions or send us an email (hello@iroco.fr)! Are you convinced? Great - now you can register via the button below.</p>\n\n"
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -270,8 +272,15 @@
         "p": "We added this feature to allow users to test our services. Unfortunately, most of the trial period users created mailboxes to send spam or phishing. This meant that we regularly had to shut down the registration service during periods when we couldn't monitor the servers (nights, weekends, holidays), or deploy monitoring and security mechanisms that were costly in terms of time and energy."
       },
       "initial-payment": {
-        "title": "Why an upfront payment on top of the monthly subscription?",
+        "title": "Why the first payment is as soon as possible on signup?",
         "p": "Groups of malicious people could use our platform to send spam or phishing e-mails by taking multiple accounts (case proven in the past). Payment at the beginning of the month enables us to carry out an initial bank check to verify the non-abusive intention of using our service."
+      },
+      "activation-delay": {
+        "title": "Why do I have to wait before sending e-mails ?",
+        "p-how": "We have to wait for your bank account and mandate to be verified. We also wait for a first payment to be made before we activate the account. Meaning : the ability to send e-mails.",
+        "p-reason": "In 2024, some users abused the free trial period of our service to send SPAM and fishing e-mails. This is a very serious concern for us. If we didn't take quick and radical measures, the service could lose the trust it earned. Loosing this trust would result to your own e-mails being sent to SPAM.",
+        "p-actions": "We discontinued the free trial. But still, some users would create paying accounts and send e-mail for a month. The first payment was set 28 days after signing-up. They still have time to send maliciuous e-mails. We then introduced Instant Payment to check very quickly if the customer was able to pay, and for the bank to verify its account. We later figured out that the Instant Payment system was limited to a few banks. Some customers could not sign up ! We decided to revert this decision. We now use the standard direct debit mandate scheme with the first payment set as soon as possible (about 2 work days). We activate the account (can send e-mails) when this first payment occurs. We have written a more detailed explanation of this concern in the blog article series below.",
+        "href-paywall-history": "https://blog.iroco.co/incident-de-securite/"
       },
       "offer": {
         "title": "Is your offer non-binding?",

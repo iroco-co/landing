@@ -10,7 +10,7 @@
     },
     "topology": {
       "title": "Topologie",
-      "content": "A l'heure actuelle, la topologie est simple car Iroco a deux serveurs : <ul><li>un serveur de production chez <a href=\"https://www.eolas.fr/4-societe.htm\">Éolas</a>. Notre serveur est situé dans la région Grenobloise.</li><li>un serveur de préproduction chez OVH.</li></ul>"
+      "content": "A l'heure actuelle, la topologie est simple car Iroco a deux serveurs : <ul><li>un serveur de production chez <a href=\"https://eco.ovhcloud.com/\">OVH Eco</a>. Notre serveur est situé dans la région Grenobloise.</li><li>un serveur de préproduction chez OVH.</li></ul>"
     },
     "infrastructure": {
       "title": "Forme d'infrastructure",
@@ -154,7 +154,8 @@
       "title": "Notre écosystème",
       "boavizta": "Nous sommes membres de Boavizta, groupe de travail collaboratif dont l'objectif est la mesure d’impact environnemental du numérique des organisations. Boavizta propose des méthodologies de calcul et des outils sous licence libre.",
       "agit": "Nous sommes également membres de l'Alliance Green IT, association qui a pour but de définir et de diffuser les bonnes pratiques écologiquement et socialement responsables au sein des métiers du numérique.",
-      "eolas": "Nos services sont hébergés chez Eolas, data center engagé dans une démarche d'éco-responsabilité situé à Grenoble.",
+      "ovh": "Nos services sont hébergés chez OVH Cloud Eco. Faible empreinte carbone et une approche cirulaire pour optimiser la durée de vie des composants.",
+      "ovh.href": "https://eco.ovhcloud.com/fr/about/",
       "shift-your-job": "Shift Your Job est une plateforme portée par les bénévoles du <a href=\"https://theshiftproject.org/\">Shift Project</a> qui répertorie les organisations contribuant de manière directe ou indirecte à la transition carbone.",
       "bpi-france": "Dans le cadre du dispositif Innov'Up Faisabilité, nous avons bénéficié d'une aide financière de BPIFrance pour le développement de notre projet."
     },
@@ -243,7 +244,8 @@
         "client": "Configuration de\nvotre client mail",
         "account": "Gestion de\nvotre compte"
       }
-    }
+    },
+    "html_preamble": "<p>\n\t\t\t\tBonjour,\n\n\t\t\t\tEst ce que vous avez 10 minutes devant vous ?\n\t\t\t</p>\n\t\t\t<p>Oui c’est un peu long pour une inscription mail mais fidèles à nos\n\t\t\t\tvaleurs, nous préférons prendre du temps avec vous au démarrage pour que vous puissiez venir chez nous en toute\n\t\t\t\tconscience. Alors préparez vous une tasse de café, de thé ou de tisane ou de ce que vous voulez (l’équipe\n\t\t\t\tdiverge sur ce point) et allons-y ! Avant de vous asseoir, assurez vous que vous avez l’IBAN du compte avec\n\t\t\t\tlequel vous souhaitez payer avec vous ainsi que votre téléphone. Maintenant on peut commencer :)\n\n\t\t\t</p>\n\n\t\t\t<img\n\t\t\t\tclass=\"about__image\"\n\t\t\t\tsrc=\"/images/Iroco-illustration-a-propos.svg\"\n\t\t\t\talt=\"\"\"\n\t\t\t/>\n\n\t\t\t<p>\n\t\t\t\tNous avons parlé d’un IBAN. Effectivement notre solution mail n’est pas gratuite. Elle coûte 3,60€ par mois avec\n\t\t\t\tun premier paiement à l’inscription. Ce choix est aligné avec notre modèle : nous préférons proposer\n\t\t\t\tl'abonnement\n\t\t\t\tà nos services à un coût modeste plutôt que de nous rémunérer en vendant les données personnelles et la vie\n\t\t\t\tprivée\n\t\t\t\tde nos utilisateurs au plus offrant.\n\n\t\t\t\tGlobalement, ce montant permet majoritairement de couvrir les frais d'hébergement et à financer l'équipe mais aussi\n\t\t\t\tde payer nos taxes et le prestataire de paiement.\n\t\t\t</p>\n\n\t\t\t<img\n\t\t\t\tclass=\"about__image\"\n\t\t\t\tsrc=\"/images/Iroco-illustration-a-propos.svg\"\n\t\t\t\talt=\"\"\"\n\t\t\t/>\n\n\t\t\t<p>\n\t\t\t\tPour ce prix, nous vous proposons un service de mail sans engagement, respectueux de votre vie privée et de\n\t\t\t\tl’environnement qui inclut :\n\t\t\t</p>\n\t\t\t\n\t\t\t<ul>\n\t\t\t\t<li>\n\t\t\t\t\tUne adresse mail de votre choix sur le nom de domaine iroco.co ou iroco.io au choix\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\tUne boîte mail associée à cette adresse disposant de 5Go d'espace de stockage\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t50 alias, c'est-à-dire des adresses mails secondaires composées sur la base de votre adresse principale\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\tainsi que la possibilité de gérer vos contacts et calendrier\n\t\t\t\t</li>\n\t\t\t</ul>\n\n\t\t\t<img\n\t\t\t\tclass=\"about__image\"\n\t\t\t\tsrc=\"/images/Iroco-illustration-a-propos.svg\"\n\t\t\t\talt=\"\"\"\n\t\t\t/>\n\n\t\t\t<p>\n\t\t\t\tNotre offre n'inclut pour le moment pas (encore) de webmail. Qu’est ce que cela veut dire ? Cela signifie que\n\t\t\t\tvous ne pourrez pas visualiser vos mails via le site Iroco . Pour cela, il faut utiliser des clients de\n\t\t\t\tmessagerie c’est à dire des applications de messagerie neutres comme celles déjà installées dans vos téléphones\n\t\t\t\tet tablettes ou comme des logiciels disponibles (Thunderbird par exemple, mais il en existe beaucoup d'autres).\n\t\t\t\tNe vous inquiétez pas, nous avons des guides pas à pas pour vous aider sur cette étape !\n\t\t\t</p>\n\t\t\t<img\n\t\t\t\tclass=\"about__image\"\n\t\t\t\tsrc=\"/images/Iroco-illustration-a-propos.svg\"\n\t\t\t\talt=\"\"\"\"\n\t\t\t/>\n\t\t\t<p>Il vous reste des questions ? N’hésitez pas à consulter notre <a href=\"/faq\">FAQ</a>, nos <a\n\t\t\t\thref=\"/terms\"}>CGV</a> ou à\n\t\t\t\tnous envoyer un email (<a href=\"mailto:hello@iroco.fr\">hello@iroco.fr</a>)  !\n\t\t\t\tVous êtes convaincu.e.s ? Parfait - vous pouvez passer à l’étape d’inscription via le bouton ci-dessous\n\t\t\t</p>\n\n"
   },
   "faq": {
     "title": "Foire Aux Questions",
@@ -269,8 +271,15 @@
         "p": "Nous avions ajouté cette fonctionnalité pour permettre de tester nos services. Malheureusement, la grande majorité des utilisateurs de cette période d'essai ont créé des boites mail pour envoyer des messages non sollicités ou d'hameçonnage. Cela nous obligeait à régulièrement fermer le service d'inscription pendant les périodes où nous ne pouvions pas surveiller les serveurs (la nuit, les week-end, les congés), ou de déployer des mécanismes de monitoring et de sécurité coûteux en temps et en énergie."
       },
       "initial-payment": {
-        "title": "Pourquoi avoir mis en place un paiement initial en plus de l'abonnement mensuel ?",
+        "title": "Pourquoi avoir mis en place un premier paiement au plus tôt lors de la souscription?",
         "p": "Des goupes de personnes malveillantes pourraient utiliser notre plateforme pour envoyer des emails non sollicités ou de hameçonnage  en prenant de multiples comptes (cas avéré par le passé). Le paiement en début de mois permet de faire un premier contrôle bancaire pour vérifer l'intention non abusive de l'usage de notre service."
+      },
+      "activation-delay": {
+        "title": "Pourquoi dois-je attendre avant d'envoyer des e-mails? ",
+        "p-how": "Nous devons attendre que votre compte bancaire et votre mandat soient vérifiés. Nous attendons également qu'un premier paiement soit effectué avant d'activer le compte. Signification : la possibilité d'envoyer des e-mails. ",
+        "p-reason": "En 2024, certains utilisateurs ont abusé de la période d'essai gratuite de notre service pour envoyer du SPAM et des e-mails de pêche. C'est une préoccupation très sérieuse pour nous. Si nous ne prenions pas des mesures rapides et radicales, le service pourrait perdre la confiance qu'il a gagnée. Perdre cette confiance entraînerait l'envoi de vos propres e-mails au SPAM. ",
+        "p-actions": "Nous avons interrompu l'essai gratuit. Mais encore, certains utilisateurs créeraient des comptes payants et enverraient des e-mails pendant un mois. Le premier paiement a été établi 28 jours après l'inscription. Ils ont encore le temps d'envoyer des e-mails malveillants. Nous avons ensuite introduit le Paiement Instantané pour vérifier très rapidement si le client était en mesure de payer, et pour que la banque vérifie son compte. Nous avons ensuite compris que le système de Paiement Instantané était limité à quelques banques. Certains clients ne pouvaient pas s'inscrire ! Nous avons décidé de revenir sur cette décision. Nous utilisons maintenant le système de mandat de prélèvement automatique standard avec le premier paiement fixé dès que possible (environ 2 jours ouvrables). Nous activons le compte (peut envoyer des e-mails) lorsque ce premier paiement se produit. Nous avons écrit une explication plus détaillée de cette préoccupation dans la série d'articles de blog ci-dessous.",
+        "href-paywall-history": "https://blog.iroco.co/incident-de-securite/"
       },
       "offer": {
         "title": "Votre offre est-elle sans engagement ?",

@@ -98,7 +98,7 @@
       <li>
         toute interopérabilité pertinente de ce contenu avec certains matériels
         ou logiciels dont le professionnel a ou devrait raisonnablement avoir
-        connaissance&nbsp;: hébergement (Eolas), prestataire de paiement
+        connaissance&nbsp;: hébergement (OVH), prestataire de paiement
         (GoCardless), protocoles mail IMAP (courrier entrant) et SMTP (courrier
         sortant).
       </li>

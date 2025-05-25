@@ -27,16 +27,14 @@
     <h2>Hébergeur</h2>
     <h3>Raison Sociale</h3>
     <p>
-      <a href="https://www.eolas.fr/">Eolas </a>
+      <a href="https://www.ovhcloud.com/">OVH </a>
       SARL
     </p>
     <h3>Adresse du siège social</h3>
-    <address>29 rue Servan</address>
-    <address>38000 GRENOBLE</address>
-    <h3>Téléphone</h3>
-    <p>+33 4 76 44 50 50</p>
+    <address>2 rue Kellermann</address>
+    <address>59100 Roubaix</address>
     <h3>Montant du Capital Social</h3>
-    <p>28 988 euros</p>
+    <p>50 000 000 euros</p>
   </div>
 </section>
 
