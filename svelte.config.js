@@ -31,11 +31,7 @@ const config = {
         ],
         "style-src": ["'self'"],
         "frame-ancestors": ["'self'"],
-        "frame-src": [
-          "'self'",
-          "xq520.mjt.lu",
-          `https://matomo.${hostname}`,
-        ],
+        "frame-src": ["'self'", "xq520.mjt.lu", `https://matomo.${hostname}`],
       },
     },
   },
