@@ -13,23 +13,23 @@ see [this url](https://github.com/nodesource/distributions/blob/master/README.md
 You can install dependencies with `npm install` (or `pnpm install` or `yarn`). Then run the unitests with
 
 ```bash
-$ npm run test
+npm run test
 ```
 
 Then run the playwright end-to-end tests (after installing playwright browser) :
 
 ```bash
-$ npx playwright install
-$ npm run eetest
+npx playwright install
+npm run eetest
 ```
 
 To run a server :
 
 ```bash
-$ npm run dev
+npm run dev
 
 # or start the server and open the app in a new browser tab
-$ npm run dev -- --open
+npm run dev -- --open
 ```
 
 ## Building
