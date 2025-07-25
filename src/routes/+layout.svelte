@@ -4,6 +4,7 @@
   import Footer from "../lib/Footer.svelte";
   import { Navigation, NavigationItem } from "@iroco/ui";
   import { page } from "$app/state";
+  import { PUBLIC_MATOMO_HOSTNAME } from "$env/static/public";
   import "../app.scss";
   interface Props {
     children?: import('svelte').Snippet;
@@ -13,9 +14,8 @@
 </script>
 
 <svelte:head>
-  <script src="/tracking.js"></script>
   <script
-    src="https://matomo.{page.url.host}/matomo.js"
+    src="https://{PUBLIC_MATOMO_HOSTNAME}/matomo.js"
     async
     defer
   ></script>

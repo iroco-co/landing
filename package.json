@@ -4,8 +4,8 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "build-prod": "vite build --mode production",
-    "build-preprod": "vite build --mode preprod",
+    "build-prod": "PUBLIC_HOSTNAME=iroco.co PUBLIC_MATOMO_HOSTNAME=matomo.iroco.co vite build --mode production",
+    "build-preprod": "PUBLIC_HOSTNAME=test.iroco.co PUBLIC_MATOMO_HOSTNAME=matomo.test.iroco.co vite build --mode preprod",
     "postbuild": "npx svelte-sitemap --domain https://iroco.co",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",

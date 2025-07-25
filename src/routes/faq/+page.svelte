@@ -2,6 +2,7 @@
   /* eslint svelte/no-at-html-tags: "off" */
   import { _ } from "svelte-i18n";
   import SubscriptionChart from "$lib/SubscriptionChart.svelte";
+  import { PUBLIC_MATOMO_HOSTNAME } from "$env/static/public";
 
   let windowWidth: number = $state(320);
 </script>
@@ -333,7 +334,7 @@
         <iframe
           height="270px"
           title="matomo"
-          src="https://matomo.iroco.co/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=211d28&fontColor=f2ebe3&fontSize=&fontFamily=Arial"
+          src={`https://${PUBLIC_MATOMO_HOSTNAME}/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=211d28&fontColor=f2ebe3&fontSize=&fontFamily=Arial`}
 ></iframe>
       </div>
       <div id="team" class="faq__q-a__team question">
