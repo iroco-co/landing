@@ -15,7 +15,7 @@
 <svelte:head>
   <script src="/tracking.js"></script>
   <script
-    src="https://matomo.{page.url.host}:8080/matomo.js"
+    src="https://matomo.{page.url.host}/matomo.js"
     async
     defer
   ></script>

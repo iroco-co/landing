@@ -22,11 +22,11 @@ const config = {
       mode: "hash",
       directives: {
         "default-src": ["'self'"],
-        "connect-src": [`https://matomo.${hostname}:8080`],
-        "script-src": ["'self'", `https://matomo.${hostname}:8080`, hostname],
+        "connect-src": [`https://matomo.${hostname}`],
+        "script-src": ["'self'", `https://matomo.${hostname}`, hostname],
         "img-src": [
           "'self'",
-          `https://matomo.${hostname}:8080`,
+          `https://matomo.${hostname}`,
           "www.abuseipdb.com",
         ],
         "style-src": ["'self'"],
@@ -34,7 +34,7 @@ const config = {
         "frame-src": [
           "'self'",
           "xq520.mjt.lu",
-          `https://matomo.${hostname}:8080`,
+          `https://matomo.${hostname}`,
         ],
       },
     },
