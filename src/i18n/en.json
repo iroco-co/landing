@@ -10,19 +10,19 @@
     },
     "topology": {
       "title": "Topology",
-      "content": "At present, the topology is simple because Iroco has two servers: <ul><li>a production server at <a href=\"https://www.eolas.fr/4-societe.htm\">Éolas</a></li><li>a preproduction server at OVH.</li></ul>"
+      "content": "At present topology is simple because Iroco has 3 servers : <ul><li>Two production servers in <a href=\"https://eco.ovhcloud.com/\">OVH</a> datacenter in Roubaix. One mail server and one web server.</li><li>One staging server (VPS) in OVH datacenter as well.</li></ul>"
     },
     "infrastructure": {
       "title": "Type of infrastructure",
-      "content": "Iroco servers are VPS :<ul><li>production: VMware</li><li>preproduction: OpenStack Nova</li></ul>"
+      "content": "Iroco servers are:<ul><li>For production it is <a href=\"https://eco.ovhcloud.com/\">ECO dedicated</a> servers. One Rise-1 for mail and one Sys-1 for the web.</li><li>Staging: VPS OpenStack Nova</li></ul>"
     },
     "hardware": {
       "title": "Hardware",
-      "content": "<ul><li>production : Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz</li><li>preproduction : OVH VPS vps2020-essential-2-4-80 Intel Core Processor (Haswell, no TSX) 2,3 GHz </li></ul>"
+      "content": "<ul><li>Production : Intel Xeon-E 2386G - 6 c / 12 t - 3,5 GHz / 4,7 GHz and Intel Xeon-E 2136 - 6 c / 12 t - 3,3 GHz / 4,5 GHz</li><li>Staging : OVH VPS vps2020-essential-2-4-80 Intel Core Processor (Haswell, no TSX) 2,3 GHz </li></ul>"
     },
     "software": {
       "title": "Software",
-      "content": "Iroco services run entirely on open-source software. Apart from the VMware virtualisation layer in production: <ul><li>Operation system : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>SMTP Server: <a href=\"http://www.postfix.org/\">Postfix</a></li><li>IMAP Server, calendars/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Web server: <a href=\"https://nginx.org\">Nginx</a></li></ul>"
+      "content": "Iroco services run entirely on open-source software. <ul><li>Operation system : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>SMTP Server: <a href=\"http://www.postfix.org/\">Postfix</a></li><li>IMAP Server, calendars/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Web server: <a href=\"https://nginx.org\">Nginx</a></li></ul>"
     },
     "security": {
       "title": "Security",
@@ -38,11 +38,11 @@
     },
     "backup": {
       "title": "Backups",
-      "content": "Eolas handles the backups of our production server: <ul><li>a full daily backup of the VM</li><li>several differential data backups per day</li></ul>These backups are located in the Grenoble service centres."
+      "content": "We are using <a href=\"https://www.borgbackup.org/\">Borg backup</a> and <a href=\"https://www.borgbase.com/\">borgbase</a> to store backup files every day."
     },
     "monitoring": {
       "title": "Monitoring",
-      "content": "Our servers are monitored using <a href=\"https://www.centreon.com\">Centreon</a>."
+      "content": "Our servers are monitored using <a href=\"https://collectd.org\">Collectd</a>, <a href=\"https://www.influxdata.com/\">InfluxDB</a>, <a href=\"https://grafana.com/\">Grafana</a>."
     }
   },
   "header": {

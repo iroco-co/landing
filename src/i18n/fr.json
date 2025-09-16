@@ -10,15 +10,15 @@
     },
     "topology": {
       "title": "Topologie",
-      "content": "A l'heure actuelle, la topologie est simple car Iroco a deux serveurs : <ul><li>un serveur de production chez <a href=\"https://www.eolas.fr/4-societe.htm\">Éolas</a>. Notre serveur est situé dans la région Grenobloise.</li><li>un serveur de préproduction chez OVH.</li></ul>"
+      "content": "A l'heure actuelle, la topologie est simple car Iroco a trois serveurs : <ul><li>deux serveurs de production chez <a href=\"https://eco.ovhcloud.com/\">OVH</a> à Roubaix. Un serveur pour le mail et un serveur pour le web.</li><li>un serveur de préproduction (VPS) chez OVH également.</li></ul>"
     },
     "infrastructure": {
       "title": "Forme d'infrastructure",
-      "content": "Les serveurs d'Iroco sont de type VPS :<ul><li>production: VMware</li><li>préproduction: OpenStack Nova</li></ul>"
+      "content": "Les serveurs d'Iroco :<ul><li>Pour la production ils sont de type <a href=\"https://eco.ovhcloud.com/\">dédiés ECO</a>. Un serveur Rise-1 pour le mail et un Sys-1 pour le web.</li><li>préproduction: VPS OpenStack Nova</li></ul>"
     },
     "hardware": {
       "title": "Caractéristiques matérielles",
-      "content": "<ul><li>production : Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz</li><li>préproduction : OVH VPS vps2020-essential-2-4-80 Intel Core Processor (Haswell, no TSX) 2,3 GHz </li></ul>"
+      "content": "<ul><li>production : Intel Xeon-E 2386G - 6 c / 12 t - 3,5 GHz / 4,7 GHz et Intel Xeon-E 2136 - 6 c / 12 t - 3,3 GHz / 4,5 GHz</li><li>préproduction : OVH VPS vps2020-essential-2-4-80 Intel Core Processor (Haswell, no TSX) 2,3 GHz </li></ul>"
     },
     "security": {
       "title": "Sécurité",
@@ -26,7 +26,7 @@
     },
     "software": {
       "title": "Caractéristiques logicielles",
-      "content": "Les services Iroco fonctionnent uniquement grâce à des logiciels libres. A part la couche de virtualisation VMware en production : <ul><li>Système d'exploitation : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>Serveur SMTP : <a href=\"http://www.postfix.org/\">Postfix</a></li><li>Serveur IMAP, calendriers/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Serveur Web : <a href=\"https://nginx.org\">Nginx</a></li></ul>"
+      "content": "Les services Iroco fonctionnent uniquement grâce à des logiciels libres : <ul><li>Système d'exploitation : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>Serveur SMTP : <a href=\"http://www.postfix.org/\">Postfix</a></li><li>Serveur IMAP, calendriers/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Serveur Web : <a href=\"https://nginx.org\">Nginx</a></li></ul>"
     },
     "audits": {
       "title": "Audits du site",
@@ -38,11 +38,11 @@
     },
     "backup": {
       "title": "Sauvegardes",
-      "content": "Eolas assure les sauvegardes de notre serveur de production : <ul><li>une sauvegarde quotidienne complète de la VM</li><li>plusieurs sauvegardes différentielles des données par jour</li></ul>Ces sauvegardes sont aussi localisées dans les centres de service de Grenoble."
+      "content": "Nous utilisons <a href=\"https://www.borgbackup.org/\">Borg backup</a> et le service <a href=\"https://www.borgbase.com/\">borgbase</a> pour stocker nos sauvegardes quotidiennes."
     },
     "monitoring": {
       "title": "Monitoring",
-      "content": "Le monitoring de nos serveurs est fait avec <a href=\"https://www.centreon.com\">Centreon</a>."
+      "content": "Le monitoring de nos serveurs est fait avec <a href=\"https://collectd.org\">Collectd</a>, <a href=\"https://www.influxdata.com/\">InfluxDB</a>, <a href=\"https://grafana.com/\">Grafana</a>."
     }
   },
   "header": {
