@@ -54,6 +54,9 @@
 
     <h2>{$_("doc.monitoring.title")}</h2>
     {@html $_("doc.monitoring.content")}
+
+    <h2>{$_("doc.chatons.title")}</h2>
+    {@html $_("doc.chatons.content")}
   </div>
 </section>
 

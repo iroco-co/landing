@@ -43,6 +43,10 @@
     "monitoring": {
       "title": "Monitoring",
       "content": "Our servers are monitored using <a href=\"https://collectd.org\">Collectd</a>, <a href=\"https://www.influxdata.com/\">InfluxDB</a>, <a href=\"https://grafana.com/\">Grafana</a>."
+    },
+    "chatons": {
+      "title": "Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires",
+      "content": "Our service complies with the <a href=\"https://www.chatons.org/charte\">CHATONS</a> charter (Collective of Alternative, Transparent, Open, Neutral, and Supportive Hosts). Our second application is currently being reviewed by the collective."
     }
   },
   "header": {
