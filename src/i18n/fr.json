@@ -26,7 +26,7 @@
     },
     "software": {
       "title": "Caractéristiques logicielles",
-      "content": "Les services Iroco fonctionnent uniquement grâce à des logiciels libres : <ul><li>Système d'exploitation : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>Serveur SMTP : <a href=\"http://www.postfix.org/\">Postfix</a></li><li>Serveur IMAP, calendriers/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Serveur Web : <a href=\"https://nginx.org\">Nginx</a></li></ul>"
+      "content": "Les services Iroco fonctionnent uniquement grâce à des logiciels libres : <ul><li>Système d'exploitation : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>Front reverse proxy : <a href=\"https://www.haproxy.org/\">HAProxy</a></li><li>Serveur SMTP : <a href=\"http://www.postfix.org/\">Postfix</a></li><li>Serveur IMAP, calendriers/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Serveur Web : <a href=\"https://nginx.org\">Nginx</a></li></ul>"
     },
     "audits": {
       "title": "Audits du site",

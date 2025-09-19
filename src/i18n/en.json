@@ -22,7 +22,7 @@
     },
     "software": {
       "title": "Software",
-      "content": "Iroco services run entirely on open-source software. <ul><li>Operation system : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>SMTP Server: <a href=\"http://www.postfix.org/\">Postfix</a></li><li>IMAP Server, calendars/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Web server: <a href=\"https://nginx.org\">Nginx</a></li></ul>"
+      "content": "Iroco services run entirely on open-source software. <ul><li>Operation system : <a href=\"https://www.debian.org/distrib/index.html\">Debian</a></li><li>Front reverse proxy: <a href=\"https://www.haproxy.org/\">HAProxy</a></li><li>SMTP Server: <a href=\"http://www.postfix.org/\">Postfix</a></li><li>IMAP Server, calendars/contacts : <a href=\"https://www.cyrusimap.org/\">Cyrus</a></li><li>Web server: <a href=\"https://nginx.org\">Nginx</a></li></ul>"
     },
     "security": {
       "title": "Security",
