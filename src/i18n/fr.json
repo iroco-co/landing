@@ -381,7 +381,7 @@
       },
       "withdrawal": {
         "title": "Quand est prélevé le montant de mon abonnement ?",
-        "p": "Lorsque vous souscrivez à une offre payante, vous bénéficiez dans tous les cas de 30 jours gratuits avant d'être prélevé du montant de votre abonnement. Le montant de l'abonnement est ensuite prélevé tous les mois, le lendemain de la date anniversaire de votre inscription."
+        "p": "Lorsque vous souscrivez. Cela nous protège contre les utilisations frauduleuses de notre service. Le montant de l'abonnement est ensuite prélevé tous les mois, le lendemain de la date anniversaire de votre inscription."
       },
       "team": {
         "title": "Qui est derrière Iroco ?",
@@ -389,7 +389,7 @@
       },
       "account": {
         "title": "Comment puis-je me créer un compte Iroco ?",
-        "p": "Vous pouvez vous créer un compte gratuit de manière très simple <a href=\"https://app.iroco.co/signup\">en cliquant ici</a>. Il vous sera proposé de créer l'adresse mail de votre choix et un mot de passe."
+        "p": "Vous pouvez vous créer un compte de manière très simple <a href=\"https://app.iroco.co/signup\">en cliquant ici</a>. Il vous sera proposé de créer l'adresse mail de votre choix et un mot de passe."
       },
       "cookies": {
         "title": "Pourquoi ne me demandez-vous pas mes préférences en matière de cookies ?",
